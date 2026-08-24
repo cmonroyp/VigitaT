@@ -1,0 +1,16 @@
+# Secretos y entorno — NUNCA subir
+.env
+.env.*
+*.key
+secrets/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Node (por si se agregan herramientas locales)
+node_modules/

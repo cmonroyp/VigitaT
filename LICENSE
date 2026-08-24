@@ -1,0 +1,16 @@
+Copyright (c) 2026 Carlos Monroy — Proyecto VigíaT
+
+Todos los derechos reservados.
+
+El código fuente de este repositorio se publica con fines de transparencia y
+verificación por parte de las comunidades y autoridades del Tolima. No se
+concede permiso para copiar, redistribuir, modificar o desplegar este software,
+total o parcialmente, sin autorización previa y por escrito del titular.
+
+Los DATOS de focos de calor provienen de NASA FIRMS y son de uso libre bajo
+las condiciones de la NASA (https://firms.modaps.eosdis.nasa.gov/). El mapa
+base es de OpenStreetMap (ODbL).
+
+Nota: si en el futuro se desea permitir la réplica del proyecto en otros
+departamentos, se recomienda cambiar esta licencia por una abierta con
+atribución (por ejemplo, MIT o CC BY-NC-SA 4.0).
