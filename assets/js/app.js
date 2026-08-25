@@ -82,7 +82,10 @@
   map.getPane('paneMunicipios').style.zIndex = 350;
   const rendererMpios = L.svg({ pane: 'paneMunicipios', padding: 0.8 });
 
-  // A partir de este zoom el mapa tiene espacio para mostrar los nombres
+  // Revelado progresivo: en la vista del departamento el mapa queda limpio
+  // (solo los incendios sobre la imagen satelital) y al ampliar aparecen
+  // primero los bordes municipales y luego los nombres.
+  const ZOOM_BORDES = 9;
   const ZOOM_ETIQUETAS = 10;
 
   const capaCalles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -158,18 +161,23 @@
   // --------------------------------------------------- capa de municipios
 
   function estiloMunicipio(k, resumen) {
+    // Vista alejada: municipio invisible pero clicable (relleno casi nulo),
+    // para que la panorámica del departamento no se sature de líneas.
+    if (map.getZoom() < ZOOM_BORDES && estado.seleccion !== k) {
+      return { stroke: false, fill: true, fillColor: '#ffffff', fillOpacity: 0.01 };
+    }
     if (estado.seleccion === k) {
-      return { color: '#ffffff', weight: 2.5, opacity: 0.95, fillColor: '#ffcc00', fillOpacity: 0.12 };
+      return { stroke: true, color: '#ffffff', weight: 2.5, opacity: 0.95, fillColor: '#ffcc00', fillOpacity: 0.12 };
     }
     const m = resumen.get(k);
     if (m && m.activos > 0) {
-      return { color: '#ff3b30', weight: 1.6, opacity: 0.9, fillColor: '#ff3b30', fillOpacity: 0.22 };
+      return { stroke: true, color: '#ff3b30', weight: 1.6, opacity: 0.9, fillColor: '#ff3b30', fillOpacity: 0.22 };
     }
     if (m && (m.focos > 0 || m.goes > 0)) {
-      return { color: '#ff9500', weight: 1.3, opacity: 0.8, fillColor: '#ff9500', fillOpacity: 0.13 };
+      return { stroke: true, color: '#ff9500', weight: 1.3, opacity: 0.8, fillColor: '#ff9500', fillOpacity: 0.13 };
     }
     // Sin actividad: apenas un contorno; el relleno casi invisible lo mantiene clicable
-    return { color: '#ffffff', weight: 0.6, opacity: 0.2, fillColor: '#ffffff', fillOpacity: 0.01 };
+    return { stroke: true, color: '#ffffff', weight: 0.6, opacity: 0.2, fillColor: '#ffffff', fillOpacity: 0.01 };
   }
 
   async function cargarMunicipios() {
@@ -258,11 +266,17 @@
 
   // ------------------------------------------------------ dibujo en el mapa
 
+  const HA_POR_PIXEL = 14; // un píxel VIIRS de 375 m ≈ 14 hectáreas
+
   function pintarFoco(f) {
     const h = horasDesde(f.fechaUtc);
     const esAlta = f.confianza === 'alta';
     const color = esAlta ? '#ff3b30' : '#ff9500';
-    const radio = Math.min(16, 6 + Math.sqrt(f.frp || 1) * 1.2);
+    // El tamaño refleja la EXTENSIÓN del fuego (cuántos píxeles satelitales
+    // ocupa), no su intensidad: un incendio de 21 píxeles cubre ~294 ha aunque
+    // irradie pocos MW, y debe verse grande. La intensidad va en el popup.
+    const areaHa = (f.detecciones || 1) * HA_POR_PIXEL;
+    const radio = Math.min(22, 5 + Math.sqrt(areaHa) * 0.9);
 
     const marker = L.circleMarker([f.lat, f.lon], {
       color,
@@ -282,7 +296,9 @@
       `Confianza: <strong>${esc(f.confianza)}</strong> · Satélite: ${esc((f.satelites || []).join(', '))}<br>` +
       (f.frp ? `Intensidad: ${esc(Math.round(f.frp))} MW<br>` : '') +
       `A ~${esc(f.distanciaKm)} km de la cabecera de ${esc(f.municipio)}<br>` +
-      `<small>Detecciones agrupadas: ${esc(f.detecciones)} · ${esc(f.diaNoche)}</small>` +
+      `Extensión: ${esc(f.detecciones)} píxel${f.detecciones > 1 ? 'es' : ''} satelital${f.detecciones > 1 ? 'es' : ''}` +
+      (f.detecciones > 1 ? ` (~${esc(f.detecciones * HA_POR_PIXEL)} ha)` : '') + '<br>' +
+      `<small>${esc(f.diaNoche)}</small>` +
       botonZoom(f.lat, f.lon),
     );
     marker.addTo(capaFocos);

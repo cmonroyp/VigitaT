@@ -245,23 +245,27 @@ body {
 .leaflet-container path.leaflet-interactive:focus { outline: none; }
 .leaflet-container path.leaflet-interactive { cursor: pointer; }
 
-/* Nombre del municipio sobre el mapa: solo se muestra al ampliar */
+/* Nombre del municipio sobre el mapa, al estilo del visor FIRMS de la NASA:
+   texto blanco sin recuadro, legible sobre la imagen satelital gracias a la
+   sombra. Solo se muestra al ampliar. */
 .mpio-label {
-  background: rgba(15, 20, 25, 0.7);
+  background: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 0;
   box-shadow: none;
-  color: #eef3f8;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  padding: 2px 7px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  padding: 0;
+  text-shadow:
+    0 0 3px rgba(0, 0, 0, 0.95),
+    0 1px 3px rgba(0, 0, 0, 0.9),
+    0 0 8px rgba(0, 0, 0, 0.7);
   white-space: nowrap;
   pointer-events: none;
 }
 .mpio-label::before { display: none; }
-.mpio-label.activo { background: rgba(122, 31, 18, 0.85); color: #ffdedb; }
 
 .sw {
   display: inline-block;
