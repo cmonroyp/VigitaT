@@ -252,8 +252,64 @@
     }
   }
 
+  async function cargarIncendios() {
+    try {
+      const res = await fetch(`data/incendios.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) return;
+      const data = await res.json();
+      const incendios = (data.incendios ?? []).filter(
+        (i) => Number.isFinite(i.lat) && Number.isFinite(i.lon),
+      );
+      const seccion = el('seccionIncendios');
+      const lista = el('incendioList');
+      lista.replaceChildren();
+      if (incendios.length === 0) {
+        seccion.hidden = true;
+        return;
+      }
+      seccion.hidden = false;
+      const ESTADOS = {
+        activo: ['🔥 Activo', 'var(--danger)'],
+        sin_senal: ['⏸️ Sin señal reciente', 'var(--accent)'],
+        extinguido: ['✅ Sin actividad', 'var(--ok)'],
+      };
+      const orden = { activo: 0, sin_senal: 1, extinguido: 2 };
+      incendios.sort((a, b) => (orden[a.estado] ?? 3) - (orden[b.estado] ?? 3));
+      for (const inc of incendios) {
+        const [etiqueta] = ESTADOS[inc.estado] ?? ['—'];
+        const li = document.createElement('li');
+        li.className = 'foco-item' + (inc.estado === 'activo' ? ' alta' : '');
+        li.tabIndex = 0;
+        const t = document.createElement('div');
+        t.textContent = `${inc.nombre} · ${inc.municipio}`;
+        const m1 = document.createElement('div');
+        m1.className = 'meta';
+        m1.textContent =
+          `${etiqueta} · desde ${horaLocal(inc.inicioUtc)} · ` +
+          `~${inc.areaEstimadaHa} ha estimadas · ${inc.deteccionesTotales} detecciones`;
+        li.append(t, m1);
+        if (inc.clima && inc.estado === 'activo') {
+          const m2 = document.createElement('div');
+          m2.className = 'meta';
+          m2.textContent =
+            `🌬️ ${inc.clima.vientoKmh} km/h hacia el ${inc.clima.vientoHacia} · ` +
+            `humedad ${inc.clima.humedadPct}% · propagación: ${inc.clima.riesgoPropagacion}`;
+          li.append(m2);
+        }
+        const enfocar = () => map.setView([inc.lat, inc.lon], 12);
+        li.addEventListener('click', enfocar);
+        li.addEventListener('keydown', (e) => e.key === 'Enter' && enfocar());
+        lista.appendChild(li);
+      }
+    } catch (err) {
+      console.error('VigíaT: error cargando incendios', err);
+    }
+  }
+
   cargar();
   cargarGoes();
+  cargarIncendios();
+  setInterval(cargarIncendios, REFRESH_MS);
   setInterval(cargar, REFRESH_MS);
   setInterval(cargarGoes, 2 * 60 * 1000); // GOES se refresca cada 2 min
 })();

@@ -1,0 +1,279 @@
+{
+ "actualizadoUtc": "2026-08-25T13:31:52.703Z",
+ "activos": 0,
+ "incendios": [
+  {
+   "id": "INC-1",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3086,
+   "lon": -75.0987,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.92,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1077,-18775"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.309_-75.099"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-2",
+   "nombre": "Incendio vereda Chaguala  Afuera",
+   "municipio": "Coello",
+   "vereda": "Chaguala  Afuera",
+   "lat": 4.2817,
+   "lon": -74.9755,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.78,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1070,-18744"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.282_-74.975"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-3",
+   "nombre": "Incendio vereda Potrerillo",
+   "municipio": "Coello",
+   "vereda": "Potrerillo",
+   "lat": 4.2301,
+   "lon": -74.9722,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.01,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1058,-18743"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.230_-74.972"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-4",
+   "nombre": "Incendio vereda Sinai",
+   "municipio": "Suárez",
+   "vereda": "Sinai",
+   "lat": 4.0186,
+   "lon": -74.7942,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.94,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1005,-18699"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.019_-74.794"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-5",
+   "nombre": "Incendio vereda Las Rosas",
+   "municipio": "Lérida",
+   "vereda": "Las Rosas",
+   "lat": 4.9319,
+   "lon": -74.9275,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.82,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1233,-18732"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.932_-74.928"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-6",
+   "nombre": "Incendio vereda Cerro Gordo",
+   "municipio": "Guamo",
+   "vereda": "Cerro Gordo",
+   "lat": 4.1868,
+   "lon": -75.0527,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:03:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 7.53,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1047,-18763",
+    "1049,-18760"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.187_-75.053",
+    "2026-08-25T06:03:00Z_4.195_-75.042"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 1
+  },
+  {
+   "id": "INC-7",
+   "nombre": "Incendio vereda Calica",
+   "municipio": "Rovira",
+   "vereda": "Calica",
+   "lat": 4.1304,
+   "lon": -75.2981,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.13,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1033,-18825"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.130_-75.298"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-8",
+   "nombre": "Incendio vereda El Pedregal",
+   "municipio": "Prado",
+   "vereda": "El Pedregal",
+   "lat": 3.6883,
+   "lon": -74.8523,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.37,
+   "confianzaMax": "media",
+   "pixeles": [
+    "922,-18713"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_3.688_-74.852"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-9",
+   "nombre": "Incendio vereda Cofradia De Gallego",
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "lat": 4.7434,
+   "lon": -74.8846,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:03:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:03:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.24,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1186,-18721"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:03:00Z_4.743_-74.885"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-10",
+   "nombre": "Incendio vereda Meche San Cayetano",
+   "municipio": "Coyaima",
+   "vereda": "Meche San Cayetano",
+   "lat": 3.6996,
+   "lon": -75.2668,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:03:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:03:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.05,
+   "confianzaMax": "media",
+   "pixeles": [
+    "925,-18817"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:03:00Z_3.700_-75.267"
+   ],
+   "areaEstimadaHa": 14,
+   "duracionHoras": 0
+  }
+ ],
+ "secuencia": 10
+}

@@ -39,6 +39,13 @@ data/focos.json  ──►  Mapa web (GitHub Pages + Leaflet)
         └─►  ¿Focos nuevos? ──►  Alerta al canal de Telegram
 ```
 
+**Seguimiento de incidentes (v3):** las detecciones se agrupan automáticamente en
+*incendios* con identidad (`INC-N`), estado (activo → sin señal → sin actividad),
+duración, **área afectada estimada** (píxeles satelitales únicos × 14 ha) y
+**meteorología en el sitio** (viento, humedad y riesgo de propagación vía
+Open-Meteo, gratuito). Las alertas de Telegram son por incidente: 🔥 nuevo,
+📈 en crecimiento, ✅ sin actividad — máxima señal, mínimo ruido.
+
 - **Sin servidores, sin base de datos, sin costos**: sitio estático + GitHub Actions.
 - **Sin dependencias npm** en el pipeline; solo Leaflet (con SRI) en el frontend.
 - Datos con desfase de **1 a 3 horas** respecto al paso del satélite.

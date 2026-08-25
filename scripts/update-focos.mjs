@@ -273,6 +273,136 @@ if (existsSync(DATA_FILE)) {
 }
 const nuevos = focosFinales.filter((f) => !anteriores.has(f.id));
 
+// ==================================================== MOTOR DE INCIDENTES
+// Agrupa detecciones a lo largo del tiempo en "incendios" con identidad,
+// estado, duración y área estimada — como los sistemas profesionales
+// (Watch Duty / INPE), pero 100% automático.
+
+const INCENDIOS_FILE = join(__dirname, '..', 'data', 'incendios.json');
+const RADIO_INCIDENTE_KM = 2.5; // una detección a menos de esto pertenece al incidente
+const HORAS_SIN_SENAL = 6;      // sin detección nueva -> "sin señal reciente"
+const HORAS_EXTINCION = 24;     // sin detección nueva -> se declara extinguido
+const HORAS_RETIRO = 72;        // extinguido hace tanto -> sale del archivo
+const HA_POR_PIXEL = 14;        // píxel VIIRS 375 m ≈ 14 ha
+
+let registro = { incendios: [], secuencia: 0 };
+if (existsSync(INCENDIOS_FILE)) {
+  try {
+    registro = JSON.parse(readFileSync(INCENDIOS_FILE, 'utf8'));
+  } catch { /* se regenera */ }
+}
+
+const ahoraMs = Date.now();
+const horasDesde = (iso) => (ahoraMs - Date.parse(iso)) / 3.6e6;
+
+// celda de ~400 m para estimar área afectada (píxeles únicos del historial)
+const celdaPx = (lat, lon) => `${Math.round(lat / 0.004)},${Math.round(lon / 0.004)}`;
+
+// 1. Asignar cada foco de las últimas 24 h a un incidente existente o crear uno
+for (const f of focosFinales) {
+  let inc = registro.incendios.find(
+    (i) => i.estado !== 'extinguido' && distKm(i.lat, i.lon, f.lat, f.lon) <= RADIO_INCIDENTE_KM,
+  );
+  if (!inc) {
+    registro.secuencia += 1;
+    inc = {
+      id: `INC-${registro.secuencia}`,
+      nombre: f.vereda ? `Incendio vereda ${f.vereda}` : `Incendio zona rural de ${f.municipio}`,
+      municipio: f.municipio,
+      vereda: f.vereda ?? null,
+      lat: f.lat,
+      lon: f.lon,
+      estado: 'activo',
+      inicioUtc: f.fechaUtc,
+      ultimaDeteccionUtc: f.fechaUtc,
+      deteccionesTotales: 0,
+      maxFrp: null,
+      confianzaMax: f.confianza,
+      pixeles: [],
+      alertas: { detectado: false, ultCrecimiento: 0, extinguido: false },
+    };
+    registro.incendios.push(inc);
+  }
+  // actualizar incidente con esta detección
+  if (f.fechaUtc > inc.ultimaDeteccionUtc) inc.ultimaDeteccionUtc = f.fechaUtc;
+  if (f.fechaUtc < inc.inicioUtc) inc.inicioUtc = f.fechaUtc;
+  if ((f.frp ?? 0) > (inc.maxFrp ?? 0)) inc.maxFrp = f.frp;
+  if (f.confianza === 'alta') inc.confianzaMax = 'alta';
+  if (f.vereda && !inc.vereda) {
+    inc.vereda = f.vereda;
+    inc.nombre = `Incendio vereda ${f.vereda}`;
+  }
+  const px = celdaPx(f.lat, f.lon);
+  if (!inc.pixeles.includes(px)) inc.pixeles.push(px);
+  inc.focoIds = inc.focoIds ?? [];
+  if (!inc.focoIds.includes(f.id)) {
+    inc.focoIds.push(f.id);
+    inc.deteccionesTotales += 1;
+  }
+}
+
+// 2. Actualizar estados por tiempo sin señal
+for (const inc of registro.incendios) {
+  const h = horasDesde(inc.ultimaDeteccionUtc);
+  if (inc.estado !== 'extinguido') {
+    inc.estado = h <= HORAS_SIN_SENAL ? 'activo' : h <= HORAS_EXTINCION ? 'sin_senal' : 'extinguido';
+  }
+  inc.areaEstimadaHa = inc.pixeles.length * HA_POR_PIXEL;
+  inc.duracionHoras = Math.round((Date.parse(inc.ultimaDeteccionUtc) - Date.parse(inc.inicioUtc)) / 3.6e6);
+}
+// retirar extinguidos viejos
+registro.incendios = registro.incendios.filter(
+  (i) => i.estado !== 'extinguido' || horasDesde(i.ultimaDeteccionUtc) < HORAS_RETIRO,
+);
+
+// 3. Meteorología en el sitio de cada incendio activo (Open-Meteo, gratuito)
+const RUMBOS = ['N', 'NE', 'E', 'SE', 'S', 'SO', 'O', 'NO'];
+const rumbo = (g) => RUMBOS[Math.round(((g % 360) / 45)) % 8];
+
+async function clima(lat, lon) {
+  try {
+    const u = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m&timezone=America%2FBogota`;
+    const c = (await (await fetch(u, { signal: AbortSignal.timeout(15_000) })).json()).current;
+    if (!c) return null;
+    const vientoHaciaGrados = (c.wind_direction_10m + 180) % 360;
+    const riesgo =
+      c.wind_speed_10m > 20 && c.relative_humidity_2m < 40 ? 'ALTO'
+      : c.wind_speed_10m > 10 || c.relative_humidity_2m < 50 ? 'MODERADO'
+      : 'BAJO';
+    return {
+      tempC: Math.round(c.temperature_2m),
+      humedadPct: Math.round(c.relative_humidity_2m),
+      vientoKmh: Math.round(c.wind_speed_10m),
+      vientoHacia: rumbo(vientoHaciaGrados),
+      riesgoPropagacion: riesgo,
+    };
+  } catch {
+    return null;
+  }
+}
+
+for (const inc of registro.incendios) {
+  if (inc.estado === 'activo') inc.clima = await clima(inc.lat, inc.lon);
+}
+
+writeFileSync(
+  INCENDIOS_FILE,
+  JSON.stringify(
+    {
+      actualizadoUtc: new Date().toISOString(),
+      activos: registro.incendios.filter((i) => i.estado === 'activo').length,
+      incendios: registro.incendios,
+      secuencia: registro.secuencia,
+    },
+    null,
+    1,
+  ) + '\n',
+);
+console.log(
+  `Incidentes: ${registro.incendios.length} en seguimiento, ` +
+  `${registro.incendios.filter((i) => i.estado === 'activo').length} activos.`,
+);
+
 // -------------------------------------------------------------- escritura
 
 const salida = {
@@ -300,51 +430,93 @@ const horaColombia = (iso) =>
     hour12: true,
   });
 
-if (nuevos.length > 0 && BOT && CHAT) {
-  // Agrupar por municipio y ordenar: primero los municipios con mayor severidad
-  const porMunicipio = new Map();
-  for (const f of nuevos) {
-    if (!porMunicipio.has(f.municipio)) porMunicipio.set(f.municipio, []);
-    porMunicipio.get(f.municipio).push(f);
+// Alertas por INCIDENTE (no por detección suelta): nuevo incendio, crecimiento
+// significativo y extinción. Máxima señal, mínimo ruido.
+
+const SITE = process.env.SITE_URL || 'https://cmonroyp.github.io/VigitaT/';
+const UMBRAL_CRECIMIENTO = 3; // detecciones nuevas para re-alertar un incendio
+
+function fichaIncendio(inc) {
+  const icono = inc.confianzaMax === 'alta' ? '🔴' : '🟠';
+  const lugar = inc.vereda
+    ? `${inc.municipio}, vereda ${inc.vereda}`
+    : `zona rural de ${inc.municipio}`;
+  let l =
+    `${icono} ${inc.nombre.toUpperCase()} (${inc.id})\n` +
+    `   📍 ${lugar}\n` +
+    `   🕐 Primera detección: ${horaColombia(inc.inicioUtc)} · última: ${horaColombia(inc.ultimaDeteccionUtc)}\n` +
+    `   📏 Área afectada estimada: ~${inc.areaEstimadaHa} ha · ${inc.deteccionesTotales} detecciones satelitales` +
+    (inc.maxFrp ? ` · intensidad máx. ${Math.round(inc.maxFrp)} MW` : '');
+  if (inc.clima) {
+    l +=
+      `\n   🌬️ Viento ${inc.clima.vientoKmh} km/h hacia el ${inc.clima.vientoHacia} · ` +
+      `humedad ${inc.clima.humedadPct}% · ${inc.clima.tempC}°C\n` +
+      `   ⚠️ Riesgo de propagación: ${inc.clima.riesgoPropagacion}`;
   }
-  const severidad = (fs) =>
-    Math.max(...fs.map((f) => (f.confianza === 'alta' ? 1000 : 0) + (f.frp ?? 0)));
-  const grupos = [...porMunicipio.entries()].sort((a, b) => severidad(b[1]) - severidad(a[1]));
+  return l;
+}
 
-  const bloques = grupos.slice(0, 6).map(([municipio, fs]) => {
-    fs.sort((a, b) => (b.frp ?? 0) - (a.frp ?? 0));
-    const icono = fs.some((f) => f.confianza === 'alta') ? '🔴' : '🟠';
-    const titulo = `${icono} ${municipio.toUpperCase()} — ${fs.length} foco${fs.length > 1 ? 's' : ''}`;
-    const detalle = fs
-      .slice(0, 4)
-      .map((f) => {
-        const lugar = f.vereda ? `vereda ${f.vereda}` : `a ${f.distanciaKm} km de la cabecera`;
-        const intensidad = f.frp ? ` · ${Math.round(f.frp)} MW` : '';
-        return `   • ${lugar} — ${horaColombia(f.fechaUtc)}${intensidad}`;
-      })
-      .join('\n');
-    const mas = fs.length > 4 ? `\n   • …y ${fs.length - 4} más en este municipio` : '';
-    return `${titulo}\n${detalle}${mas}`;
-  });
-  const otros = grupos.length > 6 ? `\n\n…y ${grupos.length - 6} municipios más (ver mapa).` : '';
+const mensajes = [];
 
-  const SITE = process.env.SITE_URL || 'https://cmonroyp.github.io/VigitaT/';
-  const msg =
-    `🛰️ VigíaT — Focos de calor confirmados por satélite\n` +
-    `${nuevos.length} foco(s) nuevo(s) en ${grupos.length} municipio(s) del Tolima ` +
-    `(hora local):\n\n` +
-    bloques.join('\n\n') + otros +
+for (const inc of registro.incendios) {
+  inc.alertas = inc.alertas ?? { detectado: false, ultCrecimiento: 0, extinguido: false };
+
+  if (!inc.alertas.detectado && inc.estado === 'activo') {
+    mensajes.push(`🔥 NUEVO INCENDIO DETECTADO\n\n${fichaIncendio(inc)}`);
+    inc.alertas.detectado = true;
+    inc.alertas.ultCrecimiento = inc.deteccionesTotales;
+  } else if (
+    inc.alertas.detectado &&
+    inc.estado === 'activo' &&
+    inc.deteccionesTotales - inc.alertas.ultCrecimiento >= UMBRAL_CRECIMIENTO
+  ) {
+    mensajes.push(
+      `📈 INCENDIO EN CRECIMIENTO\n\n${fichaIncendio(inc)}\n` +
+      `   (+${inc.deteccionesTotales - inc.alertas.ultCrecimiento} detecciones desde el último aviso)`,
+    );
+    inc.alertas.ultCrecimiento = inc.deteccionesTotales;
+  } else if (inc.estado === 'extinguido' && inc.alertas.detectado && !inc.alertas.extinguido) {
+    mensajes.push(
+      `✅ INCENDIO SIN ACTIVIDAD\n\n${inc.nombre} (${inc.id}) en ${inc.municipio}: ` +
+      `sin detecciones satelitales en más de 24 h. Área afectada estimada: ~${inc.areaEstimadaHa} ha. ` +
+      `Duración observada: ${inc.duracionHoras} h.`,
+    );
+    inc.alertas.extinguido = true;
+  }
+}
+
+// persistir el estado de alertas actualizado
+writeFileSync(
+  INCENDIOS_FILE,
+  JSON.stringify(
+    {
+      actualizadoUtc: new Date().toISOString(),
+      activos: registro.incendios.filter((i) => i.estado === 'activo').length,
+      incendios: registro.incendios,
+      secuencia: registro.secuencia,
+    },
+    null,
+    1,
+  ) + '\n',
+);
+
+if (mensajes.length > 0 && BOT && CHAT) {
+  const cuerpo =
+    `🛰️ VigíaT — Seguimiento de incendios · Tolima\n` +
+    `(hora local de Colombia)\n\n` +
+    mensajes.join('\n\n———\n\n') +
     `\n\n🗺️ Mapa en vivo: ${SITE}\n` +
-    `Fuente: NASA FIRMS (VIIRS/MODIS, píxel 375 m). Un foco puede ser quema controlada: ` +
-    `verifique en terreno. Emergencias: 119.`;
-
+    `Fuente: NASA FIRMS (VIIRS/MODIS, 375 m) + meteorología Open-Meteo. ` +
+    `Verifique en terreno. Emergencias: 119.`;
   const res = await fetch(`https://api.telegram.org/bot${BOT}/sendMessage`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ chat_id: CHAT, text: msg, disable_web_page_preview: true }),
+    body: JSON.stringify({ chat_id: CHAT, text: cuerpo.slice(0, 4090), disable_web_page_preview: true }),
     signal: AbortSignal.timeout(15_000),
   });
-  console.log(res.ok ? 'Alerta Telegram enviada.' : `Telegram falló: HTTP ${res.status}`);
-} else if (nuevos.length > 0) {
-  console.log('Hay focos nuevos pero Telegram no está configurado (opcional).');
+  console.log(res.ok ? `Alerta enviada (${mensajes.length} incidente(s)).` : `Telegram falló: HTTP ${res.status}`);
+} else if (mensajes.length > 0) {
+  console.log(`${mensajes.length} novedades de incidentes sin Telegram configurado.`);
+} else {
+  console.log('Sin novedades de incidentes que alertar.');
 }
