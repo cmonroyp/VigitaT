@@ -1,11 +1,22 @@
 {
- "actualizadoUtc": "2026-08-25T22:04:43Z",
- "escaneoUtc": "2026-08-25T21:50:00Z",
+ "actualizadoUtc": "2026-08-25T22:16:48Z",
+ "escaneoUtc": "2026-08-25T22:00:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "totalFocos": 0,
+ "totalFocos": 1,
  "focosNuevos": 0,
- "focos": [],
+ "focos": [
+  {
+   "lat": 4.2198,
+   "lon": -75.0632,
+   "codigo": 33,
+   "confianza": "media",
+   "frp": 42.8,
+   "municipio": "San Luis",
+   "vereda": "Jagua Bartolito",
+   "escaneoUtc": "2026-08-25T22:00:00Z"
+  }
+ ],
  "alertadas": {
   "3.74,-75.24": "2026-08-25T18:01:25.559477+00:00",
   "3.48,-75.46": "2026-08-25T18:01:25.559477+00:00",
