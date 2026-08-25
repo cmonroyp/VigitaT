@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-25T08:21:50.426Z",
+  "actualizadoUtc": "2026-08-25T09:19:17.563Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 11,
-  "focosNuevos": 12,
+  "focosNuevos": 13,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,10 +11,10 @@
   ],
   "focos": [
     {
-      "id": "2026-08-25T06:49:00Z_4.309_-75.099",
+      "id": "2026-08-25T06:50:00Z_4.309_-75.099",
       "lat": 4.3086,
       "lon": -75.0987,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
       "frp": 1.92,
       "detecciones": 1,
@@ -28,12 +28,12 @@
       "codigoVereda": "73001017"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.282_-74.975",
+      "id": "2026-08-25T06:50:00Z_4.282_-74.975",
       "lat": 4.2817,
       "lon": -74.9755,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
-      "frp": 1.77,
+      "frp": 1.78,
       "detecciones": 2,
       "satelites": [
         "VIIRS"
@@ -45,10 +45,10 @@
       "codigoVereda": "73200002"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.230_-74.972",
+      "id": "2026-08-25T06:50:00Z_4.230_-74.972",
       "lat": 4.2301,
       "lon": -74.9722,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
       "frp": 3.01,
       "detecciones": 1,
@@ -62,12 +62,12 @@
       "codigoVereda": "73200014"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.019_-74.794",
+      "id": "2026-08-25T06:50:00Z_4.019_-74.794",
       "lat": 4.0186,
       "lon": -74.7942,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
-      "frp": 1.93,
+      "frp": 1.94,
       "detecciones": 3,
       "satelites": [
         "VIIRS"
@@ -79,10 +79,10 @@
       "codigoVereda": "73770016"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.932_-74.928",
+      "id": "2026-08-25T06:50:00Z_4.932_-74.928",
       "lat": 4.9319,
       "lon": -74.9275,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
       "frp": 3.82,
       "detecciones": 4,
@@ -96,12 +96,12 @@
       "codigoVereda": "73408013"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.187_-75.053",
+      "id": "2026-08-25T06:50:00Z_4.187_-75.053",
       "lat": 4.1868,
       "lon": -75.0527,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
-      "frp": 7.52,
+      "frp": 7.53,
       "detecciones": 14,
       "satelites": [
         "VIIRS"
@@ -113,12 +113,12 @@
       "codigoVereda": "73319012"
     },
     {
-      "id": "2026-08-25T06:49:00Z_4.130_-75.298",
+      "id": "2026-08-25T06:50:00Z_4.130_-75.298",
       "lat": 4.1304,
       "lon": -75.2981,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
-      "frp": 7.12,
+      "frp": 7.13,
       "detecciones": 4,
       "satelites": [
         "VIIRS"
@@ -130,10 +130,10 @@
       "codigoVereda": "73624008"
     },
     {
-      "id": "2026-08-25T06:49:00Z_3.688_-74.852",
+      "id": "2026-08-25T06:50:00Z_3.688_-74.852",
       "lat": 3.6883,
       "lon": -74.8523,
-      "fechaUtc": "2026-08-25T06:49:00Z",
+      "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
       "frp": 2.37,
       "detecciones": 2,
