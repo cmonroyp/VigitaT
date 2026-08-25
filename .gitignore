@@ -14,3 +14,7 @@ Thumbs.db
 
 # Node (por si se agregan herramientas locales)
 node_modules/
+
+# Cache de Python
+__pycache__/
+*.pyc
