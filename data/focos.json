@@ -1,15 +1,236 @@
 {
-  "actualizadoUtc": "2026-08-25T18:16:29.474Z",
+  "actualizadoUtc": "2026-08-25T20:13:38.851Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 11,
-  "focosNuevos": 0,
+  "totalFocos": 20,
+  "focosNuevos": 13,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-25T18:47:00Z_3.389_-75.750",
+      "lat": 3.3889,
+      "lon": -75.7502,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "media",
+      "frp": 7.17,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rioblanco",
+      "distanciaKm": 19.6,
+      "vereda": "La Pradera",
+      "codigoVereda": "73616064"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.763_-74.875",
+      "lat": 4.7631,
+      "lon": -74.875,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 4.09,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 7.8,
+      "vereda": "Cofradia De Gallego",
+      "codigoVereda": "73861005"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.706_-74.953",
+      "lat": 4.7065,
+      "lon": -74.9526,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 20.99,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 2.9,
+      "vereda": "La Cubana",
+      "codigoVereda": "73861012"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.258_-75.046",
+      "lat": 4.2576,
+      "lon": -75.0462,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 9.93,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 14.8,
+      "vereda": "Santa Isabel",
+      "codigoVereda": "73678036"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.173_-75.398",
+      "lat": 4.1735,
+      "lon": -75.398,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 7.65,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rovira",
+      "distanciaKm": 19,
+      "vereda": "San Pacho Cucal",
+      "codigoVereda": "73624075"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.052_-74.862",
+      "lat": 4.0521,
+      "lon": -74.8618,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 17.7,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Guamo",
+      "distanciaKm": 12.2,
+      "vereda": "La Isla",
+      "codigoVereda": "73319023"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_3.838_-75.178",
+      "lat": 3.8378,
+      "lon": -75.1784,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 5.72,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 4.7,
+      "vereda": "Doyare Esmeralda",
+      "codigoVereda": "73217019"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_3.735_-75.239",
+      "lat": 3.7351,
+      "lon": -75.2387,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 32.78,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 8.6,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_3.468_-75.457",
+      "lat": 3.4681,
+      "lon": -75.4571,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "alta",
+      "frp": 31.1,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ataco",
+      "distanciaKm": 16,
+      "vereda": "El Neme",
+      "codigoVereda": "73067014"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.932_-74.928",
+      "lat": 4.9319,
+      "lon": -74.9275,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 17.19,
+      "detecciones": 5,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Lérida",
+      "distanciaKm": 8,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.195_-75.042",
+      "lat": 4.1948,
+      "lon": -75.0418,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 13.09,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Guamo",
+      "distanciaKm": 19.9,
+      "vereda": "Cerro Gordo",
+      "codigoVereda": "73319012"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_4.187_-75.053",
+      "lat": 4.1868,
+      "lon": -75.0527,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 9.85,
+      "detecciones": 16,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Guamo",
+      "distanciaKm": 19.6,
+      "vereda": "Cerro Gordo",
+      "codigoVereda": "73319012"
+    },
+    {
+      "id": "2026-08-25T17:52:00Z_3.700_-75.267",
+      "lat": 3.6996,
+      "lon": -75.2668,
+      "fechaUtc": "2026-08-25T17:52:00Z",
+      "confianza": "media",
+      "frp": 6.09,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Coyaima",
+      "distanciaKm": 13.7,
+      "vereda": "Meche San Cayetano",
+      "codigoVereda": "73217036"
+    },
     {
       "id": "2026-08-25T06:50:00Z_4.309_-75.099",
       "lat": 4.3086,
@@ -79,40 +300,6 @@
       "codigoVereda": "73770016"
     },
     {
-      "id": "2026-08-25T06:50:00Z_4.932_-74.928",
-      "lat": 4.9319,
-      "lon": -74.9275,
-      "fechaUtc": "2026-08-25T06:50:00Z",
-      "confianza": "media",
-      "frp": 3.82,
-      "detecciones": 4,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Lérida",
-      "distanciaKm": 8,
-      "vereda": "Las Rosas",
-      "codigoVereda": "73408013"
-    },
-    {
-      "id": "2026-08-25T06:50:00Z_4.187_-75.053",
-      "lat": 4.1868,
-      "lon": -75.0527,
-      "fechaUtc": "2026-08-25T06:50:00Z",
-      "confianza": "media",
-      "frp": 7.53,
-      "detecciones": 14,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Guamo",
-      "distanciaKm": 19.6,
-      "vereda": "Cerro Gordo",
-      "codigoVereda": "73319012"
-    },
-    {
       "id": "2026-08-25T06:50:00Z_4.130_-75.298",
       "lat": 4.1304,
       "lon": -75.2981,
@@ -162,40 +349,6 @@
       "distanciaKm": 5.7,
       "vereda": "Cofradia De Gallego",
       "codigoVereda": "73861005"
-    },
-    {
-      "id": "2026-08-25T06:03:00Z_4.195_-75.042",
-      "lat": 4.1948,
-      "lon": -75.0418,
-      "fechaUtc": "2026-08-25T06:03:00Z",
-      "confianza": "media",
-      "frp": 2.39,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Guamo",
-      "distanciaKm": 19.9,
-      "vereda": "Cerro Gordo",
-      "codigoVereda": "73319012"
-    },
-    {
-      "id": "2026-08-25T06:03:00Z_3.700_-75.267",
-      "lat": 3.6996,
-      "lon": -75.2668,
-      "fechaUtc": "2026-08-25T06:03:00Z",
-      "confianza": "media",
-      "frp": 2.05,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Coyaima",
-      "distanciaKm": 13.7,
-      "vereda": "Meche San Cayetano",
-      "codigoVereda": "73217036"
     }
   ]
 }

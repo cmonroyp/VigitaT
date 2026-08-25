@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T18:35:02Z",
- "activos": 3,
+ "actualizadoUtc": "2026-08-25T20:13:38.885Z",
+ "activos": 12,
  "incendios": [
   {
    "id": "INC-1",
@@ -119,9 +119,9 @@
    "lon": -74.9275,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 3.82,
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 17.19,
    "confianzaMax": "media",
    "pixeles": [
     "1233,-18732"
@@ -132,17 +132,18 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:50:00Z_4.932_-74.928"
+    "2026-08-25T06:50:00Z_4.932_-74.928",
+    "2026-08-25T17:52:00Z_4.932_-74.928"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "duracionHoras": 11,
    "ultimaGoesUtc": "2026-08-25T18:20:00Z",
    "clima": {
     "tempC": 37,
     "humedadPct": 26,
-    "vientoKmh": 21,
+    "vientoKmh": 19,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -154,26 +155,35 @@
    "lon": -75.0527,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 7.53,
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 4,
+   "maxFrp": 13.09,
    "confianzaMax": "media",
    "pixeles": [
     "1047,-18763",
     "1049,-18760"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 4,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-25T06:50:00Z_4.187_-75.053",
-    "2026-08-25T06:03:00Z_4.195_-75.042"
+    "2026-08-25T06:03:00Z_4.195_-75.042",
+    "2026-08-25T17:52:00Z_4.195_-75.042",
+    "2026-08-25T17:52:00Z_4.187_-75.053"
    ],
    "areaEstimadaHa": 28,
-   "duracionHoras": 1,
-   "ultimaGoesUtc": "2026-08-25T18:20:00Z"
+   "duracionHoras": 12,
+   "ultimaGoesUtc": "2026-08-25T18:20:00Z",
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 23,
+    "vientoKmh": 21,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
   },
   {
    "id": "INC-7",
@@ -238,12 +248,13 @@
    "lon": -74.8846,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:03:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.24,
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 4.09,
    "confianzaMax": "media",
    "pixeles": [
-    "1186,-18721"
+    "1186,-18721",
+    "1191,-18719"
    ],
    "alertas": {
     "detectado": true,
@@ -251,15 +262,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:03:00Z_4.743_-74.885"
+    "2026-08-25T06:03:00Z_4.743_-74.885",
+    "2026-08-25T17:52:00Z_4.763_-74.875"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 12,
    "ultimaGoesUtc": "2026-08-25T15:20:00Z",
    "clima": {
     "tempC": 38,
     "humedadPct": 27,
-    "vientoKmh": 25,
+    "vientoKmh": 22,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    }
@@ -271,26 +283,306 @@
    "vereda": "Meche San Cayetano",
    "lat": 3.6996,
    "lon": -75.2668,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:03:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.05,
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 6.09,
    "confianzaMax": "media",
    "pixeles": [
     "925,-18817"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 2,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:03:00Z_3.700_-75.267"
+    "2026-08-25T06:03:00Z_3.700_-75.267",
+    "2026-08-25T17:52:00Z_3.700_-75.267"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0
+   "duracionHoras": 12,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 25,
+    "vientoKmh": 15,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-11",
+   "nombre": "Incendio vereda La Pradera",
+   "municipio": "Rioblanco",
+   "vereda": "La Pradera",
+   "lat": 3.3889,
+   "lon": -75.7502,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.17,
+   "confianzaMax": "media",
+   "pixeles": [
+    "847,-18938"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_3.389_-75.750"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 27,
+    "humedadPct": 35,
+    "vientoKmh": 7,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-12",
+   "nombre": "Incendio vereda La Cubana",
+   "municipio": "Venadillo",
+   "vereda": "La Cubana",
+   "lat": 4.7065,
+   "lon": -74.9526,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 20.99,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1177,-18738"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_4.706_-74.953"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 30,
+    "vientoKmh": 22,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-13",
+   "nombre": "Incendio vereda Santa Isabel",
+   "municipio": "San Luis",
+   "vereda": "Santa Isabel",
+   "lat": 4.2576,
+   "lon": -75.0462,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 9.93,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1064,-18762"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_4.258_-75.046"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 23,
+    "vientoKmh": 20,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-14",
+   "nombre": "Incendio vereda San Pacho Cucal",
+   "municipio": "Rovira",
+   "vereda": "San Pacho Cucal",
+   "lat": 4.1735,
+   "lon": -75.398,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.65,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1043,-18849"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_4.173_-75.398"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 25,
+    "humedadPct": 40,
+    "vientoKmh": 12,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-15",
+   "nombre": "Incendio vereda La Isla",
+   "municipio": "Guamo",
+   "vereda": "La Isla",
+   "lat": 4.0521,
+   "lon": -74.8618,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 17.7,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1013,-18715"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_4.052_-74.862"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 39,
+    "humedadPct": 26,
+    "vientoKmh": 6,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-16",
+   "nombre": "Incendio vereda Doyare Esmeralda",
+   "municipio": "Coyaima",
+   "vereda": "Doyare Esmeralda",
+   "lat": 3.8378,
+   "lon": -75.1784,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 5.72,
+   "confianzaMax": "media",
+   "pixeles": [
+    "959,-18795"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_3.838_-75.178"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 39,
+    "humedadPct": 22,
+    "vientoKmh": 24,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-17",
+   "nombre": "Incendio vereda Buenavista",
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "lat": 3.7351,
+   "lon": -75.2387,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 32.78,
+   "confianzaMax": "media",
+   "pixeles": [
+    "934,-18810"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_3.735_-75.239"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 39,
+    "humedadPct": 22,
+    "vientoKmh": 16,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-18",
+   "nombre": "Incendio vereda El Neme",
+   "municipio": "Ataco",
+   "vereda": "El Neme",
+   "lat": 3.4681,
+   "lon": -75.4571,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 31.1,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "867,-18864"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_3.468_-75.457"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 28,
+    "vientoKmh": 11,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 10
+ "secuencia": 18
 }
