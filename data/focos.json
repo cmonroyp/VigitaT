@@ -1,15 +1,51 @@
 {
-  "actualizadoUtc": "2026-08-25T22:13:31.868Z",
+  "actualizadoUtc": "2026-08-25T23:13:30.881Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 23,
-  "focosNuevos": 0,
+  "focosNuevos": 2,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-25T20:14:00Z_3.735_-75.239",
+      "lat": 3.7351,
+      "lon": -75.2387,
+      "fechaUtc": "2026-08-25T20:14:00Z",
+      "confianza": "media",
+      "frp": 46.85,
+      "detecciones": 6,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 8.6,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
+    {
+      "id": "2026-08-25T20:14:00Z_3.700_-75.267",
+      "lat": 3.6996,
+      "lon": -75.2668,
+      "fechaUtc": "2026-08-25T20:14:00Z",
+      "confianza": "media",
+      "frp": 21.88,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Coyaima",
+      "distanciaKm": 13.7,
+      "vereda": "Meche San Cayetano",
+      "codigoVereda": "73217036"
+    },
     {
       "id": "2026-08-25T18:47:00Z_4.925_-74.940",
       "lat": 4.9252,
@@ -198,23 +234,6 @@
       "codigoVereda": "73217019"
     },
     {
-      "id": "2026-08-25T17:52:00Z_3.735_-75.239",
-      "lat": 3.7351,
-      "lon": -75.2387,
-      "fechaUtc": "2026-08-25T17:52:00Z",
-      "confianza": "media",
-      "frp": 32.78,
-      "detecciones": 4,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Coyaima",
-      "distanciaKm": 8.6,
-      "vereda": "Buenavista",
-      "codigoVereda": "73217006"
-    },
-    {
       "id": "2026-08-25T17:52:00Z_3.468_-75.457",
       "lat": 3.4681,
       "lon": -75.4571,
@@ -264,23 +283,6 @@
       "distanciaKm": 19.6,
       "vereda": "Cerro Gordo",
       "codigoVereda": "73319012"
-    },
-    {
-      "id": "2026-08-25T17:52:00Z_3.700_-75.267",
-      "lat": 3.6996,
-      "lon": -75.2668,
-      "fechaUtc": "2026-08-25T17:52:00Z",
-      "confianza": "media",
-      "frp": 6.09,
-      "detecciones": 2,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Coyaima",
-      "distanciaKm": 13.7,
-      "vereda": "Meche San Cayetano",
-      "codigoVereda": "73217036"
     },
     {
       "id": "2026-08-25T06:50:00Z_4.309_-75.099",
