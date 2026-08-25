@@ -180,19 +180,6 @@ const focosFinales = clusters
 
 console.log(`Focos tras filtrado y agrupación: ${focosFinales.length}`);
 
-// ----------------------------------------------------- detección de novedades
-
-let anteriores = new Set();
-if (existsSync(DATA_FILE)) {
-  try {
-    const prev = JSON.parse(readFileSync(DATA_FILE, 'utf8'));
-    anteriores = new Set((prev.focos ?? []).map((f) => f.id));
-  } catch {
-    /* archivo anterior corrupto: se regenera */
-  }
-}
-const nuevos = focosFinales.filter((f) => !anteriores.has(f.id));
-
 // ---------------------------------------- vereda oficial (polígonos DANE)
 // Cruce punto-en-polígono contra las 1862 veredas oficiales del Tolima
 // (DANE, data/veredas-tolima.geojson). Sin servicios externos: datos reales,
@@ -271,6 +258,21 @@ if (antesDescarte !== focosFinales.length) {
   console.log(`Descartados ${antesDescarte - focosFinales.length} focos fuera del Tolima (polígono oficial DANE).`);
 }
 
+// ----------------------------------------------------- detección de novedades
+// IMPORTANTE: se calcula DESPUÉS del cruce DANE, para que los focos descartados
+// (fuera del Tolima) nunca cuenten como "nuevos" ni generen alertas repetidas.
+
+let anteriores = new Set();
+if (existsSync(DATA_FILE)) {
+  try {
+    const prev = JSON.parse(readFileSync(DATA_FILE, 'utf8'));
+    anteriores = new Set((prev.focos ?? []).map((f) => f.id));
+  } catch {
+    /* archivo anterior corrupto: se regenera */
+  }
+}
+const nuevos = focosFinales.filter((f) => !anteriores.has(f.id));
+
 // -------------------------------------------------------------- escritura
 
 const salida = {
@@ -290,21 +292,51 @@ console.log(`data/focos.json actualizado. Nuevos: ${nuevos.length}`);
 const BOT = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT = process.env.TELEGRAM_CHAT_ID;
 
-if (nuevos.length > 0 && BOT && CHAT) {
-  const top = nuevos.slice(0, 5);
-  const lineas = top.map((f) => {
-    const hora = f.fechaUtc.slice(11, 16);
-    const icono = f.confianza === 'alta' ? '🔴' : '🟠';
-    const lugar = f.vereda ? `${f.municipio}, vereda ${f.vereda}` : `${f.municipio} (~${f.distanciaKm} km de la cabecera)`;
-    return `${icono} ${lugar} — ${hora} UTC, confianza ${f.confianza}${f.frp ? `, ${Math.round(f.frp)} MW` : ''}`;
+const horaColombia = (iso) =>
+  new Date(iso).toLocaleString('es-CO', {
+    timeZone: 'America/Bogota',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
   });
-  const extra = nuevos.length > 5 ? `\n…y ${nuevos.length - 5} focos más.` : '';
+
+if (nuevos.length > 0 && BOT && CHAT) {
+  // Agrupar por municipio y ordenar: primero los municipios con mayor severidad
+  const porMunicipio = new Map();
+  for (const f of nuevos) {
+    if (!porMunicipio.has(f.municipio)) porMunicipio.set(f.municipio, []);
+    porMunicipio.get(f.municipio).push(f);
+  }
+  const severidad = (fs) =>
+    Math.max(...fs.map((f) => (f.confianza === 'alta' ? 1000 : 0) + (f.frp ?? 0)));
+  const grupos = [...porMunicipio.entries()].sort((a, b) => severidad(b[1]) - severidad(a[1]));
+
+  const bloques = grupos.slice(0, 6).map(([municipio, fs]) => {
+    fs.sort((a, b) => (b.frp ?? 0) - (a.frp ?? 0));
+    const icono = fs.some((f) => f.confianza === 'alta') ? '🔴' : '🟠';
+    const titulo = `${icono} ${municipio.toUpperCase()} — ${fs.length} foco${fs.length > 1 ? 's' : ''}`;
+    const detalle = fs
+      .slice(0, 4)
+      .map((f) => {
+        const lugar = f.vereda ? `vereda ${f.vereda}` : `a ${f.distanciaKm} km de la cabecera`;
+        const intensidad = f.frp ? ` · ${Math.round(f.frp)} MW` : '';
+        return `   • ${lugar} — ${horaColombia(f.fechaUtc)}${intensidad}`;
+      })
+      .join('\n');
+    const mas = fs.length > 4 ? `\n   • …y ${fs.length - 4} más en este municipio` : '';
+    return `${titulo}\n${detalle}${mas}`;
+  });
+  const otros = grupos.length > 6 ? `\n\n…y ${grupos.length - 6} municipios más (ver mapa).` : '';
+
+  const SITE = process.env.SITE_URL || 'https://cmonroyp.github.io/VigitaT/';
   const msg =
-    `🛰️ VigíaT — Alerta de focos de calor\n` +
-    `${nuevos.length} foco(s) nuevo(s) detectado(s) por satélite en el Tolima:\n\n` +
-    lineas.join('\n') + extra +
-    `\n\nMapa en vivo: ${process.env.SITE_URL ?? 'https://vigia-tolima.github.io'}\n` +
-    `Fuente: NASA FIRMS (VIIRS/MODIS). Verifique en terreno antes de actuar.`;
+    `🛰️ VigíaT — Focos de calor confirmados por satélite\n` +
+    `${nuevos.length} foco(s) nuevo(s) en ${grupos.length} municipio(s) del Tolima ` +
+    `(hora local):\n\n` +
+    bloques.join('\n\n') + otros +
+    `\n\n🗺️ Mapa en vivo: ${SITE}\n` +
+    `Fuente: NASA FIRMS (VIIRS/MODIS, píxel 375 m). Un foco puede ser quema controlada: ` +
+    `verifique en terreno. Emergencias: 119.`;
 
   const res = await fetch(`https://api.telegram.org/bot${BOT}/sendMessage`, {
     method: 'POST',

@@ -253,14 +253,17 @@ def main() -> int:
             frp = f" · {round(f['frp'])} MW" if f.get("frp") else ""
             lineas.append(f"{icono} {lugar}{frp}")
         extra = f"\n…y {len(nuevos) - 5} más." if len(nuevos) > 5 else ""
-        hora_scan = escaneo_utc[11:16]
+        # hora local de Colombia (UTC-5, sin horario de verano)
+        t_scan = datetime.strptime(escaneo_utc, "%Y-%m-%dT%H:%M:00Z") - timedelta(hours=5)
+        hora_scan = t_scan.strftime("%I:%M %p").lstrip("0").lower().replace("am", "a. m.").replace("pm", "p. m.")
+        sitio = os.environ.get("SITE_URL") or "https://cmonroyp.github.io/VigitaT/"
         msg = (
             "⚡ VigíaT — DETECCIÓN RÁPIDA (GOES)\n"
             f"{len(nuevos)} posible(s) incendio(s) detectado(s) hace minutos "
-            f"(escaneo {hora_scan} UTC):\n\n" + "\n".join(lineas) + extra + "\n\n"
+            f"(escaneo {hora_scan}, hora Colombia):\n\n" + "\n".join(lineas) + extra + "\n\n"
             "⚠️ Detección preliminar de ~2 km de resolución, POR CONFIRMAR. "
             "Si está en la zona, verifique y reporte al 119.\n"
-            f"Mapa: {os.environ.get('SITE_URL', 'https://cmonroyp.github.io/VigitaT/')}"
+            f"🗺️ Mapa: {sitio}"
         )
         req = urllib.request.Request(
             f"https://api.telegram.org/bot{bot}/sendMessage",
