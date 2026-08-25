@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T21:14:05.914Z",
+ "actualizadoUtc": "2026-08-25T21:21:58Z",
  "activos": 14,
  "incendios": [
   {
@@ -179,7 +179,7 @@
    ],
    "areaEstimadaHa": 28,
    "duracionHoras": 12,
-   "ultimaGoesUtc": "2026-08-25T18:20:00Z",
+   "ultimaGoesUtc": "2026-08-25T21:10:00Z",
    "clima": {
     "tempC": 36,
     "humedadPct": 26,
@@ -417,7 +417,8 @@
     "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-25T21:10:00Z"
   },
   {
    "id": "INC-14",
