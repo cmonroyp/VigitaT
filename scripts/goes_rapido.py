@@ -307,13 +307,16 @@ def main() -> int:
     bot = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")
     if nuevos and bot and chat:
+        # Se listan TODAS las detecciones (ordenadas por intensidad) — en un canal
+        # de alertas ningún foco debe quedar oculto tras un "…y N más".
+        ordenados = sorted(nuevos, key=lambda f: f.get("frp") or 0, reverse=True)
         lineas = []
-        for f in nuevos[:5]:
+        for f in ordenados[:25]:
             lugar = f["municipio"] + (f", vereda {f['vereda']}" if f["vereda"] else "")
             icono = "🔴" if f["confianza"] == "alta" else "🟠"
             frp = f" · {round(f['frp'])} MW" if f.get("frp") else ""
             lineas.append(f"{icono} {lugar}{frp}")
-        extra = f"\n…y {len(nuevos) - 5} más." if len(nuevos) > 5 else ""
+        extra = f"\n…y {len(nuevos) - 25} más (ver mapa)." if len(nuevos) > 25 else ""
         # hora local de Colombia (UTC-5, sin horario de verano)
         t_scan = datetime.strptime(escaneo_utc, "%Y-%m-%dT%H:%M:00Z") - timedelta(hours=5)
         hora_scan = t_scan.strftime("%I:%M %p").lstrip("0").lower().replace("am", "a. m.").replace("pm", "p. m.")
@@ -321,7 +324,8 @@ def main() -> int:
         msg = (
             "⚡ VigíaT — DETECCIÓN RÁPIDA (GOES)\n"
             f"{len(nuevos)} posible(s) incendio(s) detectado(s) hace minutos "
-            f"(escaneo {hora_scan}, hora Colombia):\n\n" + "\n".join(lineas) + extra + "\n\n"
+            f"(escaneo {hora_scan}, hora Colombia):\n\n" + "\n".join(lineas) + extra + "\n"
+            "(🔴 certeza alta · 🟠 probable · MW = intensidad del fuego)\n\n"
             "⚠️ Detección preliminar de ~2 km de resolución, POR CONFIRMAR. "
             "Si está en la zona, verifique y reporte al 119.\n"
             f"🗺️ Mapa: {sitio}"
