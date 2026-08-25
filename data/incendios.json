@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T16:05:45Z",
+ "actualizadoUtc": "2026-08-25T16:18:36.584Z",
  "activos": 2,
  "incendios": [
   {
@@ -127,8 +127,8 @@
     "1233,-18732"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 1,
     "extinguido": false
    },
    "focoIds": [
@@ -136,7 +136,14 @@
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
-   "ultimaGoesUtc": "2026-08-25T15:50:00Z"
+   "ultimaGoesUtc": "2026-08-25T15:50:00Z",
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 32,
+    "vientoKmh": 21,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
   },
   {
    "id": "INC-6",
@@ -238,8 +245,8 @@
     "1186,-18721"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 1,
     "extinguido": false
    },
    "focoIds": [
@@ -247,7 +254,14 @@
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
-   "ultimaGoesUtc": "2026-08-25T15:20:00Z"
+   "ultimaGoesUtc": "2026-08-25T15:20:00Z",
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 34,
+    "vientoKmh": 23,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "ALTO"
+   }
   },
   {
    "id": "INC-10",
