@@ -1,20 +1,30 @@
 {
- "actualizadoUtc": "2026-08-25T20:21:00Z",
- "escaneoUtc": "2026-08-25T20:10:00Z",
+ "actualizadoUtc": "2026-08-25T20:40:48Z",
+ "escaneoUtc": "2026-08-25T20:30:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "totalFocos": 1,
- "focosNuevos": 0,
+ "totalFocos": 2,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.7467,
    "lon": -75.2437,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 75.2,
+   "frp": 71.5,
    "municipio": "Coyaima",
    "vereda": "Meche San Cayetano",
-   "escaneoUtc": "2026-08-25T20:10:00Z"
+   "escaneoUtc": "2026-08-25T20:30:00Z"
+  },
+  {
+   "lat": 3.6922,
+   "lon": -75.2617,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 27.9,
+   "municipio": "Coyaima",
+   "vereda": "Protero Grande",
+   "escaneoUtc": "2026-08-25T20:30:00Z"
   }
  ],
  "alertadas": {
@@ -28,6 +38,7 @@
   "4.22,-75.06": "2026-08-25T18:35:02.560024+00:00",
   "4.20,-75.04": "2026-08-25T18:35:02.560024+00:00",
   "3.74,-75.22": "2026-08-25T18:35:02.560024+00:00",
-  "3.72,-75.24": "2026-08-25T18:35:02.560024+00:00"
+  "3.72,-75.24": "2026-08-25T18:35:02.560024+00:00",
+  "3.70,-75.26": "2026-08-25T20:40:48.221125+00:00"
  }
 }

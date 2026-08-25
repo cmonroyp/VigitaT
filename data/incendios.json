@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T20:21:00Z",
+ "actualizadoUtc": "2026-08-25T20:40:48Z",
  "activos": 12,
  "incendios": [
   {
@@ -309,7 +309,8 @@
     "vientoKmh": 15,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-25T20:30:00Z"
   },
   {
    "id": "INC-11",
@@ -548,7 +549,7 @@
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    },
-   "ultimaGoesUtc": "2026-08-25T20:10:00Z"
+   "ultimaGoesUtc": "2026-08-25T20:30:00Z"
   },
   {
    "id": "INC-18",
