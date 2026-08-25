@@ -1,110 +1,20 @@
 {
- "actualizadoUtc": "2026-08-25T18:35:02Z",
- "escaneoUtc": "2026-08-25T18:20:00Z",
+ "actualizadoUtc": "2026-08-25T18:54:45Z",
+ "escaneoUtc": "2026-08-25T18:40:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "totalFocos": 10,
- "focosNuevos": 7,
+ "totalFocos": 1,
+ "focosNuevos": 0,
  "focos": [
-  {
-   "lat": 4.9302,
-   "lon": -74.9367,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 88.7,
-   "municipio": "Lérida",
-   "vereda": "Las Rosas",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 4.9302,
-   "lon": -74.9186,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 67.3,
-   "municipio": "Lérida",
-   "vereda": "Coloya",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 4.7115,
-   "lon": -74.9548,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 64.8,
-   "municipio": "Venadillo",
-   "vereda": "La Cubana",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 4.2562,
-   "lon": -75.0452,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 110.5,
-   "municipio": "San Luis",
-   "vereda": "Santa Isabel",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 4.2198,
-   "lon": -75.0632,
-   "codigo": 33,
-   "confianza": "media",
-   "frp": 175.5,
-   "municipio": "San Luis",
-   "vereda": "Jagua Bartolito",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 4.2016,
-   "lon": -75.0452,
-   "codigo": 33,
-   "confianza": "media",
-   "frp": 72.5,
-   "municipio": "Guamo",
-   "vereda": "Cerro Gordo",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 3.7467,
-   "lon": -75.2437,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 256.2,
-   "municipio": "Coyaima",
-   "vereda": "Meche San Cayetano",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 3.7467,
-   "lon": -75.2256,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 120.3,
-   "municipio": "Coyaima",
-   "vereda": "Buenavista",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
-  {
-   "lat": 3.7286,
-   "lon": -75.2437,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 88.2,
-   "municipio": "Coyaima",
-   "vereda": "Meche San Cayetano",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
-  },
   {
    "lat": 3.4741,
    "lon": -75.4601,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 87.3,
+   "frp": 42.4,
    "municipio": "Chaparral",
    "vereda": "Aracamangas",
-   "escaneoUtc": "2026-08-25T18:20:00Z"
+   "escaneoUtc": "2026-08-25T18:40:00Z"
   }
  ],
  "alertadas": {
