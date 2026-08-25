@@ -70,8 +70,12 @@
 
   // `padding` amplía el lienzo SVG más allá de la pantalla: sin esto se ve el
   // borde del recorte como una línea recta mientras se arrastra el mapa.
+  // minZoom evita alejarse más allá del departamento: además de no tener uso
+  // en una herramienta del Tolima, es lo que provocaba el destello de fondo
+  // vacío al descubrir de golpe áreas enormes sin teselas cargadas.
   const map = L.map('map', {
     zoomControl: true,
+    minZoom: 7,
     maxZoom: 19,
     renderer: L.svg({ padding: 0.5 }),
   }).setView(VISTA.centro, VISTA.zoom);
@@ -87,7 +91,6 @@
   // primero los bordes municipales y luego los nombres.
   const ZOOM_BORDES = 9;      // límites municipales
   const ZOOM_ETIQUETAS = 10;  // nombres de municipio
-  const ZOOM_REFERENCIA = 11; // vías y nombres de veredas (capa Esri)
 
   // keepBuffer amplio + sin recarga durante el zoom: evita que asome el fondo
   // vacío mientras llegan las teselas nuevas, sobre todo al alejar.
@@ -103,40 +106,6 @@
     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
     { ...OPC_TESELAS, attribution: 'Imágenes &copy; Esri · NASA FIRMS · NOAA · DANE' },
   ).addTo(map);
-
-  // Capa de referencia sobre la imagen satelital (lo que hace el visor FIRMS):
-  // veredas, centros poblados, vías y sus nombres. Sin esto, sobre la foto
-  // satelital no hay forma de orientarse ni de saber por dónde llegar al fuego.
-  map.createPane('paneReferencia');
-  map.getPane('paneReferencia').style.zIndex = 300;
-  map.getPane('paneReferencia').style.pointerEvents = 'none';
-
-  const REF = 'https://server.arcgisonline.com/ArcGIS/rest/services/Reference';
-  const capaReferencia = L.layerGroup([
-    L.tileLayer(`${REF}/World_Transportation/MapServer/tile/{z}/{y}/{x}`, {
-      ...OPC_TESELAS,
-      pane: 'paneReferencia',
-    }),
-    L.tileLayer(`${REF}/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`, {
-      ...OPC_TESELAS,
-      pane: 'paneReferencia',
-    }),
-  ]);
-
-  /**
-   * La referencia solo aparece de cerca. En la panorámica del departamento
-   * traería ciudades y carreteras de medio país y taparía lo único que
-   * importa a esa escala: dónde hay fuego. De cerca, en cambio, es lo que
-   * dice por qué camino se llega.
-   * Tampoco se usa con el mapa de calles, que ya trae sus propias etiquetas.
-   */
-  function aplicarReferencia() {
-    const debe = map.getZoom() >= ZOOM_REFERENCIA && map.hasLayer(capaSatelite);
-    const esta = map.hasLayer(capaReferencia);
-    if (debe && !esta) capaReferencia.addTo(map);
-    else if (!debe && esta) map.removeLayer(capaReferencia);
-  }
-  map.on('zoomend baselayerchange', aplicarReferencia);
 
   const capaFocos = L.layerGroup().addTo(map);
   const capaGoes = L.layerGroup().addTo(map);
