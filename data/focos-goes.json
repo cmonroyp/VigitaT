@@ -1,12 +1,10 @@
 {
- "actualizadoUtc": "2026-08-25T09:20:31Z",
- "escaneoUtc": "2026-08-25T09:10:00Z",
+ "actualizadoUtc": "2026-08-25T09:43:25Z",
+ "escaneoUtc": "2026-08-25T09:30:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "totalFocos": 0,
  "focosNuevos": 0,
  "focos": [],
- "alertadas": {
-  "4.20,-75.04": "2026-08-25T03:23:17.699750+00:00"
- }
+ "alertadas": {}
 }
