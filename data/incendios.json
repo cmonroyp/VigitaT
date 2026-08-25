@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T18:16:29.474Z",
- "activos": 2,
+ "actualizadoUtc": "2026-08-25T18:35:02Z",
+ "activos": 3,
  "incendios": [
   {
    "id": "INC-1",
@@ -136,7 +136,7 @@
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
-   "ultimaGoesUtc": "2026-08-25T15:50:00Z",
+   "ultimaGoesUtc": "2026-08-25T18:20:00Z",
    "clima": {
     "tempC": 37,
     "humedadPct": 26,
@@ -152,7 +152,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1868,
    "lon": -75.0527,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
    "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
    "deteccionesTotales": 2,
@@ -172,7 +172,8 @@
     "2026-08-25T06:03:00Z_4.195_-75.042"
    ],
    "areaEstimadaHa": 28,
-   "duracionHoras": 1
+   "duracionHoras": 1,
+   "ultimaGoesUtc": "2026-08-25T18:20:00Z"
   },
   {
    "id": "INC-7",
