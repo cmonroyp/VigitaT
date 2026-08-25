@@ -27,7 +27,7 @@ jobs:
           cache: 'pip'
 
       - name: Dependencias
-        run: pip install --quiet numpy netCDF4
+        run: pip install --quiet -r requirements.txt
 
       - name: Procesar último escaneo GOES-19
         env:
