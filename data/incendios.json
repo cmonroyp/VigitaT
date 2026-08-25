@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T15:47:53Z",
+ "actualizadoUtc": "2026-08-25T16:05:45Z",
  "activos": 2,
  "incendios": [
   {
@@ -136,7 +136,7 @@
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
-   "ultimaGoesUtc": "2026-08-25T15:30:00Z"
+   "ultimaGoesUtc": "2026-08-25T15:50:00Z"
   },
   {
    "id": "INC-6",

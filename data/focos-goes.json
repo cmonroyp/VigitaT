@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T15:47:53Z",
- "escaneoUtc": "2026-08-25T15:30:00Z",
+ "actualizadoUtc": "2026-08-25T16:05:45Z",
+ "escaneoUtc": "2026-08-25T15:50:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "totalFocos": 1,
@@ -11,10 +11,10 @@
    "lon": -74.9367,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 87.9,
+   "frp": 72.9,
    "municipio": "Lérida",
    "vereda": "Las Rosas",
-   "escaneoUtc": "2026-08-25T15:30:00Z"
+   "escaneoUtc": "2026-08-25T15:50:00Z"
   }
  ],
  "alertadas": {
