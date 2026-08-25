@@ -1,12 +1,13 @@
 {
-  "actualizadoUtc": "2026-08-25T23:13:30.881Z",
+  "actualizadoUtc": "2026-08-25T23:24:23.719Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 23,
-  "focosNuevos": 2,
+  "totalFocos": 26,
+  "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
+    "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
   "focos": [
@@ -121,7 +122,7 @@
       "fechaUtc": "2026-08-25T18:47:00Z",
       "confianza": "media",
       "frp": 7.05,
-      "detecciones": 1,
+      "detecciones": 2,
       "satelites": [
         "VIIRS"
       ],
@@ -138,7 +139,7 @@
       "fechaUtc": "2026-08-25T18:47:00Z",
       "confianza": "alta",
       "frp": 17.19,
-      "detecciones": 11,
+      "detecciones": 17,
       "satelites": [
         "VIIRS"
       ],
@@ -147,6 +148,74 @@
       "distanciaKm": 8,
       "vereda": "Las Rosas",
       "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-25T18:28:00Z_4.201_-75.061",
+      "lat": 4.2015,
+      "lon": -75.0612,
+      "fechaUtc": "2026-08-25T18:28:00Z",
+      "confianza": "alta",
+      "frp": 363.01,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 8.4,
+      "vereda": "Jagua Bartolito",
+      "codigoVereda": "73678016"
+    },
+    {
+      "id": "2026-08-25T18:28:00Z_3.848_-75.429",
+      "lat": 3.8477,
+      "lon": -75.4286,
+      "fechaUtc": "2026-08-25T18:28:00Z",
+      "confianza": "media",
+      "frp": 6.76,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Chaparral",
+      "distanciaKm": 15.2,
+      "vereda": "Vista Hermosa",
+      "codigoVereda": "73168143"
+    },
+    {
+      "id": "2026-08-25T18:28:00Z_3.326_-75.622",
+      "lat": 3.3263,
+      "lon": -75.6217,
+      "fechaUtc": "2026-08-25T18:28:00Z",
+      "confianza": "media",
+      "frp": 66.76,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ataco",
+      "distanciaKm": 39.6,
+      "vereda": "El Condor",
+      "codigoVereda": "73067075"
+    },
+    {
+      "id": "2026-08-25T18:28:00Z_3.468_-75.457",
+      "lat": 3.4681,
+      "lon": -75.4571,
+      "fechaUtc": "2026-08-25T18:28:00Z",
+      "confianza": "alta",
+      "frp": 31.1,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ataco",
+      "distanciaKm": 16,
+      "vereda": "El Neme",
+      "codigoVereda": "73067014"
     },
     {
       "id": "2026-08-25T17:52:00Z_4.763_-74.875",
@@ -234,23 +303,6 @@
       "codigoVereda": "73217019"
     },
     {
-      "id": "2026-08-25T17:52:00Z_3.468_-75.457",
-      "lat": 3.4681,
-      "lon": -75.4571,
-      "fechaUtc": "2026-08-25T17:52:00Z",
-      "confianza": "alta",
-      "frp": 31.1,
-      "detecciones": 3,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Ataco",
-      "distanciaKm": 16,
-      "vereda": "El Neme",
-      "codigoVereda": "73067014"
-    },
-    {
       "id": "2026-08-25T17:52:00Z_4.195_-75.042",
       "lat": 4.1948,
       "lon": -75.0418,
@@ -274,7 +326,7 @@
       "fechaUtc": "2026-08-25T17:52:00Z",
       "confianza": "media",
       "frp": 9.85,
-      "detecciones": 16,
+      "detecciones": 21,
       "satelites": [
         "VIIRS"
       ],
@@ -359,7 +411,7 @@
       "fechaUtc": "2026-08-25T06:50:00Z",
       "confianza": "media",
       "frp": 7.13,
-      "detecciones": 4,
+      "detecciones": 8,
       "satelites": [
         "VIIRS"
       ],

@@ -1,187 +1,103 @@
 {
- "actualizadoUtc": "2026-08-25T23:13:30.882Z",
- "activos": 14,
+ "actualizadoUtc": "2026-08-25T23:24:23.740Z",
+ "activos": 17,
  "incendios": [
   {
    "id": "INC-1",
-   "nombre": "Incendio vereda Buenos Aires",
-   "municipio": "Ibagué",
-   "vereda": "Buenos Aires",
-   "lat": 4.3086,
-   "lon": -75.0987,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.92,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1077,-18775"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.309_-75.099"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-2",
-   "nombre": "Incendio vereda Chaguala  Afuera",
-   "municipio": "Coello",
-   "vereda": "Chaguala  Afuera",
-   "lat": 4.2817,
-   "lon": -74.9755,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.78,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1070,-18744"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.282_-74.975"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-3",
-   "nombre": "Incendio vereda Potrerillo",
-   "municipio": "Coello",
-   "vereda": "Potrerillo",
-   "lat": 4.2301,
-   "lon": -74.9722,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 3.01,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1058,-18743"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.230_-74.972"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-4",
-   "nombre": "Incendio vereda Sinai",
-   "municipio": "Suárez",
-   "vereda": "Sinai",
-   "lat": 4.0186,
-   "lon": -74.7942,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.94,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1005,-18699"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.019_-74.794"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-5",
-   "nombre": "Incendio vereda Las Rosas",
-   "municipio": "Lérida",
-   "vereda": "Las Rosas",
-   "lat": 4.9319,
-   "lon": -74.9275,
+   "nombre": "Incendio vereda Jagua Bartolito",
+   "municipio": "San Luis",
+   "vereda": "Jagua Bartolito",
+   "lat": 4.2015,
+   "lon": -75.0612,
    "estado": "activo",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 17.19,
+   "inicioUtc": "2026-08-25T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 363.01,
    "confianzaMax": "alta",
    "pixeles": [
-    "1233,-18732",
-    "1231,-18735"
+    "1050,-18765"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 4,
+    "ultCrecimiento": 1,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:50:00Z_4.932_-74.928",
-    "2026-08-25T17:52:00Z_4.932_-74.928",
-    "2026-08-25T18:47:00Z_4.925_-74.940",
-    "2026-08-25T18:47:00Z_4.932_-74.928"
+    "2026-08-25T18:28:00Z_4.201_-75.061"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 12,
-   "ultimaGoesUtc": "2026-08-25T18:20:00Z",
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
    "clima": {
     "tempC": 34,
     "humedadPct": 32,
-    "vientoKmh": 9,
+    "vientoKmh": 12,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
   },
   {
-   "id": "INC-6",
-   "nombre": "Incendio vereda Cerro Gordo",
-   "municipio": "Guamo",
-   "vereda": "Cerro Gordo",
-   "lat": 4.1868,
-   "lon": -75.0527,
+   "id": "INC-2",
+   "nombre": "Incendio vereda El Condor",
+   "municipio": "Ataco",
+   "vereda": "El Condor",
+   "lat": 3.3263,
+   "lon": -75.6217,
    "estado": "activo",
-   "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 13.09,
+   "inicioUtc": "2026-08-25T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 66.76,
    "confianzaMax": "media",
    "pixeles": [
-    "1047,-18763",
-    "1049,-18760"
+    "832,-18905"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 4,
+    "ultCrecimiento": 1,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:50:00Z_4.187_-75.053",
-    "2026-08-25T06:03:00Z_4.195_-75.042",
-    "2026-08-25T17:52:00Z_4.195_-75.042",
-    "2026-08-25T17:52:00Z_4.187_-75.053"
+    "2026-08-25T18:28:00Z_3.326_-75.622"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 12,
-   "ultimaGoesUtc": "2026-08-25T21:20:00Z",
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
+    "tempC": 28,
+    "humedadPct": 53,
+    "vientoKmh": 1,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-3",
+   "nombre": "Incendio vereda Santa Isabel",
+   "municipio": "San Luis",
+   "vereda": "Santa Isabel",
+   "lat": 4.2609,
+   "lon": -75.0437,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 61.52,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1065,-18761"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_4.261_-75.044"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
     "humedadPct": 31,
     "vientoKmh": 13,
     "vientoHacia": "NE",
@@ -189,75 +105,20 @@
    }
   },
   {
-   "id": "INC-7",
-   "nombre": "Incendio vereda Calica",
-   "municipio": "Rovira",
-   "vereda": "Calica",
-   "lat": 4.1304,
-   "lon": -75.2981,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.13,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1033,-18825"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.130_-75.298"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-8",
-   "nombre": "Incendio vereda El Pedregal",
-   "municipio": "Prado",
-   "vereda": "El Pedregal",
-   "lat": 3.6883,
-   "lon": -74.8523,
-   "estado": "sin_senal",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.37,
-   "confianzaMax": "media",
-   "pixeles": [
-    "922,-18713"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_3.688_-74.852"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-9",
-   "nombre": "Incendio vereda Cofradia De Gallego",
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "lat": 4.7434,
-   "lon": -74.8846,
+   "id": "INC-4",
+   "nombre": "Incendio vereda Buenavista",
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "lat": 3.7351,
+   "lon": -75.2387,
    "estado": "activo",
-   "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 4.09,
+   "inicioUtc": "2026-08-25T20:14:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T20:14:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 46.85,
    "confianzaMax": "media",
    "pixeles": [
-    "1186,-18721",
-    "1191,-18719"
+    "934,-18810"
    ],
    "alertas": {
     "detectado": true,
@@ -265,31 +126,63 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:03:00Z_4.743_-74.885",
-    "2026-08-25T17:52:00Z_4.763_-74.875"
+    "2026-08-25T20:14:00Z_3.735_-75.239"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 12,
-   "ultimaGoesUtc": "2026-08-25T15:20:00Z",
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 34,
-    "vientoKmh": 14,
+    "tempC": 35,
+    "humedadPct": 32,
+    "vientoKmh": 9,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
   },
   {
-   "id": "INC-10",
+   "id": "INC-5",
+   "nombre": "Incendio vereda El Neme",
+   "municipio": "Ataco",
+   "vereda": "El Neme",
+   "lat": 3.4681,
+   "lon": -75.4571,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 31.1,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "867,-18864"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:28:00Z_3.468_-75.457"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 31,
+    "humedadPct": 45,
+    "vientoKmh": 2,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-6",
    "nombre": "Incendio vereda Meche San Cayetano",
    "municipio": "Coyaima",
    "vereda": "Meche San Cayetano",
    "lat": 3.6996,
    "lon": -75.2668,
    "estado": "activo",
-   "inicioUtc": "2026-08-25T06:03:00Z",
+   "inicioUtc": "2026-08-25T20:14:00Z",
    "ultimaDeteccionUtc": "2026-08-25T20:14:00Z",
-   "deteccionesTotales": 3,
+   "deteccionesTotales": 1,
    "maxFrp": 21.88,
    "confianzaMax": "media",
    "pixeles": [
@@ -297,61 +190,24 @@
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 2,
+    "ultCrecimiento": 1,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T06:03:00Z_3.700_-75.267",
-    "2026-08-25T17:52:00Z_3.700_-75.267",
     "2026-08-25T20:14:00Z_3.700_-75.267"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 14,
+   "duracionHoras": 0,
    "clima": {
     "tempC": 33,
     "humedadPct": 38,
     "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
-   },
-   "ultimaGoesUtc": "2026-08-25T20:30:00Z"
-  },
-  {
-   "id": "INC-11",
-   "nombre": "Incendio vereda La Pradera",
-   "municipio": "Rioblanco",
-   "vereda": "La Pradera",
-   "lat": 3.3889,
-   "lon": -75.7502,
-   "estado": "activo",
-   "inicioUtc": "2026-08-25T18:47:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.17,
-   "confianzaMax": "media",
-   "pixeles": [
-    "847,-18938"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T18:47:00Z_3.389_-75.750"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 21,
-    "humedadPct": 61,
-    "vientoKmh": 4,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
    }
   },
   {
-   "id": "INC-12",
+   "id": "INC-7",
    "nombre": "Incendio vereda La Cubana",
    "municipio": "Venadillo",
    "vereda": "La Cubana",
@@ -378,28 +234,27 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 31,
-    "humedadPct": 41,
-    "vientoKmh": 7,
-    "vientoHacia": "NO",
+    "humedadPct": 42,
+    "vientoKmh": 6,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
   {
-   "id": "INC-13",
-   "nombre": "Incendio vereda Santa Isabel",
-   "municipio": "San Luis",
-   "vereda": "Santa Isabel",
-   "lat": 4.2576,
-   "lon": -75.0462,
+   "id": "INC-8",
+   "nombre": "Incendio vereda La Isla",
+   "municipio": "Guamo",
+   "vereda": "La Isla",
+   "lat": 4.0521,
+   "lon": -74.8618,
    "estado": "activo",
    "inicioUtc": "2026-08-25T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 61.52,
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 17.7,
    "confianzaMax": "media",
    "pixeles": [
-    "1064,-18762",
-    "1065,-18761"
+    "1013,-18715"
    ],
    "alertas": {
     "detectado": true,
@@ -407,22 +262,126 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T17:52:00Z_4.258_-75.046",
-    "2026-08-25T18:47:00Z_4.261_-75.044"
+    "2026-08-25T17:52:00Z_4.052_-74.862"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 1,
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 30,
-    "vientoKmh": 13,
-    "vientoHacia": "NE",
+    "tempC": 35,
+    "humedadPct": 36,
+    "vientoKmh": 6,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
-   },
-   "ultimaGoesUtc": "2026-08-25T21:20:00Z"
+   }
   },
   {
-   "id": "INC-14",
+   "id": "INC-9",
+   "nombre": "Incendio vereda Las Rosas",
+   "municipio": "Lérida",
+   "vereda": "Las Rosas",
+   "lat": 4.9319,
+   "lon": -74.9275,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 17.19,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "1233,-18732",
+    "1231,-18735"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_4.932_-74.928",
+    "2026-08-25T18:47:00Z_4.925_-74.940"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 34,
+    "humedadPct": 33,
+    "vientoKmh": 6,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-10",
+   "nombre": "Incendio vereda El Tigre",
+   "municipio": "Ortega",
+   "vereda": "El Tigre",
+   "lat": 4.0825,
+   "lon": -75.297,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 16.07,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1021,-18824"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_4.082_-75.297"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 28,
+    "humedadPct": 49,
+    "vientoKmh": 1,
+    "vientoHacia": "S",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-11",
+   "nombre": "Incendio vereda Cerro Gordo",
+   "municipio": "Guamo",
+   "vereda": "Cerro Gordo",
+   "lat": 4.1948,
+   "lon": -75.0418,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T17:52:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 13.09,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1049,-18760",
+    "1047,-18763"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T17:52:00Z_4.195_-75.042",
+    "2026-08-25T17:52:00Z_4.187_-75.053"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 34,
+    "humedadPct": 33,
+    "vientoKmh": 3,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-12",
    "nombre": "Incendio vereda San Pacho Cucal",
    "municipio": "Rovira",
    "vereda": "San Pacho Cucal",
@@ -450,26 +409,53 @@
    "clima": {
     "tempC": 22,
     "humedadPct": 62,
-    "vientoKmh": 4,
+    "vientoKmh": 3,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
   {
-   "id": "INC-15",
-   "nombre": "Incendio vereda La Isla",
-   "municipio": "Guamo",
-   "vereda": "La Isla",
-   "lat": 4.0521,
-   "lon": -74.8618,
-   "estado": "activo",
-   "inicioUtc": "2026-08-25T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "id": "INC-13",
+   "nombre": "Incendio vereda Calica",
+   "municipio": "Rovira",
+   "vereda": "Calica",
+   "lat": 4.1304,
+   "lon": -75.2981,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
    "deteccionesTotales": 1,
-   "maxFrp": 17.7,
+   "maxFrp": 7.13,
    "confianzaMax": "media",
    "pixeles": [
-    "1013,-18715"
+    "1033,-18825"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.130_-75.298"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-14",
+   "nombre": "Incendio vereda La Pradera",
+   "municipio": "Rioblanco",
+   "vereda": "La Pradera",
+   "lat": 3.3892,
+   "lon": -75.7501,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.05,
+   "confianzaMax": "media",
+   "pixeles": [
+    "847,-18938"
    ],
    "alertas": {
     "detectado": true,
@@ -477,16 +463,50 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T17:52:00Z_4.052_-74.862"
+    "2026-08-25T18:47:00Z_3.389_-75.750"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 35,
+    "tempC": 21,
+    "humedadPct": 62,
     "vientoKmh": 5,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-15",
+   "nombre": "Incendio vereda Vista Hermosa",
+   "municipio": "Chaparral",
+   "vereda": "Vista Hermosa",
+   "lat": 3.8477,
+   "lon": -75.4286,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.76,
+   "confianzaMax": "media",
+   "pixeles": [
+    "962,-18857"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:28:00Z_3.848_-75.429"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 23,
+    "humedadPct": 50,
+    "vientoKmh": 3,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -516,85 +536,15 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 32,
-    "vientoKmh": 21,
+    "tempC": 34,
+    "humedadPct": 33,
+    "vientoKmh": 20,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
    "id": "INC-17",
-   "nombre": "Incendio vereda Buenavista",
-   "municipio": "Coyaima",
-   "vereda": "Buenavista",
-   "lat": 3.7351,
-   "lon": -75.2387,
-   "estado": "activo",
-   "inicioUtc": "2026-08-25T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T20:14:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 46.85,
-   "confianzaMax": "media",
-   "pixeles": [
-    "934,-18810"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T17:52:00Z_3.735_-75.239",
-    "2026-08-25T20:14:00Z_3.735_-75.239"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 2,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 31,
-    "vientoKmh": 9,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   },
-   "ultimaGoesUtc": "2026-08-25T20:30:00Z"
-  },
-  {
-   "id": "INC-18",
-   "nombre": "Incendio vereda El Neme",
-   "municipio": "Ataco",
-   "vereda": "El Neme",
-   "lat": 3.4681,
-   "lon": -75.4571,
-   "estado": "activo",
-   "inicioUtc": "2026-08-25T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 31.1,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "867,-18864"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T17:52:00Z_3.468_-75.457"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 31,
-    "humedadPct": 43,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-19",
    "nombre": "Incendio vereda San José",
    "municipio": "Melgar",
    "vereda": "San José",
@@ -620,47 +570,184 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 50,
+    "tempC": 30,
+    "humedadPct": 53,
     "vientoKmh": 7,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
   },
   {
-   "id": "INC-20",
-   "nombre": "Incendio vereda El Tigre",
-   "municipio": "Ortega",
-   "vereda": "El Tigre",
-   "lat": 4.0825,
-   "lon": -75.297,
+   "id": "INC-18",
+   "nombre": "Incendio vereda Cofradia De Gallego",
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "lat": 4.7631,
+   "lon": -74.875,
    "estado": "activo",
-   "inicioUtc": "2026-08-25T18:47:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 16.07,
+   "inicioUtc": "2026-08-25T06:03:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 4.09,
    "confianzaMax": "media",
    "pixeles": [
-    "1021,-18824"
+    "1191,-18719",
+    "1186,-18721"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 1,
+    "ultCrecimiento": 2,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T18:47:00Z_4.082_-75.297"
+    "2026-08-25T17:52:00Z_4.763_-74.875",
+    "2026-08-25T06:03:00Z_4.743_-74.885"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 12,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 49,
-    "vientoKmh": 0,
-    "vientoHacia": "E",
+    "tempC": 34,
+    "humedadPct": 34,
+    "vientoKmh": 14,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-19",
+   "nombre": "Incendio vereda Potrerillo",
+   "municipio": "Coello",
+   "vereda": "Potrerillo",
+   "lat": 4.2301,
+   "lon": -74.9722,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.01,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1058,-18743"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.230_-74.972"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-20",
+   "nombre": "Incendio vereda El Pedregal",
+   "municipio": "Prado",
+   "vereda": "El Pedregal",
+   "lat": 3.6883,
+   "lon": -74.8523,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.37,
+   "confianzaMax": "media",
+   "pixeles": [
+    "922,-18713"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_3.688_-74.852"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-21",
+   "nombre": "Incendio vereda Sinai",
+   "municipio": "Suárez",
+   "vereda": "Sinai",
+   "lat": 4.0186,
+   "lon": -74.7942,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.94,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1005,-18699"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.019_-74.794"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-22",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3086,
+   "lon": -75.0987,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.92,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1077,-18775"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.309_-75.099"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-23",
+   "nombre": "Incendio vereda Chaguala  Afuera",
+   "municipio": "Coello",
+   "vereda": "Chaguala  Afuera",
+   "lat": 4.2817,
+   "lon": -74.9755,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-25T06:50:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.78,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1070,-18744"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T06:50:00Z_4.282_-74.975"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
   }
  ],
- "secuencia": 20
+ "secuencia": 23
 }

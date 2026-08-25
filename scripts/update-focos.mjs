@@ -23,8 +23,11 @@ const DATA_FILE = join(__dirname, '..', 'data', 'focos.json');
 
 // Bounding box del departamento del Tolima (W, S, E, N)
 const BBOX = '-76.2,2.8,-74.4,5.4';
-// Fuentes satelitales consultadas (redundancia: VIIRS x2 + MODIS)
-const SOURCES = ['VIIRS_NOAA20_NRT', 'VIIRS_NOAA21_NRT', 'MODIS_NRT'];
+// Fuentes satelitales consultadas: los TRES satélites VIIRS (375 m) más MODIS.
+// Suomi-NPP es imprescindible: aporta ~2 pasadas diarias adicionales y el
+// 25/08/2026 fue el único que detectó el incendio de 363 MW de Jagua Bartolito
+// (San Luis) que los otros dos no vieron.
+const SOURCES = ['VIIRS_NOAA20_NRT', 'VIIRS_NOAA21_NRT', 'VIIRS_SNPP_NRT', 'MODIS_NRT'];
 const DAY_RANGE = 1; // últimas 24 h
 
 const MAP_KEY = process.env.FIRMS_MAP_KEY;
@@ -324,10 +327,20 @@ const horasDesde = (iso) => (ahoraMs - Date.parse(iso)) / 3.6e6;
 // celda de ~400 m para estimar área afectada (píxeles únicos del historial)
 const celdaPx = (lat, lon) => `${Math.round(lat / 0.004)},${Math.round(lon / 0.004)}`;
 
-// 1. Asignar cada foco de las últimas 24 h a un incidente existente o crear uno
-for (const f of focosFinales) {
+// 1. Asignar cada foco de las últimas 24 h a un incidente existente o crear uno.
+// Los focos se procesan de mayor a menor intensidad para que el incidente nazca
+// anclado a su detección dominante y no a un foco marginal que llegó antes.
+const porIntensidad = [...focosFinales].sort((a, b) => (b.frp ?? 0) - (a.frp ?? 0));
+
+for (const f of porIntensidad) {
+  // La agrupación NUNCA cruza fronteras municipales: la respuesta operativa es
+  // municipal (otra alcaldía, otros bomberos), así que un fuego en el municipio
+  // vecino debe ser un incidente propio aunque esté a pocos kilómetros.
   let inc = registro.incendios.find(
-    (i) => i.estado !== 'extinguido' && distKm(i.lat, i.lon, f.lat, f.lon) <= RADIO_INCIDENTE_KM,
+    (i) =>
+      i.estado !== 'extinguido' &&
+      sinTildes(i.municipio) === sinTildes(f.municipio) &&
+      distKm(i.lat, i.lon, f.lat, f.lon) <= RADIO_INCIDENTE_KM,
   );
   if (!inc) {
     registro.secuencia += 1;
@@ -352,9 +365,19 @@ for (const f of focosFinales) {
   // actualizar incidente con esta detección
   if (f.fechaUtc > inc.ultimaDeteccionUtc) inc.ultimaDeteccionUtc = f.fechaUtc;
   if (f.fechaUtc < inc.inicioUtc) inc.inicioUtc = f.fechaUtc;
-  if ((f.frp ?? 0) > (inc.maxFrp ?? 0)) inc.maxFrp = f.frp;
   if (f.confianza === 'alta') inc.confianzaMax = 'alta';
-  if (f.vereda && !inc.vereda) {
+
+  // El incidente se re-ancla a su detección más intensa: ubicación, vereda y
+  // nombre siguen al foco dominante, no al primero que se registró.
+  if ((f.frp ?? 0) > (inc.maxFrp ?? 0)) {
+    inc.maxFrp = f.frp;
+    inc.lat = f.lat;
+    inc.lon = f.lon;
+    if (f.vereda) {
+      inc.vereda = f.vereda;
+      inc.nombre = `Incendio vereda ${f.vereda}`;
+    }
+  } else if (f.vereda && !inc.vereda) {
     inc.vereda = f.vereda;
     inc.nombre = `Incendio vereda ${f.vereda}`;
   }
