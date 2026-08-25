@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T17:07:28.553Z",
+ "actualizadoUtc": "2026-08-25T17:17:12.642Z",
  "activos": 2,
  "incendios": [
   {
@@ -139,7 +139,7 @@
    "ultimaGoesUtc": "2026-08-25T15:50:00Z",
    "clima": {
     "tempC": 36,
-    "humedadPct": 30,
+    "humedadPct": 29,
     "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
@@ -257,7 +257,7 @@
    "ultimaGoesUtc": "2026-08-25T15:20:00Z",
    "clima": {
     "tempC": 37,
-    "humedadPct": 30,
+    "humedadPct": 29,
     "vientoKmh": 23,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
