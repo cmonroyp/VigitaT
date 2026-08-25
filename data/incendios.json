@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T20:40:48Z",
- "activos": 12,
+ "actualizadoUtc": "2026-08-25T21:14:05.914Z",
+ "activos": 14,
  "incendios": [
   {
    "id": "INC-1",
@@ -119,29 +119,32 @@
    "lon": -74.9275,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 17.19,
-   "confianzaMax": "media",
+   "confianzaMax": "alta",
    "pixeles": [
-    "1233,-18732"
+    "1233,-18732",
+    "1231,-18735"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 1,
+    "ultCrecimiento": 4,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-25T06:50:00Z_4.932_-74.928",
-    "2026-08-25T17:52:00Z_4.932_-74.928"
+    "2026-08-25T17:52:00Z_4.932_-74.928",
+    "2026-08-25T18:47:00Z_4.925_-74.940",
+    "2026-08-25T18:47:00Z_4.932_-74.928"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 11,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 12,
    "ultimaGoesUtc": "2026-08-25T18:20:00Z",
    "clima": {
     "tempC": 37,
     "humedadPct": 26,
-    "vientoKmh": 19,
+    "vientoKmh": 17,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -178,8 +181,8 @@
    "duracionHoras": 12,
    "ultimaGoesUtc": "2026-08-25T18:20:00Z",
    "clima": {
-    "tempC": 37,
-    "humedadPct": 23,
+    "tempC": 36,
+    "humedadPct": 26,
     "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
@@ -269,9 +272,9 @@
    "duracionHoras": 12,
    "ultimaGoesUtc": "2026-08-25T15:20:00Z",
    "clima": {
-    "tempC": 38,
-    "humedadPct": 27,
-    "vientoKmh": 22,
+    "tempC": 37,
+    "humedadPct": 28,
+    "vientoKmh": 21,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    }
@@ -304,8 +307,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 25,
+    "tempC": 36,
+    "humedadPct": 26,
     "vientoKmh": 15,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
@@ -339,9 +342,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 35,
-    "vientoKmh": 7,
+    "tempC": 26,
+    "humedadPct": 38,
+    "vientoKmh": 4,
     "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
@@ -373,9 +376,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 30,
-    "vientoKmh": 22,
+    "tempC": 34,
+    "humedadPct": 32,
+    "vientoKmh": 20,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    }
@@ -389,12 +392,13 @@
    "lon": -75.0462,
    "estado": "activo",
    "inicioUtc": "2026-08-25T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 9.93,
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 61.52,
    "confianzaMax": "media",
    "pixeles": [
-    "1064,-18762"
+    "1064,-18762",
+    "1065,-18761"
    ],
    "alertas": {
     "detectado": true,
@@ -402,14 +406,15 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-25T17:52:00Z_4.258_-75.046"
+    "2026-08-25T17:52:00Z_4.258_-75.046",
+    "2026-08-25T18:47:00Z_4.261_-75.044"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 1,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 23,
-    "vientoKmh": 20,
+    "tempC": 36,
+    "humedadPct": 26,
+    "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
@@ -441,10 +446,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 40,
-    "vientoKmh": 12,
-    "vientoHacia": "N",
+    "tempC": 24,
+    "humedadPct": 43,
+    "vientoKmh": 9,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -475,9 +480,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 26,
-    "vientoKmh": 6,
+    "tempC": 37,
+    "humedadPct": 27,
+    "vientoKmh": 4,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -509,10 +514,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 24,
-    "vientoHacia": "N",
+    "tempC": 38,
+    "humedadPct": 25,
+    "vientoKmh": 27,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    }
   },
@@ -543,9 +548,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
+    "tempC": 38,
     "humedadPct": 22,
-    "vientoKmh": 16,
+    "vientoKmh": 18,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    },
@@ -578,13 +583,81 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 28,
-    "vientoKmh": 11,
+    "tempC": 34,
+    "humedadPct": 31,
+    "vientoKmh": 9,
     "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-19",
+   "nombre": "Incendio vereda San José",
+   "municipio": "Melgar",
+   "vereda": "San José",
+   "lat": 4.2332,
+   "lon": -74.6199,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 5.65,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1058,-18655"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_4.233_-74.620"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 38,
+    "vientoKmh": 8,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-20",
+   "nombre": "Incendio vereda El Tigre",
+   "municipio": "Ortega",
+   "vereda": "El Tigre",
+   "lat": 4.0825,
+   "lon": -75.297,
+   "estado": "activo",
+   "inicioUtc": "2026-08-25T18:47:00Z",
+   "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 16.07,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1021,-18824"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-25T18:47:00Z_4.082_-75.297"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 31,
+    "humedadPct": 30,
+    "vientoKmh": 8,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   }
  ],
- "secuencia": 18
+ "secuencia": 20
 }

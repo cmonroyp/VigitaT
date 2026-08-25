@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-25T20:13:38.851Z",
+  "actualizadoUtc": "2026-08-25T21:14:05.882Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 20,
-  "focosNuevos": 13,
+  "totalFocos": 23,
+  "focosNuevos": 5,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,21 +11,106 @@
   ],
   "focos": [
     {
-      "id": "2026-08-25T18:47:00Z_3.389_-75.750",
-      "lat": 3.3889,
-      "lon": -75.7502,
+      "id": "2026-08-25T18:47:00Z_4.925_-74.940",
+      "lat": 4.9252,
+      "lon": -74.9397,
       "fechaUtc": "2026-08-25T18:47:00Z",
       "confianza": "media",
-      "frp": 7.17,
+      "frp": 5.74,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Lérida",
+      "distanciaKm": 7.7,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-25T18:47:00Z_4.261_-75.044",
+      "lat": 4.2609,
+      "lon": -75.0437,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "media",
+      "frp": 61.52,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 15.3,
+      "vereda": "Santa Isabel",
+      "codigoVereda": "73678036"
+    },
+    {
+      "id": "2026-08-25T18:47:00Z_4.233_-74.620",
+      "lat": 4.2332,
+      "lon": -74.6199,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "media",
+      "frp": 5.65,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Melgar",
+      "distanciaKm": 4.1,
+      "vereda": "San José",
+      "codigoVereda": "73449024"
+    },
+    {
+      "id": "2026-08-25T18:47:00Z_4.082_-75.297",
+      "lat": 4.0825,
+      "lon": -75.297,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "media",
+      "frp": 16.07,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ortega",
+      "distanciaKm": 18.3,
+      "vereda": "El Tigre",
+      "codigoVereda": "73504027"
+    },
+    {
+      "id": "2026-08-25T18:47:00Z_3.389_-75.750",
+      "lat": 3.3892,
+      "lon": -75.7501,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "media",
+      "frp": 7.05,
       "detecciones": 1,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "día",
       "municipio": "Rioblanco",
-      "distanciaKm": 19.6,
+      "distanciaKm": 19.5,
       "vereda": "La Pradera",
       "codigoVereda": "73616064"
+    },
+    {
+      "id": "2026-08-25T18:47:00Z_4.932_-74.928",
+      "lat": 4.9319,
+      "lon": -74.9275,
+      "fechaUtc": "2026-08-25T18:47:00Z",
+      "confianza": "alta",
+      "frp": 17.19,
+      "detecciones": 11,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Lérida",
+      "distanciaKm": 8,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
     },
     {
       "id": "2026-08-25T17:52:00Z_4.763_-74.875",
@@ -60,23 +145,6 @@
       "distanciaKm": 2.9,
       "vereda": "La Cubana",
       "codigoVereda": "73861012"
-    },
-    {
-      "id": "2026-08-25T17:52:00Z_4.258_-75.046",
-      "lat": 4.2576,
-      "lon": -75.0462,
-      "fechaUtc": "2026-08-25T17:52:00Z",
-      "confianza": "media",
-      "frp": 9.93,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "San Luis",
-      "distanciaKm": 14.8,
-      "vereda": "Santa Isabel",
-      "codigoVereda": "73678036"
     },
     {
       "id": "2026-08-25T17:52:00Z_4.173_-75.398",
@@ -162,23 +230,6 @@
       "distanciaKm": 16,
       "vereda": "El Neme",
       "codigoVereda": "73067014"
-    },
-    {
-      "id": "2026-08-25T17:52:00Z_4.932_-74.928",
-      "lat": 4.9319,
-      "lon": -74.9275,
-      "fechaUtc": "2026-08-25T17:52:00Z",
-      "confianza": "media",
-      "frp": 17.19,
-      "detecciones": 5,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Lérida",
-      "distanciaKm": 8,
-      "vereda": "Las Rosas",
-      "codigoVereda": "73408013"
     },
     {
       "id": "2026-08-25T17:52:00Z_4.195_-75.042",
