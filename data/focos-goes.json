@@ -1,30 +1,20 @@
 {
- "actualizadoUtc": "2026-08-25T18:01:25Z",
- "escaneoUtc": "2026-08-25T17:50:00Z",
+ "actualizadoUtc": "2026-08-25T18:18:24Z",
+ "escaneoUtc": "2026-08-25T18:00:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "totalFocos": 2,
- "focosNuevos": 2,
+ "totalFocos": 1,
+ "focosNuevos": 0,
  "focos": [
-  {
-   "lat": 3.7467,
-   "lon": -75.2437,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 47.9,
-   "municipio": "Coyaima",
-   "vereda": "Meche San Cayetano",
-   "escaneoUtc": "2026-08-25T17:50:00Z"
-  },
   {
    "lat": 3.4741,
    "lon": -75.4601,
-   "codigo": 10,
+   "codigo": 30,
    "confianza": "alta",
-   "frp": 66.2,
+   "frp": 63.5,
    "municipio": "Chaparral",
    "vereda": "Aracamangas",
-   "escaneoUtc": "2026-08-25T17:50:00Z"
+   "escaneoUtc": "2026-08-25T18:00:00Z"
   }
  ],
  "alertadas": {
