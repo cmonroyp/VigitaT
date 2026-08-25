@@ -80,7 +80,8 @@
         `Confianza: <strong>${esc(f.confianza)}</strong>` +
         (f.frp ? ` · Intensidad: ${esc(Math.round(f.frp))} MW` : '') + '<br>' +
         `<small>Satélite geoestacionario, resolución ~2 km. Detección preliminar ` +
-        `POR CONFIRMAR por el satélite de precisión (VIIRS).</small>`,
+        `POR CONFIRMAR por el satélite de precisión (VIIRS).</small>` +
+        botonZoom(f.lat, f.lon),
       )
       .addTo(capaGoes);
     // área de incertidumbre del píxel GOES (~2 km)
@@ -149,7 +150,8 @@
       `Confianza: <strong>${esc(f.confianza)}</strong> · Satélite: ${esc((f.satelites || []).join(', '))}<br>` +
       (f.frp ? `Intensidad: ${esc(Math.round(f.frp))} MW<br>` : '') +
       `A ~${esc(f.distanciaKm)} km de la cabecera de ${esc(f.municipio)}<br>` +
-      `<small>Detecciones agrupadas: ${esc(f.detecciones)} · ${esc(f.diaNoche)}</small>`,
+      `<small>Detecciones agrupadas: ${esc(f.detecciones)} · ${esc(f.diaNoche)}</small>` +
+      botonZoom(f.lat, f.lon),
     );
     marker.addTo(capaFocos);
     marcadores.set(f.id, marker);
@@ -300,10 +302,26 @@
           ? `<br>🌬️ Viento ${esc(inc.clima.vientoKmh)} km/h hacia el ${esc(inc.clima.vientoHacia)} · ` +
             `humedad ${esc(inc.clima.humedadPct)}%<br>` +
             `⚠️ Riesgo de propagación: <strong>${esc(inc.clima.riesgoPropagacion)}</strong>`
-          : ''),
+          : '') +
+        botonZoom(inc.lat, inc.lon),
       )
       .addTo(capaIncendios);
   }
+
+  // Botón "zoom a la ubicación" (estilo FIRMS). Sin JS inline (CSP): se maneja
+  // con un solo listener delegado sobre el contenedor del mapa.
+  const botonZoom = (lat, lon) =>
+    `<button class="btn-zoom" data-lat="${lat}" data-lon="${lon}">🔎 Zoom a la ubicación</button>`;
+
+  map.getContainer().addEventListener('click', (e) => {
+    const b = e.target.closest('.btn-zoom');
+    if (!b) return;
+    const lat = Number(b.dataset.lat);
+    const lon = Number(b.dataset.lon);
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+      map.setView([lat, lon], 17); // máximo detalle útil de la imagen satelital
+    }
+  });
 
   async function cargarIncendios() {
     try {

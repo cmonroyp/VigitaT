@@ -183,6 +183,22 @@ body {
 }
 .credits p { margin-bottom: 0.5rem; }
 
+.btn-zoom {
+  display: block;
+  width: 100%;
+  margin-top: 0.55rem;
+  padding: 0.4rem 0.6rem;
+  background: #2b3642;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-zoom:hover { background: #374554; border-color: var(--accent); }
+
 /* Popup Leaflet en tema oscuro */
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
   background: var(--card); color: var(--text);
