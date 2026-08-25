@@ -1,55 +1,53 @@
 {
- "actualizadoUtc": "2026-08-25T21:21:58Z",
- "escaneoUtc": "2026-08-25T21:10:00Z",
+ "actualizadoUtc": "2026-08-25T21:39:48Z",
+ "escaneoUtc": "2026-08-25T21:20:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "totalFocos": 4,
- "focosNuevos": 3,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 4.2744,
    "lon": -75.0452,
-   "codigo": 34,
-   "confianza": "media",
-   "frp": 95.6,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 120.7,
    "municipio": "San Luis",
    "vereda": "Santa Isabel",
-   "escaneoUtc": "2026-08-25T21:10:00Z"
+   "escaneoUtc": "2026-08-25T21:20:00Z"
   },
   {
    "lat": 4.238,
    "lon": -75.0632,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 103.8,
+   "frp": 142.7,
    "municipio": "San Luis",
    "vereda": "Jagua Flor",
-   "escaneoUtc": "2026-08-25T21:10:00Z"
+   "escaneoUtc": "2026-08-25T21:20:00Z"
   },
   {
    "lat": 4.2198,
    "lon": -75.0632,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 136.0,
+   "frp": 147.1,
    "municipio": "San Luis",
    "vereda": "Jagua Bartolito",
-   "escaneoUtc": "2026-08-25T21:10:00Z"
+   "escaneoUtc": "2026-08-25T21:20:00Z"
   },
   {
    "lat": 4.2016,
    "lon": -75.0632,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 97.1,
+   "frp": 106.2,
    "municipio": "San Luis",
    "vereda": "Jagua Bartolito",
-   "escaneoUtc": "2026-08-25T21:10:00Z"
+   "escaneoUtc": "2026-08-25T21:20:00Z"
   }
  ],
  "alertadas": {
-  "4.76,-74.88": "2026-08-25T15:36:37.554919+00:00",
-  "4.74,-74.88": "2026-08-25T15:36:37.554919+00:00",
   "3.74,-75.24": "2026-08-25T18:01:25.559477+00:00",
   "3.48,-75.46": "2026-08-25T18:01:25.559477+00:00",
   "4.94,-74.92": "2026-08-25T18:35:02.560024+00:00",
