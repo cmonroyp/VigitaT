@@ -1,10 +1,23 @@
 {
- "actualizadoUtc": "2026-08-25T02:32:59Z",
- "escaneoUtc": "2026-08-25T02:20:00Z",
+ "actualizadoUtc": "2026-08-25T02:59:31Z",
+ "escaneoUtc": "2026-08-25T02:40:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 3.7467,
+   "lon": -75.2437,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 25.1,
+   "municipio": "Coyaima",
+   "vereda": "Meche San Cayetano",
+   "escaneoUtc": "2026-08-25T02:40:00Z"
+  }
+ ],
+ "alertadas": {
+  "3.74,-75.24": "2026-08-25T02:59:31.710845+00:00"
+ }
 }
