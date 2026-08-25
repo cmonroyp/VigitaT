@@ -72,7 +72,7 @@ body {
 }
 @keyframes parpadeo { 50% { filter: brightness(1.25); } }
 
-.goes-icon { background: none; border: none; }
+.icono-plano { background: none; border: none; }
 .goes-tri {
   color: #ffcc00;
   font-size: 18px;
@@ -129,6 +129,142 @@ body {
 .stat-num { display: block; font-size: 1.5rem; font-weight: 700; }
 .stat-num.danger { color: var(--danger); }
 .stat-label { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; }
+
+/* --- chip de municipio seleccionado --- */
+.chip-mpio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(255, 204, 0, 0.12);
+  border: 1px solid rgba(255, 204, 0, 0.45);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+.chip-x {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0 0.2rem;
+}
+.chip-x:hover { color: var(--text); }
+/* `display: flex` ganaría al atributo hidden: hay que anularlo explícitamente */
+.chip-mpio[hidden] { display: none; }
+
+/* --- pestañas --- */
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.25rem;
+  margin: 0.75rem 0 0.6rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.2rem;
+}
+.tab {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.4rem 0.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.tab:hover { color: var(--text); }
+.tab.activa { background: #34424f; color: var(--text); }
+.tab-count {
+  display: inline-block;
+  min-width: 1.15rem;
+  padding: 0 0.25rem;
+  margin-left: 0.15rem;
+  background: var(--border);
+  border-radius: 10px;
+  font-size: 0.68rem;
+  line-height: 1.15rem;
+}
+.tab.activa .tab-count { background: var(--accent); color: #14181d; }
+
+.tab-panel[hidden] { display: none; }
+
+/* --- buscador de municipios --- */
+.buscador {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.45rem 0.6rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.85rem;
+}
+.buscador::placeholder { color: var(--muted); }
+.buscador:focus { outline: none; border-color: var(--accent); }
+
+/* --- bloques plegables (reducen ruido) --- */
+.plegable { margin-top: 0.6rem; }
+.plegable > summary {
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 0.35rem 0;
+  list-style: none;
+}
+.plegable > summary::-webkit-details-marker { display: none; }
+.plegable > summary::before { content: '▸ '; }
+.plegable[open] > summary::before { content: '▾ '; }
+.plegable > summary:hover { color: var(--text); }
+.plegable > ul { margin-top: 0.4rem; }
+
+.item-titulo { font-weight: 600; }
+.mpio-item.sel { border-color: var(--accent); }
+.mpio-item.apagado { opacity: 0.6; border-left-color: var(--border); }
+
+.actualizado {
+  margin-top: 0.9rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.7rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* --- etiquetas de municipio sobre el mapa (estilo visor IDEAM) --- */
+.mpio-label {
+  background: rgba(15, 20, 25, 0.72);
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #e8edf2;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 1px 5px;
+  white-space: nowrap;
+}
+.mpio-label::before { display: none; }
+.mpio-label.activo { color: #ffd8d5; background: rgba(122, 31, 18, 0.85); }
+.mpio-label.tenue { background: rgba(15, 20, 25, 0.8); font-weight: 500; }
+
+.sw {
+  display: inline-block;
+  width: 14px;
+  height: 9px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.sw-red { background: rgba(255, 59, 48, 0.5); border: 1px solid var(--danger); }
+.sw-orange { background: rgba(255, 149, 0, 0.4); border: 1px solid var(--accent); }
+.llama-mini { font-size: 0.8rem; }
 
 .foco-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
 .foco-item {

@@ -97,7 +97,9 @@ vigia-tolima/
 ├── data/
 │   ├── focos.json                  # Generado automáticamente cada hora
 │   ├── municipios-tolima.json      # 47 cabeceras municipales (distancias)
-│   └── veredas-tolima.geojson      # 1.862 veredas oficiales DANE (cruce exacto)
+│   ├── veredas-tolima.geojson      # 1.976 veredas oficiales DANE 2020 (cruce exacto)
+│   ├── municipios-poligonos-tolima.geojson  # 47 límites municipales MGN-DANE
+│   └── incendios.json              # incidentes en seguimiento (estado, área, clima)
 ├── scripts/update-focos.mjs        # Pipeline de precisión VIIRS (Node, cero dependencias)
 ├── scripts/goes_rapido.py          # Detección rápida GOES-19 (Python, numpy+netCDF4)
 ├── .github/workflows/actualizar-focos.yml   # cada hora

@@ -19,7 +19,9 @@
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- El parámetro ?v= se sube en cada cambio de estilos/lógica para que los
+       navegadores no sirvan una versión vieja en caché. -->
+  <link rel="stylesheet" href="assets/css/styles.css?v=4" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🛰️%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
@@ -41,40 +43,71 @@
     <div id="map" role="application" aria-label="Mapa de focos de calor en el Tolima"></div>
 
     <aside class="panel">
-      <h2>Resumen · últimas 24 h</h2>
       <div class="stats">
-        <div class="stat"><span class="stat-num" id="statTotal">—</span><span class="stat-label">Focos activos</span></div>
-        <div class="stat"><span class="stat-num danger" id="statAlta">—</span><span class="stat-label">Confianza alta</span></div>
-        <div class="stat"><span class="stat-num" id="statMunicipios">—</span><span class="stat-label">Municipios afectados</span></div>
+        <div class="stat"><span class="stat-num danger" id="statActivos">—</span><span class="stat-label">Incendios activos</span></div>
+        <div class="stat"><span class="stat-num" id="statTotal">—</span><span class="stat-label">Focos 24 h</span></div>
+        <div class="stat"><span class="stat-num" id="statMunicipios">—</span><span class="stat-label">Municipios</span></div>
       </div>
 
-      <div id="seccionIncendios" hidden>
-        <h2>🔥 Incendios en seguimiento</h2>
-        <ul class="foco-list" id="incendioList" aria-label="Incendios en seguimiento"></ul>
+      <div class="chip-mpio" id="chipMunicipio" hidden>
+        <span class="chip-txt">📍 <strong id="chipNombre"></strong></span>
+        <button class="chip-x" id="chipCerrar" type="button" title="Ver todo el Tolima">✕</button>
       </div>
 
-      <h2>Focos recientes</h2>
-      <ul class="foco-list" id="focoList" aria-label="Lista de focos de calor detectados"></ul>
+      <nav class="tabs" role="tablist" aria-label="Secciones del panel">
+        <button class="tab activa" data-tab="activos" role="tab" type="button">
+          🔥 Activos <span class="tab-count" id="cntActivos">0</span>
+        </button>
+        <button class="tab" data-tab="municipios" role="tab" type="button">
+          🗺️ Municipios <span class="tab-count" id="cntMpios">0</span>
+        </button>
+        <button class="tab" data-tab="focos" role="tab" type="button">
+          📍 Focos <span class="tab-count" id="cntFocos">0</span>
+        </button>
+      </nav>
 
-      <div class="legend">
-        <h3>Leyenda</h3>
-        <p><span class="dot dot-red"></span> Confianza alta · <span class="dot dot-orange"></span> Confianza media</p>
-        <p><span class="tri-mini">▲</span> Detección rápida GOES (cada 10 min, ~2 km, por confirmar)</p>
-        <p><span class="dot dot-big"></span> Tamaño = intensidad (FRP)</p>
-      </div>
+      <section class="tab-panel activa" id="panel-activos" role="tabpanel">
+        <ul class="foco-list" id="incendioList" aria-label="Incendios activos"></ul>
+        <details class="plegable" id="detSinSenal" hidden>
+          <summary>⏸️ Sin señal reciente <span class="tab-count" id="cntSinSenal">0</span></summary>
+          <ul class="foco-list" id="sinSenalList"></ul>
+        </details>
+      </section>
 
-      <footer class="credits">
-        <p><strong>Fuentes:</strong> NOAA GOES-19 (detección rápida, cada 10 min, preliminar) y
-           NASA FIRMS — VIIRS/MODIS (confirmación precisa, 1–3 h de desfase).
-           Un foco de calor no siempre es un incendio: <strong>verifique en terreno antes de actuar.</strong></p>
-        <p><strong>Emergencias:</strong> Bomberos 119 · Defensa Civil 144 · Emergencias 123</p>
-        <p id="updated"></p>
-      </footer>
+      <section class="tab-panel" id="panel-municipios" role="tabpanel" hidden>
+        <input class="buscador" id="buscarMpio" type="search" placeholder="Buscar municipio…"
+               aria-label="Buscar municipio" autocomplete="off" />
+        <ul class="foco-list" id="municipioList" aria-label="Municipios"></ul>
+      </section>
+
+      <section class="tab-panel" id="panel-focos" role="tabpanel" hidden>
+        <ul class="foco-list" id="focoList" aria-label="Focos de calor detectados"></ul>
+      </section>
+
+      <details class="plegable leyenda">
+        <summary>Leyenda y fuentes</summary>
+        <div class="legend">
+          <p><span class="dot dot-red"></span> Confianza alta · <span class="dot dot-orange"></span> Confianza media</p>
+          <p><span class="tri-mini">▲</span> Detección rápida GOES (cada 10 min, ~2 km, por confirmar)</p>
+          <p><span class="llama-mini">🔥</span> Incendio en seguimiento · el tamaño del punto = intensidad (MW)</p>
+          <p>Municipios sombreados en <span class="sw sw-red"></span> rojo o <span class="sw sw-orange"></span> naranja
+             tienen actividad en las últimas 24 h. Haga clic en uno para ver su detalle.</p>
+        </div>
+        <div class="credits">
+          <p><strong>Fuentes:</strong> NOAA GOES-19 (detección rápida, cada 10 min, preliminar),
+             NASA FIRMS — VIIRS/MODIS (confirmación, 375 m), veredas y municipios del DANE,
+             meteorología Open-Meteo. Un foco de calor no siempre es un incendio:
+             <strong>verifique en terreno antes de actuar.</strong></p>
+          <p><strong>Emergencias:</strong> Bomberos 119 · Defensa Civil 144 · Emergencias 123</p>
+        </div>
+      </details>
+
+      <p class="actualizado" id="updated"></p>
     </aside>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="assets/js/app.js?v=4"></script>
 </body>
 </html>
