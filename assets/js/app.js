@@ -43,18 +43,19 @@
     maxZoom: 19,
     maxNativeZoom: 17,
     attribution: '&copy; OpenStreetMap · Datos: NASA FIRMS',
-  }).addTo(map);
+  });
 
+  // Imagen satelital como capa por defecto (estilo FIRMS de la NASA)
   const capaSatelite = L.tileLayer(
     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
     {
       maxZoom: 19,
       attribution: 'Imágenes &copy; Esri · Datos: NASA FIRMS',
     },
-  );
+  ).addTo(map);
 
   L.control.layers(
-    { 'Mapa de calles': capaCalles, 'Imagen satelital': capaSatelite },
+    { 'Imagen satelital': capaSatelite, 'Mapa de calles': capaCalles },
     null,
     { position: 'topright' },
   ).addTo(map);
@@ -271,6 +272,39 @@
     }
   }
 
+  const capaIncendios = L.layerGroup().addTo(map);
+
+  function pintarIncendio(inc) {
+    const activo = inc.estado === 'activo';
+    const icono = L.divIcon({
+      className: 'goes-icon',
+      html: `<div class="llama ${activo ? 'activa' : ''}">🔥</div>`,
+      iconSize: [30, 30],
+      iconAnchor: [15, 15],
+    });
+    const ESTADOS = {
+      activo: '🔥 Activo',
+      sin_senal: '⏸️ Sin señal reciente',
+      extinguido: '✅ Sin actividad',
+    };
+    L.marker([inc.lat, inc.lon], { icon: icono, opacity: activo ? 1 : 0.55 })
+      .bindPopup(
+        `<strong>${esc(inc.nombre)}</strong> <small>(${esc(inc.id)})</small><br>` +
+        `Estado: <strong>${esc(ESTADOS[inc.estado] ?? inc.estado)}</strong><br>` +
+        `📍 ${esc(inc.municipio)}${inc.vereda ? `, vereda ${esc(inc.vereda)}` : ''}<br>` +
+        `🕐 Inicio: ${esc(horaLocal(inc.inicioUtc))} · última detección: ${esc(horaLocal(inc.ultimaDeteccionUtc))}<br>` +
+        (inc.areaEstimadaHa ? `📏 Área estimada: ~${esc(inc.areaEstimadaHa)} ha<br>` : '') +
+        `Detecciones satelitales: ${esc(inc.deteccionesTotales)}` +
+        (inc.maxFrp ? ` · intensidad máx. ${esc(Math.round(inc.maxFrp))} MW` : '') +
+        (inc.clima && activo
+          ? `<br>🌬️ Viento ${esc(inc.clima.vientoKmh)} km/h hacia el ${esc(inc.clima.vientoHacia)} · ` +
+            `humedad ${esc(inc.clima.humedadPct)}%<br>` +
+            `⚠️ Riesgo de propagación: <strong>${esc(inc.clima.riesgoPropagacion)}</strong>`
+          : ''),
+      )
+      .addTo(capaIncendios);
+  }
+
   async function cargarIncendios() {
     try {
       const res = await fetch(`data/incendios.json?t=${Date.now()}`, { cache: 'no-store' });
@@ -279,6 +313,8 @@
       const incendios = (data.incendios ?? []).filter(
         (i) => Number.isFinite(i.lat) && Number.isFinite(i.lon),
       );
+      capaIncendios.clearLayers();
+      incendios.filter((i) => i.estado !== 'extinguido').forEach(pintarIncendio);
       const seccion = el('seccionIncendios');
       const lista = el('incendioList');
       lista.replaceChildren();

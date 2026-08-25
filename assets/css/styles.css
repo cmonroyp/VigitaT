@@ -81,6 +81,15 @@ body {
   text-shadow: 0 0 4px #000;
 }
 .goes-tri.alta { color: #ff3b30; }
+
+.llama {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.8));
+}
+.llama.activa { animation: latido 1.6s ease-in-out infinite; }
+@keyframes latido { 50% { transform: scale(1.25); } }
 .tri-mini { color: #ffcc00; margin-right: 2px; }
 
 .layout {
