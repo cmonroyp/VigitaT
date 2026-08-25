@@ -1,48 +1,13 @@
 {
-  "actualizadoUtc": "2026-08-24T23:54:14.710Z",
+  "actualizadoUtc": "2026-08-25T00:23:26.836Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 2,
-  "focosNuevos": 1,
+  "totalFocos": 0,
+  "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-08-24T19:06:00Z_4.710_-74.948",
-      "lat": 4.7098,
-      "lon": -74.948,
-      "fechaUtc": "2026-08-24T19:06:00Z",
-      "confianza": "media",
-      "frp": 11.48,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Venadillo",
-      "distanciaKm": 2.3,
-      "vereda": "La Cubana",
-      "codigoVereda": "73861012"
-    },
-    {
-      "id": "2026-08-24T18:11:00Z_3.849_-75.427",
-      "lat": 3.8491,
-      "lon": -75.4273,
-      "fechaUtc": "2026-08-24T18:11:00Z",
-      "confianza": "media",
-      "frp": 8.79,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Chaparral",
-      "distanciaKm": 15.4,
-      "vereda": "Vista Hermosa",
-      "codigoVereda": "73168143"
-    }
-  ]
+  "focos": []
 }
