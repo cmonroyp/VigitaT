@@ -189,6 +189,13 @@ const VEREDAS = JSON.parse(
   readFileSync(join(__dirname, '..', 'data', 'veredas-tolima.geojson'), 'utf8'),
 ).features;
 
+// Polígonos municipales oficiales (MGN DANE, los 47 municipios).
+// Red de seguridad: la capa de veredas 2016 NO incluye a San Luis, así que un
+// foco sin vereda se valida contra el límite municipal antes de descartarlo.
+const MUNICIPIOS_POLI = JSON.parse(
+  readFileSync(join(__dirname, '..', 'data', 'municipios-poligonos-tolima.geojson'), 'utf8'),
+).features;
+
 /** Ray casting: ¿el punto está dentro del anillo? */
 function dentroDeAnillo(lat, lon, anillo) {
   let dentro = false;
@@ -229,6 +236,15 @@ function veredaOficial(lat, lon) {
   return null;
 }
 
+function municipioOficial(lat, lon) {
+  for (const m of MUNICIPIOS_POLI) {
+    if (m.geometry && dentroDePoligono(lat, lon, m.geometry)) {
+      return titulo(m.properties.NOMBRE);
+    }
+  }
+  return null;
+}
+
 for (const f of focosFinales) {
   const v = veredaOficial(f.lat, f.lon);
   if (v) {
@@ -243,9 +259,19 @@ for (const f of focosFinales) {
       f.municipio = v.municipioDane;
     }
   } else {
-    // Punto fuera de los polígonos del Tolima (franja limítrofe): se descarta luego
-    f.vereda = null;
-    f.fueraDelTolima = true;
+    // Sin vereda: puede ser un vacío de la capa de veredas (caso San Luis).
+    // Se valida contra el polígono municipal oficial antes de descartar.
+    const mpio = municipioOficial(f.lat, f.lon);
+    if (mpio) {
+      f.vereda = null;
+      const m = MUNICIPIOS.find((x) => sinTildes(x.nombre) === sinTildes(mpio));
+      f.municipio = m ? m.nombre : mpio;
+      if (m) f.distanciaKm = Math.round(distKm(f.lat, f.lon, m.lat, m.lon) * 10) / 10;
+    } else {
+      // Ahora sí: fuera del límite departamental oficial -> se descarta
+      f.vereda = null;
+      f.fueraDelTolima = true;
+    }
   }
 }
 

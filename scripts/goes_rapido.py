@@ -34,6 +34,7 @@ import netCDF4
 RAIZ = Path(__file__).resolve().parent.parent
 ARCHIVO_SALIDA = RAIZ / "data" / "focos-goes.json"
 ARCHIVO_VEREDAS = RAIZ / "data" / "veredas-tolima.geojson"
+ARCHIVO_MUNICIPIOS = RAIZ / "data" / "municipios-poligonos-tolima.geojson"
 
 BUCKET = "https://noaa-goes19.s3.amazonaws.com"
 PRODUCTO = "ABI-L2-FDCF"  # Fire Detection & Characterization, Full Disk, cada 10 min
@@ -137,6 +138,26 @@ def buscar_vereda(lat, lon, veredas):
                     if p["NOMBRE_VER"].upper() == "SIN INFORMACION"
                     else p["NOMBRE_VER"].title(),
                 }
+    return None  # sin vereda: validar contra polígono municipal
+
+
+def cargar_municipios_poli():
+    with open(ARCHIVO_MUNICIPIOS, encoding="utf-8") as f:
+        return json.load(f)["features"]
+
+
+def buscar_municipio(lat, lon, municipios_poli):
+    """Respaldo con límites municipales MGN (la capa de veredas omite a San Luis)."""
+    for m in municipios_poli:
+        g = m.get("geometry")
+        if not g:
+            continue
+        polys = [g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]
+        for poly in polys:
+            if dentro_anillo(lat, lon, poly[0]) and not any(
+                dentro_anillo(lat, lon, h) for h in poly[1:]
+            ):
+                return {"municipio": m["properties"]["NOMBRE"].title(), "vereda": None}
     return None  # fuera del Tolima
 
 
@@ -196,11 +217,14 @@ def main() -> int:
 
     print(f"Detecciones en la caja del Tolima: {len(detecciones)}")
 
-    # Cruce con polígonos oficiales: descarta lo que no es Tolima
+    # Cruce con polígonos oficiales: veredas primero, respaldo municipal después
     veredas = cargar_veredas()
+    municipios_poli = cargar_municipios_poli()
     focos = []
     for d in detecciones:
-        ubic = buscar_vereda(d["lat"], d["lon"], veredas)
+        ubic = buscar_vereda(d["lat"], d["lon"], veredas) or buscar_municipio(
+            d["lat"], d["lon"], municipios_poli
+        )
         if ubic is None:
             continue
         focos.append({**d, **ubic, "escaneoUtc": escaneo_utc})
