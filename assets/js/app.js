@@ -123,7 +123,7 @@
       t1.textContent = '✅ Sin focos de calor activos';
       const t2 = document.createElement('div');
       t2.className = 'meta';
-      t2.textContent = `Última revisión satelital: ${hace}. El Tolima está tranquilo en las últimas 24 horas.`;
+      t2.textContent = `Última revisión satelital: ${hace}. Sin detecciones de calor en las últimas horas en el Tolima.`;
       li.append(t1, t2);
       lista.appendChild(li);
     }
