@@ -68,13 +68,22 @@
 
   // ------------------------------------------------------------------- mapa
 
-  const map = L.map('map', { zoomControl: true, maxZoom: 19 }).setView(VISTA.centro, VISTA.zoom);
+  // `padding` amplía el lienzo SVG más allá de la pantalla: sin esto se ve el
+  // borde del recorte como una línea recta mientras se arrastra el mapa.
+  const map = L.map('map', {
+    zoomControl: true,
+    maxZoom: 19,
+    renderer: L.svg({ padding: 0.5 }),
+  }).setView(VISTA.centro, VISTA.zoom);
 
   // Panel propio para los polígonos: siempre por debajo de focos y marcadores,
   // así nunca interceptan un clic dirigido a un punto de calor.
   map.createPane('paneMunicipios');
   map.getPane('paneMunicipios').style.zIndex = 350;
-  const rendererMpios = L.svg({ pane: 'paneMunicipios' });
+  const rendererMpios = L.svg({ pane: 'paneMunicipios', padding: 0.8 });
+
+  // A partir de este zoom el mapa tiene espacio para mostrar los nombres
+  const ZOOM_ETIQUETAS = 10;
 
   const capaCalles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -185,8 +194,11 @@
         },
       }).addTo(map);
       controlCapas.addOverlay(capaMunicipios, 'Límites municipales');
-      // Encuadre inicial al departamento completo: aprovecha toda la pantalla
-      map.fitBounds(capaMunicipios.getBounds(), { padding: [8, 8] });
+      // Encuadre inicial al departamento completo. invalidateSize evita que un
+      // contenedor todavía sin medidas produzca un zoom disparatado, y maxZoom
+      // garantiza que la vista de arranque siempre sea la del departamento.
+      map.invalidateSize();
+      map.fitBounds(capaMunicipios.getBounds(), { padding: [8, 8], maxZoom: 9 });
       pintarMunicipiosEnMapa();
     } catch (err) {
       console.error('VigíaT: error cargando municipios', err);
@@ -194,15 +206,44 @@
   }
 
   /**
-   * Reaplica el sombreado de los municipios según la actividad actual.
-   * Sin etiquetas sobre el mapa: con 47 municipios se superponen y estorban.
-   * El nombre se consulta en la pestaña «Municipios» o al seleccionar uno.
+   * Reaplica el sombreado de los municipios y decide si se muestran los nombres.
+   * En la vista del departamento las etiquetas se superponen, así que solo
+   * aparecen al ampliar (ZOOM_ETIQUETAS) y únicamente para lo que está a la vista.
    */
   function pintarMunicipiosEnMapa() {
     if (!capaMunicipios) return;
     const resumen = resumenMunicipios();
-    for (const [k, layer] of poligonos) layer.setStyle(estiloMunicipio(k, resumen));
+    const mostrarNombres = map.getZoom() >= ZOOM_ETIQUETAS;
+    const vista = map.getBounds();
+
+    for (const [k, layer] of poligonos) {
+      layer.setStyle(estiloMunicipio(k, resumen));
+
+      const visible = mostrarNombres && vista.intersects(layer.getBounds());
+      if (!visible) {
+        if (layer.getTooltip()) layer.unbindTooltip();
+        continue;
+      }
+      const m = resumen.get(k);
+      const nombre = m ? m.nombre : titulo(layer.feature.properties.NOMBRE);
+      const partes = [];
+      if (m?.activos) partes.push(`${m.activos}🔥`);
+      if (m?.focos) partes.push(`${m.focos} foco${m.focos > 1 ? 's' : ''}`);
+      const texto = partes.length ? `${nombre} · ${partes.join(' · ')}` : nombre;
+
+      const actual = layer.getTooltip();
+      if (actual && actual.getContent() === texto) continue; // sin cambios
+      if (actual) layer.unbindTooltip();
+      layer.bindTooltip(texto, {
+        permanent: true,
+        direction: 'center',
+        className: `mpio-label${m?.activos ? ' activo' : ''}`,
+      });
+    }
   }
+
+  // Al ampliar o desplazar cambia qué nombres tienen sentido mostrar
+  map.on('zoomend moveend', pintarMunicipiosEnMapa);
 
   /**
    * Selecciona (o deselecciona) un municipio y filtra el panel.

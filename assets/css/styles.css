@@ -245,6 +245,24 @@ body {
 .leaflet-container path.leaflet-interactive:focus { outline: none; }
 .leaflet-container path.leaflet-interactive { cursor: pointer; }
 
+/* Nombre del municipio sobre el mapa: solo se muestra al ampliar */
+.mpio-label {
+  background: rgba(15, 20, 25, 0.7);
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #eef3f8;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 2px 7px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  white-space: nowrap;
+  pointer-events: none;
+}
+.mpio-label::before { display: none; }
+.mpio-label.activo { background: rgba(122, 31, 18, 0.85); color: #ffdedb; }
+
 .sw {
   display: inline-block;
   width: 14px;
