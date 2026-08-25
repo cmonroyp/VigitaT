@@ -117,6 +117,15 @@ body {
 .foco-item:hover, .foco-item:focus { background: #2b3642; outline: none; }
 .foco-item.alta { border-left-color: var(--danger); }
 .foco-item .meta { color: var(--muted); font-size: 0.75rem; }
+.foco-item.sub { margin-left: 0.9rem; border-left-width: 3px; padding: 0.4rem 0.6rem; }
+
+.municipio-header {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0;
+  letter-spacing: 0.3px;
+}
 
 .foco-ok {
   background: rgba(52, 199, 89, 0.12);

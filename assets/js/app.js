@@ -189,25 +189,44 @@
       li.append(t1, t2);
       lista.appendChild(li);
     }
-    for (const f of focos.slice(0, 30)) {
-      const li = document.createElement('li');
-      li.className = 'foco-item' + (f.confianza === 'alta' ? ' alta' : '');
-      li.tabIndex = 0;
-      const titulo = document.createElement('div');
-      titulo.textContent = `${f.confianza === 'alta' ? '🔴' : '🟠'} ${f.municipio}` +
-        (f.vereda ? ` · ${f.vereda}` : '');
-      const meta = document.createElement('div');
-      meta.className = 'meta';
-      meta.textContent = `${horaLocal(f.fechaUtc)} · confianza ${f.confianza}` +
-        (f.frp ? ` · ${Math.round(f.frp)} MW` : '');
-      li.append(titulo, meta);
-      const enfocar = () => {
-        map.setView([f.lat, f.lon], 12);
-        marcadores.get(f.id)?.openPopup();
-      };
-      li.addEventListener('click', enfocar);
-      li.addEventListener('keydown', (e) => e.key === 'Enter' && enfocar());
-      lista.appendChild(li);
+    // Agrupar por municipio, ordenando los municipios por severidad
+    // (confianza alta primero, luego mayor intensidad)
+    const porMunicipio = new Map();
+    for (const f of focos.slice(0, 60)) {
+      if (!porMunicipio.has(f.municipio)) porMunicipio.set(f.municipio, []);
+      porMunicipio.get(f.municipio).push(f);
+    }
+    const severidad = (fs) =>
+      Math.max(...fs.map((f) => (f.confianza === 'alta' ? 1000 : 0) + (f.frp ?? 0)));
+    const grupos = [...porMunicipio.entries()].sort((a, b) => severidad(b[1]) - severidad(a[1]));
+
+    for (const [municipio, fs] of grupos) {
+      fs.sort((a, b) => (b.frp ?? 0) - (a.frp ?? 0));
+      const cab = document.createElement('li');
+      cab.className = 'municipio-header';
+      cab.textContent =
+        `${fs.some((f) => f.confianza === 'alta') ? '🔴' : '🟠'} ${municipio} · ` +
+        `${fs.length} foco${fs.length > 1 ? 's' : ''}`;
+      lista.appendChild(cab);
+      for (const f of fs) {
+        const li = document.createElement('li');
+        li.className = 'foco-item sub' + (f.confianza === 'alta' ? ' alta' : '');
+        li.tabIndex = 0;
+        const titulo = document.createElement('div');
+        titulo.textContent = f.vereda ? `Vereda ${f.vereda}` : `A ${f.distanciaKm} km de la cabecera`;
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        meta.textContent = `${horaLocal(f.fechaUtc)} · confianza ${f.confianza}` +
+          (f.frp ? ` · ${Math.round(f.frp)} MW` : '');
+        li.append(titulo, meta);
+        const enfocar = () => {
+          map.setView([f.lat, f.lon], 12);
+          marcadores.get(f.id)?.openPopup();
+        };
+        li.addEventListener('click', enfocar);
+        li.addEventListener('keydown', (e) => e.key === 'Enter' && enfocar());
+        lista.appendChild(li);
+      }
     }
 
     // Banner de alerta para focos muy recientes (últimas 3 h) de confianza alta
