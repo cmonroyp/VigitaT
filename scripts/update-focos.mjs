@@ -347,7 +347,9 @@ for (const inc of registro.incendios) {
   if (inc.estado !== 'extinguido') {
     inc.estado = h <= HORAS_SIN_SENAL ? 'activo' : h <= HORAS_EXTINCION ? 'sin_senal' : 'extinguido';
   }
-  inc.areaEstimadaHa = inc.pixeles.length * HA_POR_PIXEL;
+  // Área solo cuando hay >=2 píxeles distintos: con una única detección el
+  // fuego puede ocupar cualquier fracción del píxel de 375 m — no se inventa.
+  inc.areaEstimadaHa = inc.pixeles.length >= 2 ? inc.pixeles.length * HA_POR_PIXEL : null;
   inc.duracionHoras = Math.round((Date.parse(inc.ultimaDeteccionUtc) - Date.parse(inc.inicioUtc)) / 3.6e6);
 }
 // retirar extinguidos viejos
@@ -445,7 +447,9 @@ function fichaIncendio(inc) {
     `${icono} ${inc.nombre.toUpperCase()} (${inc.id})\n` +
     `   📍 ${lugar}\n` +
     `   🕐 Primera detección: ${horaColombia(inc.inicioUtc)} · última: ${horaColombia(inc.ultimaDeteccionUtc)}\n` +
-    `   📏 Área afectada estimada: ~${inc.areaEstimadaHa} ha · ${inc.deteccionesTotales} detecciones satelitales` +
+    (inc.areaEstimadaHa
+      ? `   📏 Área afectada estimada: ~${inc.areaEstimadaHa} ha · ${inc.deteccionesTotales} detecciones satelitales`
+      : `   📏 Extensión aún no estimable (${inc.deteccionesTotales} detección única de píxel de 375 m)`) +
     (inc.maxFrp ? ` · intensidad máx. ${Math.round(inc.maxFrp)} MW` : '');
   if (inc.clima) {
     l +=
@@ -478,7 +482,8 @@ for (const inc of registro.incendios) {
   } else if (inc.estado === 'extinguido' && inc.alertas.detectado && !inc.alertas.extinguido) {
     mensajes.push(
       `✅ INCENDIO SIN ACTIVIDAD\n\n${inc.nombre} (${inc.id}) en ${inc.municipio}: ` +
-      `sin detecciones satelitales en más de 24 h. Área afectada estimada: ~${inc.areaEstimadaHa} ha. ` +
+      `sin detecciones satelitales en más de 24 h. ` +
+      (inc.areaEstimadaHa ? `Área afectada estimada: ~${inc.areaEstimadaHa} ha. ` : '') +
       `Duración observada: ${inc.duracionHoras} h.`,
     );
     inc.alertas.extinguido = true;

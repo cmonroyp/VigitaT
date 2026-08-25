@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-25T13:31:52.703Z",
+ "actualizadoUtc": "2026-08-25T13:48:34.006Z",
  "activos": 0,
  "incendios": [
   {
@@ -26,7 +26,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.309_-75.099"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -53,7 +53,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.282_-74.975"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -80,7 +80,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.230_-74.972"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -107,7 +107,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.019_-74.794"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -134,7 +134,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.932_-74.928"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -190,7 +190,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_4.130_-75.298"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -217,7 +217,7 @@
    "focoIds": [
     "2026-08-25T06:50:00Z_3.688_-74.852"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -244,7 +244,7 @@
    "focoIds": [
     "2026-08-25T06:03:00Z_4.743_-74.885"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   },
   {
@@ -271,7 +271,7 @@
    "focoIds": [
     "2026-08-25T06:03:00Z_3.700_-75.267"
    ],
-   "areaEstimadaHa": 14,
+   "areaEstimadaHa": null,
    "duracionHoras": 0
   }
  ],

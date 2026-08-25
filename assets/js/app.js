@@ -305,7 +305,8 @@
         m1.className = 'meta';
         m1.textContent =
           `${etiqueta} · desde ${horaLocal(inc.inicioUtc)} · ` +
-          `~${inc.areaEstimadaHa} ha estimadas · ${inc.deteccionesTotales} detecciones`;
+          (inc.areaEstimadaHa ? `~${inc.areaEstimadaHa} ha estimadas · ` : '') +
+          `${inc.deteccionesTotales} ${inc.deteccionesTotales === 1 ? 'detección' : 'detecciones'}`;
         li.append(t, m1);
         if (inc.clima && inc.estado === 'activo') {
           const m2 = document.createElement('div');
