@@ -343,7 +343,13 @@ for (const f of focosFinales) {
 
 // 2. Actualizar estados por tiempo sin señal
 for (const inc of registro.incendios) {
-  const h = horasDesde(inc.ultimaDeteccionUtc);
+  // La "última actividad" considera también la retroalimentación GOES
+  // (el geoestacionario puede seguir viendo el fuego entre pasadas VIIRS)
+  const ultimaActividad =
+    inc.ultimaGoesUtc && inc.ultimaGoesUtc > inc.ultimaDeteccionUtc
+      ? inc.ultimaGoesUtc
+      : inc.ultimaDeteccionUtc;
+  const h = horasDesde(ultimaActividad);
   if (inc.estado !== 'extinguido') {
     inc.estado = h <= HORAS_SIN_SENAL ? 'activo' : h <= HORAS_EXTINCION ? 'sin_senal' : 'extinguido';
   }

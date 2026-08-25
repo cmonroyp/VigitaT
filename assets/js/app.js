@@ -303,6 +303,9 @@
             `humedad ${esc(inc.clima.humedadPct)}%<br>` +
             `⚠️ Riesgo de propagación: <strong>${esc(inc.clima.riesgoPropagacion)}</strong>`
           : '') +
+        (activo && inc.ultimaGoesUtc && Date.now() - Date.parse(inc.ultimaGoesUtc) < 3600e3
+          ? `<br>⚡ <strong>GOES lo sigue viendo</strong> — hace ${esc(Math.round((Date.now() - Date.parse(inc.ultimaGoesUtc)) / 60000))} min`
+          : '') +
         botonZoom(inc.lat, inc.lon),
       )
       .addTo(capaIncendios);
@@ -362,6 +365,15 @@
           (inc.areaEstimadaHa ? `~${inc.areaEstimadaHa} ha estimadas · ` : '') +
           `${inc.deteccionesTotales} ${inc.deteccionesTotales === 1 ? 'detección' : 'detecciones'}`;
         li.append(t, m1);
+        if (inc.ultimaGoesUtc && inc.estado === 'activo') {
+          const min = Math.round((Date.now() - Date.parse(inc.ultimaGoesUtc)) / 60000);
+          if (min >= 0 && min <= 60) {
+            const mg = document.createElement('div');
+            mg.className = 'meta goes-live';
+            mg.textContent = `⚡ GOES lo sigue viendo — hace ${min} min`;
+            li.append(mg);
+          }
+        }
         if (inc.clima && inc.estado === 'activo') {
           const m2 = document.createElement('div');
           m2.className = 'meta';

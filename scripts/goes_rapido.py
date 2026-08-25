@@ -206,6 +206,43 @@ def main() -> int:
         focos.append({**d, **ubic, "escaneoUtc": escaneo_utc})
     print(f"Focos GOES dentro del Tolima: {len(focos)}")
 
+    # -------- retroalimentar incidentes confirmados (seguimiento en tiempo real)
+    # Si GOES ve fuego dentro del radio de un incidente que VIIRS ya confirmó,
+    # se actualiza su "última actividad GOES": el incidente se mantiene ACTIVO
+    # con seguimiento de ~10 min sin esperar la próxima pasada VIIRS.
+    ARCHIVO_INCENDIOS = RAIZ / "data" / "incendios.json"
+    RADIO_INCIDENTE_KM = 2.5
+
+    def dist_km(lat1, lon1, lat2, lon2):
+        rl1, rl2 = math.radians(lat1), math.radians(lat2)
+        dlat = rl2 - rl1
+        dlon = math.radians(lon2 - lon1)
+        a = math.sin(dlat / 2) ** 2 + math.cos(rl1) * math.cos(rl2) * math.sin(dlon / 2) ** 2
+        return 2 * 6371 * math.asin(math.sqrt(a))
+
+    if focos and ARCHIVO_INCENDIOS.exists():
+        try:
+            reg = json.loads(ARCHIVO_INCENDIOS.read_text(encoding="utf-8"))
+            tocados = 0
+            for inc in reg.get("incendios", []):
+                if inc.get("estado") == "extinguido":
+                    continue
+                for f in focos:
+                    if dist_km(inc["lat"], inc["lon"], f["lat"], f["lon"]) <= RADIO_INCIDENTE_KM:
+                        inc["ultimaGoesUtc"] = escaneo_utc
+                        inc["estado"] = "activo"
+                        tocados += 1
+                        break
+            if tocados:
+                reg["actualizadoUtc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                reg["activos"] = sum(1 for i in reg.get("incendios", []) if i.get("estado") == "activo")
+                ARCHIVO_INCENDIOS.write_text(
+                    json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8"
+                )
+                print(f"Incidentes retroalimentados por GOES: {tocados}")
+        except Exception as e:
+            print("No se pudo retroalimentar incidentes:", e)
+
     # --------- estado anterior: para detectar novedades y aplicar cooldown
     previo = {"alertadas": {}}
     if ARCHIVO_SALIDA.exists():

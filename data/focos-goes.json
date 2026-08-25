@@ -1,35 +1,35 @@
 {
- "actualizadoUtc": "2026-08-25T15:27:26Z",
- "escaneoUtc": "2026-08-25T15:10:00Z",
+ "actualizadoUtc": "2026-08-25T15:36:37Z",
+ "escaneoUtc": "2026-08-25T15:20:00Z",
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "totalFocos": 2,
  "focosNuevos": 2,
  "focos": [
   {
-   "lat": 4.7479,
+   "lat": 4.7661,
    "lon": -74.8825,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 24.5,
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "escaneoUtc": "2026-08-25T15:10:00Z"
-  },
-  {
-   "lat": 4.056,
-   "lon": -74.8646,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 32.7,
-   "municipio": "Guamo",
-   "vereda": "La Isla",
-   "escaneoUtc": "2026-08-25T15:10:00Z"
+   "frp": 28.2,
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "escaneoUtc": "2026-08-25T15:20:00Z"
+  },
+  {
+   "lat": 4.7479,
+   "lon": -74.8825,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 32.8,
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "escaneoUtc": "2026-08-25T15:20:00Z"
   }
  ],
  "alertadas": {
   "4.94,-74.94": "2026-08-25T12:58:43.265685+00:00",
-  "4.74,-74.88": "2026-08-25T15:27:26.908438+00:00",
-  "4.06,-74.86": "2026-08-25T15:27:26.908438+00:00"
+  "4.76,-74.88": "2026-08-25T15:36:37.554919+00:00",
+  "4.74,-74.88": "2026-08-25T15:36:37.554919+00:00"
  }
 }

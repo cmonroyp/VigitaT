@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T15:24:16.496Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-25T15:36:37Z",
+ "activos": 1,
  "incendios": [
   {
    "id": "INC-1",
@@ -227,7 +227,7 @@
    "vereda": "Cofradia De Gallego",
    "lat": 4.7434,
    "lon": -74.8846,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
    "ultimaDeteccionUtc": "2026-08-25T06:03:00Z",
    "deteccionesTotales": 1,
@@ -245,7 +245,8 @@
     "2026-08-25T06:03:00Z_4.743_-74.885"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0
+   "duracionHoras": 0,
+   "ultimaGoesUtc": "2026-08-25T15:20:00Z"
   },
   {
    "id": "INC-10",
