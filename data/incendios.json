@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T15:36:37Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-25T15:47:53Z",
+ "activos": 2,
  "incendios": [
   {
    "id": "INC-1",
@@ -117,7 +117,7 @@
    "vereda": "Las Rosas",
    "lat": 4.9319,
    "lon": -74.9275,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T06:50:00Z",
    "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
    "deteccionesTotales": 1,
@@ -135,7 +135,8 @@
     "2026-08-25T06:50:00Z_4.932_-74.928"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0
+   "duracionHoras": 0,
+   "ultimaGoesUtc": "2026-08-25T15:30:00Z"
   },
   {
    "id": "INC-6",
