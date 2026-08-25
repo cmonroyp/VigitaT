@@ -60,7 +60,69 @@
   ).addTo(map);
 
   const capaFocos = L.layerGroup().addTo(map);
+  const capaGoes = L.layerGroup().addTo(map);
   const marcadores = new Map();
+
+  function pintarFocoGoes(f, escaneoUtc) {
+    const esAlta = f.confianza === 'alta';
+    const icono = L.divIcon({
+      className: 'goes-icon',
+      html: `<div class="goes-tri ${esAlta ? 'alta' : ''}">▲</div>`,
+      iconSize: [22, 22],
+      iconAnchor: [11, 11],
+    });
+    L.marker([f.lat, f.lon], { icon: icono })
+      .bindPopup(
+        `<strong>⚡ Detección rápida (GOES) — ${esc(f.municipio)}</strong><br>` +
+        (f.vereda ? `Vereda aprox.: <strong>${esc(f.vereda)}</strong><br>` : '') +
+        `Escaneo: ${esc(horaLocal(escaneoUtc))} (hora Colombia)<br>` +
+        `Confianza: <strong>${esc(f.confianza)}</strong>` +
+        (f.frp ? ` · Intensidad: ${esc(Math.round(f.frp))} MW` : '') + '<br>' +
+        `<small>Satélite geoestacionario, resolución ~2 km. Detección preliminar ` +
+        `POR CONFIRMAR por el satélite de precisión (VIIRS).</small>`,
+      )
+      .addTo(capaGoes);
+    // área de incertidumbre del píxel GOES (~2 km)
+    L.circle([f.lat, f.lon], {
+      radius: 2000,
+      color: '#ffcc00',
+      weight: 1,
+      dashArray: '4 4',
+      fill: false,
+      opacity: 0.5,
+    }).addTo(capaGoes);
+  }
+
+  async function cargarGoes() {
+    try {
+      const res = await fetch(`data/focos-goes.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) return;
+      const g = await res.json();
+      const focos = Array.isArray(g.focos) ? g.focos.filter(focoValido2km) : [];
+      capaGoes.clearLayers();
+      // solo escaneos de la última hora: GOES es "ahora", lo viejo no aporta
+      if (Date.parse(g.escaneoUtc) > Date.now() - 3600e3) {
+        focos.forEach((f) => pintarFocoGoes(f, g.escaneoUtc));
+      }
+      const bg = el('goesBanner');
+      if (focos.length > 0 && Date.parse(g.escaneoUtc) > Date.now() - 3600e3) {
+        const municipios = [...new Set(focos.map((f) => f.municipio))].slice(0, 4);
+        bg.textContent =
+          `⚡ DETECCIÓN RÁPIDA: el satélite GOES observó ${focos.length} posible(s) incendio(s) ` +
+          `hace minutos cerca de: ${municipios.join(', ')}. Preliminar, por confirmar. Si está en la zona, llame al 119.`;
+        bg.hidden = false;
+      } else {
+        bg.hidden = true;
+      }
+    } catch (err) {
+      console.error('VigíaT: error cargando GOES', err);
+    }
+  }
+
+  const focoValido2km = (f) =>
+    f &&
+    Number.isFinite(f.lat) && f.lat >= 2 && f.lat <= 6 &&
+    Number.isFinite(f.lon) && f.lon >= -77 && f.lon <= -74;
 
   function pintarFoco(f) {
     const h = horasDesde(f.fechaUtc);
@@ -191,5 +253,7 @@
   }
 
   cargar();
+  cargarGoes();
   setInterval(cargar, REFRESH_MS);
+  setInterval(cargarGoes, 2 * 60 * 1000); // GOES se refresca cada 2 min
 })();

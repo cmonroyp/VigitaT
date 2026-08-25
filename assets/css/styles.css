@@ -49,6 +49,22 @@ body {
   font-size: 0.95rem;
   border-bottom: 1px solid var(--border);
 }
+.alert-banner.goes {
+  background: linear-gradient(90deg, #7a5b00, #a37b0f);
+  animation: parpadeo 2s ease-in-out infinite;
+}
+@keyframes parpadeo { 50% { filter: brightness(1.25); } }
+
+.goes-icon { background: none; border: none; }
+.goes-tri {
+  color: #ffcc00;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-shadow: 0 0 4px #000;
+}
+.goes-tri.alta { color: #ff3b30; }
+.tri-mini { color: #ffcc00; margin-right: 2px; }
 
 .layout {
   display: grid;

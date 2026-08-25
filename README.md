@@ -12,9 +12,21 @@ bomberos y alcaldías.
 
 ## Cómo funciona
 
+VigíaT usa **dos niveles de detección complementarios**:
+
+| Nivel | Satélite | Frecuencia | Latencia | Resolución | Rol |
+|---|---|---|---|---|---|
+| ⚡ Rápido | NOAA GOES-19 (geoestacionario) | cada 10 min | **10–25 min** | ~2 km | Alerta temprana preliminar |
+| 🎯 Preciso | NASA VIIRS/MODIS (órbita polar) | 4–6 pasadas/día | 1–3 h | 375 m | Confirmación con vereda exacta |
+
 ```
-NASA FIRMS (satélites VIIRS + MODIS)
-        │  cada hora (GitHub Actions)
+NOAA GOES-19 (AWS Open Data)          NASA FIRMS (VIIRS + MODIS)
+        │  cada 10 min                        │  cada hora
+        ▼                                     ▼
+scripts/goes_rapido.py                (pipeline de precisión)
+  · píxeles de fuego del último escaneo
+  · proyección a lat/lon + cruce veredas DANE
+  · alerta "⚡ DETECCIÓN RÁPIDA, por confirmar"
         ▼
 scripts/update-focos.mjs
   · valida y filtra registros (descarta confianza baja)
@@ -79,8 +91,10 @@ vigia-tolima/
 │   ├── focos.json                  # Generado automáticamente cada hora
 │   ├── municipios-tolima.json      # 47 cabeceras municipales (distancias)
 │   └── veredas-tolima.geojson      # 1.862 veredas oficiales DANE (cruce exacto)
-├── scripts/update-focos.mjs        # Pipeline de datos (Node 20, cero dependencias)
-├── .github/workflows/actualizar-focos.yml
+├── scripts/update-focos.mjs        # Pipeline de precisión VIIRS (Node, cero dependencias)
+├── scripts/goes_rapido.py          # Detección rápida GOES-19 (Python, numpy+netCDF4)
+├── .github/workflows/actualizar-focos.yml   # cada hora
+├── .github/workflows/goes-rapido.yml        # cada 10 minutos
 ├── SECURITY.md                     # Modelo de amenazas y política de reportes
 └── README.md
 ```

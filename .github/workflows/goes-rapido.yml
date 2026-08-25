@@ -1,0 +1,53 @@
+name: Detección rápida GOES (cada 10 min)
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # GitHub puede retrasarlo unos minutos en horas pico
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: goes-rapido
+  cancel-in-progress: false
+
+jobs:
+  detectar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Dependencias
+        run: pip install --quiet numpy netCDF4
+
+      - name: Procesar último escaneo GOES-19
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python scripts/goes_rapido.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "vigia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/focos-goes.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+          else
+            git commit -m "datos: escaneo GOES $(date -u +'%Y-%m-%dT%H:%MZ')"
+            # reintento con rebase por si el workflow horario empujó a la vez
+            for i in 1 2 3; do
+              git push && break
+              git pull --rebase && sleep 3
+            done
+          fi
