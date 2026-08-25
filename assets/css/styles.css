@@ -100,7 +100,9 @@ body {
   min-height: 0; /* permite que mapa y panel llenen el alto restante */
 }
 
-#map { height: 100%; background: #0a0e12; }
+/* Fondo en tono de terreno, no negro: es lo que asoma un instante mientras
+   llegan las teselas al alejar el mapa, y en negro resultaba brusco. */
+#map { height: 100%; background: #26332b; }
 
 .panel {
   background: var(--panel);

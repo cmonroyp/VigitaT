@@ -88,16 +88,45 @@
   const ZOOM_BORDES = 9;
   const ZOOM_ETIQUETAS = 10;
 
+  // keepBuffer amplio + sin recarga durante el zoom: evita que asome el fondo
+  // vacío mientras llegan las teselas nuevas, sobre todo al alejar.
+  const OPC_TESELAS = { maxZoom: 19, keepBuffer: 6, updateWhenZooming: false };
+
   const capaCalles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
+    ...OPC_TESELAS,
     maxNativeZoom: 17,
     attribution: '&copy; OpenStreetMap · NASA FIRMS · NOAA · DANE',
   });
 
   const capaSatelite = L.tileLayer(
     'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    { maxZoom: 19, attribution: 'Imágenes &copy; Esri · NASA FIRMS · NOAA · DANE' },
+    { ...OPC_TESELAS, attribution: 'Imágenes &copy; Esri · NASA FIRMS · NOAA · DANE' },
   ).addTo(map);
+
+  // Capa de referencia sobre la imagen satelital (lo que hace el visor FIRMS):
+  // veredas, centros poblados, vías y sus nombres. Sin esto, sobre la foto
+  // satelital no hay forma de orientarse ni de saber por dónde llegar al fuego.
+  map.createPane('paneReferencia');
+  map.getPane('paneReferencia').style.zIndex = 300;
+  map.getPane('paneReferencia').style.pointerEvents = 'none';
+
+  const REF = 'https://server.arcgisonline.com/ArcGIS/rest/services/Reference';
+  const capaReferencia = L.layerGroup([
+    L.tileLayer(`${REF}/World_Transportation/MapServer/tile/{z}/{y}/{x}`, {
+      ...OPC_TESELAS,
+      pane: 'paneReferencia',
+    }),
+    L.tileLayer(`${REF}/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`, {
+      ...OPC_TESELAS,
+      pane: 'paneReferencia',
+    }),
+  ]).addTo(map);
+
+  // El mapa de calles ya trae sus propios nombres: la referencia sobraría
+  map.on('baselayerchange', (e) => {
+    if (e.layer === capaSatelite) capaReferencia.addTo(map);
+    else map.removeLayer(capaReferencia);
+  });
 
   const capaFocos = L.layerGroup().addTo(map);
   const capaGoes = L.layerGroup().addTo(map);
@@ -111,7 +140,7 @@
   const controlCapas = L.control
     .layers(
       { 'Imagen satelital': capaSatelite, 'Mapa de calles': capaCalles },
-      null,
+      { 'Nombres y vías': capaReferencia },
       { position: 'topright' },
     )
     .addTo(map);
