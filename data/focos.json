@@ -1,13 +1,31 @@
 {
-  "actualizadoUtc": "2026-08-25T05:17:46.481Z",
+  "actualizadoUtc": "2026-08-25T06:17:12.556Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-08-25T06:04:00Z_4.932_-74.927",
+      "lat": 4.9322,
+      "lon": -74.9273,
+      "fechaUtc": "2026-08-25T06:04:00Z",
+      "confianza": "media",
+      "frp": 3.81,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Lérida",
+      "distanciaKm": 8,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    }
+  ]
 }
