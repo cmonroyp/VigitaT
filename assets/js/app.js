@@ -85,8 +85,9 @@
   // Revelado progresivo: en la vista del departamento el mapa queda limpio
   // (solo los incendios sobre la imagen satelital) y al ampliar aparecen
   // primero los bordes municipales y luego los nombres.
-  const ZOOM_BORDES = 9;
-  const ZOOM_ETIQUETAS = 10;
+  const ZOOM_BORDES = 9;      // límites municipales
+  const ZOOM_ETIQUETAS = 10;  // nombres de municipio
+  const ZOOM_REFERENCIA = 11; // vías y nombres de veredas (capa Esri)
 
   // keepBuffer amplio + sin recarga durante el zoom: evita que asome el fondo
   // vacío mientras llegan las teselas nuevas, sobre todo al alejar.
@@ -120,13 +121,22 @@
       ...OPC_TESELAS,
       pane: 'paneReferencia',
     }),
-  ]).addTo(map);
+  ]);
 
-  // El mapa de calles ya trae sus propios nombres: la referencia sobraría
-  map.on('baselayerchange', (e) => {
-    if (e.layer === capaSatelite) capaReferencia.addTo(map);
-    else map.removeLayer(capaReferencia);
-  });
+  /**
+   * La referencia solo aparece de cerca. En la panorámica del departamento
+   * traería ciudades y carreteras de medio país y taparía lo único que
+   * importa a esa escala: dónde hay fuego. De cerca, en cambio, es lo que
+   * dice por qué camino se llega.
+   * Tampoco se usa con el mapa de calles, que ya trae sus propias etiquetas.
+   */
+  function aplicarReferencia() {
+    const debe = map.getZoom() >= ZOOM_REFERENCIA && map.hasLayer(capaSatelite);
+    const esta = map.hasLayer(capaReferencia);
+    if (debe && !esta) capaReferencia.addTo(map);
+    else if (!debe && esta) map.removeLayer(capaReferencia);
+  }
+  map.on('zoomend baselayerchange', aplicarReferencia);
 
   const capaFocos = L.layerGroup().addTo(map);
   const capaGoes = L.layerGroup().addTo(map);
@@ -140,7 +150,7 @@
   const controlCapas = L.control
     .layers(
       { 'Imagen satelital': capaSatelite, 'Mapa de calles': capaCalles },
-      { 'Nombres y vías': capaReferencia },
+      null,
       { position: 'topright' },
     )
     .addTo(map);
