@@ -239,21 +239,11 @@ body {
   line-height: 1.5;
 }
 
-/* --- etiquetas de municipio sobre el mapa (estilo visor IDEAM) --- */
-.mpio-label {
-  background: rgba(15, 20, 25, 0.72);
-  border: none;
-  border-radius: 4px;
-  box-shadow: none;
-  color: #e8edf2;
-  font-size: 0.68rem;
-  font-weight: 600;
-  padding: 1px 5px;
-  white-space: nowrap;
-}
-.mpio-label::before { display: none; }
-.mpio-label.activo { color: #ffd8d5; background: rgba(122, 31, 18, 0.85); }
-.mpio-label.tenue { background: rgba(15, 20, 25, 0.8); font-weight: 500; }
+/* Al hacer clic en un polígono el navegador dibuja un recuadro de foco sobre
+   su caja envolvente, que se ve como un rectángulo blanco sobre el mapa.
+   Se suprime: la navegación por teclado sigue disponible en la lista lateral. */
+.leaflet-container path.leaflet-interactive:focus { outline: none; }
+.leaflet-container path.leaflet-interactive { cursor: pointer; }
 
 .sw {
   display: inline-block;

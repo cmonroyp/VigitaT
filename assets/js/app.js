@@ -175,48 +175,45 @@
         onEachFeature: (f, layer) => {
           const k = clave(f.properties.NOMBRE);
           poligonos.set(k, layer);
-          layer.on('click', () => seleccionarMunicipio(k, true));
+          // Clic sobre el mapa: selecciona y filtra, pero NO mueve la vista.
+          // El usuario ya está mirando esa zona; el zoom lo maneja él.
+          layer.on('click', () => seleccionarMunicipio(k, false));
+          layer.on('mouseover', () => {
+            if (estado.seleccion !== k) layer.setStyle({ weight: 2.2, opacity: 1 });
+          });
+          layer.on('mouseout', () => layer.setStyle(estiloMunicipio(k, resumenMunicipios())));
         },
       }).addTo(map);
       controlCapas.addOverlay(capaMunicipios, 'Límites municipales');
+      // Encuadre inicial al departamento completo: aprovecha toda la pantalla
+      map.fitBounds(capaMunicipios.getBounds(), { padding: [8, 8] });
       pintarMunicipiosEnMapa();
     } catch (err) {
       console.error('VigíaT: error cargando municipios', err);
     }
   }
 
-  /** Reaplica estilos y etiquetas de los municipios según la actividad actual. */
+  /**
+   * Reaplica el sombreado de los municipios según la actividad actual.
+   * Sin etiquetas sobre el mapa: con 47 municipios se superponen y estorban.
+   * El nombre se consulta en la pestaña «Municipios» o al seleccionar uno.
+   */
   function pintarMunicipiosEnMapa() {
     if (!capaMunicipios) return;
     const resumen = resumenMunicipios();
-    for (const [k, layer] of poligonos) {
-      layer.setStyle(estiloMunicipio(k, resumen));
-      layer.unbindTooltip();
-      const m = resumen.get(k);
-      const nombre = m ? m.nombre : titulo(layer.feature.properties.NOMBRE);
-      if (m && (m.activos > 0 || m.focos > 0 || m.goes > 0)) {
-        // Municipio con actividad: etiqueta permanente, como en el visor del IDEAM
-        const partes = [];
-        if (m.activos) partes.push(`${m.activos}🔥`);
-        if (m.focos) partes.push(`${m.focos} foco${m.focos > 1 ? 's' : ''}`);
-        layer.bindTooltip(`${nombre}${partes.length ? ` · ${partes.join(' · ')}` : ''}`, {
-          permanent: true,
-          direction: 'center',
-          className: `mpio-label ${m.activos ? 'activo' : ''}`,
-        });
-      } else {
-        layer.bindTooltip(nombre, { direction: 'top', className: 'mpio-label tenue' });
-      }
-    }
+    for (const [k, layer] of poligonos) layer.setStyle(estiloMunicipio(k, resumen));
   }
 
+  /**
+   * Selecciona (o deselecciona) un municipio y filtra el panel.
+   * La vista del mapa solo se mueve cuando la selección viene de la lista
+   * lateral; nunca al deseleccionar. El zoom es del usuario.
+   */
   function seleccionarMunicipio(k, hacerZoom) {
     estado.seleccion = estado.seleccion === k ? null : k;
     if (estado.seleccion && hacerZoom) {
       const layer = poligonos.get(estado.seleccion);
       if (layer) map.fitBounds(layer.getBounds(), { padding: [30, 30], maxZoom: 12 });
-    } else if (!estado.seleccion) {
-      map.setView(VISTA.centro, VISTA.zoom);
     }
     render();
   }
