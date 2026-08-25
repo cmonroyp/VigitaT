@@ -472,7 +472,12 @@ for (const inc of registro.incendios) {
   inc.alertas = inc.alertas ?? { detectado: false, ultCrecimiento: 0, extinguido: false };
 
   if (!inc.alertas.detectado && inc.estado === 'activo') {
-    mensajes.push(`🔥 NUEVO INCENDIO DETECTADO\n\n${fichaIncendio(inc)}`);
+    // Etiqueta honesta: "nuevo" solo si el inicio es reciente; si el incidente
+    // lleva horas (o se reactivó), se anuncia como incendio activo en curso.
+    const horasDesdeInicio = horasDesde(inc.inicioUtc);
+    const titulo =
+      horasDesdeInicio <= 2 ? '🔥 NUEVO INCENDIO DETECTADO' : '🔥 INCENDIO ACTIVO EN SEGUIMIENTO';
+    mensajes.push(`${titulo}\n\n${fichaIncendio(inc)}`);
     inc.alertas.detectado = true;
     inc.alertas.ultCrecimiento = inc.deteccionesTotales;
   } else if (
