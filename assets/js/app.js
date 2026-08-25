@@ -224,12 +224,9 @@
         if (layer.getTooltip()) layer.unbindTooltip();
         continue;
       }
+      // Solo el nombre: los iconos del mapa ya comunican incendios y focos
       const m = resumen.get(k);
-      const nombre = m ? m.nombre : titulo(layer.feature.properties.NOMBRE);
-      const partes = [];
-      if (m?.activos) partes.push(`${m.activos}🔥`);
-      if (m?.focos) partes.push(`${m.focos} foco${m.focos > 1 ? 's' : ''}`);
-      const texto = partes.length ? `${nombre} · ${partes.join(' · ')}` : nombre;
+      const texto = m ? m.nombre : titulo(layer.feature.properties.NOMBRE);
 
       const actual = layer.getTooltip();
       if (actual && actual.getContent() === texto) continue; // sin cambios
@@ -297,8 +294,9 @@
     }).addTo(capaFocos);
   }
 
-  function pintarFocoGoes(f, escaneoUtc) {
+  function pintarFocoGoes(f, vistoUtc) {
     const esAlta = f.confianza === 'alta';
+    const min = minutosDesde(vistoUtc);
     L.marker([f.lat, f.lon], {
       icon: L.divIcon({
         className: 'icono-plano',
@@ -306,13 +304,15 @@
         iconSize: [22, 22],
         iconAnchor: [11, 11],
       }),
+      opacity: min <= 20 ? 1 : min <= 40 ? 0.75 : 0.5,
     })
       .bindPopup(
         `<strong>⚡ Detección rápida (GOES) — ${esc(f.municipio)}</strong><br>` +
         (f.vereda ? `Vereda aprox.: <strong>${esc(f.vereda)}</strong><br>` : '') +
-        `Escaneo: ${esc(horaLocal(escaneoUtc))} (hora Colombia)<br>` +
+        `Visto por última vez: ${esc(horaLocal(vistoUtc))} (hace ${esc(min)} min)<br>` +
+        (f.escaneos > 1 ? `Detectado en ${esc(f.escaneos)} escaneos<br>` : '') +
         `Confianza: <strong>${esc(f.confianza)}</strong>` +
-        (f.frp ? ` · Intensidad: ${esc(Math.round(f.frp))} MW` : '') + '<br>' +
+        (f.frp ? ` · Intensidad máx.: ${esc(Math.round(f.frp))} MW` : '') + '<br>' +
         `<small>Satélite geoestacionario, resolución ~2 km. Detección preliminar ` +
         `POR CONFIRMAR por el satélite de precisión (VIIRS).</small>` +
         botonZoom(f.lat, f.lon),
@@ -579,13 +579,11 @@
   function renderBanners() {
     // Banner de detección rápida GOES
     const bg = el('goesBanner');
-    const goesFresco =
-      estado.goesEscaneo && Date.parse(estado.goesEscaneo) > Date.now() - 3600e3 && estado.goes.length;
-    if (goesFresco) {
+    if (estado.goes.length) {
       const mun = [...new Set(estado.goes.map((f) => f.municipio))].slice(0, 4);
       bg.textContent =
         `⚡ DETECCIÓN RÁPIDA: el satélite GOES observó ${estado.goes.length} posible(s) incendio(s) ` +
-        `hace minutos cerca de: ${mun.join(', ')}. Preliminar, por confirmar. Si está en la zona, llame al 119.`;
+        `en la última hora en: ${mun.join(', ')}. Preliminar, por confirmar. Si está en la zona, llame al 119.`;
       bg.hidden = false;
     } else {
       bg.hidden = true;
@@ -692,11 +690,16 @@
       const res = await fetch(`data/focos-goes.json?t=${Date.now()}`, { cache: 'no-store' });
       if (!res.ok) return;
       const g = await res.json();
-      const fresco = g.escaneoUtc && Date.parse(g.escaneoUtc) > Date.now() - 3600e3;
-      estado.goes = fresco && Array.isArray(g.focos) ? g.focos.filter(coordOk) : [];
+      // Cada detección trae su propia vigencia: el archivo acumula la última
+      // hora, así el mapa coincide con lo que anunciaron las alertas.
+      const ventanaMs = (g.ventanaMin ?? 60) * 60000;
+      estado.goes = (Array.isArray(g.focos) ? g.focos : []).filter((f) => {
+        const visto = f.ultimoUtc ?? f.escaneoUtc ?? g.escaneoUtc;
+        return coordOk(f) && visto && Date.parse(visto) > Date.now() - ventanaMs;
+      });
       estado.goesEscaneo = g.escaneoUtc ?? null;
       capaGoes.clearLayers();
-      estado.goes.forEach((f) => pintarFocoGoes(f, g.escaneoUtc));
+      estado.goes.forEach((f) => pintarFocoGoes(f, f.ultimoUtc ?? f.escaneoUtc ?? g.escaneoUtc));
     } catch (err) {
       console.error('VigíaT: error cargando GOES', err);
     }

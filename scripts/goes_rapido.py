@@ -290,14 +290,50 @@ def main() -> int:
     for f in nuevos:
         alertadas[celda(f)] = ahora.isoformat()
 
+    # ---- ventana acumulada de la última hora -------------------------------
+    # GOES detecta de forma intermitente (nubes, intensidad variable), así que
+    # un escaneo aislado no representa lo que está ardiendo. Se acumulan las
+    # detecciones de VENTANA_MIN minutos para que el mapa muestre lo mismo que
+    # anunciaron las alertas y no aparezcan/desaparezcan focos cada 10 minutos.
+    VENTANA_MIN = 60
+    acumulado = {}
+
+    for f in previo.get("focos", []):
+        visto = f.get("ultimoUtc") or f.get("escaneoUtc")
+        try:
+            t = datetime.strptime(visto, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        except (TypeError, ValueError):
+            continue
+        if ahora - t <= timedelta(minutes=VENTANA_MIN):
+            acumulado[celda(f)] = f
+
+    for f in focos:
+        k = celda(f)
+        anterior = acumulado.get(k)
+        actual = dict(f)
+        actual["primeroUtc"] = (anterior or {}).get("primeroUtc", escaneo_utc)
+        actual["ultimoUtc"] = escaneo_utc
+        actual["escaneos"] = (anterior or {}).get("escaneos", 0) + 1
+        if anterior:  # conserva el pico de intensidad y la mejor confianza
+            if (anterior.get("frp") or 0) > (actual.get("frp") or 0):
+                actual["frp"] = anterior["frp"]
+            if anterior.get("confianza") == "alta":
+                actual["confianza"] = "alta"
+        acumulado[k] = actual
+
+    recientes = sorted(acumulado.values(), key=lambda x: x.get("frp") or 0, reverse=True)
+    print(f"Detecciones GOES vigentes (última {VENTANA_MIN} min): {len(recientes)}")
+
     salida = {
         "actualizadoUtc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "escaneoUtc": escaneo_utc,
+        "ventanaMin": VENTANA_MIN,
         "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
         "resolucionKm": 2,
-        "totalFocos": len(focos),
+        "focosUltimoEscaneo": len(focos),
+        "totalFocos": len(recientes),
         "focosNuevos": len(nuevos),
-        "focos": focos,
+        "focos": recientes,
         "alertadas": alertadas,
     }
     ARCHIVO_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
