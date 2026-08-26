@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-26T19:43:46.445Z",
- "activos": 4,
+ "actualizadoUtc": "2026-08-26T20:57:03.686Z",
+ "activos": 10,
  "alertas": {
-  "intentoUtc": "2026-08-26T19:43:45.693Z",
-  "pendientes": 5,
+  "intentoUtc": "2026-08-26T20:57:03.151Z",
+  "pendientes": 9,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -117,7 +117,7 @@
    "vereda": "Buenavista",
    "lat": 3.7351,
    "lon": -75.2387,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T20:14:00Z",
    "ultimaDeteccionUtc": "2026-08-25T20:14:00Z",
    "deteccionesTotales": 1,
@@ -129,7 +129,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T20:14:00Z_3.735_-75.239"
@@ -185,7 +185,7 @@
    "vereda": "Meche San Cayetano",
    "lat": 3.6996,
    "lon": -75.2668,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T20:14:00Z",
    "ultimaDeteccionUtc": "2026-08-25T20:14:00Z",
    "deteccionesTotales": 1,
@@ -197,7 +197,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T20:14:00Z_3.700_-75.267"
@@ -289,35 +289,37 @@
    "lon": -74.9275,
    "estado": "activo",
    "inicioUtc": "2026-08-25T18:47:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T06:29:00Z",
-   "deteccionesTotales": 4,
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 5,
    "maxFrp": 17.19,
    "confianzaMax": "alta",
    "pixeles": [
     "1233,-18732",
     "1231,-18735",
     "1235,-18731",
-    "1232,-18734"
+    "1232,-18734",
+    "1236,-18730"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 2,
+    "ultCrecimiento": 5,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_4.932_-74.928",
     "2026-08-25T18:47:00Z_4.925_-74.940",
     "2026-08-26T06:29:00Z_4.942_-74.926",
-    "2026-08-26T06:29:00Z_4.926_-74.935"
+    "2026-08-26T06:29:00Z_4.926_-74.935",
+    "2026-08-26T18:28:00Z_4.942_-74.921"
    ],
-   "areaEstimadaHa": 56,
-   "duracionHoras": 12,
+   "areaEstimadaHa": 70,
+   "duracionHoras": 24,
    "clima": {
     "tempC": 36,
-    "humedadPct": 31,
-    "vientoKmh": 24,
+    "humedadPct": 30,
+    "vientoKmh": 20,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
@@ -593,17 +595,19 @@
    "nombre": "Incendio vereda Cofradia De Gallego",
    "municipio": "Venadillo",
    "vereda": "Cofradia De Gallego",
-   "lat": 4.7631,
-   "lon": -74.875,
+   "lat": 4.7567,
+   "lon": -74.8915,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 4.09,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 4,
+   "maxFrp": 158.58,
+   "confianzaMax": "alta",
    "pixeles": [
     "1191,-18719",
-    "1186,-18721"
+    "1186,-18721",
+    "1189,-18723",
+    "1185,-18722"
    ],
    "alertas": {
     "detectado": true,
@@ -612,14 +616,16 @@
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.763_-74.875",
-    "2026-08-25T06:03:00Z_4.743_-74.885"
+    "2026-08-25T06:03:00Z_4.743_-74.885",
+    "2026-08-26T18:28:00Z_4.757_-74.891",
+    "2026-08-26T18:28:00Z_4.740_-74.889"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 12,
+   "areaEstimadaHa": 56,
+   "duracionHoras": 36,
    "clima": {
     "tempC": 36,
     "humedadPct": 31,
-    "vientoKmh": 26,
+    "vientoKmh": 25,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    },
@@ -769,13 +775,14 @@
    "lon": -75.0673,
    "estado": "activo",
    "inicioUtc": "2026-08-26T08:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T17:34:00Z",
-   "deteccionesTotales": 3,
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 10.32,
    "confianzaMax": "alta",
    "pixeles": [
     "1044,-18766",
-    "1050,-18767"
+    "1050,-18767",
+    "1045,-18766"
    ],
    "alertas": {
     "detectado": true,
@@ -785,16 +792,17 @@
    "focoIds": [
     "2026-08-26T08:32:00Z_4.178_-75.062",
     "2026-08-26T08:33:00Z_4.178_-75.062",
-    "2026-08-26T17:34:00Z_4.199_-75.067"
+    "2026-08-26T17:34:00Z_4.199_-75.067",
+    "2026-08-26T18:28:00Z_4.181_-75.062"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 9,
+   "areaEstimadaHa": 42,
+   "duracionHoras": 10,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 28,
-    "vientoKmh": 20,
+    "tempC": 36,
+    "humedadPct": 29,
+    "vientoKmh": 21,
     "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "ALTO"
    }
   },
   {
@@ -825,12 +833,222 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 38,
-    "humedadPct": 26,
-    "vientoKmh": 22,
+    "humedadPct": 27,
+    "vientoKmh": 23,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-26",
+   "nombre": "Incendio vereda Malachí",
+   "municipio": "Melgar",
+   "vereda": "Malachí",
+   "lat": 4.2659,
+   "lon": -74.591,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 40.94,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "1066,-18648",
+    "1064,-18651"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:28:00Z_4.266_-74.591",
+    "2026-08-26T18:28:00Z_4.257_-74.604"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 44,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-27",
+   "nombre": "Incendio vereda Santa Isabel",
+   "municipio": "San Luis",
+   "vereda": "Santa Isabel",
+   "lat": 4.278,
+   "lon": -75.0477,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:11:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:11:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 23.24,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1069,-18762",
+    "1066,-18760"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:11:00Z_4.278_-75.048",
+    "2026-08-26T18:11:00Z_4.266_-75.041"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 28,
+    "vientoKmh": 20,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-28",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.343,
+   "lon": -75.1127,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 8.2,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1086,-18778"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:28:00Z_4.343_-75.113"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 34,
+    "humedadPct": 29,
+    "vientoKmh": 19,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-29",
+   "nombre": "Incendio vereda Cerro Gordo",
+   "municipio": "Guamo",
+   "vereda": "Cerro Gordo",
+   "lat": 4.167,
+   "lon": -75.0637,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.38,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1042,-18766"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:28:00Z_4.167_-75.064"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 29,
+    "vientoKmh": 21,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-30",
+   "nombre": "Incendio vereda San José",
+   "municipio": "Armero",
+   "vereda": "San José",
+   "lat": 4.9538,
+   "lon": -74.823,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 6.39,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1238,-18706",
+    "1235,-18708"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:28:00Z_4.954_-74.823",
+    "2026-08-26T18:28:00Z_4.939_-74.831"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 30,
+    "vientoKmh": 20,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-31",
+   "nombre": "Incendio vereda Cunira",
+   "municipio": "Coello",
+   "vereda": "Cunira",
+   "lat": 4.2213,
+   "lon": -74.9732,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T18:28:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1055,-18743"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T18:28:00Z_4.221_-74.973"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 29,
+    "vientoKmh": 20,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
   }
  ],
- "secuencia": 25
+ "secuencia": 31
 }

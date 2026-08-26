@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-26T19:43:45.661Z",
+  "actualizadoUtc": "2026-08-26T20:57:03.125Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 5,
-  "focosNuevos": 5,
+  "totalFocos": 16,
+  "focosNuevos": 13,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,228 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-26T18:28:00Z_4.954_-74.823",
+      "lat": 4.9538,
+      "lon": -74.823,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 6.39,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Armero",
+      "distanciaKm": 11.8,
+      "vereda": "San José",
+      "codigoVereda": "73055036"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.942_-74.921",
+      "lat": 4.9424,
+      "lon": -74.9206,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 15.91,
+      "detecciones": 7,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Lérida",
+      "distanciaKm": 9,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.939_-74.831",
+      "lat": 4.939,
+      "lon": -74.8314,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 2.36,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Armero",
+      "distanciaKm": 12.2,
+      "vereda": "San José",
+      "codigoVereda": "73055036"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.757_-74.891",
+      "lat": 4.7567,
+      "lon": -74.8915,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "alta",
+      "frp": 158.58,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 6,
+      "vereda": "Cofradia De Gallego",
+      "codigoVereda": "73861005"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.740_-74.889",
+      "lat": 4.7402,
+      "lon": -74.8889,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 73.96,
+      "detecciones": 12,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 5.1,
+      "vereda": "Cofradia De Gallego",
+      "codigoVereda": "73861005"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.343_-75.113",
+      "lat": 4.343,
+      "lon": -75.1127,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 8.2,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ibagué",
+      "distanciaKm": 17,
+      "vereda": "Buenos Aires",
+      "codigoVereda": "73001017"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.266_-74.591",
+      "lat": 4.2659,
+      "lon": -74.591,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 40.94,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Melgar",
+      "distanciaKm": 8.9,
+      "vereda": "Malachí",
+      "codigoVereda": "73449022"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.257_-74.604",
+      "lat": 4.2572,
+      "lon": -74.6038,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "alta",
+      "frp": 31.98,
+      "detecciones": 11,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Melgar",
+      "distanciaKm": 7.3,
+      "vereda": "Malachí",
+      "codigoVereda": "73449022"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.221_-74.973",
+      "lat": 4.2213,
+      "lon": -74.9732,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 1,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coello",
+      "distanciaKm": 11.1,
+      "vereda": "Cunira",
+      "codigoVereda": "73200006"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.181_-75.062",
+      "lat": 4.1807,
+      "lon": -75.0622,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 5.93,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 6.4,
+      "vereda": "Paraguay",
+      "codigoVereda": "73678027"
+    },
+    {
+      "id": "2026-08-26T18:28:00Z_4.167_-75.064",
+      "lat": 4.167,
+      "lon": -75.0637,
+      "fechaUtc": "2026-08-26T18:28:00Z",
+      "confianza": "media",
+      "frp": 7.38,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Guamo",
+      "distanciaKm": 18.4,
+      "vereda": "Cerro Gordo",
+      "codigoVereda": "73319012"
+    },
+    {
+      "id": "2026-08-26T18:11:00Z_4.278_-75.048",
+      "lat": 4.278,
+      "lon": -75.0477,
+      "fechaUtc": "2026-08-26T18:11:00Z",
+      "confianza": "media",
+      "frp": 23.24,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 16.9,
+      "vereda": "Santa Isabel",
+      "codigoVereda": "73678036"
+    },
+    {
+      "id": "2026-08-26T18:11:00Z_4.266_-75.041",
+      "lat": 4.2657,
+      "lon": -75.0406,
+      "fechaUtc": "2026-08-26T18:11:00Z",
+      "confianza": "media",
+      "frp": 23.24,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Luis",
+      "distanciaKm": 15.9,
+      "vereda": "Santa Isabel",
+      "codigoVereda": "73678036"
+    },
     {
       "id": "2026-08-26T17:34:00Z_4.199_-75.067",
       "lat": 4.1987,
@@ -44,40 +266,6 @@
       "distanciaKm": 11.7,
       "vereda": "El Jardin",
       "codigoVereda": "73319017"
-    },
-    {
-      "id": "2026-08-26T08:33:00Z_4.178_-75.062",
-      "lat": 4.1778,
-      "lon": -75.0623,
-      "fechaUtc": "2026-08-26T08:33:00Z",
-      "confianza": "media",
-      "frp": 5.91,
-      "detecciones": 1,
-      "satelites": [
-        "MODIS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "San Luis",
-      "distanciaKm": 6.1,
-      "vereda": "Paraguay",
-      "codigoVereda": "73678027"
-    },
-    {
-      "id": "2026-08-26T06:29:00Z_4.942_-74.926",
-      "lat": 4.9417,
-      "lon": -74.9259,
-      "fechaUtc": "2026-08-26T06:29:00Z",
-      "confianza": "media",
-      "frp": 2.49,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Lérida",
-      "distanciaKm": 9,
-      "vereda": "Las Rosas",
-      "codigoVereda": "73408013"
     },
     {
       "id": "2026-08-26T06:29:00Z_4.926_-74.935",
