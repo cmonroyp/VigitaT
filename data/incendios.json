@@ -769,8 +769,8 @@
     "1044,-18766"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 2,
     "extinguido": false
    },
    "focoIds": [
