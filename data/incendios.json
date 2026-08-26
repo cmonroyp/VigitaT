@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-26T18:43:53Z",
+ "actualizadoUtc": "2026-08-26T18:46:33.740Z",
  "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-08-26T18:03:04.950Z",
-  "pendientes": 5,
+  "intentoUtc": "2026-08-26T18:46:33.156Z",
+  "pendientes": 4,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -15,7 +15,7 @@
    "vereda": "Jagua Bartolito",
    "lat": 4.2015,
    "lon": -75.0612,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
    "deteccionesTotales": 1,
@@ -27,7 +27,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:28:00Z_4.201_-75.061"
@@ -49,7 +49,7 @@
    "vereda": "El Condor",
    "lat": 3.3263,
    "lon": -75.6217,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
    "deteccionesTotales": 1,
@@ -61,7 +61,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:28:00Z_3.326_-75.622"
@@ -151,7 +151,7 @@
    "vereda": "El Neme",
    "lat": 3.4681,
    "lon": -75.4571,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
    "deteccionesTotales": 1,
@@ -163,7 +163,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:28:00Z_3.468_-75.457"
@@ -313,9 +313,9 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 36,
+    "tempC": 37,
     "humedadPct": 30,
-    "vientoKmh": 27,
+    "vientoKmh": 26,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -493,7 +493,7 @@
    "vereda": "Vista Hermosa",
    "lat": 3.8477,
    "lon": -75.4286,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:28:00Z",
    "deteccionesTotales": 1,
@@ -505,7 +505,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:28:00Z_3.848_-75.429"
@@ -617,9 +617,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 36,
+    "tempC": 37,
     "humedadPct": 31,
-    "vientoKmh": 29,
+    "vientoKmh": 27,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    },
