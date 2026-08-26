@@ -102,10 +102,28 @@
     attribution: '&copy; OpenStreetMap · NASA FIRMS · NOAA · DANE',
   });
 
-  const capaSatelite = L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    { ...OPC_TESELAS, attribution: 'Imágenes &copy; Esri · NASA FIRMS · NOAA · DANE' },
-  ).addTo(map);
+  const URL_SATELITE =
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+
+  // Telón de fondo: la misma imagen satelital pero en baja resolución (unas
+  // pocas teselas cubren todo el departamento y se quedan en memoria). Cuando
+  // al alejar aparece un área cuyas teselas nítidas aún no han llegado, lo que
+  // se ve es esta imagen borrosa —y no un recuadro de color—, así que la
+  // transición deja de notarse.
+  map.createPane('paneFondo');
+  map.getPane('paneFondo').style.zIndex = 190;
+  L.tileLayer(URL_SATELITE, {
+    pane: 'paneFondo',
+    maxZoom: 19,
+    maxNativeZoom: 8,
+    keepBuffer: 8,
+    updateWhenZooming: false,
+  }).addTo(map);
+
+  const capaSatelite = L.tileLayer(URL_SATELITE, {
+    ...OPC_TESELAS,
+    attribution: 'Imágenes &copy; Esri · NASA FIRMS · NOAA · DANE',
+  }).addTo(map);
 
   const capaFocos = L.layerGroup().addTo(map);
   const capaGoes = L.layerGroup().addTo(map);
