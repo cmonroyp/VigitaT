@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-25T23:24:23.740Z",
- "activos": 17,
+ "actualizadoUtc": "2026-08-26T00:24:17.113Z",
+ "activos": 11,
  "incendios": [
   {
    "id": "INC-1",
@@ -29,9 +29,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 32,
-    "vientoKmh": 12,
+    "tempC": 31,
+    "humedadPct": 38,
+    "vientoKmh": 10,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
@@ -63,10 +63,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 53,
-    "vientoKmh": 1,
-    "vientoHacia": "N",
+    "tempC": 25,
+    "humedadPct": 61,
+    "vientoKmh": 2,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -97,9 +97,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 31,
-    "vientoKmh": 13,
+    "tempC": 29,
+    "humedadPct": 44,
+    "vientoKmh": 8,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
@@ -131,10 +131,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 32,
-    "vientoKmh": 9,
-    "vientoHacia": "NO",
+    "tempC": 31,
+    "humedadPct": 43,
+    "vientoKmh": 4,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -165,11 +165,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 45,
+    "tempC": 28,
+    "humedadPct": 56,
     "vientoKmh": 2,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -199,10 +199,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 38,
-    "vientoKmh": 6,
-    "vientoHacia": "NO",
+    "tempC": 30,
+    "humedadPct": 47,
+    "vientoKmh": 4,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -213,7 +213,7 @@
    "vereda": "La Cubana",
    "lat": 4.7065,
    "lon": -74.9526,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -247,7 +247,7 @@
    "vereda": "La Isla",
    "lat": 4.0521,
    "lon": -74.8618,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -303,9 +303,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 33,
-    "vientoKmh": 6,
+    "tempC": 32,
+    "humedadPct": 37,
+    "vientoKmh": 8,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
@@ -337,11 +337,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 49,
-    "vientoKmh": 1,
+    "tempC": 26,
+    "humedadPct": 54,
+    "vientoKmh": 3,
     "vientoHacia": "S",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -351,7 +351,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1948,
    "lon": -75.0418,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 2,
@@ -387,7 +387,7 @@
    "vereda": "San Pacho Cucal",
    "lat": 4.1735,
    "lon": -75.398,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -468,10 +468,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 21,
+    "tempC": 20,
     "humedadPct": 62,
-    "vientoKmh": 5,
-    "vientoHacia": "E",
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -502,9 +502,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 23,
-    "humedadPct": 50,
-    "vientoKmh": 3,
+    "tempC": 21,
+    "humedadPct": 56,
+    "vientoKmh": 4,
     "vientoHacia": "N",
     "riesgoPropagacion": "BAJO"
    }
@@ -516,7 +516,7 @@
    "vereda": "Doyare Esmeralda",
    "lat": 3.8378,
    "lon": -75.1784,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -570,10 +570,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 53,
-    "vientoKmh": 7,
-    "vientoHacia": "NO",
+    "tempC": 29,
+    "humedadPct": 62,
+    "vientoKmh": 8,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -584,7 +584,7 @@
    "vereda": "Cofradia De Gallego",
    "lat": 4.7631,
    "lon": -74.875,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-25T06:03:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 2,
