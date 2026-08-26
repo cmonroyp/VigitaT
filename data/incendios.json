@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-26T11:15:36.199Z",
+ "actualizadoUtc": "2026-08-26T12:17:11.005Z",
  "activos": 2,
  "incendios": [
   {
@@ -307,8 +307,8 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 64,
+    "tempC": 27,
+    "humedadPct": 59,
     "vientoKmh": 6,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
@@ -780,9 +780,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 63,
-    "vientoKmh": 7,
+    "tempC": 26,
+    "humedadPct": 61,
+    "vientoKmh": 9,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }

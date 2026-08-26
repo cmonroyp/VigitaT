@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-26T11:15:36.199Z",
+  "actualizadoUtc": "2026-08-26T12:17:11.004Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 3,
-  "focosNuevos": 1,
+  "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
