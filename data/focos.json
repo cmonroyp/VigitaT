@@ -1,14 +1,66 @@
 {
-  "actualizadoUtc": "2026-08-26T08:21:44.214Z",
+  "actualizadoUtc": "2026-08-26T09:22:34.898Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 3,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-08-26T08:32:00Z_4.178_-75.062",
+      "lat": 4.1779,
+      "lon": -75.0623,
+      "fechaUtc": "2026-08-26T08:32:00Z",
+      "confianza": "alta",
+      "frp": 5.91,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "San Luis",
+      "distanciaKm": 6.1,
+      "vereda": "Paraguay",
+      "codigoVereda": "73678027"
+    },
+    {
+      "id": "2026-08-26T06:29:00Z_4.942_-74.926",
+      "lat": 4.9417,
+      "lon": -74.9259,
+      "fechaUtc": "2026-08-26T06:29:00Z",
+      "confianza": "media",
+      "frp": 2.49,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Lérida",
+      "distanciaKm": 9,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-26T06:29:00Z_4.926_-74.935",
+      "lat": 4.9262,
+      "lon": -74.9355,
+      "fechaUtc": "2026-08-26T06:29:00Z",
+      "confianza": "media",
+      "frp": 0.78,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Lérida",
+      "distanciaKm": 7.6,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    }
+  ]
 }
