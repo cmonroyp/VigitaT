@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-26T18:01:00Z",
+ "actualizadoUtc": "2026-08-26T18:03:05.650Z",
  "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-08-26T16:34:19.846Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-26T18:03:04.950Z",
+  "pendientes": 5,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -218,7 +219,7 @@
    "vereda": "La Cubana",
    "lat": 4.7065,
    "lon": -74.9526,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -230,7 +231,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.706_-74.953"
@@ -252,7 +253,7 @@
    "vereda": "La Isla",
    "lat": 4.0521,
    "lon": -74.8618,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -264,7 +265,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.052_-74.862"
@@ -312,11 +313,11 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 59,
-    "vientoKmh": 6,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 36,
+    "humedadPct": 30,
+    "vientoKmh": 27,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
    },
    "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
@@ -361,7 +362,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1948,
    "lon": -75.0418,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 2,
@@ -374,7 +375,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 2,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.195_-75.042",
@@ -397,7 +398,7 @@
    "vereda": "San Pacho Cucal",
    "lat": 4.1735,
    "lon": -75.398,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -409,7 +410,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.173_-75.398"
@@ -526,7 +527,7 @@
    "vereda": "Doyare Esmeralda",
    "lat": 3.8378,
    "lon": -75.1784,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 1,
@@ -538,7 +539,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_3.838_-75.178"
@@ -616,11 +617,11 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 34,
-    "vientoKmh": 14,
+    "tempC": 36,
+    "humedadPct": 31,
+    "vientoKmh": 29,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "ALTO"
    },
    "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
