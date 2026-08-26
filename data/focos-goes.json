@@ -1,77 +1,38 @@
 {
- "actualizadoUtc": "2026-08-26T19:27:08Z",
- "escaneoUtc": "2026-08-26T19:10:00Z",
+ "actualizadoUtc": "2026-08-26T20:07:38Z",
+ "escaneoUtc": "2026-08-26T19:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 1,
- "totalFocos": 5,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 2,
+ "focosNuevos": 1,
  "focos": [
-  {
-   "lat": 4.7479,
-   "lon": -74.9006,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 159.9,
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "escaneoUtc": "2026-08-26T18:30:00Z",
-   "primeroUtc": "2026-08-26T17:50:00Z",
-   "ultimoUtc": "2026-08-26T18:30:00Z",
-   "escaneos": 2
-  },
-  {
-   "lat": 4.7479,
-   "lon": -74.8825,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 149.5,
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "escaneoUtc": "2026-08-26T18:30:00Z",
-   "primeroUtc": "2026-08-26T17:50:00Z",
-   "ultimoUtc": "2026-08-26T18:30:00Z",
-   "escaneos": 2
-  },
-  {
-   "lat": 4.7661,
-   "lon": -74.9006,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 144.6,
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "escaneoUtc": "2026-08-26T18:30:00Z",
-   "primeroUtc": "2026-08-26T18:30:00Z",
-   "ultimoUtc": "2026-08-26T18:30:00Z",
-   "escaneos": 1
-  },
-  {
-   "lat": 4.7661,
-   "lon": -74.8825,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 121.4,
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "escaneoUtc": "2026-08-26T18:30:00Z",
-   "primeroUtc": "2026-08-26T18:30:00Z",
-   "ultimoUtc": "2026-08-26T18:30:00Z",
-   "escaneos": 1
-  },
   {
    "lat": 4.2562,
    "lon": -74.5936,
-   "codigo": 33,
+   "codigo": 30,
    "confianza": "alta",
-   "frp": 109.0,
+   "frp": 135.4,
    "municipio": "Melgar",
    "vereda": "Malachí",
-   "escaneoUtc": "2026-08-26T19:10:00Z",
+   "escaneoUtc": "2026-08-26T19:50:00Z",
    "primeroUtc": "2026-08-26T18:30:00Z",
-   "ultimoUtc": "2026-08-26T19:10:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-08-26T19:50:00Z",
+   "escaneos": 3
+  },
+  {
+   "lat": 4.1652,
+   "lon": -75.0632,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 45.3,
+   "municipio": "Guamo",
+   "vereda": "Cerro Gordo",
+   "escaneoUtc": "2026-08-26T19:50:00Z",
+   "primeroUtc": "2026-08-26T19:50:00Z",
+   "ultimoUtc": "2026-08-26T19:50:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
@@ -80,6 +41,11 @@
   "4.74,-74.88": "2026-08-26T18:01:00.080200+00:00",
   "4.76,-74.90": "2026-08-26T18:43:53.496754+00:00",
   "4.76,-74.88": "2026-08-26T18:43:53.496754+00:00",
-  "4.26,-74.60": "2026-08-26T18:43:53.496754+00:00"
+  "4.26,-74.60": "2026-08-26T18:43:53.496754+00:00",
+  "4.16,-75.06": "2026-08-26T20:07:38.719461+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-26T20:07:38Z",
+  "focos": 1
  }
 }
