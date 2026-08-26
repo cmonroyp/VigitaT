@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-26T13:29:29.611Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-26T15:50:45.132Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-26T13:29:29.611Z",
+  "intentoUtc": "2026-08-26T15:50:45.132Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -764,7 +764,7 @@
    "vereda": "Paraguay",
    "lat": 4.1779,
    "lon": -75.0623,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-26T08:32:00Z",
    "ultimaDeteccionUtc": "2026-08-26T08:33:00Z",
    "deteccionesTotales": 2,
