@@ -286,9 +286,10 @@ def main() -> int:
     alertadas = {
         c: t for c, t in alertadas.items() if datetime.fromisoformat(t) > limite
     }
+    # El periodo de silencio solo se aplica cuando Telegram confirma la entrega
+    # (más abajo). Si se marcara aquí, un fallo de red silenciaría ese punto
+    # durante horas y la alerta se perdería.
     nuevos = [f for f in focos if celda(f) not in alertadas]
-    for f in nuevos:
-        alertadas[celda(f)] = ahora.isoformat()
 
     # ---- ventana acumulada de la última hora -------------------------------
     # GOES detecta de forma intermitente (nubes, intensidad variable), así que
@@ -373,13 +374,29 @@ def main() -> int:
             ).encode(),
             headers={"Content-Type": "application/json"},
         )
+        enviado, detalle = False, ""
         try:
-            with urllib.request.urlopen(req, timeout=15) as r:
-                print("Alerta rápida enviada." if r.status == 200 else f"Telegram: {r.status}")
+            with urllib.request.urlopen(req, timeout=20) as r:
+                cuerpo = json.loads(r.read().decode())
+                enviado = bool(cuerpo.get("ok"))
+                detalle = cuerpo.get("description", f"HTTP {r.status}")
         except Exception as e:
-            print("Telegram falló:", e)
+            detalle = f"error de red: {e}"
+
+        if enviado:
+            # Confirmado el envío: recién ahora se aplica el periodo de silencio
+            for f in nuevos:
+                alertadas[celda(f)] = ahora.isoformat()
+            salida["alertadas"] = alertadas
+            salida["ultimaAlerta"] = {"utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), "focos": len(nuevos)}
+            ARCHIVO_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"Alerta rápida enviada ({len(nuevos)} focos).")
+        else:
+            salida["ultimaAlerta"] = {"utc": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"), "error": detalle}
+            ARCHIVO_SALIDA.write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"Telegram falló: {detalle}. Sin marcar el silencio: se reintentará.")
     elif nuevos:
-        print("Focos nuevos sin Telegram configurado.")
+        print(f"{len(nuevos)} focos nuevos en espera: Telegram no está configurado.")
     return 0
 
 

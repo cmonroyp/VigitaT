@@ -515,7 +515,11 @@ function fichaIncendio(inc) {
   return l;
 }
 
-const mensajes = [];
+// Se preparan los avisos SIN tocar todavía el estado del incidente. Las
+// banderas solo se marcan cuando Telegram confirma la entrega: si se marcaran
+// antes, un fallo de red dejaría el incendio como "ya avisado" y la alerta se
+// perdería para siempre. Mientras no se confirme, se reintenta cada hora.
+const pendientes = [];
 
 for (const inc of registro.incendios) {
   inc.alertas = inc.alertas ?? { detectado: false, ultCrecimiento: 0, extinguido: false };
@@ -523,40 +527,100 @@ for (const inc of registro.incendios) {
   if (!inc.alertas.detectado && inc.estado === 'activo') {
     // Etiqueta honesta: "nuevo" solo si el inicio es reciente; si el incidente
     // lleva horas (o se reactivó), se anuncia como incendio activo en curso.
-    const horasDesdeInicio = horasDesde(inc.inicioUtc);
     const titulo =
-      horasDesdeInicio <= 2 ? '🔥 NUEVO INCENDIO DETECTADO' : '🔥 INCENDIO ACTIVO EN SEGUIMIENTO';
-    mensajes.push(`${titulo}\n\n${fichaIncendio(inc)}`);
-    inc.alertas.detectado = true;
-    inc.alertas.ultCrecimiento = inc.deteccionesTotales;
+      horasDesde(inc.inicioUtc) <= 2
+        ? '🔥 NUEVO INCENDIO DETECTADO'
+        : '🔥 INCENDIO ACTIVO EN SEGUIMIENTO';
+    pendientes.push({ inc, tipo: 'detectado', texto: `${titulo}\n\n${fichaIncendio(inc)}` });
   } else if (
     inc.alertas.detectado &&
     inc.estado === 'activo' &&
     inc.deteccionesTotales - inc.alertas.ultCrecimiento >= UMBRAL_CRECIMIENTO
   ) {
-    mensajes.push(
-      `📈 INCENDIO EN CRECIMIENTO\n\n${fichaIncendio(inc)}\n` +
-      `   (+${inc.deteccionesTotales - inc.alertas.ultCrecimiento} detecciones desde el último aviso)`,
-    );
-    inc.alertas.ultCrecimiento = inc.deteccionesTotales;
+    pendientes.push({
+      inc,
+      tipo: 'crecimiento',
+      texto:
+        `📈 INCENDIO EN CRECIMIENTO\n\n${fichaIncendio(inc)}\n` +
+        `   (+${inc.deteccionesTotales - inc.alertas.ultCrecimiento} detecciones desde el último aviso)`,
+    });
   } else if (inc.estado === 'extinguido' && inc.alertas.detectado && !inc.alertas.extinguido) {
-    mensajes.push(
-      `✅ INCENDIO SIN ACTIVIDAD\n\n${inc.nombre} (${inc.id}) en ${inc.municipio}: ` +
-      `sin detecciones satelitales en más de 24 h. ` +
-      (inc.areaEstimadaHa ? `Área afectada estimada: ~${inc.areaEstimadaHa} ha. ` : '') +
-      `Duración observada: ${inc.duracionHoras} h.`,
-    );
-    inc.alertas.extinguido = true;
+    pendientes.push({
+      inc,
+      tipo: 'extinguido',
+      texto:
+        `✅ INCENDIO SIN ACTIVIDAD\n\n${inc.nombre} (${inc.id}) en ${inc.municipio}: ` +
+        `sin detecciones satelitales en más de 24 h. ` +
+        (inc.areaEstimadaHa ? `Área afectada estimada: ~${inc.areaEstimadaHa} ha. ` : '') +
+        `Duración observada: ${inc.duracionHoras} h.`,
+    });
   }
 }
 
-// persistir el estado de alertas actualizado
+/** Envía y devuelve el resultado real (Telegram responde 200 con ok:false). */
+async function enviarTelegram(texto) {
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${BOT}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: CHAT, text: texto, disable_web_page_preview: true }),
+      signal: AbortSignal.timeout(20_000),
+    });
+    const cuerpo = await res.json().catch(() => ({}));
+    return { ok: res.ok && cuerpo.ok === true, detalle: cuerpo.description ?? `HTTP ${res.status}` };
+  } catch (e) {
+    return { ok: false, detalle: `error de red: ${e.message}` };
+  }
+}
+
+let diagnostico = { intentoUtc: new Date().toISOString(), pendientes: pendientes.length };
+
+if (pendientes.length === 0) {
+  diagnostico.resultado = 'sin novedades';
+  console.log('Sin novedades de incidentes que alertar.');
+} else if (!BOT || !CHAT) {
+  // No se marcan como avisados: en cuanto haya credenciales se enviarán
+  diagnostico.resultado = 'telegram no configurado (avisos en espera)';
+  console.log(`${pendientes.length} novedades en espera: Telegram no está configurado.`);
+} else {
+  const cuerpo =
+    `🛰️ VigíaT — Seguimiento de incendios · Tolima\n` +
+    `(hora local de Colombia)\n\n` +
+    pendientes.map((p) => p.texto).join('\n\n———\n\n') +
+    `\n\n🗺️ Mapa en vivo: ${SITE}\n` +
+    `Fuente: NASA FIRMS (VIIRS/MODIS, 375 m) + meteorología Open-Meteo. ` +
+    `Verifique en terreno. Emergencias: 119.`;
+  // Telegram admite 4096 caracteres; se corta por avisos completos, no a la mitad
+  const envio = await enviarTelegram(cuerpo.length > 4000 ? cuerpo.slice(0, 3990) + '\n…' : cuerpo);
+  diagnostico = { ...diagnostico, resultado: envio.ok ? 'enviado' : 'fallo', detalle: envio.detalle };
+
+  if (envio.ok) {
+    // Confirmado: ahora sí se consume el aviso
+    for (const p of pendientes) {
+      if (p.tipo === 'detectado') {
+        p.inc.alertas.detectado = true;
+        p.inc.alertas.ultCrecimiento = p.inc.deteccionesTotales;
+      } else if (p.tipo === 'crecimiento') {
+        p.inc.alertas.ultCrecimiento = p.inc.deteccionesTotales;
+      } else if (p.tipo === 'extinguido') {
+        p.inc.alertas.extinguido = true;
+      }
+    }
+    console.log(`Alerta enviada (${pendientes.length} incidente(s)).`);
+  } else {
+    console.error(`Telegram falló: ${envio.detalle}. Se reintentará en la próxima corrida.`);
+  }
+}
+
+// Persistencia final: incluye el diagnóstico del último intento, para poder
+// saber desde fuera si las alertas están saliendo sin depender de los registros.
 writeFileSync(
   INCENDIOS_FILE,
   JSON.stringify(
     {
       actualizadoUtc: new Date().toISOString(),
       activos: registro.incendios.filter((i) => i.estado === 'activo').length,
+      alertas: diagnostico,
       incendios: registro.incendios,
       secuencia: registro.secuencia,
     },
@@ -564,24 +628,3 @@ writeFileSync(
     1,
   ) + '\n',
 );
-
-if (mensajes.length > 0 && BOT && CHAT) {
-  const cuerpo =
-    `🛰️ VigíaT — Seguimiento de incendios · Tolima\n` +
-    `(hora local de Colombia)\n\n` +
-    mensajes.join('\n\n———\n\n') +
-    `\n\n🗺️ Mapa en vivo: ${SITE}\n` +
-    `Fuente: NASA FIRMS (VIIRS/MODIS, 375 m) + meteorología Open-Meteo. ` +
-    `Verifique en terreno. Emergencias: 119.`;
-  const res = await fetch(`https://api.telegram.org/bot${BOT}/sendMessage`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ chat_id: CHAT, text: cuerpo.slice(0, 4090), disable_web_page_preview: true }),
-    signal: AbortSignal.timeout(15_000),
-  });
-  console.log(res.ok ? `Alerta enviada (${mensajes.length} incidente(s)).` : `Telegram falló: HTTP ${res.status}`);
-} else if (mensajes.length > 0) {
-  console.log(`${mensajes.length} novedades de incidentes sin Telegram configurado.`);
-} else {
-  console.log('Sin novedades de incidentes que alertar.');
-}
