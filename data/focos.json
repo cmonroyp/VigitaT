@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-26T20:57:03.125Z",
+  "actualizadoUtc": "2026-08-26T22:05:52.746Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 16,
-  "focosNuevos": 13,
+  "totalFocos": 17,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,57 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-26T19:15:00Z_4.230_-74.846",
+      "lat": 4.2305,
+      "lon": -74.8463,
+      "fechaUtc": "2026-08-26T19:15:00Z",
+      "confianza": "media",
+      "frp": 7.45,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Flandes",
+      "distanciaKm": 6,
+      "vereda": "Paradero 2",
+      "codigoVereda": "73275006"
+    },
+    {
+      "id": "2026-08-26T19:15:00Z_4.757_-74.891",
+      "lat": 4.7567,
+      "lon": -74.8915,
+      "fechaUtc": "2026-08-26T19:15:00Z",
+      "confianza": "alta",
+      "frp": 158.58,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 6,
+      "vereda": "Cofradia De Gallego",
+      "codigoVereda": "73861005"
+    },
+    {
+      "id": "2026-08-26T19:15:00Z_4.740_-74.889",
+      "lat": 4.7402,
+      "lon": -74.8889,
+      "fechaUtc": "2026-08-26T19:15:00Z",
+      "confianza": "media",
+      "frp": 73.96,
+      "detecciones": 14,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 5.1,
+      "vereda": "Cofradia De Gallego",
+      "codigoVereda": "73861005"
+    },
     {
       "id": "2026-08-26T18:28:00Z_4.954_-74.823",
       "lat": 4.9538,
@@ -61,40 +112,6 @@
       "distanciaKm": 12.2,
       "vereda": "San José",
       "codigoVereda": "73055036"
-    },
-    {
-      "id": "2026-08-26T18:28:00Z_4.757_-74.891",
-      "lat": 4.7567,
-      "lon": -74.8915,
-      "fechaUtc": "2026-08-26T18:28:00Z",
-      "confianza": "alta",
-      "frp": 158.58,
-      "detecciones": 2,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Venadillo",
-      "distanciaKm": 6,
-      "vereda": "Cofradia De Gallego",
-      "codigoVereda": "73861005"
-    },
-    {
-      "id": "2026-08-26T18:28:00Z_4.740_-74.889",
-      "lat": 4.7402,
-      "lon": -74.8889,
-      "fechaUtc": "2026-08-26T18:28:00Z",
-      "confianza": "media",
-      "frp": 73.96,
-      "detecciones": 12,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Venadillo",
-      "distanciaKm": 5.1,
-      "vereda": "Cofradia De Gallego",
-      "codigoVereda": "73861005"
     },
     {
       "id": "2026-08-26T18:28:00Z_4.343_-75.113",

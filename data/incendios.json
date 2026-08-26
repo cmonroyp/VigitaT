@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-26T20:57:03.686Z",
- "activos": 10,
+ "actualizadoUtc": "2026-08-26T22:05:53.270Z",
+ "activos": 11,
  "alertas": {
-  "intentoUtc": "2026-08-26T20:57:03.151Z",
-  "pendientes": 9,
+  "intentoUtc": "2026-08-26T22:05:52.807Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -315,9 +315,9 @@
    "areaEstimadaHa": 70,
    "duracionHoras": 24,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 30,
-    "vientoKmh": 20,
+    "tempC": 35,
+    "humedadPct": 31,
+    "vientoKmh": 16,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -599,8 +599,8 @@
    "lon": -74.8915,
    "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 4,
+   "ultimaDeteccionUtc": "2026-08-26T19:15:00Z",
+   "deteccionesTotales": 6,
    "maxFrp": 158.58,
    "confianzaMax": "alta",
    "pixeles": [
@@ -611,21 +611,23 @@
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 2,
+    "ultCrecimiento": 6,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-25T17:52:00Z_4.763_-74.875",
     "2026-08-25T06:03:00Z_4.743_-74.885",
     "2026-08-26T18:28:00Z_4.757_-74.891",
-    "2026-08-26T18:28:00Z_4.740_-74.889"
+    "2026-08-26T18:28:00Z_4.740_-74.889",
+    "2026-08-26T19:15:00Z_4.757_-74.891",
+    "2026-08-26T19:15:00Z_4.740_-74.889"
    ],
    "areaEstimadaHa": 56,
-   "duracionHoras": 36,
+   "duracionHoras": 37,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 31,
-    "vientoKmh": 25,
+    "tempC": 35,
+    "humedadPct": 33,
+    "vientoKmh": 22,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    },
@@ -798,8 +800,8 @@
    "areaEstimadaHa": 42,
    "duracionHoras": 10,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
+    "tempC": 35,
+    "humedadPct": 30,
     "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
@@ -832,9 +834,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 27,
-    "vientoKmh": 23,
+    "tempC": 36,
+    "humedadPct": 29,
+    "vientoKmh": 22,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
@@ -868,11 +870,11 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 44,
-    "vientoKmh": 4,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 32,
+    "humedadPct": 57,
+    "vientoKmh": 5,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -904,11 +906,11 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 28,
+    "tempC": 35,
+    "humedadPct": 29,
     "vientoKmh": 20,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -938,9 +940,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 29,
-    "vientoKmh": 19,
+    "tempC": 33,
+    "humedadPct": 32,
+    "vientoKmh": 11,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -972,8 +974,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
+    "tempC": 35,
+    "humedadPct": 30,
     "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
@@ -1008,9 +1010,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 30,
-    "vientoKmh": 20,
+    "tempC": 35,
+    "humedadPct": 31,
+    "vientoKmh": 16,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -1042,13 +1044,47 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
-    "vientoKmh": 20,
+    "tempC": 35,
+    "humedadPct": 30,
+    "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
+  },
+  {
+   "id": "INC-32",
+   "nombre": "Incendio vereda Paradero 2",
+   "municipio": "Flandes",
+   "vereda": "Paradero 2",
+   "lat": 4.2305,
+   "lon": -74.8463,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T19:15:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T19:15:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.45,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1058,-18712"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T19:15:00Z_4.230_-74.846"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 33,
+    "vientoKmh": 15,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 31
+ "secuencia": 32
 }
