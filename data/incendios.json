@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-26T18:46:33.740Z",
- "activos": 2,
+ "actualizadoUtc": "2026-08-26T19:43:46.445Z",
+ "activos": 4,
  "alertas": {
-  "intentoUtc": "2026-08-26T18:46:33.156Z",
-  "pendientes": 4,
+  "intentoUtc": "2026-08-26T19:43:45.693Z",
+  "pendientes": 5,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -83,7 +83,7 @@
    "vereda": "Santa Isabel",
    "lat": 4.2609,
    "lon": -75.0437,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
    "deteccionesTotales": 1,
@@ -95,7 +95,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_4.261_-75.044"
@@ -313,9 +313,9 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 30,
-    "vientoKmh": 26,
+    "tempC": 36,
+    "humedadPct": 31,
+    "vientoKmh": 24,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -328,7 +328,7 @@
    "vereda": "El Tigre",
    "lat": 4.0825,
    "lon": -75.297,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
    "deteccionesTotales": 1,
@@ -340,7 +340,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_4.082_-75.297"
@@ -459,7 +459,7 @@
    "vereda": "La Pradera",
    "lat": 3.3892,
    "lon": -75.7501,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
    "deteccionesTotales": 1,
@@ -471,7 +471,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_3.389_-75.750"
@@ -561,7 +561,7 @@
    "vereda": "San José",
    "lat": 4.2332,
    "lon": -74.6199,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-25T18:47:00Z",
    "deteccionesTotales": 1,
@@ -573,7 +573,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_4.233_-74.620"
@@ -617,9 +617,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 12,
    "clima": {
-    "tempC": 37,
+    "tempC": 36,
     "humedadPct": 31,
-    "vientoKmh": 27,
+    "vientoKmh": 26,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    },
@@ -762,19 +762,20 @@
   },
   {
    "id": "INC-24",
-   "nombre": "Incendio vereda Paraguay",
+   "nombre": "Incendio vereda Jagua Bartolito",
    "municipio": "San Luis",
-   "vereda": "Paraguay",
-   "lat": 4.1779,
-   "lon": -75.0623,
-   "estado": "sin_senal",
+   "vereda": "Jagua Bartolito",
+   "lat": 4.1987,
+   "lon": -75.0673,
+   "estado": "activo",
    "inicioUtc": "2026-08-26T08:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T08:33:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 5.91,
+   "ultimaDeteccionUtc": "2026-08-26T17:34:00Z",
+   "deteccionesTotales": 3,
+   "maxFrp": 10.32,
    "confianzaMax": "alta",
    "pixeles": [
-    "1044,-18766"
+    "1044,-18766",
+    "1050,-18767"
    ],
    "alertas": {
     "detectado": true,
@@ -783,18 +784,53 @@
    },
    "focoIds": [
     "2026-08-26T08:32:00Z_4.178_-75.062",
-    "2026-08-26T08:33:00Z_4.178_-75.062"
+    "2026-08-26T08:33:00Z_4.178_-75.062",
+    "2026-08-26T17:34:00Z_4.199_-75.067"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 9,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 28,
+    "vientoKmh": 20,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-25",
+   "nombre": "Incendio vereda El Jardin",
+   "municipio": "Guamo",
+   "vereda": "El Jardin",
+   "lat": 4.0584,
+   "lon": -75.0718,
+   "estado": "activo",
+   "inicioUtc": "2026-08-26T17:34:00Z",
+   "ultimaDeteccionUtc": "2026-08-26T17:34:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.67,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1015,-18768"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-26T17:34:00Z_4.058_-75.072"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 53,
-    "vientoKmh": 11,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 38,
+    "humedadPct": 26,
+    "vientoKmh": 22,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
    }
   }
  ],
- "secuencia": 24
+ "secuencia": 25
 }
