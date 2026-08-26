@@ -1,12 +1,60 @@
 {
- "actualizadoUtc": "2026-08-26T16:59:13Z",
- "escaneoUtc": "2026-08-26T16:40:00Z",
+ "actualizadoUtc": "2026-08-26T18:01:00Z",
+ "escaneoUtc": "2026-08-26T17:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 3,
+ "totalFocos": 3,
+ "focosNuevos": 3,
+ "focos": [
+  {
+   "lat": 4.9484,
+   "lon": -74.9186,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 61.9,
+   "municipio": "Lérida",
+   "vereda": "Las Rosas",
+   "escaneoUtc": "2026-08-26T17:50:00Z",
+   "primeroUtc": "2026-08-26T17:50:00Z",
+   "ultimoUtc": "2026-08-26T17:50:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 4.7479,
+   "lon": -74.8825,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 53.4,
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "escaneoUtc": "2026-08-26T17:50:00Z",
+   "primeroUtc": "2026-08-26T17:50:00Z",
+   "ultimoUtc": "2026-08-26T17:50:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 4.7479,
+   "lon": -74.9006,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 43.2,
+   "municipio": "Venadillo",
+   "vereda": "Cofradia De Gallego",
+   "escaneoUtc": "2026-08-26T17:50:00Z",
+   "primeroUtc": "2026-08-26T17:50:00Z",
+   "ultimoUtc": "2026-08-26T17:50:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "4.94,-74.92": "2026-08-26T18:01:00.080200+00:00",
+  "4.74,-74.90": "2026-08-26T18:01:00.080200+00:00",
+  "4.74,-74.88": "2026-08-26T18:01:00.080200+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-26T18:01:00Z",
+  "focos": 3
+ }
 }

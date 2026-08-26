@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-26T16:34:19.846Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-26T18:01:00Z",
+ "activos": 2,
  "alertas": {
   "intentoUtc": "2026-08-26T16:34:19.846Z",
   "pendientes": 0,
@@ -286,7 +286,7 @@
    "vereda": "Las Rosas",
    "lat": 4.9319,
    "lon": -74.9275,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-26T06:29:00Z",
    "deteccionesTotales": 4,
@@ -317,7 +317,8 @@
     "vientoKmh": 6,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
   {
    "id": "INC-10",
@@ -593,7 +594,7 @@
    "vereda": "Cofradia De Gallego",
    "lat": 4.7631,
    "lon": -74.875,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-25T06:03:00Z",
    "ultimaDeteccionUtc": "2026-08-25T17:52:00Z",
    "deteccionesTotales": 2,
@@ -620,7 +621,8 @@
     "vientoKmh": 14,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
   {
    "id": "INC-19",
