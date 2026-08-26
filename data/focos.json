@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-26T10:18:30.017Z",
+  "actualizadoUtc": "2026-08-26T11:15:36.199Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 3,
-  "focosNuevos": 0,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,11 +12,11 @@
   ],
   "focos": [
     {
-      "id": "2026-08-26T08:32:00Z_4.178_-75.062",
-      "lat": 4.1779,
+      "id": "2026-08-26T08:33:00Z_4.178_-75.062",
+      "lat": 4.1778,
       "lon": -75.0623,
-      "fechaUtc": "2026-08-26T08:32:00Z",
-      "confianza": "alta",
+      "fechaUtc": "2026-08-26T08:33:00Z",
+      "confianza": "media",
       "frp": 5.91,
       "detecciones": 1,
       "satelites": [
