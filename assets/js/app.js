@@ -77,6 +77,11 @@
     zoomControl: true,
     minZoom: 7,
     maxZoom: 19,
+    // Sin fundido: Leaflet superpone las teselas nuevas sobre las viejas con
+    // una transición de opacidad, y eso es justo lo que se percibe como "capas"
+    // al ampliar o alejar. Sin él, la imagen nítida sustituye a la anterior de
+    // golpe y la transición se lee como una sola imagen.
+    fadeAnimation: false,
     renderer: L.svg({ padding: 0.5 }),
   }).setView(VISTA.centro, VISTA.zoom);
 
@@ -112,9 +117,12 @@
   // transición deja de notarse.
   map.createPane('paneFondo');
   map.getPane('paneFondo').style.zIndex = 190;
+  // Se limita a zoom 12: más cerca, estirar una tesela de nivel 8 daría una
+  // mancha borrosa que se notaría como una capa aparte. Y a esa escala las
+  // teselas nítidas llegan de inmediato, así que el telón ya no hace falta.
   L.tileLayer(URL_SATELITE, {
     pane: 'paneFondo',
-    maxZoom: 19,
+    maxZoom: 12,
     maxNativeZoom: 8,
     keepBuffer: 8,
     updateWhenZooming: false,
