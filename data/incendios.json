@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-08-27T10:25:26.516Z",
- "activos": 3,
+ "actualizadoUtc": "2026-08-27T14:46:56.120Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-27T10:25:25.932Z",
-  "pendientes": 2,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-08-27T14:46:56.120Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -954,7 +953,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.167,
    "lon": -75.0637,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-27T07:07:00Z",
    "deteccionesTotales": 2,
@@ -1094,7 +1093,7 @@
    "vereda": "El Paramo",
    "lat": 4.0014,
    "lon": -74.7862,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-27T07:07:00Z",
    "ultimaDeteccionUtc": "2026-08-27T07:07:00Z",
    "deteccionesTotales": 1,
@@ -1128,7 +1127,7 @@
    "vereda": "Chenche Buenos Aires",
    "lat": 3.826,
    "lon": -75.1303,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-27T06:12:00Z",
    "ultimaDeteccionUtc": "2026-08-27T06:12:00Z",
    "deteccionesTotales": 1,
