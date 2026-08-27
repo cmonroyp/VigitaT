@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-27T14:46:56.120Z",
+  "actualizadoUtc": "2026-08-27T22:27:00.811Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 3,
-  "focosNuevos": 0,
+  "totalFocos": 9,
+  "focosNuevos": 8,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,13 +12,115 @@
   ],
   "focos": [
     {
-      "id": "2026-08-27T07:07:00Z_4.161_-75.064",
+      "id": "2026-08-27T18:11:00Z_5.292_-74.959",
+      "lat": 5.2924,
+      "lon": -74.9592,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 13.35,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "San Sebastián De Mariquita",
+      "distanciaKm": 12.8,
+      "vereda": "Piedras Negras",
+      "codigoVereda": "73443026"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.944_-74.932",
+      "lat": 4.9436,
+      "lon": -74.9325,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 33.69,
+      "detecciones": 9,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Lérida",
+      "distanciaKm": 9.4,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.647_-74.902",
+      "lat": 4.6466,
+      "lon": -74.9015,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 13.61,
+      "detecciones": 5,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Venadillo",
+      "distanciaKm": 8.5,
+      "vereda": "Palmarosa",
+      "codigoVereda": "73861021"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.336_-75.116",
+      "lat": 4.3358,
+      "lon": -75.1156,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 18.83,
+      "detecciones": 6,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ibagué",
+      "distanciaKm": 17.3,
+      "vereda": "Buenos Aires",
+      "codigoVereda": "73001017"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.125_-74.771",
+      "lat": 4.1246,
+      "lon": -74.771,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 4.85,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Carmen de Apicalá",
+      "distanciaKm": 6.4,
+      "vereda": "Mortino",
+      "codigoVereda": "73148007"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.012_-74.771",
+      "lat": 4.0123,
+      "lon": -74.7713,
+      "fechaUtc": "2026-08-27T18:11:00Z",
+      "confianza": "media",
+      "frp": 11.82,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Cunday",
+      "distanciaKm": 10.2,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    },
+    {
+      "id": "2026-08-27T18:11:00Z_4.161_-75.064",
       "lat": 4.1614,
       "lon": -75.0644,
-      "fechaUtc": "2026-08-27T07:07:00Z",
+      "fechaUtc": "2026-08-27T18:11:00Z",
       "confianza": "media",
-      "frp": 5.03,
-      "detecciones": 7,
+      "frp": 8.29,
+      "detecciones": 9,
       "satelites": [
         "VIIRS"
       ],
@@ -29,13 +131,13 @@
       "codigoVereda": "73319012"
     },
     {
-      "id": "2026-08-27T07:07:00Z_4.001_-74.786",
+      "id": "2026-08-27T18:11:00Z_4.001_-74.786",
       "lat": 4.0014,
       "lon": -74.7862,
-      "fechaUtc": "2026-08-27T07:07:00Z",
+      "fechaUtc": "2026-08-27T18:11:00Z",
       "confianza": "media",
       "frp": 8.83,
-      "detecciones": 9,
+      "detecciones": 10,
       "satelites": [
         "VIIRS"
       ],
