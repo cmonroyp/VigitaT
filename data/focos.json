@@ -1,14 +1,66 @@
 {
-  "actualizadoUtc": "2026-08-27T06:17:02.873Z",
+  "actualizadoUtc": "2026-08-27T10:25:25.892Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 3,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-08-27T07:07:00Z_4.161_-75.064",
+      "lat": 4.1614,
+      "lon": -75.0644,
+      "fechaUtc": "2026-08-27T07:07:00Z",
+      "confianza": "media",
+      "frp": 5.03,
+      "detecciones": 7,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Guamo",
+      "distanciaKm": 17.9,
+      "vereda": "Cerro Gordo",
+      "codigoVereda": "73319012"
+    },
+    {
+      "id": "2026-08-27T07:07:00Z_4.001_-74.786",
+      "lat": 4.0014,
+      "lon": -74.7862,
+      "fechaUtc": "2026-08-27T07:07:00Z",
+      "confianza": "media",
+      "frp": 8.83,
+      "detecciones": 9,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 12.3,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    },
+    {
+      "id": "2026-08-27T06:12:00Z_3.826_-75.130",
+      "lat": 3.826,
+      "lon": -75.1303,
+      "fechaUtc": "2026-08-27T06:12:00Z",
+      "confianza": "media",
+      "frp": 6.38,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Coyaima",
+      "distanciaKm": 7.7,
+      "vereda": "Chenche Buenos Aires",
+      "codigoVereda": "73217012"
+    }
+  ]
 }

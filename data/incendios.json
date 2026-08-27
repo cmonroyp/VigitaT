@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-27T06:17:02.874Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-27T10:25:26.516Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-08-27T06:17:02.874Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-27T10:25:25.932Z",
+  "pendientes": 2,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -953,14 +954,15 @@
    "vereda": "Cerro Gordo",
    "lat": 4.167,
    "lon": -75.0637,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-27T07:07:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 7.38,
    "confianzaMax": "media",
    "pixeles": [
-    "1042,-18766"
+    "1042,-18766",
+    "1040,-18766"
    ],
    "alertas": {
     "detectado": true,
@@ -968,16 +970,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-26T18:28:00Z_4.167_-75.064"
+    "2026-08-26T18:28:00Z_4.167_-75.064",
+    "2026-08-27T07:07:00Z_4.161_-75.064"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 13,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 30,
-    "vientoKmh": 21,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "tempC": 26,
+    "humedadPct": 58,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -1083,7 +1086,75 @@
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-33",
+   "nombre": "Incendio vereda El Paramo",
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "lat": 4.0014,
+   "lon": -74.7862,
+   "estado": "activo",
+   "inicioUtc": "2026-08-27T07:07:00Z",
+   "ultimaDeteccionUtc": "2026-08-27T07:07:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 8.83,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1000,-18697"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-27T07:07:00Z_4.001_-74.786"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 22,
+    "humedadPct": 64,
+    "vientoKmh": 1,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-34",
+   "nombre": "Incendio vereda Chenche Buenos Aires",
+   "municipio": "Coyaima",
+   "vereda": "Chenche Buenos Aires",
+   "lat": 3.826,
+   "lon": -75.1303,
+   "estado": "activo",
+   "inicioUtc": "2026-08-27T06:12:00Z",
+   "ultimaDeteccionUtc": "2026-08-27T06:12:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.38,
+   "confianzaMax": "media",
+   "pixeles": [
+    "957,-18783"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-27T06:12:00Z_3.826_-75.130"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 27,
+    "humedadPct": 69,
+    "vientoKmh": 3,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 32
+ "secuencia": 34
 }
