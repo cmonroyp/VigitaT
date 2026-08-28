@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-08-28T23:02:57Z",
- "escaneoUtc": "2026-08-28T22:50:00Z",
+ "actualizadoUtc": "2026-08-28T23:16:24Z",
+ "escaneoUtc": "2026-08-28T23:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 1,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 2,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.965,
@@ -20,12 +20,30 @@
    "primeroUtc": "2026-08-28T22:00:00Z",
    "ultimoUtc": "2026-08-28T22:30:00Z",
    "escaneos": 3
+  },
+  {
+   "lat": 3.256,
+   "lon": -75.5862,
+   "codigo": 14,
+   "confianza": "media",
+   "frp": 23.0,
+   "municipio": "Ataco",
+   "vereda": "El Porvenir",
+   "escaneoUtc": "2026-08-28T23:00:00Z",
+   "primeroUtc": "2026-08-28T23:00:00Z",
+   "ultimoUtc": "2026-08-28T23:00:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
   "4.24,-75.42": "2026-08-28T19:37:18.229798+00:00",
   "4.16,-75.06": "2026-08-28T19:37:18.229798+00:00",
   "3.98,-74.82": "2026-08-28T19:37:18.229798+00:00",
-  "3.96,-74.82": "2026-08-28T19:37:18.229798+00:00"
+  "3.96,-74.82": "2026-08-28T19:37:18.229798+00:00",
+  "3.26,-75.58": "2026-08-28T23:16:24.112510+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-28T23:16:24Z",
+  "focos": 1
  }
 }
