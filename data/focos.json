@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-28T16:19:46.015Z",
+  "actualizadoUtc": "2026-08-28T20:57:36.572Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 10,
-  "focosNuevos": 0,
+  "totalFocos": 19,
+  "focosNuevos": 14,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,13 +12,150 @@
   ],
   "focos": [
     {
-      "id": "2026-08-28T06:48:00Z_4.337_-75.115",
+      "id": "2026-08-28T19:13:00Z_4.673_-74.957",
+      "lat": 4.6728,
+      "lon": -74.9566,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 6.83,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Alvarado",
+      "distanciaKm": 11.7,
+      "vereda": "Casitas",
+      "codigoVereda": "73026003"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_4.229_-74.879",
+      "lat": 4.229,
+      "lon": -74.8788,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 4.04,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Espinal",
+      "distanciaKm": 6.8,
+      "vereda": "Agua Blanca Sec De La Dulce",
+      "codigoVereda": "73268003"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_4.154_-74.978",
+      "lat": 4.1542,
+      "lon": -74.9783,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 6.3,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Guamo",
+      "distanciaKm": 13.8,
+      "vereda": "Callejon De Guaduas",
+      "codigoVereda": "73319002"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_3.992_-74.804",
+      "lat": 3.9922,
+      "lon": -74.8043,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 3.07,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Suárez",
+      "distanciaKm": 7,
+      "vereda": "Sinai",
+      "codigoVereda": "73770016"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_3.980_-74.811",
+      "lat": 3.9797,
+      "lon": -74.8112,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 15.96,
+      "detecciones": 7,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Suárez",
+      "distanciaKm": 8,
+      "vereda": "Bacaya",
+      "codigoVereda": "73770004"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_3.684_-75.273",
+      "lat": 3.6839,
+      "lon": -75.2727,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "alta",
+      "frp": 10.53,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 15.5,
+      "vereda": "Protero Grande",
+      "codigoVereda": "73217041"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_4.004_-74.776",
+      "lat": 4.0043,
+      "lon": -74.7761,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 2.58,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 11.2,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_3.966_-74.813",
+      "lat": 3.9662,
+      "lon": -74.8126,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "alta",
+      "frp": 24.33,
+      "detecciones": 16,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Suárez",
+      "distanciaKm": 9.4,
+      "vereda": "La Honda",
+      "codigoVereda": "73770009"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_4.337_-75.115",
       "lat": 4.3373,
       "lon": -75.1149,
-      "fechaUtc": "2026-08-28T06:48:00Z",
-      "confianza": "media",
-      "frp": 1.2,
-      "detecciones": 2,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "alta",
+      "frp": 11.17,
+      "detecciones": 9,
       "satelites": [
         "VIIRS"
       ],
@@ -27,6 +164,91 @@
       "distanciaKm": 17.2,
       "vereda": "Buenos Aires",
       "codigoVereda": "73001017"
+    },
+    {
+      "id": "2026-08-28T19:13:00Z_3.979_-74.796",
+      "lat": 3.9788,
+      "lon": -74.7964,
+      "fechaUtc": "2026-08-28T19:13:00Z",
+      "confianza": "media",
+      "frp": 13.14,
+      "detecciones": 22,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 14.6,
+      "vereda": "California",
+      "codigoVereda": "73226009"
+    },
+    {
+      "id": "2026-08-28T17:52:00Z_4.989_-74.722",
+      "lat": 4.9891,
+      "lon": -74.7218,
+      "fechaUtc": "2026-08-28T17:52:00Z",
+      "confianza": "media",
+      "frp": 5.4,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Armero",
+      "distanciaKm": 20.1,
+      "vereda": "Mendez",
+      "codigoVereda": "73055031"
+    },
+    {
+      "id": "2026-08-28T17:52:00Z_4.955_-74.928",
+      "lat": 4.9545,
+      "lon": -74.9285,
+      "fechaUtc": "2026-08-28T17:52:00Z",
+      "confianza": "media",
+      "frp": 2.85,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Lérida",
+      "distanciaKm": 10.5,
+      "vereda": "Las Rosas",
+      "codigoVereda": "73408013"
+    },
+    {
+      "id": "2026-08-28T17:52:00Z_3.977_-74.781",
+      "lat": 3.9769,
+      "lon": -74.7812,
+      "fechaUtc": "2026-08-28T17:52:00Z",
+      "confianza": "media",
+      "frp": 3.73,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Cunday",
+      "distanciaKm": 13.5,
+      "vereda": "California",
+      "codigoVereda": "73226009"
+    },
+    {
+      "id": "2026-08-28T17:52:00Z_4.152_-75.071",
+      "lat": 4.1525,
+      "lon": -75.0711,
+      "fechaUtc": "2026-08-28T17:52:00Z",
+      "confianza": "media",
+      "frp": 6.03,
+      "detecciones": 9,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Guamo",
+      "distanciaKm": 17.6,
+      "vereda": "Cerro Gordo",
+      "codigoVereda": "73319012"
     },
     {
       "id": "2026-08-28T06:48:00Z_4.308_-75.100",
@@ -46,40 +268,6 @@
       "codigoVereda": "73001017"
     },
     {
-      "id": "2026-08-28T06:48:00Z_4.152_-75.071",
-      "lat": 4.1525,
-      "lon": -75.0711,
-      "fechaUtc": "2026-08-28T06:48:00Z",
-      "confianza": "media",
-      "frp": 5.29,
-      "detecciones": 7,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Guamo",
-      "distanciaKm": 17.6,
-      "vereda": "Cerro Gordo",
-      "codigoVereda": "73319012"
-    },
-    {
-      "id": "2026-08-28T06:48:00Z_3.979_-74.796",
-      "lat": 3.9788,
-      "lon": -74.7964,
-      "fechaUtc": "2026-08-28T06:48:00Z",
-      "confianza": "media",
-      "frp": 1.67,
-      "detecciones": 12,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Cunday",
-      "distanciaKm": 14.6,
-      "vereda": "California",
-      "codigoVereda": "73226009"
-    },
-    {
       "id": "2026-08-28T06:31:00Z_4.020_-74.786",
       "lat": 4.02,
       "lon": -74.7858,
@@ -95,23 +283,6 @@
       "distanciaKm": 16.3,
       "vereda": "Camarones",
       "codigoVereda": "73148003"
-    },
-    {
-      "id": "2026-08-28T06:31:00Z_4.004_-74.776",
-      "lat": 4.0043,
-      "lon": -74.7761,
-      "fechaUtc": "2026-08-28T06:31:00Z",
-      "confianza": "media",
-      "frp": 1.6,
-      "detecciones": 3,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Cunday",
-      "distanciaKm": 11.2,
-      "vereda": "El Paramo",
-      "codigoVereda": "73226017"
     },
     {
       "id": "2026-08-28T06:31:00Z_3.990_-74.778",
@@ -163,23 +334,6 @@
       "distanciaKm": 13.2,
       "vereda": "Camarones",
       "codigoVereda": "73148003"
-    },
-    {
-      "id": "2026-08-28T01:09:00Z_3.981_-74.815",
-      "lat": 3.981,
-      "lon": -74.8155,
-      "fechaUtc": "2026-08-28T01:09:00Z",
-      "confianza": "media",
-      "frp": 15.96,
-      "detecciones": 2,
-      "satelites": [
-        "MODIS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Suárez",
-      "distanciaKm": 7.8,
-      "vereda": "Bacaya",
-      "codigoVereda": "73770004"
     }
   ]
 }
