@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-28T01:46:41.366Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-28T12:02:06.948Z",
+ "activos": 7,
  "alertas": {
-  "intentoUtc": "2026-08-28T01:46:41.366Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-28T12:02:06.284Z",
+  "pendientes": 7,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -429,33 +430,6 @@
    }
   },
   {
-   "id": "INC-13",
-   "nombre": "Incendio vereda Calica",
-   "municipio": "Rovira",
-   "vereda": "Calica",
-   "lat": 4.1304,
-   "lon": -75.2981,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.13,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1033,-18825"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.130_-75.298"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
    "id": "INC-14",
    "nombre": "Incendio vereda La Pradera",
    "municipio": "Rioblanco",
@@ -635,141 +609,6 @@
    "ultimaGoesUtc": "2026-08-26T18:30:00Z"
   },
   {
-   "id": "INC-19",
-   "nombre": "Incendio vereda Potrerillo",
-   "municipio": "Coello",
-   "vereda": "Potrerillo",
-   "lat": 4.2301,
-   "lon": -74.9722,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 3.01,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1058,-18743"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.230_-74.972"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-20",
-   "nombre": "Incendio vereda El Pedregal",
-   "municipio": "Prado",
-   "vereda": "El Pedregal",
-   "lat": 3.6883,
-   "lon": -74.8523,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.37,
-   "confianzaMax": "media",
-   "pixeles": [
-    "922,-18713"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_3.688_-74.852"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-21",
-   "nombre": "Incendio vereda Sinai",
-   "municipio": "Suárez",
-   "vereda": "Sinai",
-   "lat": 4.0186,
-   "lon": -74.7942,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.94,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1005,-18699"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.019_-74.794"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-22",
-   "nombre": "Incendio vereda Buenos Aires",
-   "municipio": "Ibagué",
-   "vereda": "Buenos Aires",
-   "lat": 4.3086,
-   "lon": -75.0987,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.92,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1077,-18775"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.309_-75.099"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
-   "id": "INC-23",
-   "nombre": "Incendio vereda Chaguala  Afuera",
-   "municipio": "Coello",
-   "vereda": "Chaguala  Afuera",
-   "lat": 4.2817,
-   "lon": -74.9755,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:50:00Z",
-   "ultimaDeteccionUtc": "2026-08-25T06:50:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.78,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1070,-18744"
-   ],
-   "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
-    "extinguido": false
-   },
-   "focoIds": [
-    "2026-08-25T06:50:00Z_4.282_-74.975"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0
-  },
-  {
    "id": "INC-24",
    "nombre": "Incendio vereda Jagua Bartolito",
    "municipio": "San Luis",
@@ -921,10 +760,10 @@
    "vereda": "Buenos Aires",
    "lat": 4.3358,
    "lon": -75.1156,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 18.83,
    "confianzaMax": "media",
    "pixeles": [
@@ -938,16 +777,17 @@
    },
    "focoIds": [
     "2026-08-26T18:28:00Z_4.343_-75.113",
-    "2026-08-27T18:11:00Z_4.336_-75.116"
+    "2026-08-27T18:11:00Z_4.336_-75.116",
+    "2026-08-28T06:48:00Z_4.337_-75.115"
    ],
    "areaEstimadaHa": 28,
-   "duracionHoras": 24,
+   "duracionHoras": 36,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
+    "tempC": 24,
+    "humedadPct": 61,
     "vientoKmh": 3,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "MODERADO"
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -957,34 +797,36 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1614,
    "lon": -75.0644,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 3,
+   "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 8.29,
    "confianzaMax": "media",
    "pixeles": [
     "1042,-18766",
-    "1040,-18766"
+    "1040,-18766",
+    "1038,-18768"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 1,
+    "ultCrecimiento": 4,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-26T18:28:00Z_4.167_-75.064",
     "2026-08-27T07:07:00Z_4.161_-75.064",
-    "2026-08-27T18:11:00Z_4.161_-75.064"
+    "2026-08-27T18:11:00Z_4.161_-75.064",
+    "2026-08-28T06:48:00Z_4.152_-75.071"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 24,
+   "areaEstimadaHa": 42,
+   "duracionHoras": 36,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 28,
-    "vientoKmh": 15,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 27,
+    "humedadPct": 56,
+    "vientoKmh": 8,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -1098,34 +940,36 @@
    "vereda": "El Paramo",
    "lat": 4.0123,
    "lon": -74.7713,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-27T07:07:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 3,
+   "ultimaDeteccionUtc": "2026-08-28T06:31:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 11.82,
    "confianzaMax": "media",
    "pixeles": [
     "1000,-18697",
-    "1003,-18693"
+    "1003,-18693",
+    "1001,-18694"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 1,
+    "ultCrecimiento": 4,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-27T07:07:00Z_4.001_-74.786",
     "2026-08-27T18:11:00Z_4.012_-74.771",
-    "2026-08-27T18:11:00Z_4.001_-74.786"
+    "2026-08-27T18:11:00Z_4.001_-74.786",
+    "2026-08-28T06:31:00Z_4.004_-74.776"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 11,
+   "areaEstimadaHa": 42,
+   "duracionHoras": 23,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 36,
-    "vientoKmh": 7,
+    "tempC": 23,
+    "humedadPct": 74,
+    "vientoKmh": 4,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -1135,7 +979,7 @@
    "vereda": "Chenche Buenos Aires",
    "lat": 3.826,
    "lon": -75.1303,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-27T06:12:00Z",
    "ultimaDeteccionUtc": "2026-08-27T06:12:00Z",
    "deteccionesTotales": 1,
@@ -1147,7 +991,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-27T06:12:00Z_3.826_-75.130"
@@ -1263,7 +1107,199 @@
     "vientoHacia": "E",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-38",
+   "nombre": "Incendio vereda Bacaya",
+   "municipio": "Suárez",
+   "vereda": "Bacaya",
+   "lat": 3.981,
+   "lon": -74.8155,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-28T01:09:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T01:09:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 15.96,
+   "confianzaMax": "media",
+   "pixeles": [
+    "995,-18704"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T01:09:00Z_3.981_-74.815"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-39",
+   "nombre": "Incendio vereda Camarones",
+   "municipio": "Carmen de Apicalá",
+   "vereda": "Camarones",
+   "lat": 4.02,
+   "lon": -74.7858,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T06:31:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T06:31:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.55,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1005,-18696"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T06:31:00Z_4.020_-74.786"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 73,
+    "vientoKmh": 2,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-40",
+   "nombre": "Incendio vereda California",
+   "municipio": "Cunday",
+   "vereda": "California",
+   "lat": 3.9788,
+   "lon": -74.7964,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T06:31:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 1.67,
+   "confianzaMax": "media",
+   "pixeles": [
+    "995,-18699",
+    "998,-18695"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 2,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T06:48:00Z_3.979_-74.796",
+    "2026-08-28T06:31:00Z_3.990_-74.778"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 60,
+    "vientoKmh": 3,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-41",
+   "nombre": "Incendio vereda Primavera Baja",
+   "municipio": "Villahermosa",
+   "vereda": "Primavera Baja",
+   "lat": 4.9268,
+   "lon": -75.1187,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T06:29:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T06:29:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.6,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1232,-18780"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T06:29:00Z_4.927_-75.119"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 18,
+    "humedadPct": 56,
+    "vientoKmh": 3,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-42",
+   "nombre": "Incendio vereda Camarones",
+   "municipio": "Carmen de Apicalá",
+   "vereda": "Camarones",
+   "lat": 4.055,
+   "lon": -74.7898,
+   "estado": "sin_senal",
+   "inicioUtc": "2026-08-28T05:53:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T05:53:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.19,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1014,-18697"
+   ],
+   "alertas": {
+    "detectado": false,
+    "ultCrecimiento": 0,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T05:53:00Z_4.055_-74.790"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0
+  },
+  {
+   "id": "INC-43",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3081,
+   "lon": -75.1001,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T06:48:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 0.81,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1077,-18775"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T06:48:00Z_4.308_-75.100"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 61,
+    "vientoKmh": 3,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 37
+ "secuencia": 43
 }
