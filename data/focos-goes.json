@@ -1,12 +1,32 @@
 {
- "actualizadoUtc": "2026-08-28T11:32:28Z",
- "escaneoUtc": "2026-08-28T11:20:00Z",
+ "actualizadoUtc": "2026-08-28T15:38:54Z",
+ "escaneoUtc": "2026-08-28T15:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 4.1834,
+   "lon": -74.7562,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 30.8,
+   "municipio": "Carmen De Apicalá",
+   "vereda": "Bolivia",
+   "escaneoUtc": "2026-08-28T15:20:00Z",
+   "primeroUtc": "2026-08-28T15:20:00Z",
+   "ultimoUtc": "2026-08-28T15:20:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "4.18,-74.76": "2026-08-28T15:38:54.156404+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-28T15:38:54Z",
+  "focos": 1
+ }
 }
