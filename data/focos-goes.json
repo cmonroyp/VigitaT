@@ -1,26 +1,13 @@
 {
- "actualizadoUtc": "2026-08-28T23:22:38Z",
- "escaneoUtc": "2026-08-28T23:10:00Z",
+ "actualizadoUtc": "2026-08-28T23:31:33Z",
+ "escaneoUtc": "2026-08-28T23:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 1,
- "totalFocos": 2,
+ "totalFocos": 1,
  "focosNuevos": 0,
  "focos": [
-  {
-   "lat": 3.965,
-   "lon": -74.8104,
-   "codigo": 33,
-   "confianza": "alta",
-   "frp": 55.7,
-   "municipio": "Suárez",
-   "vereda": "La Honda",
-   "escaneoUtc": "2026-08-28T22:30:00Z",
-   "primeroUtc": "2026-08-28T22:00:00Z",
-   "ultimoUtc": "2026-08-28T22:30:00Z",
-   "escaneos": 3
-  },
   {
    "lat": 3.256,
    "lon": -75.5862,
@@ -29,10 +16,10 @@
    "frp": 29.3,
    "municipio": "Ataco",
    "vereda": "El Porvenir",
-   "escaneoUtc": "2026-08-28T23:10:00Z",
+   "escaneoUtc": "2026-08-28T23:20:00Z",
    "primeroUtc": "2026-08-28T23:00:00Z",
-   "ultimoUtc": "2026-08-28T23:10:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-08-28T23:20:00Z",
+   "escaneos": 3
   }
  ],
  "alertadas": {
