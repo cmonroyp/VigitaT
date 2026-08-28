@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-28T16:19:46.015Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-28T19:37:18Z",
+ "activos": 3,
  "alertas": {
   "intentoUtc": "2026-08-28T16:19:46.015Z",
   "pendientes": 0,
@@ -796,7 +796,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1614,
    "lon": -75.0644,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
    "deteccionesTotales": 4,
@@ -826,7 +826,8 @@
     "vientoKmh": 8,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-28T19:20:00Z"
   },
   {
    "id": "INC-30",
@@ -1114,7 +1115,7 @@
    "vereda": "Bacaya",
    "lat": 3.981,
    "lon": -74.8155,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T01:09:00Z",
    "ultimaDeteccionUtc": "2026-08-28T01:09:00Z",
    "deteccionesTotales": 1,
@@ -1132,7 +1133,8 @@
     "2026-08-28T01:09:00Z_3.981_-74.815"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0
+   "duracionHoras": 0,
+   "ultimaGoesUtc": "2026-08-28T19:20:00Z"
   },
   {
    "id": "INC-39",
@@ -1175,7 +1177,7 @@
    "vereda": "California",
    "lat": 3.9788,
    "lon": -74.7964,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T06:31:00Z",
    "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
    "deteccionesTotales": 2,
@@ -1202,7 +1204,8 @@
     "vientoKmh": 3,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-28T19:20:00Z"
   },
   {
    "id": "INC-41",

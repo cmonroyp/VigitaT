@@ -1,32 +1,75 @@
 {
- "actualizadoUtc": "2026-08-28T15:38:54Z",
- "escaneoUtc": "2026-08-28T15:20:00Z",
+ "actualizadoUtc": "2026-08-28T19:37:18Z",
+ "escaneoUtc": "2026-08-28T19:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 1,
- "totalFocos": 1,
- "focosNuevos": 1,
+ "focosUltimoEscaneo": 4,
+ "totalFocos": 4,
+ "focosNuevos": 4,
  "focos": [
   {
-   "lat": 4.1834,
-   "lon": -74.7562,
+   "lat": 3.9832,
+   "lon": -74.8104,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 30.8,
-   "municipio": "Carmen De Apicalá",
-   "vereda": "Bolivia",
-   "escaneoUtc": "2026-08-28T15:20:00Z",
-   "primeroUtc": "2026-08-28T15:20:00Z",
-   "ultimoUtc": "2026-08-28T15:20:00Z",
+   "frp": 64.2,
+   "municipio": "Suárez",
+   "vereda": "Bacaya",
+   "escaneoUtc": "2026-08-28T19:20:00Z",
+   "primeroUtc": "2026-08-28T19:20:00Z",
+   "ultimoUtc": "2026-08-28T19:20:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 3.965,
+   "lon": -74.8104,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 43.3,
+   "municipio": "Suárez",
+   "vereda": "La Honda",
+   "escaneoUtc": "2026-08-28T19:20:00Z",
+   "primeroUtc": "2026-08-28T19:20:00Z",
+   "ultimoUtc": "2026-08-28T19:20:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 4.1652,
+   "lon": -75.0632,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 34.7,
+   "municipio": "Guamo",
+   "vereda": "Cerro Gordo",
+   "escaneoUtc": "2026-08-28T19:20:00Z",
+   "primeroUtc": "2026-08-28T19:20:00Z",
+   "ultimoUtc": "2026-08-28T19:20:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 4.238,
+   "lon": -75.4245,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 27.2,
+   "municipio": "Rovira",
+   "vereda": "El Paraíso",
+   "escaneoUtc": "2026-08-28T19:20:00Z",
+   "primeroUtc": "2026-08-28T19:20:00Z",
+   "ultimoUtc": "2026-08-28T19:20:00Z",
    "escaneos": 1
   }
  ],
  "alertadas": {
-  "4.18,-74.76": "2026-08-28T15:38:54.156404+00:00"
+  "4.18,-74.76": "2026-08-28T15:38:54.156404+00:00",
+  "4.24,-75.42": "2026-08-28T19:37:18.229798+00:00",
+  "4.16,-75.06": "2026-08-28T19:37:18.229798+00:00",
+  "3.98,-74.82": "2026-08-28T19:37:18.229798+00:00",
+  "3.96,-74.82": "2026-08-28T19:37:18.229798+00:00"
  },
  "ultimaAlerta": {
-  "utc": "2026-08-28T15:38:54Z",
-  "focos": 1
+  "utc": "2026-08-28T19:37:18Z",
+  "focos": 4
  }
 }
