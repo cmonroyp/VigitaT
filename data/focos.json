@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-28T22:10:20.064Z",
+  "actualizadoUtc": "2026-08-28T23:15:54.696Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 19,
-  "focosNuevos": 0,
+  "totalFocos": 23,
+  "focosNuevos": 9,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,164 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-28T20:32:00Z_4.277_-75.363",
+      "lat": 4.277,
+      "lon": -75.3635,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "media",
+      "frp": 8.58,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rovira",
+      "distanciaKm": 14.3,
+      "vereda": "La Islandia",
+      "codigoVereda": "73624039"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_4.130_-75.295",
+      "lat": 4.1297,
+      "lon": -75.2948,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "media",
+      "frp": 13.18,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rovira",
+      "distanciaKm": 13.6,
+      "vereda": "Corazón",
+      "codigoVereda": "73624012"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_4.106_-74.904",
+      "lat": 4.1061,
+      "lon": -74.9043,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "alta",
+      "frp": 11.43,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Guamo",
+      "distanciaKm": 11.1,
+      "vereda": "Serrezuela Primavera",
+      "codigoVereda": "73319043"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_4.025_-75.503",
+      "lat": 4.0254,
+      "lon": -75.5031,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "alta",
+      "frp": 25.66,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Roncesvalles",
+      "distanciaKm": 11.4,
+      "vereda": "Agua De Dios",
+      "codigoVereda": "73622001"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_3.980_-74.811",
+      "lat": 3.9797,
+      "lon": -74.8112,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "media",
+      "frp": 20.2,
+      "detecciones": 8,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Suárez",
+      "distanciaKm": 8,
+      "vereda": "Bacaya",
+      "codigoVereda": "73770004"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_4.055_-74.790",
+      "lat": 4.055,
+      "lon": -74.7898,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "alta",
+      "frp": 44.23,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Carmen de Apicalá",
+      "distanciaKm": 13.2,
+      "vereda": "Camarones",
+      "codigoVereda": "73148003"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_3.977_-74.781",
+      "lat": 3.9769,
+      "lon": -74.7812,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "alta",
+      "frp": 27.95,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Cunday",
+      "distanciaKm": 13.5,
+      "vereda": "California",
+      "codigoVereda": "73226009"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_4.337_-75.115",
+      "lat": 4.3373,
+      "lon": -75.1149,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "alta",
+      "frp": 13.83,
+      "detecciones": 10,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Ibagué",
+      "distanciaKm": 17.2,
+      "vereda": "Buenos Aires",
+      "codigoVereda": "73001017"
+    },
+    {
+      "id": "2026-08-28T20:32:00Z_3.979_-74.796",
+      "lat": 3.9788,
+      "lon": -74.7964,
+      "fechaUtc": "2026-08-28T20:32:00Z",
+      "confianza": "media",
+      "frp": 15.77,
+      "detecciones": 24,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 14.6,
+      "vereda": "California",
+      "codigoVereda": "73226009"
+    },
     {
       "id": "2026-08-28T19:13:00Z_4.673_-74.957",
       "lat": 4.6728,
@@ -80,24 +238,6 @@
       "codigoVereda": "73770016"
     },
     {
-      "id": "2026-08-28T19:13:00Z_3.980_-74.811",
-      "lat": 3.9797,
-      "lon": -74.8112,
-      "fechaUtc": "2026-08-28T19:13:00Z",
-      "confianza": "media",
-      "frp": 15.96,
-      "detecciones": 7,
-      "satelites": [
-        "VIIRS",
-        "MODIS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Suárez",
-      "distanciaKm": 8,
-      "vereda": "Bacaya",
-      "codigoVereda": "73770004"
-    },
-    {
       "id": "2026-08-28T19:13:00Z_3.684_-75.273",
       "lat": 3.6839,
       "lon": -75.2727,
@@ -149,40 +289,6 @@
       "codigoVereda": "73770009"
     },
     {
-      "id": "2026-08-28T19:13:00Z_4.337_-75.115",
-      "lat": 4.3373,
-      "lon": -75.1149,
-      "fechaUtc": "2026-08-28T19:13:00Z",
-      "confianza": "alta",
-      "frp": 11.17,
-      "detecciones": 9,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Ibagué",
-      "distanciaKm": 17.2,
-      "vereda": "Buenos Aires",
-      "codigoVereda": "73001017"
-    },
-    {
-      "id": "2026-08-28T19:13:00Z_3.979_-74.796",
-      "lat": 3.9788,
-      "lon": -74.7964,
-      "fechaUtc": "2026-08-28T19:13:00Z",
-      "confianza": "media",
-      "frp": 13.14,
-      "detecciones": 22,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Cunday",
-      "distanciaKm": 14.6,
-      "vereda": "California",
-      "codigoVereda": "73226009"
-    },
-    {
       "id": "2026-08-28T17:52:00Z_4.989_-74.722",
       "lat": 4.9891,
       "lon": -74.7218,
@@ -215,23 +321,6 @@
       "distanciaKm": 10.5,
       "vereda": "Las Rosas",
       "codigoVereda": "73408013"
-    },
-    {
-      "id": "2026-08-28T17:52:00Z_3.977_-74.781",
-      "lat": 3.9769,
-      "lon": -74.7812,
-      "fechaUtc": "2026-08-28T17:52:00Z",
-      "confianza": "media",
-      "frp": 3.73,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Cunday",
-      "distanciaKm": 13.5,
-      "vereda": "California",
-      "codigoVereda": "73226009"
     },
     {
       "id": "2026-08-28T17:52:00Z_4.152_-75.071",
@@ -317,23 +406,6 @@
       "distanciaKm": 11.5,
       "vereda": "Primavera Baja",
       "codigoVereda": "73870002"
-    },
-    {
-      "id": "2026-08-28T05:53:00Z_4.055_-74.790",
-      "lat": 4.055,
-      "lon": -74.7898,
-      "fechaUtc": "2026-08-28T05:53:00Z",
-      "confianza": "media",
-      "frp": 1.19,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Carmen de Apicalá",
-      "distanciaKm": 13.2,
-      "vereda": "Camarones",
-      "codigoVereda": "73148003"
     }
   ]
 }

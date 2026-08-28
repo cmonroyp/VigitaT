@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-28T22:42:31Z",
- "activos": 12,
+ "actualizadoUtc": "2026-08-28T23:15:55.378Z",
+ "activos": 17,
  "alertas": {
-  "intentoUtc": "2026-08-28T22:10:20.065Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-28T23:15:54.728Z",
+  "pendientes": 6,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -46,11 +47,11 @@
    "areaEstimadaHa": 98,
    "duracionHoras": 71,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 40,
-    "vientoKmh": 13,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 30,
+    "humedadPct": 52,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-26T17:50:00Z"
   },
@@ -251,8 +252,8 @@
    "lon": -75.1156,
    "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 4,
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 5,
    "maxFrp": 18.83,
    "confianzaMax": "alta",
    "pixeles": [
@@ -268,15 +269,16 @@
     "2026-08-26T18:28:00Z_4.343_-75.113",
     "2026-08-27T18:11:00Z_4.336_-75.116",
     "2026-08-28T06:48:00Z_4.337_-75.115",
-    "2026-08-28T19:13:00Z_4.337_-75.115"
+    "2026-08-28T19:13:00Z_4.337_-75.115",
+    "2026-08-28T20:32:00Z_4.337_-75.115"
    ],
    "areaEstimadaHa": 28,
-   "duracionHoras": 49,
+   "duracionHoras": 50,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 34,
-    "vientoKmh": 10,
-    "vientoHacia": "NO",
+    "tempC": 31,
+    "humedadPct": 38,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -313,9 +315,9 @@
    "areaEstimadaHa": 42,
    "duracionHoras": 47,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 31,
-    "vientoKmh": 14,
+    "tempC": 34,
+    "humedadPct": 33,
+    "vientoKmh": 15,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -458,9 +460,9 @@
    "areaEstimadaHa": 42,
    "duracionHoras": 36,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 35,
-    "vientoKmh": 5,
+    "tempC": 28,
+    "humedadPct": 40,
+    "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
@@ -610,8 +612,8 @@
    "lon": -74.8126,
    "estado": "activo",
    "inicioUtc": "2026-08-28T01:09:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 3,
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 24.33,
    "confianzaMax": "alta",
    "pixeles": [
@@ -627,16 +629,17 @@
    "focoIds": [
     "2026-08-28T01:09:00Z_3.981_-74.815",
     "2026-08-28T19:13:00Z_3.966_-74.813",
-    "2026-08-28T19:13:00Z_3.980_-74.811"
+    "2026-08-28T19:13:00Z_3.980_-74.811",
+    "2026-08-28T20:32:00Z_3.980_-74.811"
    ],
    "areaEstimadaHa": 42,
-   "duracionHoras": 18,
+   "duracionHoras": 19,
    "ultimaGoesUtc": "2026-08-28T22:30:00Z",
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
-    "vientoKmh": 6,
-    "vientoHacia": "N",
+    "tempC": 31,
+    "humedadPct": 36,
+    "vientoKmh": 7,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -679,14 +682,14 @@
    "nombre": "Incendio vereda California",
    "municipio": "Cunday",
    "vereda": "California",
-   "lat": 3.9788,
-   "lon": -74.7964,
+   "lat": 3.9769,
+   "lon": -74.7812,
    "estado": "activo",
    "inicioUtc": "2026-08-28T06:31:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 13.14,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 6,
+   "maxFrp": 27.95,
+   "confianzaMax": "alta",
    "pixeles": [
     "995,-18699",
     "998,-18695",
@@ -694,21 +697,23 @@
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 2,
+    "ultCrecimiento": 6,
     "extinguido": false
    },
    "focoIds": [
     "2026-08-28T06:48:00Z_3.979_-74.796",
     "2026-08-28T06:31:00Z_3.990_-74.778",
     "2026-08-28T19:13:00Z_3.979_-74.796",
-    "2026-08-28T17:52:00Z_3.977_-74.781"
+    "2026-08-28T17:52:00Z_3.977_-74.781",
+    "2026-08-28T20:32:00Z_3.977_-74.781",
+    "2026-08-28T20:32:00Z_3.979_-74.796"
    ],
    "areaEstimadaHa": 42,
-   "duracionHoras": 13,
+   "duracionHoras": 14,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 39,
-    "vientoKmh": 5,
+    "tempC": 31,
+    "humedadPct": 36,
+    "vientoKmh": 7,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    },
@@ -755,25 +760,33 @@
    "vereda": "Camarones",
    "lat": 4.055,
    "lon": -74.7898,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T05:53:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T05:53:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.19,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 44.23,
+   "confianzaMax": "alta",
    "pixeles": [
     "1014,-18697"
    ],
    "alertas": {
-    "detectado": false,
-    "ultCrecimiento": 0,
+    "detectado": true,
+    "ultCrecimiento": 2,
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-28T05:53:00Z_4.055_-74.790"
+    "2026-08-28T05:53:00Z_4.055_-74.790",
+    "2026-08-28T20:32:00Z_4.055_-74.790"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0
+   "duracionHoras": 15,
+   "clima": {
+    "tempC": 30,
+    "humedadPct": 49,
+    "vientoKmh": 3,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   },
   {
    "id": "INC-43",
@@ -836,9 +849,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 34,
-    "vientoKmh": 14,
+    "tempC": 33,
+    "humedadPct": 38,
+    "vientoKmh": 11,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -870,9 +883,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
-    "vientoKmh": 15,
+    "tempC": 33,
+    "humedadPct": 34,
+    "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
@@ -904,9 +917,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 31,
-    "vientoKmh": 13,
+    "tempC": 35,
+    "humedadPct": 33,
+    "vientoKmh": 12,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -938,10 +951,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 31,
-    "vientoKmh": 9,
-    "vientoHacia": "NE",
+    "tempC": 34,
+    "humedadPct": 41,
+    "vientoKmh": 1,
+    "vientoHacia": "SE",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -972,10 +985,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 36,
-    "vientoKmh": 11,
-    "vientoHacia": "N",
+    "tempC": 33,
+    "humedadPct": 45,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -1006,13 +1019,149 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 33,
-    "vientoKmh": 6,
-    "vientoHacia": "N",
+    "tempC": 32,
+    "humedadPct": 36,
+    "vientoKmh": 7,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-50",
+   "nombre": "Incendio vereda Agua De Dios",
+   "municipio": "Roncesvalles",
+   "vereda": "Agua De Dios",
+   "lat": 4.0254,
+   "lon": -75.5031,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T20:32:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 25.66,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "1006,-18876"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T20:32:00Z_4.025_-75.503"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 18,
+    "humedadPct": 78,
+    "vientoKmh": 3,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-51",
+   "nombre": "Incendio vereda Corazón",
+   "municipio": "Rovira",
+   "vereda": "Corazón",
+   "lat": 4.1297,
+   "lon": -75.2948,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T20:32:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 13.18,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1032,-18824"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T20:32:00Z_4.130_-75.295"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 31,
+    "humedadPct": 34,
+    "vientoKmh": 6,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-52",
+   "nombre": "Incendio vereda Serrezuela Primavera",
+   "municipio": "Guamo",
+   "vereda": "Serrezuela Primavera",
+   "lat": 4.1061,
+   "lon": -74.9043,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T20:32:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 11.43,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "1027,-18726"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T20:32:00Z_4.106_-74.904"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 35,
+    "vientoKmh": 5,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-53",
+   "nombre": "Incendio vereda La Islandia",
+   "municipio": "Rovira",
+   "vereda": "La Islandia",
+   "lat": 4.277,
+   "lon": -75.3635,
+   "estado": "activo",
+   "inicioUtc": "2026-08-28T20:32:00Z",
+   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 8.58,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1069,-18841"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-28T20:32:00Z_4.277_-75.363"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 15,
+    "humedadPct": 92,
+    "vientoKmh": 10,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
    }
   }
  ],
- "secuencia": 49
+ "secuencia": 53
 }
