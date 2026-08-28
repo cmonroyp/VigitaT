@@ -1,12 +1,32 @@
 {
- "actualizadoUtc": "2026-08-27T23:29:45Z",
- "escaneoUtc": "2026-08-27T23:10:00Z",
+ "actualizadoUtc": "2026-08-28T02:11:41Z",
+ "escaneoUtc": "2026-08-28T02:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 3.9832,
+   "lon": -74.7924,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 121.0,
+   "municipio": "Cunday",
+   "vereda": "California",
+   "escaneoUtc": "2026-08-28T02:00:00Z",
+   "primeroUtc": "2026-08-28T02:00:00Z",
+   "ultimoUtc": "2026-08-28T02:00:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "3.98,-74.80": "2026-08-28T02:11:41.347416+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-28T02:11:41Z",
+  "focos": 1
+ }
 }
