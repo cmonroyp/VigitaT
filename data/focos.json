@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-29T08:23:34.363Z",
+  "actualizadoUtc": "2026-08-29T09:18:56.077Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 8,
-  "focosNuevos": 8,
+  "focosNuevos": 5,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,13 +12,13 @@
   ],
   "focos": [
     {
-      "id": "2026-08-29T06:29:00Z_4.333_-75.114",
-      "lat": 4.3326,
-      "lon": -75.1144,
+      "id": "2026-08-29T06:29:00Z_4.332_-75.115",
+      "lat": 4.3323,
+      "lon": -75.1145,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
-      "frp": 1.09,
-      "detecciones": 2,
+      "frp": 1.69,
+      "detecciones": 5,
       "satelites": [
         "VIIRS"
       ],
@@ -30,12 +30,12 @@
     },
     {
       "id": "2026-08-29T06:29:00Z_4.162_-75.067",
-      "lat": 4.1618,
-      "lon": -75.0667,
+      "lat": 4.1615,
+      "lon": -75.0668,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
-      "frp": 2.55,
-      "detecciones": 1,
+      "frp": 2.9,
+      "detecciones": 3,
       "satelites": [
         "VIIRS"
       ],
@@ -47,8 +47,8 @@
     },
     {
       "id": "2026-08-29T06:29:00Z_4.133_-75.292",
-      "lat": 4.1329,
-      "lon": -75.2923,
+      "lat": 4.1327,
+      "lon": -75.2925,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
       "frp": 0.54,
@@ -63,13 +63,13 @@
       "codigoVereda": "73624008"
     },
     {
-      "id": "2026-08-29T06:29:00Z_4.061_-74.790",
-      "lat": 4.0606,
-      "lon": -74.7903,
+      "id": "2026-08-29T06:29:00Z_4.060_-74.790",
+      "lat": 4.0604,
+      "lon": -74.7904,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
-      "frp": 3.21,
-      "detecciones": 1,
+      "frp": 4.54,
+      "detecciones": 2,
       "satelites": [
         "VIIRS"
       ],
@@ -80,9 +80,9 @@
       "codigoVereda": "73148003"
     },
     {
-      "id": "2026-08-29T06:29:00Z_4.013_-74.787",
-      "lat": 4.0126,
-      "lon": -74.787,
+      "id": "2026-08-29T06:29:00Z_4.012_-74.787",
+      "lat": 4.0124,
+      "lon": -74.7871,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
       "frp": 1.44,
@@ -97,9 +97,9 @@
       "codigoVereda": "73770016"
     },
     {
-      "id": "2026-08-29T06:29:00Z_3.998_-74.800",
-      "lat": 3.9977,
-      "lon": -74.8,
+      "id": "2026-08-29T06:29:00Z_3.997_-74.800",
+      "lat": 3.9975,
+      "lon": -74.8002,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
       "frp": 1.74,
@@ -114,9 +114,9 @@
       "codigoVereda": "73770016"
     },
     {
-      "id": "2026-08-29T06:29:00Z_3.973_-74.794",
-      "lat": 3.9726,
-      "lon": -74.7936,
+      "id": "2026-08-29T06:29:00Z_3.972_-74.794",
+      "lat": 3.9724,
+      "lon": -74.7937,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
       "frp": 2.57,
@@ -126,24 +126,24 @@
       ],
       "diaNoche": "noche",
       "municipio": "Cunday",
-      "distanciaKm": 14.8,
+      "distanciaKm": 14.9,
       "vereda": "California",
       "codigoVereda": "73226009"
     },
     {
       "id": "2026-08-29T06:29:00Z_3.947_-74.805",
-      "lat": 3.9473,
-      "lon": -74.8046,
+      "lat": 3.947,
+      "lon": -74.8048,
       "fechaUtc": "2026-08-29T06:29:00Z",
       "confianza": "media",
       "frp": 11.35,
-      "detecciones": 6,
+      "detecciones": 10,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "noche",
       "municipio": "Cunday",
-      "distanciaKm": 17.6,
+      "distanciaKm": 17.7,
       "vereda": "San Jose De Arenales",
       "codigoVereda": "73226046"
     }
