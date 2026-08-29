@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-29T09:18:56.626Z",
+ "actualizadoUtc": "2026-08-29T09:19:48Z",
  "activos": 9,
  "alertas": {
   "intentoUtc": "2026-08-29T09:18:56.110Z",
@@ -639,7 +639,7 @@
    ],
    "areaEstimadaHa": 42,
    "duracionHoras": 19,
-   "ultimaGoesUtc": "2026-08-29T06:50:00Z",
+   "ultimaGoesUtc": "2026-08-29T09:00:00Z",
    "clima": {
     "tempC": 22,
     "humedadPct": 73,
@@ -1210,7 +1210,8 @@
     "vientoKmh": 3,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-29T09:00:00Z"
   },
   {
    "id": "INC-55",
