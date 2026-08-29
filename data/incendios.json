@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-29T00:49:42Z",
- "activos": 15,
+ "actualizadoUtc": "2026-08-29T01:20:04.709Z",
+ "activos": 8,
  "alertas": {
-  "intentoUtc": "2026-08-29T00:48:26.257Z",
+  "intentoUtc": "2026-08-29T01:20:04.709Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -275,10 +275,10 @@
    "duracionHoras": 50,
    "clima": {
     "tempC": 28,
-    "humedadPct": 47,
-    "vientoKmh": 3,
+    "humedadPct": 51,
+    "vientoKmh": 6,
     "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -288,7 +288,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1614,
    "lon": -75.0644,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
    "deteccionesTotales": 5,
@@ -433,7 +433,7 @@
    "vereda": "El Paramo",
    "lat": 4.0123,
    "lon": -74.7713,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-27T07:07:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 5,
@@ -635,8 +635,8 @@
    "duracionHoras": 19,
    "ultimaGoesUtc": "2026-08-29T00:30:00Z",
    "clima": {
-    "tempC": 25,
-    "humedadPct": 65,
+    "tempC": 24,
+    "humedadPct": 71,
     "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
@@ -710,8 +710,8 @@
    "areaEstimadaHa": 42,
    "duracionHoras": 14,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 65,
+    "tempC": 24,
+    "humedadPct": 71,
     "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
@@ -780,8 +780,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 15,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 65,
+    "tempC": 24,
+    "humedadPct": 71,
     "vientoKmh": 4,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
@@ -828,7 +828,7 @@
    "vereda": "Protero Grande",
    "lat": 3.6839,
    "lon": -75.2727,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -862,7 +862,7 @@
    "vereda": "Casitas",
    "lat": 4.6728,
    "lon": -74.9566,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -896,7 +896,7 @@
    "vereda": "Callejon De Guaduas",
    "lat": 4.1542,
    "lon": -74.9783,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -964,7 +964,7 @@
    "vereda": "Agua Blanca Sec De La Dulce",
    "lat": 4.229,
    "lon": -74.8788,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -998,7 +998,7 @@
    "vereda": "Sinai",
    "lat": 3.9922,
    "lon": -74.8043,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -1053,7 +1053,7 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 17,
-    "humedadPct": 83,
+    "humedadPct": 84,
     "vientoKmh": 4,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
@@ -1086,10 +1086,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 51,
-    "vientoKmh": 3,
-    "vientoHacia": "SO",
+    "tempC": 27,
+    "humedadPct": 53,
+    "vientoKmh": 2,
+    "vientoHacia": "S",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -1121,9 +1121,9 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 32,
-    "humedadPct": 44,
+    "humedadPct": 47,
     "vientoKmh": 5,
-    "vientoHacia": "NO",
+    "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -1155,8 +1155,8 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 16,
-    "humedadPct": 74,
-    "vientoKmh": 2,
+    "humedadPct": 73,
+    "vientoKmh": 3,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
