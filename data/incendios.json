@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-08-28T23:51:18Z",
+ "actualizadoUtc": "2026-08-29T00:07:43Z",
  "activos": 17,
  "alertas": {
   "intentoUtc": "2026-08-28T23:15:54.728Z",
@@ -634,7 +634,7 @@
    ],
    "areaEstimadaHa": 42,
    "duracionHoras": 19,
-   "ultimaGoesUtc": "2026-08-28T23:40:00Z",
+   "ultimaGoesUtc": "2026-08-28T23:50:00Z",
    "clima": {
     "tempC": 31,
     "humedadPct": 36,
