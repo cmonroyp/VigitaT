@@ -1,27 +1,13 @@
 {
- "actualizadoUtc": "2026-08-29T01:21:27Z",
- "escaneoUtc": "2026-08-29T01:10:00Z",
+ "actualizadoUtc": "2026-08-29T01:32:31Z",
+ "escaneoUtc": "2026-08-29T01:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 1,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 3.965,
-   "lon": -74.8104,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 37.2,
-   "municipio": "Suárez",
-   "vereda": "La Honda",
-   "escaneoUtc": "2026-08-29T00:30:00Z",
-   "primeroUtc": "2026-08-28T23:30:00Z",
-   "ultimoUtc": "2026-08-29T00:30:00Z",
-   "escaneos": 4
-  }
- ],
+ "focos": [],
  "alertadas": {
   "4.24,-75.42": "2026-08-28T19:37:18.229798+00:00",
   "4.16,-75.06": "2026-08-28T19:37:18.229798+00:00",
