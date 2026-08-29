@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-29T18:22:08.666Z",
+ "actualizadoUtc": "2026-08-29T19:14:45.889Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-29T18:22:08.070Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-08-29T19:14:45.386Z",
+  "pendientes": 5,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -99,81 +99,6 @@
    "ultimaGoesUtc": "2026-08-26T18:30:00Z"
   },
   {
-   "id": "INC-24",
-   "nombre": "Incendio vereda Jagua Bartolito",
-   "municipio": "San Luis",
-   "vereda": "Jagua Bartolito",
-   "lat": 4.1987,
-   "lon": -75.0673,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T08:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 10.32,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1044,-18766",
-    "1050,-18767",
-    "1045,-18766"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 2,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T08:32:00Z_4.178_-75.062",
-    "2026-08-26T08:33:00Z_4.178_-75.062",
-    "2026-08-26T17:34:00Z_4.199_-75.067",
-    "2026-08-26T18:28:00Z_4.181_-75.062"
-   ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 10,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 30,
-    "vientoKmh": 21,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
-   }
-  },
-  {
-   "id": "INC-26",
-   "nombre": "Incendio vereda Malachí",
-   "municipio": "Melgar",
-   "vereda": "Malachí",
-   "lat": 4.2659,
-   "lon": -74.591,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 40.94,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1066,-18648",
-    "1064,-18651"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 2,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:28:00Z_4.266_-74.591",
-    "2026-08-26T18:28:00Z_4.257_-74.604"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 32,
-    "humedadPct": 57,
-    "vientoKmh": 5,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
    "id": "INC-28",
    "nombre": "Incendio vereda Buenos Aires",
    "municipio": "Ibagué",
@@ -261,76 +186,6 @@
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
   },
   {
-   "id": "INC-30",
-   "nombre": "Incendio vereda San José",
-   "municipio": "Armero",
-   "vereda": "San José",
-   "lat": 4.9538,
-   "lon": -74.823,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 6.39,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1238,-18706",
-    "1235,-18708"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 2,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:28:00Z_4.954_-74.823",
-    "2026-08-26T18:28:00Z_4.939_-74.831"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 31,
-    "vientoKmh": 16,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-31",
-   "nombre": "Incendio vereda Cunira",
-   "municipio": "Coello",
-   "vereda": "Cunira",
-   "lat": 4.2213,
-   "lon": -74.9732,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:28:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1055,-18743"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:28:00Z_4.221_-74.973"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 30,
-    "vientoKmh": 21,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
-   }
-  },
-  {
    "id": "INC-32",
    "nombre": "Incendio vereda Paradero 2",
    "municipio": "Flandes",
@@ -371,7 +226,7 @@
    "vereda": "El Paramo",
    "lat": 4.0123,
    "lon": -74.7713,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-27T07:07:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 5,
@@ -385,7 +240,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 4,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-27T07:07:00Z_4.001_-74.786",
@@ -772,7 +627,7 @@
    "vereda": "Protero Grande",
    "lat": 3.6839,
    "lon": -75.2727,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -784,7 +639,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T19:13:00Z_3.684_-75.273"
@@ -806,7 +661,7 @@
    "vereda": "Casitas",
    "lat": 4.6728,
    "lon": -74.9566,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -818,7 +673,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T19:13:00Z_4.673_-74.957"
@@ -840,7 +695,7 @@
    "vereda": "Callejon De Guaduas",
    "lat": 4.1542,
    "lon": -74.9783,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -852,7 +707,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T19:13:00Z_4.154_-74.978"
@@ -908,7 +763,7 @@
    "vereda": "Agua Blanca Sec De La Dulce",
    "lat": 4.229,
    "lon": -74.8788,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
    "deteccionesTotales": 1,
@@ -920,7 +775,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T19:13:00Z_4.229_-74.879"
