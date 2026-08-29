@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-29T13:16:30.134Z",
+ "actualizadoUtc": "2026-08-29T14:17:38.457Z",
  "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-08-29T13:16:30.133Z",
+  "intentoUtc": "2026-08-29T14:17:38.457Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -251,8 +251,8 @@
    "lon": -75.1156,
    "estado": "sin_senal",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 7,
+   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
+   "deteccionesTotales": 8,
    "maxFrp": 18.83,
    "confianzaMax": "alta",
    "pixeles": [
@@ -272,10 +272,11 @@
     "2026-08-28T19:13:00Z_4.337_-75.115",
     "2026-08-28T20:32:00Z_4.337_-75.115",
     "2026-08-29T06:29:00Z_4.333_-75.114",
-    "2026-08-29T06:29:00Z_4.332_-75.115"
+    "2026-08-29T06:29:00Z_4.332_-75.115",
+    "2026-08-29T07:14:00Z_4.332_-75.115"
    ],
    "areaEstimadaHa": 42,
-   "duracionHoras": 60,
+   "duracionHoras": 61,
    "clima": {
     "tempC": 24,
     "humedadPct": 71,
@@ -320,11 +321,11 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 62,
    "clima": {
-    "tempC": 29,
-    "humedadPct": 50,
-    "vientoKmh": 8,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 30,
+    "humedadPct": 46,
+    "vientoKmh": 7,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
   },
@@ -641,11 +642,11 @@
    "duracionHoras": 19,
    "ultimaGoesUtc": "2026-08-29T09:00:00Z",
    "clima": {
-    "tempC": 27,
-    "humedadPct": 51,
-    "vientoKmh": 3,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 29,
+    "humedadPct": 46,
+    "vientoKmh": 5,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -1012,8 +1013,8 @@
    "lon": -74.8043,
    "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 3,
+   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
+   "deteccionesTotales": 4,
    "maxFrp": 3.07,
    "confianzaMax": "media",
    "pixeles": [
@@ -1028,10 +1029,11 @@
    "focoIds": [
     "2026-08-28T19:13:00Z_3.992_-74.804",
     "2026-08-29T06:29:00Z_3.998_-74.800",
-    "2026-08-29T06:29:00Z_3.997_-74.800"
+    "2026-08-29T06:29:00Z_3.997_-74.800",
+    "2026-08-29T07:14:00Z_3.997_-74.800"
    ],
    "areaEstimadaHa": 28,
-   "duracionHoras": 11,
+   "duracionHoras": 12,
    "clima": {
     "tempC": 26,
     "humedadPct": 63,
@@ -1187,8 +1189,8 @@
    "lon": -74.8046,
    "estado": "activo",
    "inicioUtc": "2026-08-29T06:29:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 11.35,
    "confianzaMax": "media",
    "pixeles": [
@@ -1200,16 +1202,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-29T06:29:00Z_3.947_-74.805"
+    "2026-08-29T06:29:00Z_3.947_-74.805",
+    "2026-08-29T07:14:00Z_3.947_-74.805"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "duracionHoras": 1,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 56,
-    "vientoKmh": 2,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 27,
+    "humedadPct": 49,
+    "vientoKmh": 4,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T09:00:00Z"
   },
