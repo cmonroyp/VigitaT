@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-29T17:16:42.257Z",
+ "actualizadoUtc": "2026-08-29T18:22:08.666Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-29T17:16:42.257Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-29T18:22:08.070Z",
+  "pendientes": 2,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -14,7 +15,7 @@
    "vereda": "Las Rosas",
    "lat": 4.9436,
    "lon": -74.9325,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-25T18:47:00Z",
    "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
    "deteccionesTotales": 7,
@@ -32,7 +33,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 5,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-25T18:47:00Z_4.932_-74.928",
@@ -137,40 +138,6 @@
    }
   },
   {
-   "id": "INC-25",
-   "nombre": "Incendio vereda El Jardin",
-   "municipio": "Guamo",
-   "vereda": "El Jardin",
-   "lat": 4.0584,
-   "lon": -75.0718,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T17:34:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T17:34:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 6.67,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1015,-18768"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T17:34:00Z_4.058_-75.072"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
-    "vientoKmh": 22,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
-   }
-  },
-  {
    "id": "INC-26",
    "nombre": "Incendio vereda Malachí",
    "municipio": "Melgar",
@@ -204,42 +171,6 @@
     "vientoKmh": 5,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-27",
-   "nombre": "Incendio vereda Santa Isabel",
-   "municipio": "San Luis",
-   "vereda": "Santa Isabel",
-   "lat": 4.278,
-   "lon": -75.0477,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:11:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T18:11:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 23.24,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1069,-18762",
-    "1066,-18760"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 2,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:11:00Z_4.278_-75.048",
-    "2026-08-26T18:11:00Z_4.266_-75.041"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 29,
-    "vientoKmh": 20,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -943,7 +874,7 @@
    "vereda": "Mendez",
    "lat": 4.9891,
    "lon": -74.7218,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T17:52:00Z",
    "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
    "deteccionesTotales": 1,
@@ -955,7 +886,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T17:52:00Z_4.989_-74.722"
