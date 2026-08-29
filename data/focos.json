@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-29T19:14:45.386Z",
+  "actualizadoUtc": "2026-08-29T20:18:20.326Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 8,
-  "focosNuevos": 0,
+  "totalFocos": 9,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,23 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-08-29T17:32:00Z_4.893_-74.773",
+      "lat": 4.8927,
+      "lon": -74.7732,
+      "fechaUtc": "2026-08-29T17:32:00Z",
+      "confianza": "media",
+      "frp": 7.13,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ambalema",
+      "distanciaKm": 12.2,
+      "vereda": "Cuatro Esquinas",
+      "codigoVereda": "73030003"
+    },
     {
       "id": "2026-08-29T08:48:00Z_4.162_-75.067",
       "lat": 4.1615,

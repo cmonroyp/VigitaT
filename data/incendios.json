@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-29T19:51:31Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-29T20:18:20.905Z",
+ "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-08-29T19:14:45.386Z",
-  "pendientes": 5,
+  "intentoUtc": "2026-08-29T20:18:20.358Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -54,49 +54,6 @@
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-26T17:50:00Z"
-  },
-  {
-   "id": "INC-18",
-   "nombre": "Incendio vereda Cofradia De Gallego",
-   "municipio": "Venadillo",
-   "vereda": "Cofradia De Gallego",
-   "lat": 4.7567,
-   "lon": -74.8915,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T06:03:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T19:15:00Z",
-   "deteccionesTotales": 6,
-   "maxFrp": 158.58,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1191,-18719",
-    "1186,-18721",
-    "1189,-18723",
-    "1185,-18722"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 6,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-25T17:52:00Z_4.763_-74.875",
-    "2026-08-25T06:03:00Z_4.743_-74.885",
-    "2026-08-26T18:28:00Z_4.757_-74.891",
-    "2026-08-26T18:28:00Z_4.740_-74.889",
-    "2026-08-26T19:15:00Z_4.757_-74.891",
-    "2026-08-26T19:15:00Z_4.740_-74.889"
-   ],
-   "areaEstimadaHa": 56,
-   "duracionHoras": 37,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 33,
-    "vientoKmh": 22,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "ALTO"
-   },
-   "ultimaGoesUtc": "2026-08-26T18:30:00Z"
   },
   {
    "id": "INC-28",
@@ -184,40 +141,6 @@
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
-  },
-  {
-   "id": "INC-32",
-   "nombre": "Incendio vereda Paradero 2",
-   "municipio": "Flandes",
-   "vereda": "Paradero 2",
-   "lat": 4.2305,
-   "lon": -74.8463,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T19:15:00Z",
-   "ultimaDeteccionUtc": "2026-08-26T19:15:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.45,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1058,-18712"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T19:15:00Z_4.230_-74.846"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 35,
-    "humedadPct": 33,
-    "vientoKmh": 15,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   }
   },
   {
    "id": "INC-33",
@@ -1030,14 +953,48 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 62,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 34,
+    "humedadPct": 32,
+    "vientoKmh": 6,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T19:40:00Z"
+  },
+  {
+   "id": "INC-56",
+   "nombre": "Incendio vereda Cuatro Esquinas",
+   "municipio": "Ambalema",
+   "vereda": "Cuatro Esquinas",
+   "lat": 4.8927,
+   "lon": -74.7732,
+   "estado": "activo",
+   "inicioUtc": "2026-08-29T17:32:00Z",
+   "ultimaDeteccionUtc": "2026-08-29T17:32:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.13,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1223,-18693"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-29T17:32:00Z_4.893_-74.773"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 38,
+    "humedadPct": 30,
+    "vientoKmh": 7,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 55
+ "secuencia": 56
 }
