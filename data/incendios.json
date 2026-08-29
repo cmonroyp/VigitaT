@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-29T04:21:46.007Z",
- "activos": 2,
+ "actualizadoUtc": "2026-08-29T05:17:59.728Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-29T04:21:46.007Z",
+  "intentoUtc": "2026-08-29T05:17:59.728Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -636,9 +636,9 @@
    "ultimaGoesUtc": "2026-08-29T03:50:00Z",
    "clima": {
     "tempC": 24,
-    "humedadPct": 69,
-    "vientoKmh": 2,
-    "vientoHacia": "O",
+    "humedadPct": 67,
+    "vientoKmh": 5,
+    "vientoHacia": "SO",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -683,7 +683,7 @@
    "vereda": "California",
    "lat": 3.9769,
    "lon": -74.7812,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T06:31:00Z",
    "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
    "deteccionesTotales": 6,
