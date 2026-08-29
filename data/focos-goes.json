@@ -1,12 +1,32 @@
 {
- "actualizadoUtc": "2026-08-29T19:41:20Z",
- "escaneoUtc": "2026-08-29T19:30:00Z",
+ "actualizadoUtc": "2026-08-29T19:51:31Z",
+ "escaneoUtc": "2026-08-29T19:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 4.0196,
+   "lon": -74.7743,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 43.0,
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "escaneoUtc": "2026-08-29T19:40:00Z",
+   "primeroUtc": "2026-08-29T19:40:00Z",
+   "ultimoUtc": "2026-08-29T19:40:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "4.02,-74.78": "2026-08-29T19:51:31.072380+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-29T19:51:31Z",
+  "focos": 1
+ }
 }

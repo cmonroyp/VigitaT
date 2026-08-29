@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-29T19:14:45.889Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-29T19:51:31Z",
+ "activos": 1,
  "alertas": {
   "intentoUtc": "2026-08-29T19:14:45.386Z",
   "pendientes": 5,
@@ -1009,7 +1009,7 @@
    "vereda": "Sinai",
    "lat": 4.0126,
    "lon": -74.787,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-29T06:29:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
@@ -1035,7 +1035,8 @@
     "vientoKmh": 2,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-08-29T19:40:00Z"
   }
  ],
  "secuencia": 55
