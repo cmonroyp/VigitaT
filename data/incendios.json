@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-29T12:26:45.125Z",
- "activos": 9,
+ "actualizadoUtc": "2026-08-29T13:16:30.134Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-08-29T12:26:45.125Z",
+  "intentoUtc": "2026-08-29T13:16:30.133Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -249,7 +249,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3358,
    "lon": -75.1156,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 7,
@@ -320,8 +320,8 @@
    "areaEstimadaHa": 56,
    "duracionHoras": 62,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 57,
+    "tempC": 29,
+    "humedadPct": 50,
     "vientoKmh": 8,
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
@@ -641,10 +641,10 @@
    "duracionHoras": 19,
    "ultimaGoesUtc": "2026-08-29T09:00:00Z",
    "clima": {
-    "tempC": 25,
-    "humedadPct": 62,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
+    "tempC": 27,
+    "humedadPct": 51,
+    "vientoKmh": 3,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -689,7 +689,7 @@
    "vereda": "California",
    "lat": 3.9769,
    "lon": -74.7812,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T06:31:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 8,
@@ -768,7 +768,7 @@
    "vereda": "Camarones",
    "lat": 4.055,
    "lon": -74.7898,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T05:53:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 4,
@@ -1010,7 +1010,7 @@
    "vereda": "Sinai",
    "lat": 3.9922,
    "lon": -74.8043,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 3,
@@ -1081,7 +1081,7 @@
    "vereda": "Corazón",
    "lat": 4.1297,
    "lon": -75.2948,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-28T20:32:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
@@ -1205,10 +1205,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 23,
-    "humedadPct": 64,
+    "tempC": 25,
+    "humedadPct": 56,
     "vientoKmh": 2,
-    "vientoHacia": "N",
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-29T09:00:00Z"
@@ -1220,7 +1220,7 @@
    "vereda": "Sinai",
    "lat": 4.0126,
    "lon": -74.787,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-29T06:29:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
