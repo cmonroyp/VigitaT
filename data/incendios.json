@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-29T20:18:20.905Z",
+ "actualizadoUtc": "2026-08-29T21:17:14.126Z",
  "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-08-29T20:18:20.358Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-08-29T21:17:13.654Z",
+  "pendientes": 3,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -758,7 +758,7 @@
    "vereda": "Agua De Dios",
    "lat": 4.0254,
    "lon": -75.5031,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T20:32:00Z",
    "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
    "deteccionesTotales": 1,
@@ -770,7 +770,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T20:32:00Z_4.025_-75.503"
@@ -828,7 +828,7 @@
    "vereda": "Serrezuela Primavera",
    "lat": 4.1061,
    "lon": -74.9043,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T20:32:00Z",
    "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
    "deteccionesTotales": 1,
@@ -840,7 +840,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T20:32:00Z_4.106_-74.904"
@@ -862,7 +862,7 @@
    "vereda": "La Islandia",
    "lat": 4.277,
    "lon": -75.3635,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T20:32:00Z",
    "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
    "deteccionesTotales": 1,
@@ -874,7 +874,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T20:32:00Z_4.277_-75.363"
@@ -954,8 +954,8 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 34,
-    "humedadPct": 32,
-    "vientoKmh": 6,
+    "humedadPct": 33,
+    "vientoKmh": 5,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    },
@@ -989,9 +989,9 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 38,
-    "humedadPct": 30,
+    "humedadPct": 31,
     "vientoKmh": 7,
-    "vientoHacia": "NE",
+    "vientoHacia": "E",
     "riesgoPropagacion": "MODERADO"
    }
   }
