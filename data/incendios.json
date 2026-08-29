@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-08-29T07:02:56Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-29T07:31:34Z",
+ "activos": 2,
  "alertas": {
   "intentoUtc": "2026-08-29T06:30:28.788Z",
   "pendientes": 1,
@@ -289,7 +289,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1614,
    "lon": -75.0644,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
    "deteccionesTotales": 5,
@@ -321,7 +321,7 @@
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    },
-   "ultimaGoesUtc": "2026-08-28T19:20:00Z"
+   "ultimaGoesUtc": "2026-08-29T07:20:00Z"
   },
   {
    "id": "INC-30",
