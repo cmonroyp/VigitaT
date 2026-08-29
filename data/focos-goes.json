@@ -1,27 +1,13 @@
 {
- "actualizadoUtc": "2026-08-29T08:03:59Z",
- "escaneoUtc": "2026-08-29T07:50:00Z",
+ "actualizadoUtc": "2026-08-29T08:24:22Z",
+ "escaneoUtc": "2026-08-29T08:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 1,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 4.1652,
-   "lon": -75.0632,
-   "codigo": 34,
-   "confianza": "media",
-   "frp": 14.9,
-   "municipio": "Guamo",
-   "vereda": "Cerro Gordo",
-   "escaneoUtc": "2026-08-29T07:20:00Z",
-   "primeroUtc": "2026-08-29T07:20:00Z",
-   "ultimoUtc": "2026-08-29T07:20:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "3.96,-74.82": "2026-08-29T03:51:24.869952+00:00",
   "3.94,-74.82": "2026-08-29T05:27:54.654018+00:00",
