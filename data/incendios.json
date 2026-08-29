@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-29T07:31:34Z",
- "activos": 2,
+ "actualizadoUtc": "2026-08-29T08:23:35.160Z",
+ "activos": 9,
  "alertas": {
-  "intentoUtc": "2026-08-29T06:30:28.788Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-08-29T08:23:34.573Z",
+  "pendientes": 4,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -250,15 +250,16 @@
    "vereda": "Buenos Aires",
    "lat": 4.3358,
    "lon": -75.1156,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 5,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 6,
    "maxFrp": 18.83,
    "confianzaMax": "alta",
    "pixeles": [
     "1086,-18778",
-    "1084,-18779"
+    "1084,-18779",
+    "1083,-18779"
    ],
    "alertas": {
     "detectado": true,
@@ -270,14 +271,15 @@
     "2026-08-27T18:11:00Z_4.336_-75.116",
     "2026-08-28T06:48:00Z_4.337_-75.115",
     "2026-08-28T19:13:00Z_4.337_-75.115",
-    "2026-08-28T20:32:00Z_4.337_-75.115"
+    "2026-08-28T20:32:00Z_4.337_-75.115",
+    "2026-08-29T06:29:00Z_4.333_-75.114"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 50,
+   "areaEstimadaHa": 42,
+   "duracionHoras": 60,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 59,
-    "vientoKmh": 10,
+    "tempC": 22,
+    "humedadPct": 82,
+    "vientoKmh": 4,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
@@ -291,14 +293,15 @@
    "lon": -75.0644,
    "estado": "activo",
    "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
-   "deteccionesTotales": 5,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 6,
    "maxFrp": 8.29,
    "confianzaMax": "media",
    "pixeles": [
     "1042,-18766",
     "1040,-18766",
-    "1038,-18768"
+    "1038,-18768",
+    "1040,-18767"
    ],
    "alertas": {
     "detectado": true,
@@ -310,16 +313,17 @@
     "2026-08-27T07:07:00Z_4.161_-75.064",
     "2026-08-27T18:11:00Z_4.161_-75.064",
     "2026-08-28T06:48:00Z_4.152_-75.071",
-    "2026-08-28T17:52:00Z_4.152_-75.071"
+    "2026-08-28T17:52:00Z_4.152_-75.071",
+    "2026-08-29T06:29:00Z_4.162_-75.067"
    ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 47,
+   "areaEstimadaHa": 56,
+   "duracionHoras": 60,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 46,
-    "vientoKmh": 5,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 24,
+    "humedadPct": 92,
+    "vientoKmh": 3,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
   },
@@ -637,9 +641,9 @@
    "ultimaGoesUtc": "2026-08-29T06:50:00Z",
    "clima": {
     "tempC": 23,
-    "humedadPct": 71,
-    "vientoKmh": 6,
-    "vientoHacia": "SO",
+    "humedadPct": 73,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -650,7 +654,7 @@
    "vereda": "Camarones",
    "lat": 4.02,
    "lon": -74.7858,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T06:31:00Z",
    "ultimaDeteccionUtc": "2026-08-28T06:31:00Z",
    "deteccionesTotales": 1,
@@ -662,7 +666,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T06:31:00Z_4.020_-74.786"
@@ -684,16 +688,17 @@
    "vereda": "California",
    "lat": 3.9769,
    "lon": -74.7812,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T06:31:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 6,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 7,
    "maxFrp": 27.95,
    "confianzaMax": "alta",
    "pixeles": [
     "995,-18699",
     "998,-18695",
-    "994,-18695"
+    "994,-18695",
+    "993,-18698"
    ],
    "alertas": {
     "detectado": true,
@@ -706,14 +711,15 @@
     "2026-08-28T19:13:00Z_3.979_-74.796",
     "2026-08-28T17:52:00Z_3.977_-74.781",
     "2026-08-28T20:32:00Z_3.977_-74.781",
-    "2026-08-28T20:32:00Z_3.979_-74.796"
+    "2026-08-28T20:32:00Z_3.979_-74.796",
+    "2026-08-29T06:29:00Z_3.973_-74.794"
    ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 14,
+   "areaEstimadaHa": 56,
+   "duracionHoras": 24,
    "clima": {
-    "tempC": 24,
-    "humedadPct": 69,
-    "vientoKmh": 2,
+    "tempC": 23,
+    "humedadPct": 73,
+    "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    },
@@ -760,14 +766,15 @@
    "vereda": "Camarones",
    "lat": 4.055,
    "lon": -74.7898,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T05:53:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 44.23,
    "confianzaMax": "alta",
    "pixeles": [
-    "1014,-18697"
+    "1014,-18697",
+    "1015,-18698"
    ],
    "alertas": {
     "detectado": true,
@@ -776,15 +783,16 @@
    },
    "focoIds": [
     "2026-08-28T05:53:00Z_4.055_-74.790",
-    "2026-08-28T20:32:00Z_4.055_-74.790"
+    "2026-08-28T20:32:00Z_4.055_-74.790",
+    "2026-08-29T06:29:00Z_4.061_-74.790"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 15,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 25,
    "clima": {
-    "tempC": 24,
-    "humedadPct": 80,
-    "vientoKmh": 4,
-    "vientoHacia": "NO",
+    "tempC": 22,
+    "humedadPct": 87,
+    "vientoKmh": 2,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -795,7 +803,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3081,
    "lon": -75.1001,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T06:48:00Z",
    "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
    "deteccionesTotales": 1,
@@ -807,7 +815,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T06:48:00Z_4.308_-75.100"
@@ -999,14 +1007,15 @@
    "vereda": "Sinai",
    "lat": 3.9922,
    "lon": -74.8043,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 3.07,
    "confianzaMax": "media",
    "pixeles": [
-    "998,-18701"
+    "998,-18701",
+    "999,-18700"
    ],
    "alertas": {
     "detectado": true,
@@ -1014,15 +1023,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-28T19:13:00Z_3.992_-74.804"
+    "2026-08-28T19:13:00Z_3.992_-74.804",
+    "2026-08-29T06:29:00Z_3.998_-74.800"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 11,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 65,
-    "vientoKmh": 6,
-    "vientoHacia": "NO",
+    "tempC": 24,
+    "humedadPct": 74,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -1067,14 +1077,15 @@
    "vereda": "Corazón",
    "lat": 4.1297,
    "lon": -75.2948,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-08-28T20:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 13.18,
    "confianzaMax": "media",
    "pixeles": [
-    "1032,-18824"
+    "1032,-18824",
+    "1033,-18823"
    ],
    "alertas": {
     "detectado": true,
@@ -1082,15 +1093,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-28T20:32:00Z_4.130_-75.295"
+    "2026-08-28T20:32:00Z_4.130_-75.295",
+    "2026-08-29T06:29:00Z_4.133_-75.292"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 10,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 56,
-    "vientoKmh": 2,
-    "vientoHacia": "S",
+    "tempC": 23,
+    "humedadPct": 78,
+    "vientoKmh": 1,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -1161,7 +1173,75 @@
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-54",
+   "nombre": "Incendio vereda San Jose De Arenales",
+   "municipio": "Cunday",
+   "vereda": "San Jose De Arenales",
+   "lat": 3.9473,
+   "lon": -74.8046,
+   "estado": "activo",
+   "inicioUtc": "2026-08-29T06:29:00Z",
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 11.35,
+   "confianzaMax": "media",
+   "pixeles": [
+    "987,-18701"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-29T06:29:00Z_3.947_-74.805"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 21,
+    "humedadPct": 73,
+    "vientoKmh": 2,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-55",
+   "nombre": "Incendio vereda Sinai",
+   "municipio": "Suárez",
+   "vereda": "Sinai",
+   "lat": 4.0126,
+   "lon": -74.787,
+   "estado": "activo",
+   "inicioUtc": "2026-08-29T06:29:00Z",
+   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.44,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1003,-18697"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-29T06:29:00Z_4.013_-74.787"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 23,
+    "humedadPct": 73,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 53
+ "secuencia": 55
 }
