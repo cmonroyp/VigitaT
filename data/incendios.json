@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-29T01:20:04.709Z",
+ "actualizadoUtc": "2026-08-29T02:25:18.832Z",
  "activos": 8,
  "alertas": {
-  "intentoUtc": "2026-08-29T01:20:04.709Z",
+  "intentoUtc": "2026-08-29T02:25:18.832Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -274,9 +274,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 50,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 51,
-    "vientoKmh": 6,
+    "tempC": 26,
+    "humedadPct": 59,
+    "vientoKmh": 10,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
@@ -636,8 +636,8 @@
    "ultimaGoesUtc": "2026-08-29T00:30:00Z",
    "clima": {
     "tempC": 24,
-    "humedadPct": 71,
-    "vientoKmh": 6,
+    "humedadPct": 75,
+    "vientoKmh": 5,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
@@ -711,8 +711,8 @@
    "duracionHoras": 14,
    "clima": {
     "tempC": 24,
-    "humedadPct": 71,
-    "vientoKmh": 6,
+    "humedadPct": 75,
+    "vientoKmh": 5,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    },
@@ -781,7 +781,7 @@
    "duracionHoras": 15,
    "clima": {
     "tempC": 24,
-    "humedadPct": 71,
+    "humedadPct": 80,
     "vientoKmh": 4,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
@@ -1052,8 +1052,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 17,
-    "humedadPct": 84,
+    "tempC": 16,
+    "humedadPct": 83,
     "vientoKmh": 4,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
@@ -1087,7 +1087,7 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 27,
-    "humedadPct": 53,
+    "humedadPct": 56,
     "vientoKmh": 2,
     "vientoHacia": "S",
     "riesgoPropagacion": "BAJO"
@@ -1120,11 +1120,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 47,
-    "vientoKmh": 5,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 30,
+    "humedadPct": 51,
+    "vientoKmh": 8,
+    "vientoHacia": "SO",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -1155,8 +1155,8 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 16,
-    "humedadPct": 73,
-    "vientoKmh": 3,
+    "humedadPct": 74,
+    "vientoKmh": 1,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
