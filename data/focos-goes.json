@@ -1,12 +1,32 @@
 {
- "actualizadoUtc": "2026-08-30T18:33:17Z",
- "escaneoUtc": "2026-08-30T18:20:00Z",
+ "actualizadoUtc": "2026-08-30T18:42:08Z",
+ "escaneoUtc": "2026-08-30T18:30:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 4.6568,
+   "lon": -74.991,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 61.2,
+   "municipio": "Alvarado",
+   "vereda": "Mercadillo",
+   "escaneoUtc": "2026-08-30T18:30:00Z",
+   "primeroUtc": "2026-08-30T18:30:00Z",
+   "ultimoUtc": "2026-08-30T18:30:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "4.66,-75.00": "2026-08-30T18:42:08.003926+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-08-30T18:42:08Z",
+  "focos": 1
+ }
 }
