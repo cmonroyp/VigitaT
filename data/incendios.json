@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-30T20:18:53.965Z",
+ "actualizadoUtc": "2026-08-30T22:17:53.410Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-30T20:18:53.965Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-30T22:17:52.936Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -795,7 +796,7 @@
    "vereda": "Sinai",
    "lat": 4.0126,
    "lon": -74.787,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-29T06:29:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
@@ -807,7 +808,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-29T06:29:00Z_4.013_-74.787",
@@ -886,9 +887,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 47,
-    "vientoKmh": 17,
+    "tempC": 27,
+    "humedadPct": 60,
+    "vientoKmh": 15,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
