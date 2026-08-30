@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-08-29T21:31:45Z",
- "activos": 2,
+ "actualizadoUtc": "2026-08-30T00:59:14.990Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-29T21:17:13.654Z",
-  "pendientes": 3,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-08-30T00:59:14.990Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -953,11 +952,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 33,
+    "tempC": 27,
+    "humedadPct": 56,
     "vientoKmh": 5,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "MODERADO"
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-29T21:20:00Z"
   },
@@ -968,7 +967,7 @@
    "vereda": "Cuatro Esquinas",
    "lat": 4.8927,
    "lon": -74.7732,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-29T17:32:00Z",
    "ultimaDeteccionUtc": "2026-08-29T17:32:00Z",
    "deteccionesTotales": 1,
