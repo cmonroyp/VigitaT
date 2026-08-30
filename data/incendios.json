@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-30T00:59:14.990Z",
+ "actualizadoUtc": "2026-08-30T01:30:58.461Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-30T00:59:14.990Z",
+  "intentoUtc": "2026-08-30T01:30:58.461Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -952,10 +952,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 56,
-    "vientoKmh": 5,
-    "vientoHacia": "O",
+    "tempC": 25,
+    "humedadPct": 71,
+    "vientoKmh": 3,
+    "vientoHacia": "N",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-08-29T21:20:00Z"
