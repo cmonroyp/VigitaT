@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-08-30T22:17:53.410Z",
+ "actualizadoUtc": "2026-08-30T23:16:44.157Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-30T22:17:52.936Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-08-30T23:16:44.157Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -887,11 +886,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 60,
-    "vientoKmh": 15,
+    "tempC": 26,
+    "humedadPct": 66,
+    "vientoKmh": 10,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   }
  ],
