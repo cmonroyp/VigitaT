@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-08-30T19:15:19.658Z",
+ "actualizadoUtc": "2026-08-30T20:18:53.965Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-30T19:15:19.118Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-08-30T20:18:53.965Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -867,9 +866,9 @@
    "lat": 4.6508,
    "lon": -74.9897,
    "estado": "activo",
-   "inicioUtc": "2026-08-30T18:35:00Z",
+   "inicioUtc": "2026-08-30T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-30T18:35:00Z",
-   "deteccionesTotales": 1,
+   "deteccionesTotales": 2,
    "maxFrp": 100.95,
    "confianzaMax": "media",
    "pixeles": [
@@ -881,11 +880,18 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-30T18:35:00Z_4.651_-74.990"
+    "2026-08-30T18:35:00Z_4.651_-74.990",
+    "2026-08-30T18:34:00Z_4.651_-74.990"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
-   "clima": null
+   "clima": {
+    "tempC": 30,
+    "humedadPct": 47,
+    "vientoKmh": 17,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
  "secuencia": 57
