@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-30T17:15:49.894Z",
+ "actualizadoUtc": "2026-08-30T18:22:18.070Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-30T17:15:49.894Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-30T18:22:17.529Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -179,108 +180,6 @@
     "vientoKmh": 6,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-35",
-   "nombre": "Incendio vereda Palmarosa",
-   "municipio": "Venadillo",
-   "vereda": "Palmarosa",
-   "lat": 4.6466,
-   "lon": -74.9015,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-27T18:11:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 13.61,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1162,-18725"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-27T18:11:00Z_4.647_-74.902"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 37,
-    "humedadPct": 29,
-    "vientoKmh": 13,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-36",
-   "nombre": "Incendio vereda Piedras Negras",
-   "municipio": "San Sebastián De Mariquita",
-   "vereda": "Piedras Negras",
-   "lat": 5.2924,
-   "lon": -74.9592,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-27T18:11:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 13.35,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1323,-18740"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-27T18:11:00Z_5.292_-74.959"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 27,
-    "humedadPct": 53,
-    "vientoKmh": 5,
-    "vientoHacia": "SE",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-37",
-   "nombre": "Incendio vereda Mortino",
-   "municipio": "Carmen de Apicalá",
-   "vereda": "Mortino",
-   "lat": 4.1246,
-   "lon": -74.771,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-27T18:11:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T18:11:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 4.85,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1031,-18693"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-27T18:11:00Z_4.125_-74.771"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 36,
-    "humedadPct": 37,
-    "vientoKmh": 2,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -933,7 +832,7 @@
    "vereda": "Cuatro Esquinas",
    "lat": 4.8927,
    "lon": -74.7732,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-29T17:32:00Z",
    "ultimaDeteccionUtc": "2026-08-29T17:32:00Z",
    "deteccionesTotales": 1,
@@ -945,7 +844,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-29T17:32:00Z_4.893_-74.773"
