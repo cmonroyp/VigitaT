@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-30T18:22:18.070Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-30T19:15:19.658Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-08-30T18:22:17.529Z",
+  "intentoUtc": "2026-08-30T19:15:19.118Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
@@ -858,7 +858,35 @@
     "vientoHacia": "E",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-57",
+   "nombre": "Incendio vereda Mercadillo",
+   "municipio": "Alvarado",
+   "vereda": "Mercadillo",
+   "lat": 4.6508,
+   "lon": -74.9897,
+   "estado": "activo",
+   "inicioUtc": "2026-08-30T18:35:00Z",
+   "ultimaDeteccionUtc": "2026-08-30T18:35:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 100.95,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1163,-18747"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-30T18:35:00Z_4.651_-74.990"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": null
   }
  ],
- "secuencia": 56
+ "secuencia": 57
 }

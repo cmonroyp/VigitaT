@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-08-30T18:22:17.529Z",
+  "actualizadoUtc": "2026-08-30T19:15:19.091Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-08-30T18:35:00Z_4.651_-74.990",
+      "lat": 4.6508,
+      "lon": -74.9897,
+      "fechaUtc": "2026-08-30T18:35:00Z",
+      "confianza": "media",
+      "frp": 100.95,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Alvarado",
+      "distanciaKm": 10.1,
+      "vereda": "Mercadillo",
+      "codigoVereda": "73026021"
+    }
+  ]
 }
