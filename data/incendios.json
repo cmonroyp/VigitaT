@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-30T05:19:19.589Z",
+ "actualizadoUtc": "2026-08-30T06:31:50.710Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-30T05:19:19.589Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-30T06:31:50.071Z",
+  "pendientes": 3,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -177,40 +178,6 @@
     "tempC": 23,
     "humedadPct": 72,
     "vientoKmh": 6,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-34",
-   "nombre": "Incendio vereda Chenche Buenos Aires",
-   "municipio": "Coyaima",
-   "vereda": "Chenche Buenos Aires",
-   "lat": 3.826,
-   "lon": -75.1303,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-27T06:12:00Z",
-   "ultimaDeteccionUtc": "2026-08-27T06:12:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 6.38,
-   "confianzaMax": "media",
-   "pixeles": [
-    "957,-18783"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-27T06:12:00Z_3.826_-75.130"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 27,
-    "humedadPct": 69,
-    "vientoKmh": 3,
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
@@ -398,7 +365,7 @@
    "vereda": "California",
    "lat": 3.9769,
    "lon": -74.7812,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T06:31:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 8,
@@ -413,7 +380,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 6,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T06:48:00Z_3.979_-74.796",
@@ -477,7 +444,7 @@
    "vereda": "Camarones",
    "lat": 4.055,
    "lon": -74.7898,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T05:53:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 4,
@@ -490,7 +457,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 2,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T05:53:00Z_4.055_-74.790",
@@ -791,7 +758,7 @@
    "vereda": "Corazón",
    "lat": 4.1297,
    "lon": -75.2948,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T20:32:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
@@ -804,7 +771,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T20:32:00Z_4.130_-75.295",
