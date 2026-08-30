@@ -1,27 +1,13 @@
 {
- "actualizadoUtc": "2026-08-30T20:41:46Z",
- "escaneoUtc": "2026-08-30T20:30:00Z",
+ "actualizadoUtc": "2026-08-30T20:51:02Z",
+ "escaneoUtc": "2026-08-30T20:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 1,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 4.8026,
-   "lon": -74.774,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 25.6,
-   "municipio": "Ambalema",
-   "vereda": "Gamba",
-   "escaneoUtc": "2026-08-30T19:50:00Z",
-   "primeroUtc": "2026-08-30T19:50:00Z",
-   "ultimoUtc": "2026-08-30T19:50:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "4.66,-75.00": "2026-08-30T18:42:08.003926+00:00",
   "4.80,-74.78": "2026-08-30T20:02:51.231304+00:00"
