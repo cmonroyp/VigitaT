@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-08-30T08:24:35.373Z",
+ "actualizadoUtc": "2026-08-30T10:17:57.828Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-30T08:24:35.372Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-30T10:17:57.165Z",
+  "pendientes": 3,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -104,7 +105,7 @@
    "vereda": "Cerro Gordo",
    "lat": 4.1614,
    "lon": -75.0644,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-29T08:48:00Z",
    "deteccionesTotales": 7,
@@ -119,7 +120,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 7,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-26T18:28:00Z_4.167_-75.064",
@@ -290,7 +291,7 @@
    "vereda": "La Honda",
    "lat": 3.9662,
    "lon": -74.8126,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T01:09:00Z",
    "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
    "deteccionesTotales": 4,
@@ -304,7 +305,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 3,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T01:09:00Z_3.981_-74.815",
@@ -861,7 +862,7 @@
    "vereda": "San Jose De Arenales",
    "lat": 3.9473,
    "lon": -74.8046,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-29T06:29:00Z",
    "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
    "deteccionesTotales": 2,
@@ -873,7 +874,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-29T06:29:00Z_3.947_-74.805",
