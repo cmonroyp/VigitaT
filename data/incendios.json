@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-30T06:31:50.710Z",
+ "actualizadoUtc": "2026-08-30T07:20:33.023Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-30T06:31:50.071Z",
-  "pendientes": 3,
+  "intentoUtc": "2026-08-30T07:20:32.386Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -62,7 +62,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3358,
    "lon": -75.1156,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-26T18:28:00Z",
    "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
    "deteccionesTotales": 8,
@@ -76,7 +76,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 7,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-26T18:28:00Z_4.343_-75.113",
@@ -686,7 +686,7 @@
    "vereda": "Sinai",
    "lat": 3.9922,
    "lon": -74.8043,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-28T19:13:00Z",
    "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
    "deteccionesTotales": 4,
@@ -699,7 +699,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-28T19:13:00Z_3.992_-74.804",
