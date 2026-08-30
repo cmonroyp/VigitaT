@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-30T02:28:50.005Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-30T03:24:21.589Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-30T02:28:50.005Z",
+  "intentoUtc": "2026-08-30T03:24:21.589Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -931,7 +931,7 @@
    "vereda": "Sinai",
    "lat": 4.0126,
    "lon": -74.787,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-29T06:29:00Z",
    "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
    "deteccionesTotales": 2,
