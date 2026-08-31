@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-08-31T19:02:39Z",
- "escaneoUtc": "2026-08-31T18:50:00Z",
+ "actualizadoUtc": "2026-08-31T19:16:37Z",
+ "escaneoUtc": "2026-08-31T19:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 1,
  "totalFocos": 1,
- "focosNuevos": 1,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 3.5468,
@@ -16,19 +16,15 @@
    "frp": 66.0,
    "municipio": "Ataco",
    "vereda": "El Viso",
-   "escaneoUtc": "2026-08-31T18:50:00Z",
+   "escaneoUtc": "2026-08-31T19:00:00Z",
    "primeroUtc": "2026-08-31T18:50:00Z",
-   "ultimoUtc": "2026-08-31T18:50:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-08-31T19:00:00Z",
+   "escaneos": 2
   }
  ],
  "alertadas": {
   "3.84,-75.00": "2026-08-31T16:23:40.209596+00:00",
   "3.52,-75.54": "2026-08-31T18:04:04.276412+00:00",
   "3.54,-75.40": "2026-08-31T19:02:39.190217+00:00"
- },
- "ultimaAlerta": {
-  "utc": "2026-08-31T19:02:39Z",
-  "focos": 1
  }
 }
