@@ -1,27 +1,13 @@
 {
- "actualizadoUtc": "2026-08-31T18:46:21Z",
- "escaneoUtc": "2026-08-31T18:30:00Z",
+ "actualizadoUtc": "2026-08-31T18:52:33Z",
+ "escaneoUtc": "2026-08-31T18:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 1,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 3.5104,
-   "lon": -75.5323,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 27.9,
-   "municipio": "Chaparral",
-   "vereda": "Guanabano",
-   "escaneoUtc": "2026-08-31T17:50:00Z",
-   "primeroUtc": "2026-08-31T17:50:00Z",
-   "ultimoUtc": "2026-08-31T17:50:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "3.84,-75.00": "2026-08-31T16:23:40.209596+00:00",
   "3.52,-75.54": "2026-08-31T18:04:04.276412+00:00"
