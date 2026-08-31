@@ -1,59 +1,13 @@
 {
- "actualizadoUtc": "2026-08-31T16:22:40.304Z",
- "activos": 0,
+ "actualizadoUtc": "2026-08-31T18:26:21.054Z",
+ "activos": 5,
  "alertas": {
-  "intentoUtc": "2026-08-31T16:22:40.304Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-08-31T18:26:20.579Z",
+  "pendientes": 5,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-9",
-   "nombre": "Incendio vereda Las Rosas",
-   "municipio": "Lérida",
-   "vereda": "Las Rosas",
-   "lat": 4.9436,
-   "lon": -74.9325,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-25T18:47:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
-   "deteccionesTotales": 7,
-   "maxFrp": 33.69,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1233,-18732",
-    "1231,-18735",
-    "1235,-18731",
-    "1232,-18734",
-    "1236,-18730",
-    "1236,-18733",
-    "1239,-18732"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 5,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-25T18:47:00Z_4.932_-74.928",
-    "2026-08-25T18:47:00Z_4.925_-74.940",
-    "2026-08-26T06:29:00Z_4.942_-74.926",
-    "2026-08-26T06:29:00Z_4.926_-74.935",
-    "2026-08-26T18:28:00Z_4.942_-74.921",
-    "2026-08-27T18:11:00Z_4.944_-74.932",
-    "2026-08-28T17:52:00Z_4.955_-74.928"
-   ],
-   "areaEstimadaHa": 98,
-   "duracionHoras": 71,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 52,
-    "vientoKmh": 4,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
-   },
-   "ultimaGoesUtc": "2026-08-26T17:50:00Z"
-  },
   {
    "id": "INC-28",
    "nombre": "Incendio vereda Buenos Aires",
@@ -403,40 +357,6 @@
     "humedadPct": 41,
     "vientoKmh": 4,
     "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-47",
-   "nombre": "Incendio vereda Mendez",
-   "municipio": "Armero",
-   "vereda": "Mendez",
-   "lat": 4.9891,
-   "lon": -74.7218,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T17:52:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T17:52:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 5.4,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1247,-18680"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T17:52:00Z_4.989_-74.722"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 34,
-    "humedadPct": 41,
-    "vientoKmh": 1,
-    "vientoHacia": "SE",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -824,7 +744,177 @@
     "vientoHacia": "N",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-59",
+   "nombre": "Incendio vereda Los Mangos",
+   "municipio": "Dolores",
+   "vereda": "Los Mangos",
+   "lat": 3.6109,
+   "lon": -74.9008,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:16:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 24.16,
+   "confianzaMax": "media",
+   "pixeles": [
+    "903,-18725"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:16:00Z_3.611_-74.901"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 33,
+    "vientoKmh": 14,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-60",
+   "nombre": "Incendio vereda Guanabano",
+   "municipio": "Chaparral",
+   "vereda": "Guanabano",
+   "lat": 3.5051,
+   "lon": -75.5272,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:16:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 12.72,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "876,-18882"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:16:00Z_3.505_-75.527"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 30,
+    "vientoKmh": 5,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-61",
+   "nombre": "Incendio vereda Campoalegre",
+   "municipio": "San Luis",
+   "vereda": "Campoalegre",
+   "lat": 4.0829,
+   "lon": -75.131,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:16:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 11.4,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1021,-18783"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:16:00Z_4.083_-75.131"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 38,
+    "humedadPct": 24,
+    "vientoKmh": 14,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-62",
+   "nombre": "Incendio vereda San Cayetano",
+   "municipio": "San Luis",
+   "vereda": "San Cayetano",
+   "lat": 4.1075,
+   "lon": -75.0781,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:16:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.18,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1027,-18770"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:16:00Z_4.108_-75.078"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 38,
+    "humedadPct": 24,
+    "vientoKmh": 14,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-63",
+   "nombre": "Incendio vereda San Miguel",
+   "municipio": "Rioblanco",
+   "vereda": "San Miguel",
+   "lat": 3.572,
+   "lon": -75.6812,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:16:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.78,
+   "confianzaMax": "media",
+   "pixeles": [
+    "893,-18920"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:16:00Z_3.572_-75.681"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 22,
+    "humedadPct": 45,
+    "vientoKmh": 9,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 58
+ "secuencia": 63
 }
