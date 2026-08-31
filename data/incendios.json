@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-31T12:32:35.763Z",
- "activos": 1,
+ "actualizadoUtc": "2026-08-31T13:23:14.056Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-31T12:32:35.763Z",
+  "intentoUtc": "2026-08-31T13:23:14.056Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -798,7 +798,7 @@
    "vereda": "Doyare Recristo",
    "lat": 3.8467,
    "lon": -75.1522,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-08-31T06:37:00Z",
    "ultimaDeteccionUtc": "2026-08-31T06:37:00Z",
    "deteccionesTotales": 1,
