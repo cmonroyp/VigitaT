@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-08-31T18:26:21.054Z",
- "activos": 5,
+ "actualizadoUtc": "2026-08-31T20:21:01.893Z",
+ "activos": 8,
  "alertas": {
-  "intentoUtc": "2026-08-31T18:26:20.579Z",
-  "pendientes": 5,
+  "intentoUtc": "2026-08-31T20:21:01.051Z",
+  "pendientes": 4,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -94,46 +94,6 @@
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
-  },
-  {
-   "id": "INC-33",
-   "nombre": "Incendio vereda El Paramo",
-   "municipio": "Cunday",
-   "vereda": "El Paramo",
-   "lat": 4.0123,
-   "lon": -74.7713,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-27T07:07:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 5,
-   "maxFrp": 11.82,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1000,-18697",
-    "1003,-18693",
-    "1001,-18694"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 4,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-27T07:07:00Z_4.001_-74.786",
-    "2026-08-27T18:11:00Z_4.012_-74.771",
-    "2026-08-27T18:11:00Z_4.001_-74.786",
-    "2026-08-28T06:31:00Z_4.004_-74.776",
-    "2026-08-28T19:13:00Z_4.004_-74.776"
-   ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 36,
-   "clima": {
-    "tempC": 23,
-    "humedadPct": 72,
-    "vientoKmh": 6,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
   },
   {
    "id": "INC-38",
@@ -255,142 +215,6 @@
     "humedadPct": 73,
     "vientoKmh": 1,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-44",
-   "nombre": "Incendio vereda Protero Grande",
-   "municipio": "Coyaima",
-   "vereda": "Protero Grande",
-   "lat": 3.6839,
-   "lon": -75.2727,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 10.53,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "921,-18818"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T19:13:00Z_3.684_-75.273"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 50,
-    "vientoKmh": 6,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-45",
-   "nombre": "Incendio vereda Casitas",
-   "municipio": "Alvarado",
-   "vereda": "Casitas",
-   "lat": 4.6728,
-   "lon": -74.9566,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 6.83,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1168,-18739"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T19:13:00Z_4.673_-74.957"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 31,
-    "humedadPct": 43,
-    "vientoKmh": 2,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-46",
-   "nombre": "Incendio vereda Callejon De Guaduas",
-   "municipio": "Guamo",
-   "vereda": "Callejon De Guaduas",
-   "lat": 4.1542,
-   "lon": -74.9783,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 6.3,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1039,-18745"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T19:13:00Z_4.154_-74.978"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 32,
-    "humedadPct": 41,
-    "vientoKmh": 4,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-48",
-   "nombre": "Incendio vereda Agua Blanca Sec De La Dulce",
-   "municipio": "Espinal",
-   "vereda": "Agua Blanca Sec De La Dulce",
-   "lat": 4.229,
-   "lon": -74.8788,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T19:13:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 4.04,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1057,-18720"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T19:13:00Z_4.229_-74.879"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 31,
-    "humedadPct": 50,
-    "vientoKmh": 2,
-    "vientoHacia": "SO",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -683,7 +507,7 @@
    "vereda": "Mercadillo",
    "lat": 4.6508,
    "lon": -74.9897,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-30T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-30T18:35:00Z",
    "deteccionesTotales": 2,
@@ -695,7 +519,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-30T18:35:00Z_4.651_-74.990",
@@ -754,8 +578,8 @@
    "lon": -74.9008,
    "estado": "activo",
    "inicioUtc": "2026-08-31T18:16:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 24.16,
    "confianzaMax": "media",
    "pixeles": [
@@ -767,33 +591,35 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:16:00Z_3.611_-74.901"
+    "2026-08-31T18:16:00Z_3.611_-74.901",
+    "2026-08-31T18:35:00Z_3.610_-74.901"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 33,
-    "vientoKmh": 14,
-    "vientoHacia": "NE",
+    "tempC": 33,
+    "humedadPct": 35,
+    "vientoKmh": 18,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
   {
    "id": "INC-60",
-   "nombre": "Incendio vereda Guanabano",
+   "nombre": "Incendio vereda Sector Tinaja",
    "municipio": "Chaparral",
-   "vereda": "Guanabano",
-   "lat": 3.5051,
-   "lon": -75.5272,
+   "vereda": "Sector Tinaja",
+   "lat": 3.5013,
+   "lon": -75.5265,
    "estado": "activo",
    "inicioUtc": "2026-08-31T18:16:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 12.72,
+   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 20.4,
    "confianzaMax": "alta",
    "pixeles": [
-    "876,-18882"
+    "876,-18882",
+    "875,-18882"
    ],
    "alertas": {
     "detectado": true,
@@ -801,14 +627,15 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:16:00Z_3.505_-75.527"
+    "2026-08-31T18:16:00Z_3.505_-75.527",
+    "2026-08-31T18:35:00Z_3.501_-75.527"
    ],
-   "areaEstimadaHa": null,
+   "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
     "tempC": 36,
     "humedadPct": 30,
-    "vientoKmh": 5,
+    "vientoKmh": 6,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -821,10 +648,10 @@
    "lat": 4.0829,
    "lon": -75.131,
    "estado": "activo",
-   "inicioUtc": "2026-08-31T18:16:00Z",
+   "inicioUtc": "2026-08-31T18:15:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 11.4,
+   "deteccionesTotales": 2,
+   "maxFrp": 11.41,
    "confianzaMax": "media",
    "pixeles": [
     "1021,-18783"
@@ -835,15 +662,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:16:00Z_4.083_-75.131"
+    "2026-08-31T18:16:00Z_4.083_-75.131",
+    "2026-08-31T18:15:00Z_4.083_-75.131"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 24,
-    "vientoKmh": 14,
-    "vientoHacia": "NE",
+    "tempC": 39,
+    "humedadPct": 22,
+    "vientoKmh": 19,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -874,10 +702,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 24,
-    "vientoKmh": 14,
-    "vientoHacia": "NE",
+    "tempC": 39,
+    "humedadPct": 22,
+    "vientoKmh": 19,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -889,10 +717,10 @@
    "lat": 3.572,
    "lon": -75.6812,
    "estado": "activo",
-   "inicioUtc": "2026-08-31T18:16:00Z",
+   "inicioUtc": "2026-08-31T18:15:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.78,
+   "deteccionesTotales": 2,
+   "maxFrp": 2.79,
    "confianzaMax": "media",
    "pixeles": [
     "893,-18920"
@@ -903,18 +731,121 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:16:00Z_3.572_-75.681"
+    "2026-08-31T18:16:00Z_3.572_-75.681",
+    "2026-08-31T18:15:00Z_3.572_-75.681"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
     "tempC": 22,
-    "humedadPct": 45,
-    "vientoKmh": 9,
+    "humedadPct": 44,
+    "vientoKmh": 11,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-64",
+   "nombre": "Incendio vereda El Viso",
+   "municipio": "Ataco",
+   "vereda": "El Viso",
+   "lat": 3.5398,
+   "lon": -75.4088,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:35:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 13.17,
+   "confianzaMax": "media",
+   "pixeles": [
+    "885,-18852"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:35:00Z_3.540_-75.409"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 32,
+    "vientoKmh": 9,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-65",
+   "nombre": "Incendio vereda El Condor",
+   "municipio": "Ataco",
+   "vereda": "El Condor",
+   "lat": 3.3205,
+   "lon": -75.6189,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:35:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.74,
+   "confianzaMax": "media",
+   "pixeles": [
+    "830,-18905"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:35:00Z_3.321_-75.619"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 32,
+    "humedadPct": 36,
+    "vientoKmh": 7,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-66",
+   "nombre": "Incendio vereda Palmarosa",
+   "municipio": "Venadillo",
+   "vereda": "Palmarosa",
+   "lat": 4.6508,
+   "lon": -74.8974,
+   "estado": "activo",
+   "inicioUtc": "2026-08-31T18:35:00Z",
+   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.11,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1163,-18724"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-08-31T18:35:00Z_4.651_-74.897"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 38,
+    "humedadPct": 26,
+    "vientoKmh": 23,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "ALTO"
+   }
   }
  ],
- "secuencia": 63
+ "secuencia": 66
 }
