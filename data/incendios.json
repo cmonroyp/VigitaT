@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-08-31T04:26:45.869Z",
+ "actualizadoUtc": "2026-08-31T07:29:09.966Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-08-31T04:26:45.869Z",
+  "intentoUtc": "2026-08-31T07:29:09.965Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -222,40 +222,6 @@
    }
   },
   {
-   "id": "INC-39",
-   "nombre": "Incendio vereda Camarones",
-   "municipio": "Carmen de Apicalá",
-   "vereda": "Camarones",
-   "lat": 4.02,
-   "lon": -74.7858,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T06:31:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T06:31:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 2.55,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1005,-18696"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T06:31:00Z_4.020_-74.786"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 24,
-    "humedadPct": 73,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
    "id": "INC-40",
    "nombre": "Incendio vereda California",
    "municipio": "Cunday",
@@ -301,40 +267,6 @@
    "ultimaGoesUtc": "2026-08-28T22:30:00Z"
   },
   {
-   "id": "INC-41",
-   "nombre": "Incendio vereda Primavera Baja",
-   "municipio": "Villahermosa",
-   "vereda": "Primavera Baja",
-   "lat": 4.9268,
-   "lon": -75.1187,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T06:29:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T06:29:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.6,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1232,-18780"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T06:29:00Z_4.927_-75.119"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 18,
-    "humedadPct": 56,
-    "vientoKmh": 3,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
    "id": "INC-42",
    "nombre": "Incendio vereda Camarones",
    "municipio": "Carmen de Apicalá",
@@ -369,40 +301,6 @@
     "humedadPct": 73,
     "vientoKmh": 1,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-43",
-   "nombre": "Incendio vereda Buenos Aires",
-   "municipio": "Ibagué",
-   "vereda": "Buenos Aires",
-   "lat": 4.3081,
-   "lon": -75.1001,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T06:48:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T06:48:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 0.81,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1077,-18775"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T06:48:00Z_4.308_-75.100"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 24,
-    "humedadPct": 61,
-    "vientoKmh": 3,
-    "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
   },
