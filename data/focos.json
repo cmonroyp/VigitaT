@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-08-31T07:29:09.965Z",
+  "actualizadoUtc": "2026-08-31T08:32:04.465Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-08-31T06:37:00Z_3.847_-75.152",
+      "lat": 3.8467,
+      "lon": -75.1522,
+      "fechaUtc": "2026-08-31T06:37:00Z",
+      "confianza": "media",
+      "frp": 0.54,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Coyaima",
+      "distanciaKm": 7.1,
+      "vereda": "Doyare Recristo",
+      "codigoVereda": "73217021"
+    }
+  ]
 }
