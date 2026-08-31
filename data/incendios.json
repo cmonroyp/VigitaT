@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-08-31T20:21:01.893Z",
+ "actualizadoUtc": "2026-08-31T22:19:28.359Z",
  "activos": 8,
  "alertas": {
-  "intentoUtc": "2026-08-31T20:21:01.051Z",
-  "pendientes": 4,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-08-31T22:19:28.359Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -94,46 +93,6 @@
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
-  },
-  {
-   "id": "INC-38",
-   "nombre": "Incendio vereda La Honda",
-   "municipio": "Suárez",
-   "vereda": "La Honda",
-   "lat": 3.9662,
-   "lon": -74.8126,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T01:09:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 24.33,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "995,-18704",
-    "992,-18703",
-    "995,-18703"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 3,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T01:09:00Z_3.981_-74.815",
-    "2026-08-28T19:13:00Z_3.966_-74.813",
-    "2026-08-28T19:13:00Z_3.980_-74.811",
-    "2026-08-28T20:32:00Z_3.980_-74.811"
-   ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 19,
-   "ultimaGoesUtc": "2026-08-29T09:00:00Z",
-   "clima": {
-    "tempC": 29,
-    "humedadPct": 46,
-    "vientoKmh": 5,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
-   }
   },
   {
    "id": "INC-40",
@@ -257,40 +216,6 @@
    }
   },
   {
-   "id": "INC-50",
-   "nombre": "Incendio vereda Agua De Dios",
-   "municipio": "Roncesvalles",
-   "vereda": "Agua De Dios",
-   "lat": 4.0254,
-   "lon": -75.5031,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T20:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 25.66,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1006,-18876"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T20:32:00Z_4.025_-75.503"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 16,
-    "humedadPct": 83,
-    "vientoKmh": 4,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
    "id": "INC-51",
    "nombre": "Incendio vereda Corazón",
    "municipio": "Rovira",
@@ -322,74 +247,6 @@
     "tempC": 24,
     "humedadPct": 61,
     "vientoKmh": 2,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-52",
-   "nombre": "Incendio vereda Serrezuela Primavera",
-   "municipio": "Guamo",
-   "vereda": "Serrezuela Primavera",
-   "lat": 4.1061,
-   "lon": -74.9043,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T20:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 11.43,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1027,-18726"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T20:32:00Z_4.106_-74.904"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 51,
-    "vientoKmh": 8,
-    "vientoHacia": "SO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-53",
-   "nombre": "Incendio vereda La Islandia",
-   "municipio": "Rovira",
-   "vereda": "La Islandia",
-   "lat": 4.277,
-   "lon": -75.3635,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T20:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-28T20:32:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 8.58,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1069,-18841"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T20:32:00Z_4.277_-75.363"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 16,
-    "humedadPct": 74,
-    "vientoKmh": 1,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
@@ -579,7 +436,7 @@
    "estado": "activo",
    "inicioUtc": "2026-08-31T18:16:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 2,
+   "deteccionesTotales": 3,
    "maxFrp": 24.16,
    "confianzaMax": "media",
    "pixeles": [
@@ -592,30 +449,31 @@
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_3.611_-74.901",
-    "2026-08-31T18:35:00Z_3.610_-74.901"
+    "2026-08-31T18:35:00Z_3.610_-74.901",
+    "2026-08-31T18:34:00Z_3.611_-74.901"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 35,
-    "vientoKmh": 18,
+    "tempC": 30,
+    "humedadPct": 44,
+    "vientoKmh": 22,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   },
   {
    "id": "INC-60",
-   "nombre": "Incendio vereda Sector Tinaja",
+   "nombre": "Incendio vereda Guanabano",
    "municipio": "Chaparral",
-   "vereda": "Sector Tinaja",
-   "lat": 3.5013,
+   "vereda": "Guanabano",
+   "lat": 3.5016,
    "lon": -75.5265,
    "estado": "activo",
    "inicioUtc": "2026-08-31T18:16:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 20.4,
+   "deteccionesTotales": 3,
+   "maxFrp": 20.41,
    "confianzaMax": "alta",
    "pixeles": [
     "876,-18882",
@@ -628,14 +486,15 @@
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_3.505_-75.527",
-    "2026-08-31T18:35:00Z_3.501_-75.527"
+    "2026-08-31T18:35:00Z_3.501_-75.527",
+    "2026-08-31T18:34:00Z_3.502_-75.526"
    ],
    "areaEstimadaHa": 28,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 30,
-    "vientoKmh": 6,
+    "tempC": 34,
+    "humedadPct": 38,
+    "vientoKmh": 2,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -668,11 +527,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 19,
+    "tempC": 36,
+    "humedadPct": 26,
+    "vientoKmh": 21,
     "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "ALTO"
    }
   },
   {
@@ -702,11 +561,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 19,
+    "tempC": 36,
+    "humedadPct": 26,
+    "vientoKmh": 21,
     "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "ALTO"
    }
   },
   {
@@ -737,11 +596,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 44,
-    "vientoKmh": 11,
+    "tempC": 20,
+    "humedadPct": 60,
+    "vientoKmh": 5,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -749,13 +608,13 @@
    "nombre": "Incendio vereda El Viso",
    "municipio": "Ataco",
    "vereda": "El Viso",
-   "lat": 3.5398,
-   "lon": -75.4088,
+   "lat": 3.5401,
+   "lon": -75.4087,
    "estado": "activo",
-   "inicioUtc": "2026-08-31T18:35:00Z",
+   "inicioUtc": "2026-08-31T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 13.17,
+   "deteccionesTotales": 2,
+   "maxFrp": 13.18,
    "confianzaMax": "media",
    "pixeles": [
     "885,-18852"
@@ -766,15 +625,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:35:00Z_3.540_-75.409"
+    "2026-08-31T18:35:00Z_3.540_-75.409",
+    "2026-08-31T18:34:00Z_3.540_-75.409"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 32,
-    "vientoKmh": 9,
-    "vientoHacia": "N",
+    "tempC": 33,
+    "humedadPct": 44,
+    "vientoKmh": 5,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -786,9 +646,9 @@
    "lat": 3.3205,
    "lon": -75.6189,
    "estado": "activo",
-   "inicioUtc": "2026-08-31T18:35:00Z",
+   "inicioUtc": "2026-08-31T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 1,
+   "deteccionesTotales": 2,
    "maxFrp": 6.74,
    "confianzaMax": "media",
    "pixeles": [
@@ -800,14 +660,15 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:35:00Z_3.321_-75.619"
+    "2026-08-31T18:35:00Z_3.321_-75.619",
+    "2026-08-31T18:34:00Z_3.321_-75.619"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 36,
-    "vientoKmh": 7,
+    "tempC": 30,
+    "humedadPct": 44,
+    "vientoKmh": 5,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
@@ -821,8 +682,8 @@
    "lon": -74.8974,
    "estado": "activo",
    "inicioUtc": "2026-08-31T18:35:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-08-31T18:36:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 3.11,
    "confianzaMax": "media",
    "pixeles": [
@@ -834,16 +695,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-08-31T18:35:00Z_4.651_-74.897"
+    "2026-08-31T18:35:00Z_4.651_-74.897",
+    "2026-08-31T18:36:00Z_4.651_-74.897"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 26,
-    "vientoKmh": 23,
+    "tempC": 36,
+    "humedadPct": 32,
+    "vientoKmh": 16,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    }
   }
  ],

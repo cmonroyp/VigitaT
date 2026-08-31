@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-08-31T20:21:01.022Z",
+  "actualizadoUtc": "2026-08-31T22:19:28.359Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 9,
-  "focosNuevos": 7,
+  "focosNuevos": 5,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,10 +12,10 @@
   ],
   "focos": [
     {
-      "id": "2026-08-31T18:35:00Z_4.651_-74.897",
-      "lat": 4.6508,
-      "lon": -74.8974,
-      "fechaUtc": "2026-08-31T18:35:00Z",
+      "id": "2026-08-31T18:36:00Z_4.651_-74.897",
+      "lat": 4.6511,
+      "lon": -74.8973,
+      "fechaUtc": "2026-08-31T18:36:00Z",
       "confianza": "media",
       "frp": 3.11,
       "detecciones": 2,
@@ -29,10 +29,10 @@
       "codigoVereda": "73861021"
     },
     {
-      "id": "2026-08-31T18:35:00Z_3.610_-74.901",
-      "lat": 3.6103,
-      "lon": -74.9013,
-      "fechaUtc": "2026-08-31T18:35:00Z",
+      "id": "2026-08-31T18:34:00Z_3.611_-74.901",
+      "lat": 3.6105,
+      "lon": -74.9012,
+      "fechaUtc": "2026-08-31T18:34:00Z",
       "confianza": "media",
       "frp": 24.16,
       "detecciones": 4,
@@ -46,44 +46,44 @@
       "codigoVereda": "73236017"
     },
     {
-      "id": "2026-08-31T18:35:00Z_3.540_-75.409",
-      "lat": 3.5398,
-      "lon": -75.4088,
-      "fechaUtc": "2026-08-31T18:35:00Z",
+      "id": "2026-08-31T18:34:00Z_3.540_-75.409",
+      "lat": 3.5401,
+      "lon": -75.4087,
+      "fechaUtc": "2026-08-31T18:34:00Z",
       "confianza": "media",
-      "frp": 13.17,
+      "frp": 13.18,
       "detecciones": 4,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "día",
       "municipio": "Ataco",
-      "distanciaKm": 6.4,
+      "distanciaKm": 6.3,
       "vereda": "El Viso",
       "codigoVereda": "73067011"
     },
     {
-      "id": "2026-08-31T18:35:00Z_3.501_-75.527",
-      "lat": 3.5013,
+      "id": "2026-08-31T18:34:00Z_3.502_-75.526",
+      "lat": 3.5016,
       "lon": -75.5265,
-      "fechaUtc": "2026-08-31T18:35:00Z",
+      "fechaUtc": "2026-08-31T18:34:00Z",
       "confianza": "alta",
-      "frp": 20.4,
+      "frp": 20.41,
       "detecciones": 6,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "día",
       "municipio": "Chaparral",
-      "distanciaKm": 25.1,
-      "vereda": "Sector Tinaja",
-      "codigoVereda": "73168133"
+      "distanciaKm": 25,
+      "vereda": "Guanabano",
+      "codigoVereda": "73168048"
     },
     {
-      "id": "2026-08-31T18:35:00Z_3.321_-75.619",
-      "lat": 3.3205,
-      "lon": -75.6189,
-      "fechaUtc": "2026-08-31T18:35:00Z",
+      "id": "2026-08-31T18:34:00Z_3.321_-75.619",
+      "lat": 3.3208,
+      "lon": -75.6188,
+      "fechaUtc": "2026-08-31T18:34:00Z",
       "confianza": "media",
       "frp": 6.74,
       "detecciones": 2,
