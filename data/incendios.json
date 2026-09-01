@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-01T19:17:20.927Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-01T20:21:03.654Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-01T19:17:20.456Z",
-  "pendientes": 5,
+  "intentoUtc": "2026-09-01T20:21:03.171Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -358,7 +358,41 @@
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-67",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3274,
+   "lon": -75.123,
+   "estado": "activo",
+   "inicioUtc": "2026-09-01T17:58:00Z",
+   "ultimaDeteccionUtc": "2026-09-01T17:58:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.16,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1082,-18781"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-01T17:58:00Z_4.327_-75.123"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
+    "humedadPct": 37,
+    "vientoKmh": 4,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 66
+ "secuencia": 67
 }

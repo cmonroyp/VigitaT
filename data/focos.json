@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-09-01T19:17:20.456Z",
+  "actualizadoUtc": "2026-09-01T20:21:03.140Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-01T17:58:00Z_4.327_-75.123",
+      "lat": 4.3274,
+      "lon": -75.123,
+      "fechaUtc": "2026-09-01T17:58:00Z",
+      "confianza": "media",
+      "frp": 3.16,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ibagué",
+      "distanciaKm": 17.3,
+      "vereda": "Buenos Aires",
+      "codigoVereda": "73001017"
+    }
+  ]
 }
