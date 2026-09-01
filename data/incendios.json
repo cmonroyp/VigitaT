@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-01T18:27:26.213Z",
+ "actualizadoUtc": "2026-09-01T19:17:20.927Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-01T18:27:25.514Z",
-  "pendientes": 3,
+  "intentoUtc": "2026-09-01T19:17:20.456Z",
+  "pendientes": 5,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -84,7 +84,7 @@
    "vereda": "Los Mangos",
    "lat": 3.6109,
    "lon": -74.9008,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:16:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
    "deteccionesTotales": 3,
@@ -96,7 +96,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_3.611_-74.901",
@@ -120,7 +120,7 @@
    "vereda": "Guanabano",
    "lat": 3.5016,
    "lon": -75.5265,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:16:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
    "deteccionesTotales": 3,
@@ -133,7 +133,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_3.505_-75.527",
@@ -261,7 +261,7 @@
    "vereda": "El Viso",
    "lat": 3.5401,
    "lon": -75.4087,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
    "deteccionesTotales": 2,
@@ -273,7 +273,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:35:00Z_3.540_-75.409",
@@ -296,7 +296,7 @@
    "vereda": "El Condor",
    "lat": 3.3205,
    "lon": -75.6189,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:34:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
    "deteccionesTotales": 2,
@@ -308,7 +308,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:35:00Z_3.321_-75.619",
@@ -331,7 +331,7 @@
    "vereda": "Palmarosa",
    "lat": 4.6508,
    "lon": -74.8974,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:35:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:36:00Z",
    "deteccionesTotales": 2,
@@ -343,7 +343,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:35:00Z_4.651_-74.897",
