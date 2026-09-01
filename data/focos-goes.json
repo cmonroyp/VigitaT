@@ -1,15 +1,34 @@
 {
- "actualizadoUtc": "2026-09-01T19:18:30Z",
- "escaneoUtc": "2026-09-01T19:00:00Z",
+ "actualizadoUtc": "2026-09-01T19:26:35Z",
+ "escaneoUtc": "2026-09-01T19:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 3.4559,
+   "lon": -75.4601,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 41.1,
+   "municipio": "Ataco",
+   "vereda": "El Convenio",
+   "escaneoUtc": "2026-09-01T19:10:00Z",
+   "primeroUtc": "2026-09-01T19:10:00Z",
+   "ultimoUtc": "2026-09-01T19:10:00Z",
+   "escaneos": 1
+  }
+ ],
  "alertadas": {
   "3.70,-75.36": "2026-09-01T15:59:58.747788+00:00",
-  "3.68,-75.36": "2026-09-01T15:59:58.747788+00:00"
+  "3.68,-75.36": "2026-09-01T15:59:58.747788+00:00",
+  "3.46,-75.46": "2026-09-01T19:26:35.736335+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-01T19:26:35Z",
+  "focos": 1
  }
 }
