@@ -1,56 +1,12 @@
 {
- "actualizadoUtc": "2026-09-01T08:30:12.604Z",
+ "actualizadoUtc": "2026-09-01T09:25:01.663Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-01T08:30:12.604Z",
+  "intentoUtc": "2026-09-01T09:25:01.663Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
  "incendios": [
-  {
-   "id": "INC-29",
-   "nombre": "Incendio vereda Cerro Gordo",
-   "municipio": "Guamo",
-   "vereda": "Cerro Gordo",
-   "lat": 4.1614,
-   "lon": -75.0644,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T08:48:00Z",
-   "deteccionesTotales": 7,
-   "maxFrp": 8.29,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1042,-18766",
-    "1040,-18766",
-    "1038,-18768",
-    "1040,-18767"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 7,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:28:00Z_4.167_-75.064",
-    "2026-08-27T07:07:00Z_4.161_-75.064",
-    "2026-08-27T18:11:00Z_4.161_-75.064",
-    "2026-08-28T06:48:00Z_4.152_-75.071",
-    "2026-08-28T17:52:00Z_4.152_-75.071",
-    "2026-08-29T06:29:00Z_4.162_-75.067",
-    "2026-08-29T08:48:00Z_4.162_-75.067"
-   ],
-   "areaEstimadaHa": 56,
-   "duracionHoras": 62,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 46,
-    "vientoKmh": 7,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   },
-   "ultimaGoesUtc": "2026-08-29T07:20:00Z"
-  },
   {
    "id": "INC-56",
    "nombre": "Incendio vereda Cuatro Esquinas",
