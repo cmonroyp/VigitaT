@@ -1,55 +1,13 @@
 {
- "actualizadoUtc": "2026-09-01T04:24:42.498Z",
+ "actualizadoUtc": "2026-09-01T07:24:52.104Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-01T04:24:42.498Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-01T07:24:51.602Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-28",
-   "nombre": "Incendio vereda Buenos Aires",
-   "municipio": "Ibagué",
-   "vereda": "Buenos Aires",
-   "lat": 4.3358,
-   "lon": -75.1156,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-26T18:28:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
-   "deteccionesTotales": 8,
-   "maxFrp": 18.83,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1086,-18778",
-    "1084,-18779",
-    "1083,-18779"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 7,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-26T18:28:00Z_4.343_-75.113",
-    "2026-08-27T18:11:00Z_4.336_-75.116",
-    "2026-08-28T06:48:00Z_4.337_-75.115",
-    "2026-08-28T19:13:00Z_4.337_-75.115",
-    "2026-08-28T20:32:00Z_4.337_-75.115",
-    "2026-08-29T06:29:00Z_4.333_-75.114",
-    "2026-08-29T06:29:00Z_4.332_-75.115",
-    "2026-08-29T07:14:00Z_4.332_-75.115"
-   ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 61,
-   "clima": {
-    "tempC": 24,
-    "humedadPct": 71,
-    "vientoKmh": 2,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-29",
    "nombre": "Incendio vereda Cerro Gordo",
@@ -93,235 +51,6 @@
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-08-29T07:20:00Z"
-  },
-  {
-   "id": "INC-40",
-   "nombre": "Incendio vereda California",
-   "municipio": "Cunday",
-   "vereda": "California",
-   "lat": 3.9769,
-   "lon": -74.7812,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T06:31:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 8,
-   "maxFrp": 27.95,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "995,-18699",
-    "998,-18695",
-    "994,-18695",
-    "993,-18698"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 6,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T06:48:00Z_3.979_-74.796",
-    "2026-08-28T06:31:00Z_3.990_-74.778",
-    "2026-08-28T19:13:00Z_3.979_-74.796",
-    "2026-08-28T17:52:00Z_3.977_-74.781",
-    "2026-08-28T20:32:00Z_3.977_-74.781",
-    "2026-08-28T20:32:00Z_3.979_-74.796",
-    "2026-08-29T06:29:00Z_3.973_-74.794",
-    "2026-08-29T06:29:00Z_3.972_-74.794"
-   ],
-   "areaEstimadaHa": 56,
-   "duracionHoras": 24,
-   "clima": {
-    "tempC": 25,
-    "humedadPct": 62,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   },
-   "ultimaGoesUtc": "2026-08-28T22:30:00Z"
-  },
-  {
-   "id": "INC-42",
-   "nombre": "Incendio vereda Camarones",
-   "municipio": "Carmen de Apicalá",
-   "vereda": "Camarones",
-   "lat": 4.055,
-   "lon": -74.7898,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T05:53:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 44.23,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "1014,-18697",
-    "1015,-18698"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 2,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T05:53:00Z_4.055_-74.790",
-    "2026-08-28T20:32:00Z_4.055_-74.790",
-    "2026-08-29T06:29:00Z_4.061_-74.790",
-    "2026-08-29T06:29:00Z_4.060_-74.790"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 25,
-   "clima": {
-    "tempC": 25,
-    "humedadPct": 73,
-    "vientoKmh": 1,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-49",
-   "nombre": "Incendio vereda Sinai",
-   "municipio": "Suárez",
-   "vereda": "Sinai",
-   "lat": 3.9922,
-   "lon": -74.8043,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T19:13:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
-   "deteccionesTotales": 4,
-   "maxFrp": 3.07,
-   "confianzaMax": "media",
-   "pixeles": [
-    "998,-18701",
-    "999,-18700"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T19:13:00Z_3.992_-74.804",
-    "2026-08-29T06:29:00Z_3.998_-74.800",
-    "2026-08-29T06:29:00Z_3.997_-74.800",
-    "2026-08-29T07:14:00Z_3.997_-74.800"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 12,
-   "clima": {
-    "tempC": 26,
-    "humedadPct": 63,
-    "vientoKmh": 2,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-51",
-   "nombre": "Incendio vereda Corazón",
-   "municipio": "Rovira",
-   "vereda": "Corazón",
-   "lat": 4.1297,
-   "lon": -75.2948,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-28T20:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 13.18,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1032,-18824",
-    "1033,-18823"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-28T20:32:00Z_4.130_-75.295",
-    "2026-08-29T06:29:00Z_4.133_-75.292"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 10,
-   "clima": {
-    "tempC": 24,
-    "humedadPct": 61,
-    "vientoKmh": 2,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-54",
-   "nombre": "Incendio vereda San Jose De Arenales",
-   "municipio": "Cunday",
-   "vereda": "San Jose De Arenales",
-   "lat": 3.9473,
-   "lon": -74.8046,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-29T06:29:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T07:14:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 11.35,
-   "confianzaMax": "media",
-   "pixeles": [
-    "987,-18701"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-29T06:29:00Z_3.947_-74.805",
-    "2026-08-29T07:14:00Z_3.947_-74.805"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 1,
-   "clima": {
-    "tempC": 27,
-    "humedadPct": 49,
-    "vientoKmh": 4,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
-   },
-   "ultimaGoesUtc": "2026-08-29T09:00:00Z"
-  },
-  {
-   "id": "INC-55",
-   "nombre": "Incendio vereda Sinai",
-   "municipio": "Suárez",
-   "vereda": "Sinai",
-   "lat": 4.0126,
-   "lon": -74.787,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-29T06:29:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T06:29:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 1.44,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1003,-18697"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-29T06:29:00Z_4.013_-74.787",
-    "2026-08-29T06:29:00Z_4.012_-74.787"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 23,
-    "humedadPct": 90,
-    "vientoKmh": 6,
-    "vientoHacia": "NE",
-    "riesgoPropagacion": "BAJO"
-   },
-   "ultimaGoesUtc": "2026-08-29T21:20:00Z"
   },
   {
    "id": "INC-56",
@@ -399,7 +128,7 @@
    "vereda": "Doyare Recristo",
    "lat": 3.8467,
    "lon": -75.1522,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T06:37:00Z",
    "ultimaDeteccionUtc": "2026-08-31T06:37:00Z",
    "deteccionesTotales": 1,
@@ -411,7 +140,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T06:37:00Z_3.847_-75.152"
