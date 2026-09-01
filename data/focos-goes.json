@@ -1,12 +1,46 @@
 {
- "actualizadoUtc": "2026-09-01T15:35:53Z",
- "escaneoUtc": "2026-09-01T15:20:00Z",
+ "actualizadoUtc": "2026-09-01T15:59:58Z",
+ "escaneoUtc": "2026-09-01T15:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 2,
+ "focosNuevos": 2,
+ "focos": [
+  {
+   "lat": 3.6922,
+   "lon": -75.37,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 59.3,
+   "municipio": "Chaparral",
+   "vereda": "La Libertad",
+   "escaneoUtc": "2026-09-01T15:40:00Z",
+   "primeroUtc": "2026-09-01T15:40:00Z",
+   "ultimoUtc": "2026-09-01T15:40:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 3.674,
+   "lon": -75.37,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 58.8,
+   "municipio": "Chaparral",
+   "vereda": "Amoya",
+   "escaneoUtc": "2026-09-01T15:40:00Z",
+   "primeroUtc": "2026-09-01T15:40:00Z",
+   "ultimoUtc": "2026-09-01T15:40:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "3.70,-75.36": "2026-09-01T15:59:58.747788+00:00",
+  "3.68,-75.36": "2026-09-01T15:59:58.747788+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-01T15:59:58Z",
+  "focos": 2
+ }
 }
