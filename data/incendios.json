@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-01T20:21:03.654Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-01T22:18:33.340Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-01T20:21:03.171Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-01T22:18:32.804Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -386,13 +386,81 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
+    "tempC": 31,
+    "humedadPct": 43,
+    "vientoKmh": 6,
+    "vientoHacia": "SE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-68",
+   "nombre": "Incendio vereda Baloca",
+   "municipio": "Natagaima",
+   "vereda": "Baloca",
+   "lat": 3.6456,
+   "lon": -75.0542,
+   "estado": "activo",
+   "inicioUtc": "2026-09-01T19:02:00Z",
+   "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 35.83,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "911,-18764"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-01T19:02:00Z_3.646_-75.054"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
     "tempC": 33,
-    "humedadPct": 37,
-    "vientoKmh": 4,
-    "vientoHacia": "NO",
+    "humedadPct": 49,
+    "vientoKmh": 8,
+    "vientoHacia": "SO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-69",
+   "nombre": "Incendio vereda La Libertad",
+   "municipio": "Chaparral",
+   "vereda": "La Libertad",
+   "lat": 3.6847,
+   "lon": -75.3648,
+   "estado": "activo",
+   "inicioUtc": "2026-09-01T19:02:00Z",
+   "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 8.66,
+   "confianzaMax": "media",
+   "pixeles": [
+    "921,-18841"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-01T19:02:00Z_3.685_-75.365"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
+    "humedadPct": 40,
+    "vientoKmh": 9,
+    "vientoHacia": "S",
     "riesgoPropagacion": "MODERADO"
    }
   }
  ],
- "secuencia": 67
+ "secuencia": 69
 }
