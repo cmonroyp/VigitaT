@@ -1,46 +1,13 @@
 {
- "actualizadoUtc": "2026-09-01T17:18:57.439Z",
+ "actualizadoUtc": "2026-09-01T18:27:26.213Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-01T17:18:57.439Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-01T18:27:25.514Z",
+  "pendientes": 3,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-56",
-   "nombre": "Incendio vereda Cuatro Esquinas",
-   "municipio": "Ambalema",
-   "vereda": "Cuatro Esquinas",
-   "lat": 4.8927,
-   "lon": -74.7732,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-29T17:32:00Z",
-   "ultimaDeteccionUtc": "2026-08-29T17:32:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.13,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1223,-18693"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-29T17:32:00Z_4.893_-74.773"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 38,
-    "humedadPct": 31,
-    "vientoKmh": 7,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
   {
    "id": "INC-57",
    "nombre": "Incendio vereda Mercadillo",
@@ -190,7 +157,7 @@
    "vereda": "Campoalegre",
    "lat": 4.0829,
    "lon": -75.131,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:15:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
    "deteccionesTotales": 2,
@@ -202,7 +169,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_4.083_-75.131",
@@ -225,7 +192,7 @@
    "vereda": "San Cayetano",
    "lat": 4.1075,
    "lon": -75.0781,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:16:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
    "deteccionesTotales": 1,
@@ -237,7 +204,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_4.108_-75.078"
@@ -259,7 +226,7 @@
    "vereda": "San Miguel",
    "lat": 3.572,
    "lon": -75.6812,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-08-31T18:15:00Z",
    "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
    "deteccionesTotales": 2,
@@ -271,7 +238,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-08-31T18:16:00Z_3.572_-75.681",
