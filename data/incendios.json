@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-02T19:17:19.020Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-02T20:21:51.966Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-02T19:17:18.561Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-09-02T20:21:51.464Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -425,7 +425,41 @@
     "vientoHacia": "SO",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-70",
+   "nombre": "Incendio vereda El Paramo",
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "lat": 4.0118,
+   "lon": -74.7694,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T17:58:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T17:58:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.45,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1003,-18692"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T17:58:00Z_4.012_-74.769"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 28,
+    "humedadPct": 47,
+    "vientoKmh": 6,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 69
+ "secuencia": 70
 }

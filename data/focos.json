@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-09-02T19:17:18.561Z",
+  "actualizadoUtc": "2026-09-02T20:21:51.427Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-02T17:58:00Z_4.012_-74.769",
+      "lat": 4.0118,
+      "lon": -74.7694,
+      "fechaUtc": "2026-09-02T17:58:00Z",
+      "confianza": "media",
+      "frp": 3.45,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Cunday",
+      "distanciaKm": 10.1,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    }
+  ]
 }
