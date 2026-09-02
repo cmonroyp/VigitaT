@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-02T23:26:45Z",
- "escaneoUtc": "2026-09-02T23:10:00Z",
+ "actualizadoUtc": "2026-09-02T23:34:22Z",
+ "escaneoUtc": "2026-09-02T23:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 2,
+ "totalFocos": 1,
  "focosNuevos": 0,
  "focos": [
   {
@@ -20,19 +20,6 @@
    "primeroUtc": "2026-09-02T23:00:00Z",
    "ultimoUtc": "2026-09-02T23:00:00Z",
    "escaneos": 1
-  },
-  {
-   "lat": 3.3832,
-   "lon": -75.5502,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 50.3,
-   "municipio": "Ataco",
-   "vereda": "Cascarillo Bajo",
-   "escaneoUtc": "2026-09-02T22:30:00Z",
-   "primeroUtc": "2026-09-02T22:20:00Z",
-   "ultimoUtc": "2026-09-02T22:30:00Z",
-   "escaneos": 2
   }
  ],
  "alertadas": {
