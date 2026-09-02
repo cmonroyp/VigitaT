@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-02T20:21:51.966Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-02T21:18:01.127Z",
+ "activos": 4,
  "alertas": {
-  "intentoUtc": "2026-09-02T20:21:51.464Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-02T21:18:00.498Z",
+  "pendientes": 3,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -454,12 +454,114 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 28,
-    "humedadPct": 47,
-    "vientoKmh": 6,
+    "humedadPct": 46,
+    "vientoKmh": 5,
     "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-71",
+   "nombre": "Incendio vereda Paradero 1",
+   "municipio": "Flandes",
+   "vereda": "Paradero 1",
+   "lat": 4.2404,
+   "lon": -74.8268,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T18:41:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 9.83,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1060,-18707"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T18:41:00Z_4.240_-74.827"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
+    "humedadPct": 46,
+    "vientoKmh": 12,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-72",
+   "nombre": "Incendio vereda Peñon Alto",
+   "municipio": "Prado",
+   "vereda": "Peñon Alto",
+   "lat": 3.7121,
+   "lon": -74.9658,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T18:41:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 4.29,
+   "confianzaMax": "media",
+   "pixeles": [
+    "928,-18741"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T18:41:00Z_3.712_-74.966"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
+    "humedadPct": 51,
+    "vientoKmh": 5,
+    "vientoHacia": "SO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-73",
+   "nombre": "Incendio vereda El Fique",
+   "municipio": "Prado",
+   "vereda": "El Fique",
+   "lat": 3.6968,
+   "lon": -74.7815,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T18:41:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.58,
+   "confianzaMax": "media",
+   "pixeles": [
+    "924,-18695"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T18:41:00Z_3.697_-74.782"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 71,
+    "vientoKmh": 4,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 70
+ "secuencia": 73
 }

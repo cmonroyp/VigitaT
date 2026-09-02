@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-02T20:21:51.427Z",
+  "actualizadoUtc": "2026-09-02T21:18:00.466Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 1,
-  "focosNuevos": 1,
+  "totalFocos": 4,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,57 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-09-02T18:41:00Z_4.240_-74.827",
+      "lat": 4.2404,
+      "lon": -74.8268,
+      "fechaUtc": "2026-09-02T18:41:00Z",
+      "confianza": "media",
+      "frp": 9.83,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Flandes",
+      "distanciaKm": 4.1,
+      "vereda": "Paradero 1",
+      "codigoVereda": "73275005"
+    },
+    {
+      "id": "2026-09-02T18:41:00Z_3.712_-74.966",
+      "lat": 3.7121,
+      "lon": -74.9658,
+      "fechaUtc": "2026-09-02T18:41:00Z",
+      "confianza": "media",
+      "frp": 4.29,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Prado",
+      "distanciaKm": 6,
+      "vereda": "Peñon Alto",
+      "codigoVereda": "73563024"
+    },
+    {
+      "id": "2026-09-02T18:41:00Z_3.697_-74.782",
+      "lat": 3.6968,
+      "lon": -74.7815,
+      "fechaUtc": "2026-09-02T18:41:00Z",
+      "confianza": "media",
+      "frp": 3.58,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Prado",
+      "distanciaKm": 17.4,
+      "vereda": "El Fique",
+      "codigoVereda": "73563015"
+    },
     {
       "id": "2026-09-02T17:58:00Z_4.012_-74.769",
       "lat": 4.0118,
