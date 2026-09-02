@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-02T22:19:50.039Z",
- "activos": 5,
+ "actualizadoUtc": "2026-09-02T23:17:51.961Z",
+ "activos": 6,
  "alertas": {
-  "intentoUtc": "2026-09-02T22:19:49.593Z",
+  "intentoUtc": "2026-09-02T23:17:51.504Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
@@ -453,11 +453,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 27,
-    "humedadPct": 48,
-    "vientoKmh": 6,
+    "tempC": 25,
+    "humedadPct": 55,
+    "vientoKmh": 7,
     "vientoHacia": "O",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -487,11 +487,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 49,
-    "vientoKmh": 8,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 29,
+    "humedadPct": 57,
+    "vientoKmh": 5,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -521,10 +521,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 55,
-    "vientoKmh": 10,
-    "vientoHacia": "SO",
+    "tempC": 30,
+    "humedadPct": 58,
+    "vientoKmh": 12,
+    "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -555,9 +555,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 23,
-    "humedadPct": 78,
-    "vientoKmh": 4,
+    "tempC": 22,
+    "humedadPct": 86,
+    "vientoKmh": 6,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
@@ -589,13 +589,47 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 57,
-    "vientoKmh": 6,
-    "vientoHacia": "O",
+    "tempC": 23,
+    "humedadPct": 76,
+    "vientoKmh": 3,
+    "vientoHacia": "SE",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-75",
+   "nombre": "Incendio vereda Rubí",
+   "municipio": "Planadas",
+   "vereda": "Rubí",
+   "lat": 3.2539,
+   "lon": -75.6686,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T19:17:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T19:17:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 11.5,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "813,-18917"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T19:17:00Z_3.254_-75.669"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 22,
+    "humedadPct": 76,
+    "vientoKmh": 1,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   }
  ],
- "secuencia": 74
+ "secuencia": 75
 }

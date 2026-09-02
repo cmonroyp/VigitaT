@@ -1,8 +1,8 @@
 {
-  "actualizadoUtc": "2026-09-02T22:19:49.565Z",
+  "actualizadoUtc": "2026-09-02T23:17:51.476Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 5,
+  "totalFocos": 6,
   "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
@@ -27,6 +27,23 @@
       "distanciaKm": 9.1,
       "vereda": "Vista Hermosa",
       "codigoVereda": "73616095"
+    },
+    {
+      "id": "2026-09-02T19:17:00Z_3.254_-75.669",
+      "lat": 3.2539,
+      "lon": -75.6686,
+      "fechaUtc": "2026-09-02T19:17:00Z",
+      "confianza": "alta",
+      "frp": 11.5,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Planadas",
+      "distanciaKm": 6.9,
+      "vereda": "Rubí",
+      "codigoVereda": "73555069"
     },
     {
       "id": "2026-09-02T18:41:00Z_4.240_-74.827",
