@@ -1,48 +1,13 @@
 {
- "actualizadoUtc": "2026-09-02T18:27:07.093Z",
+ "actualizadoUtc": "2026-09-02T19:17:19.020Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-02T18:27:06.606Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-02T19:17:18.561Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-57",
-   "nombre": "Incendio vereda Mercadillo",
-   "municipio": "Alvarado",
-   "vereda": "Mercadillo",
-   "lat": 4.6508,
-   "lon": -74.9897,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-30T18:34:00Z",
-   "ultimaDeteccionUtc": "2026-08-30T18:35:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 100.95,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1163,-18747"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-30T18:35:00Z_4.651_-74.990",
-    "2026-08-30T18:34:00Z_4.651_-74.990"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 26,
-    "humedadPct": 66,
-    "vientoKmh": 10,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-58",
    "nombre": "Incendio vereda Doyare Recristo",
@@ -400,7 +365,7 @@
    "vereda": "Baloca",
    "lat": 3.6456,
    "lon": -75.0542,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-01T19:02:00Z",
    "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
    "deteccionesTotales": 1,
@@ -412,7 +377,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-01T19:02:00Z_3.646_-75.054"
@@ -434,7 +399,7 @@
    "vereda": "La Libertad",
    "lat": 3.6847,
    "lon": -75.3648,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-01T19:02:00Z",
    "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
    "deteccionesTotales": 1,
@@ -446,7 +411,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-01T19:02:00Z_3.685_-75.365"
