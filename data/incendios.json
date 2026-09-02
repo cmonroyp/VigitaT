@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-02T00:55:52.784Z",
- "activos": 2,
+ "actualizadoUtc": "2026-09-02T01:30:20.021Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-02T00:55:52.784Z",
+  "intentoUtc": "2026-09-02T01:30:20.021Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -399,7 +399,7 @@
    "vereda": "Baloca",
    "lat": 3.6456,
    "lon": -75.0542,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-01T19:02:00Z",
    "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
    "deteccionesTotales": 1,
@@ -433,7 +433,7 @@
    "vereda": "La Libertad",
    "lat": 3.6847,
    "lon": -75.3648,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-01T19:02:00Z",
    "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
    "deteccionesTotales": 1,
