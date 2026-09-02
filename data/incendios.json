@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-02T17:19:05.182Z",
+ "actualizadoUtc": "2026-09-02T18:27:07.093Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-02T17:19:05.182Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-02T18:27:06.606Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -365,7 +366,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3274,
    "lon": -75.123,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-01T17:58:00Z",
    "ultimaDeteccionUtc": "2026-09-01T17:58:00Z",
    "deteccionesTotales": 1,
@@ -377,7 +378,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-01T17:58:00Z_4.327_-75.123"
