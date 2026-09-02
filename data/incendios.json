@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-02T21:18:01.127Z",
- "activos": 4,
+ "actualizadoUtc": "2026-09-02T22:19:50.039Z",
+ "activos": 5,
  "alertas": {
-  "intentoUtc": "2026-09-02T21:18:00.498Z",
-  "pendientes": 3,
+  "intentoUtc": "2026-09-02T22:19:49.593Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -453,9 +453,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 46,
-    "vientoKmh": 5,
+    "tempC": 27,
+    "humedadPct": 48,
+    "vientoKmh": 6,
     "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
@@ -487,9 +487,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 46,
-    "vientoKmh": 12,
+    "tempC": 31,
+    "humedadPct": 49,
+    "vientoKmh": 8,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
@@ -521,11 +521,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 51,
-    "vientoKmh": 5,
+    "tempC": 32,
+    "humedadPct": 55,
+    "vientoKmh": 10,
     "vientoHacia": "SO",
-    "riesgoPropagacion": "BAJO"
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -555,13 +555,47 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 24,
-    "humedadPct": 71,
+    "tempC": 23,
+    "humedadPct": 78,
     "vientoKmh": 4,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-74",
+   "nombre": "Incendio vereda Vista Hermosa",
+   "municipio": "Rioblanco",
+   "vereda": "Vista Hermosa",
+   "lat": 3.5387,
+   "lon": -75.7259,
+   "estado": "activo",
+   "inicioUtc": "2026-09-02T20:23:00Z",
+   "ultimaDeteccionUtc": "2026-09-02T20:23:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 30.66,
+   "confianzaMax": "media",
+   "pixeles": [
+    "885,-18931"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-02T20:23:00Z_3.539_-75.726"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 57,
+    "vientoKmh": 6,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   }
  ],
- "secuencia": 73
+ "secuencia": 74
 }

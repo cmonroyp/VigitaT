@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-02T21:18:00.466Z",
+  "actualizadoUtc": "2026-09-02T22:19:49.565Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 4,
-  "focosNuevos": 3,
+  "totalFocos": 5,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,23 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-09-02T20:23:00Z_3.539_-75.726",
+      "lat": 3.5387,
+      "lon": -75.7259,
+      "fechaUtc": "2026-09-02T20:23:00Z",
+      "confianza": "media",
+      "frp": 30.66,
+      "detecciones": 2,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rioblanco",
+      "distanciaKm": 9.1,
+      "vereda": "Vista Hermosa",
+      "codigoVereda": "73616095"
+    },
     {
       "id": "2026-09-02T18:41:00Z_4.240_-74.827",
       "lat": 4.2404,
