@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-01T23:17:07.393Z",
- "activos": 3,
+ "actualizadoUtc": "2026-09-02T00:55:52.784Z",
+ "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-01T23:17:07.393Z",
+  "intentoUtc": "2026-09-02T00:55:52.784Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -365,7 +365,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3274,
    "lon": -75.123,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-01T17:58:00Z",
    "ultimaDeteccionUtc": "2026-09-01T17:58:00Z",
    "deteccionesTotales": 1,
@@ -419,10 +419,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 58,
-    "vientoKmh": 8,
-    "vientoHacia": "SO",
+    "tempC": 29,
+    "humedadPct": 65,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -453,11 +453,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 42,
+    "tempC": 29,
+    "humedadPct": 64,
     "vientoKmh": 6,
     "vientoHacia": "SO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   }
  ],

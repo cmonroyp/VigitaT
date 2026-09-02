@@ -1,8 +1,8 @@
 {
-  "actualizadoUtc": "2026-09-01T23:17:07.393Z",
+  "actualizadoUtc": "2026-09-02T00:55:52.784Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 3,
+  "totalFocos": 0,
   "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
@@ -10,57 +10,5 @@
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-09-01T19:02:00Z_3.685_-75.365",
-      "lat": 3.6847,
-      "lon": -75.3648,
-      "fechaUtc": "2026-09-01T19:02:00Z",
-      "confianza": "media",
-      "frp": 8.66,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Chaparral",
-      "distanciaKm": 13.9,
-      "vereda": "La Libertad",
-      "codigoVereda": "73168072"
-    },
-    {
-      "id": "2026-09-01T19:02:00Z_3.646_-75.054",
-      "lat": 3.6456,
-      "lon": -75.0542,
-      "fechaUtc": "2026-09-01T19:02:00Z",
-      "confianza": "alta",
-      "frp": 35.83,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Natagaima",
-      "distanciaKm": 4.9,
-      "vereda": "Baloca",
-      "codigoVereda": "73483004"
-    },
-    {
-      "id": "2026-09-01T17:58:00Z_4.327_-75.123",
-      "lat": 4.3274,
-      "lon": -75.123,
-      "fechaUtc": "2026-09-01T17:58:00Z",
-      "confianza": "media",
-      "frp": 3.16,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Ibagué",
-      "distanciaKm": 17.3,
-      "vereda": "Buenos Aires",
-      "codigoVereda": "73001017"
-    }
-  ]
+  "focos": []
 }
