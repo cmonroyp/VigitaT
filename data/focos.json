@@ -1,5 +1,5 @@
 {
-  "actualizadoUtc": "2026-09-03T20:19:48.130Z",
+  "actualizadoUtc": "2026-09-03T21:19:04.049Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
   "totalFocos": 2,
@@ -12,13 +12,13 @@
   ],
   "focos": [
     {
-      "id": "2026-09-03T18:24:00Z_4.797_-74.802",
+      "id": "2026-09-03T19:00:00Z_4.797_-74.802",
       "lat": 4.7974,
       "lon": -74.802,
-      "fechaUtc": "2026-09-03T18:24:00Z",
+      "fechaUtc": "2026-09-03T19:00:00Z",
       "confianza": "media",
       "frp": 7.62,
-      "detecciones": 1,
+      "detecciones": 2,
       "satelites": [
         "VIIRS"
       ],

@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-03T20:19:48.907Z",
+ "actualizadoUtc": "2026-09-03T21:19:04.767Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-03T20:19:48.375Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-09-03T21:19:04.049Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -253,7 +253,7 @@
    "vereda": "Vista Hermosa",
    "lat": 3.5387,
    "lon": -75.7259,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T20:23:00Z",
    "ultimaDeteccionUtc": "2026-09-02T20:23:00Z",
    "deteccionesTotales": 1,
@@ -265,7 +265,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T20:23:00Z_3.539_-75.726"
@@ -357,8 +357,8 @@
    "lon": -74.802,
    "estado": "activo",
    "inicioUtc": "2026-09-03T18:24:00Z",
-   "ultimaDeteccionUtc": "2026-09-03T18:24:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-03T19:00:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 7.62,
    "confianzaMax": "media",
    "pixeles": [
@@ -370,16 +370,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-03T18:24:00Z_4.797_-74.802"
+    "2026-09-03T18:24:00Z_4.797_-74.802",
+    "2026-09-03T19:00:00Z_4.797_-74.802"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "duracionHoras": 1,
    "clima": {
     "tempC": 39,
-    "humedadPct": 27,
-    "vientoKmh": 21,
+    "humedadPct": 28,
+    "vientoKmh": 14,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    }
   }
  ],
