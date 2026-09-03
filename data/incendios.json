@@ -1,191 +1,13 @@
 {
- "actualizadoUtc": "2026-09-03T18:26:29.732Z",
+ "actualizadoUtc": "2026-09-03T19:16:06.593Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-03T18:26:28.416Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-03T19:16:06.026Z",
+  "pendientes": 3,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-59",
-   "nombre": "Incendio vereda Los Mangos",
-   "municipio": "Dolores",
-   "vereda": "Los Mangos",
-   "lat": 3.6109,
-   "lon": -74.9008,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:16:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 3,
-   "maxFrp": 24.16,
-   "confianzaMax": "media",
-   "pixeles": [
-    "903,-18725"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:16:00Z_3.611_-74.901",
-    "2026-08-31T18:35:00Z_3.610_-74.901",
-    "2026-08-31T18:34:00Z_3.611_-74.901"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 44,
-    "vientoKmh": 22,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-60",
-   "nombre": "Incendio vereda Guanabano",
-   "municipio": "Chaparral",
-   "vereda": "Guanabano",
-   "lat": 3.5016,
-   "lon": -75.5265,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:16:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 3,
-   "maxFrp": 20.41,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "876,-18882",
-    "875,-18882"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:16:00Z_3.505_-75.527",
-    "2026-08-31T18:35:00Z_3.501_-75.527",
-    "2026-08-31T18:34:00Z_3.502_-75.526"
-   ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 34,
-    "humedadPct": 38,
-    "vientoKmh": 2,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-64",
-   "nombre": "Incendio vereda El Viso",
-   "municipio": "Ataco",
-   "vereda": "El Viso",
-   "lat": 3.5401,
-   "lon": -75.4087,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:34:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 13.18,
-   "confianzaMax": "media",
-   "pixeles": [
-    "885,-18852"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:35:00Z_3.540_-75.409",
-    "2026-08-31T18:34:00Z_3.540_-75.409"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 33,
-    "humedadPct": 44,
-    "vientoKmh": 5,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-65",
-   "nombre": "Incendio vereda El Condor",
-   "municipio": "Ataco",
-   "vereda": "El Condor",
-   "lat": 3.3205,
-   "lon": -75.6189,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:34:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:35:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 6.74,
-   "confianzaMax": "media",
-   "pixeles": [
-    "830,-18905"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:35:00Z_3.321_-75.619",
-    "2026-08-31T18:34:00Z_3.321_-75.619"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 44,
-    "vientoKmh": 5,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-66",
-   "nombre": "Incendio vereda Palmarosa",
-   "municipio": "Venadillo",
-   "vereda": "Palmarosa",
-   "lat": 4.6508,
-   "lon": -74.8974,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:35:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:36:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 3.11,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1163,-18724"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:35:00Z_4.651_-74.897",
-    "2026-08-31T18:36:00Z_4.651_-74.897"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 36,
-    "humedadPct": 32,
-    "vientoKmh": 16,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
   {
    "id": "INC-67",
    "nombre": "Incendio vereda Buenos Aires",
@@ -329,7 +151,7 @@
    "vereda": "Paradero 1",
    "lat": 4.2404,
    "lon": -74.8268,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T18:41:00Z",
    "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
    "deteccionesTotales": 1,
@@ -341,7 +163,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T18:41:00Z_4.240_-74.827"
@@ -363,7 +185,7 @@
    "vereda": "Peñon Alto",
    "lat": 3.7121,
    "lon": -74.9658,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T18:41:00Z",
    "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
    "deteccionesTotales": 1,
@@ -375,7 +197,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T18:41:00Z_3.712_-74.966"
@@ -397,7 +219,7 @@
    "vereda": "El Fique",
    "lat": 3.6968,
    "lon": -74.7815,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T18:41:00Z",
    "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
    "deteccionesTotales": 1,
@@ -409,7 +231,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T18:41:00Z_3.697_-74.782"
