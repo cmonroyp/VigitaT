@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-03T21:19:04.767Z",
+ "actualizadoUtc": "2026-09-03T22:19:31.972Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-03T21:19:04.049Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-03T22:19:31.972Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -376,10 +375,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 1,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 28,
-    "vientoKmh": 14,
-    "vientoHacia": "NO",
+    "tempC": 38,
+    "humedadPct": 30,
+    "vientoKmh": 8,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   }
