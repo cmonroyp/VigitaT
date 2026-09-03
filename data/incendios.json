@@ -1,46 +1,12 @@
 {
- "actualizadoUtc": "2026-09-03T06:36:21.321Z",
+ "actualizadoUtc": "2026-09-03T07:24:40.922Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-03T06:36:21.321Z",
+  "intentoUtc": "2026-09-03T07:24:40.922Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
  "incendios": [
-  {
-   "id": "INC-58",
-   "nombre": "Incendio vereda Doyare Recristo",
-   "municipio": "Coyaima",
-   "vereda": "Doyare Recristo",
-   "lat": 3.8467,
-   "lon": -75.1522,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T06:37:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T06:37:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 0.54,
-   "confianzaMax": "media",
-   "pixeles": [
-    "962,-18788"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T06:37:00Z_3.847_-75.152"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 28,
-    "humedadPct": 63,
-    "vientoKmh": 2,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-59",
    "nombre": "Incendio vereda Los Mangos",
@@ -656,10 +622,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 72,
-    "vientoKmh": 5,
-    "vientoHacia": "SO",
+    "tempC": 26,
+    "humedadPct": 73,
+    "vientoKmh": 3,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
   }
