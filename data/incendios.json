@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-03T07:24:40.922Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-03T08:29:32.339Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-03T07:24:40.922Z",
+  "intentoUtc": "2026-09-03T08:29:32.339Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -602,7 +602,7 @@
    "vereda": "Quinto Chipuelo",
    "lat": 4.0959,
    "lon": -74.9164,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-03T01:47:00Z",
    "ultimaDeteccionUtc": "2026-09-03T01:47:00Z",
    "deteccionesTotales": 1,
