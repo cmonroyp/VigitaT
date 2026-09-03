@@ -1,117 +1,14 @@
 {
-  "actualizadoUtc": "2026-09-02T23:17:51.476Z",
+  "actualizadoUtc": "2026-09-03T03:11:48.262Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 6,
-  "focosNuevos": 1,
+  "totalFocos": 0,
+  "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-09-02T20:23:00Z_3.539_-75.726",
-      "lat": 3.5387,
-      "lon": -75.7259,
-      "fechaUtc": "2026-09-02T20:23:00Z",
-      "confianza": "media",
-      "frp": 30.66,
-      "detecciones": 2,
-      "satelites": [
-        "MODIS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Rioblanco",
-      "distanciaKm": 9.1,
-      "vereda": "Vista Hermosa",
-      "codigoVereda": "73616095"
-    },
-    {
-      "id": "2026-09-02T19:17:00Z_3.254_-75.669",
-      "lat": 3.2539,
-      "lon": -75.6686,
-      "fechaUtc": "2026-09-02T19:17:00Z",
-      "confianza": "alta",
-      "frp": 11.5,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Planadas",
-      "distanciaKm": 6.9,
-      "vereda": "Rubí",
-      "codigoVereda": "73555069"
-    },
-    {
-      "id": "2026-09-02T18:41:00Z_4.240_-74.827",
-      "lat": 4.2404,
-      "lon": -74.8268,
-      "fechaUtc": "2026-09-02T18:41:00Z",
-      "confianza": "media",
-      "frp": 9.83,
-      "detecciones": 3,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Flandes",
-      "distanciaKm": 4.1,
-      "vereda": "Paradero 1",
-      "codigoVereda": "73275005"
-    },
-    {
-      "id": "2026-09-02T18:41:00Z_3.712_-74.966",
-      "lat": 3.7121,
-      "lon": -74.9658,
-      "fechaUtc": "2026-09-02T18:41:00Z",
-      "confianza": "media",
-      "frp": 4.29,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Prado",
-      "distanciaKm": 6,
-      "vereda": "Peñon Alto",
-      "codigoVereda": "73563024"
-    },
-    {
-      "id": "2026-09-02T18:41:00Z_3.697_-74.782",
-      "lat": 3.6968,
-      "lon": -74.7815,
-      "fechaUtc": "2026-09-02T18:41:00Z",
-      "confianza": "media",
-      "frp": 3.58,
-      "detecciones": 2,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Prado",
-      "distanciaKm": 17.4,
-      "vereda": "El Fique",
-      "codigoVereda": "73563015"
-    },
-    {
-      "id": "2026-09-02T17:58:00Z_4.012_-74.769",
-      "lat": 4.0118,
-      "lon": -74.7694,
-      "fechaUtc": "2026-09-02T17:58:00Z",
-      "confianza": "media",
-      "frp": 3.45,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Cunday",
-      "distanciaKm": 10.1,
-      "vereda": "El Paramo",
-      "codigoVereda": "73226017"
-    }
-  ]
+  "focos": []
 }
