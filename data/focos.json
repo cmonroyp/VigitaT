@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-03T19:16:06.026Z",
+  "actualizadoUtc": "2026-09-03T20:19:48.130Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 1,
-  "focosNuevos": 0,
+  "totalFocos": 2,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,23 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-09-03T18:24:00Z_4.797_-74.802",
+      "lat": 4.7974,
+      "lon": -74.802,
+      "fechaUtc": "2026-09-03T18:24:00Z",
+      "confianza": "media",
+      "frp": 7.62,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ambalema",
+      "distanciaKm": 4.5,
+      "vereda": "Tajo Medio",
+      "codigoVereda": "73030008"
+    },
     {
       "id": "2026-09-03T01:47:00Z_4.096_-74.916",
       "lat": 4.0959,

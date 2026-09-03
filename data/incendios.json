@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-03T19:16:06.593Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-03T20:19:48.907Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-03T19:16:06.026Z",
-  "pendientes": 3,
+  "intentoUtc": "2026-09-03T20:19:48.375Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -287,7 +287,7 @@
    "vereda": "Rubí",
    "lat": 3.2539,
    "lon": -75.6686,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T19:17:00Z",
    "ultimaDeteccionUtc": "2026-09-02T19:17:00Z",
    "deteccionesTotales": 1,
@@ -299,7 +299,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T19:17:00Z_3.254_-75.669"
@@ -347,7 +347,41 @@
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-77",
+   "nombre": "Incendio vereda Tajo Medio",
+   "municipio": "Ambalema",
+   "vereda": "Tajo Medio",
+   "lat": 4.7974,
+   "lon": -74.802,
+   "estado": "activo",
+   "inicioUtc": "2026-09-03T18:24:00Z",
+   "ultimaDeteccionUtc": "2026-09-03T18:24:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.62,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1199,-18700"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-03T18:24:00Z_4.797_-74.802"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 39,
+    "humedadPct": 27,
+    "vientoKmh": 21,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "ALTO"
+   }
   }
  ],
- "secuencia": 76
+ "secuencia": 77
 }
