@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-03T03:11:48.262Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-03T05:21:11.060Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-03T03:11:48.262Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-03T05:21:10.615Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -628,7 +629,41 @@
     "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-76",
+   "nombre": "Incendio vereda Quinto Chipuelo",
+   "municipio": "Guamo",
+   "vereda": "Quinto Chipuelo",
+   "lat": 4.0959,
+   "lon": -74.9164,
+   "estado": "activo",
+   "inicioUtc": "2026-09-03T01:47:00Z",
+   "ultimaDeteccionUtc": "2026-09-03T01:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 7.77,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1024,-18729"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-03T01:47:00Z_4.096_-74.916"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 69,
+    "vientoKmh": 8,
+    "vientoHacia": "S",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 75
+ "secuencia": 76
 }

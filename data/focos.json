@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-09-03T03:11:48.262Z",
+  "actualizadoUtc": "2026-09-03T05:21:10.584Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-03T01:47:00Z_4.096_-74.916",
+      "lat": 4.0959,
+      "lon": -74.9164,
+      "fechaUtc": "2026-09-03T01:47:00Z",
+      "confianza": "media",
+      "frp": 7.77,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Guamo",
+      "distanciaKm": 9.4,
+      "vereda": "Quinto Chipuelo",
+      "codigoVereda": "73319037"
+    }
+  ]
 }
