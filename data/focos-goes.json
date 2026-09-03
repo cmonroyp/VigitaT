@@ -1,12 +1,32 @@
 {
- "actualizadoUtc": "2026-09-03T12:51:10Z",
- "escaneoUtc": "2026-09-03T12:40:00Z",
+ "actualizadoUtc": "2026-09-03T13:03:33Z",
+ "escaneoUtc": "2026-09-03T12:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 0,
- "focosNuevos": 0,
- "focos": [],
- "alertadas": {}
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 1,
+ "focosNuevos": 1,
+ "focos": [
+  {
+   "lat": 4.3836,
+   "lon": -75.0632,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 21.1,
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "escaneoUtc": "2026-09-03T12:50:00Z",
+   "primeroUtc": "2026-09-03T12:50:00Z",
+   "ultimoUtc": "2026-09-03T12:50:00Z",
+   "escaneos": 1
+  }
+ ],
+ "alertadas": {
+  "4.38,-75.06": "2026-09-03T13:03:33.255952+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-03T13:03:33Z",
+  "focos": 1
+ }
 }
