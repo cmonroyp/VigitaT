@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-03T17:19:08.160Z",
+ "actualizadoUtc": "2026-09-03T18:26:29.732Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-03T17:19:08.160Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-03T18:26:28.416Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -78,110 +79,6 @@
     "vientoKmh": 2,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-61",
-   "nombre": "Incendio vereda Campoalegre",
-   "municipio": "San Luis",
-   "vereda": "Campoalegre",
-   "lat": 4.0829,
-   "lon": -75.131,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:15:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 11.41,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1021,-18783"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:16:00Z_4.083_-75.131",
-    "2026-08-31T18:15:00Z_4.083_-75.131"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 36,
-    "humedadPct": 26,
-    "vientoKmh": 21,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
-   }
-  },
-  {
-   "id": "INC-62",
-   "nombre": "Incendio vereda San Cayetano",
-   "municipio": "San Luis",
-   "vereda": "San Cayetano",
-   "lat": 4.1075,
-   "lon": -75.0781,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:16:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 6.18,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1027,-18770"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:16:00Z_4.108_-75.078"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 36,
-    "humedadPct": 26,
-    "vientoKmh": 21,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
-   }
-  },
-  {
-   "id": "INC-63",
-   "nombre": "Incendio vereda San Miguel",
-   "municipio": "Rioblanco",
-   "vereda": "San Miguel",
-   "lat": 3.572,
-   "lon": -75.6812,
-   "estado": "extinguido",
-   "inicioUtc": "2026-08-31T18:15:00Z",
-   "ultimaDeteccionUtc": "2026-08-31T18:16:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 2.79,
-   "confianzaMax": "media",
-   "pixeles": [
-    "893,-18920"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-08-31T18:16:00Z_3.572_-75.681",
-    "2026-08-31T18:15:00Z_3.572_-75.681"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 20,
-    "humedadPct": 60,
-    "vientoKmh": 5,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -398,7 +295,7 @@
    "vereda": "El Paramo",
    "lat": 4.0118,
    "lon": -74.7694,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-02T17:58:00Z",
    "ultimaDeteccionUtc": "2026-09-02T17:58:00Z",
    "deteccionesTotales": 1,
@@ -410,7 +307,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-02T17:58:00Z_4.012_-74.769"
