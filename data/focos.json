@@ -1,8 +1,8 @@
 {
-  "actualizadoUtc": "2026-09-03T23:17:46.895Z",
+  "actualizadoUtc": "2026-09-04T00:53:22.793Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 2,
+  "totalFocos": 0,
   "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
@@ -10,40 +10,5 @@
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-09-03T19:00:00Z_4.797_-74.802",
-      "lat": 4.7974,
-      "lon": -74.802,
-      "fechaUtc": "2026-09-03T19:00:00Z",
-      "confianza": "media",
-      "frp": 7.62,
-      "detecciones": 2,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Ambalema",
-      "distanciaKm": 4.5,
-      "vereda": "Tajo Medio",
-      "codigoVereda": "73030008"
-    },
-    {
-      "id": "2026-09-03T01:47:00Z_4.096_-74.916",
-      "lat": 4.0959,
-      "lon": -74.9164,
-      "fechaUtc": "2026-09-03T01:47:00Z",
-      "confianza": "media",
-      "frp": 7.77,
-      "detecciones": 1,
-      "satelites": [
-        "MODIS"
-      ],
-      "diaNoche": "noche",
-      "municipio": "Guamo",
-      "distanciaKm": 9.4,
-      "vereda": "Quinto Chipuelo",
-      "codigoVereda": "73319037"
-    }
-  ]
+  "focos": []
 }
