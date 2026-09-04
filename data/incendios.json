@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-04T00:53:22.793Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-04T01:26:48.253Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-04T00:53:22.793Z",
+  "intentoUtc": "2026-09-04T01:26:48.253Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -354,7 +354,7 @@
    "vereda": "Tajo Medio",
    "lat": 4.7974,
    "lon": -74.802,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-03T18:24:00Z",
    "ultimaDeteccionUtc": "2026-09-03T19:00:00Z",
    "deteccionesTotales": 2,
