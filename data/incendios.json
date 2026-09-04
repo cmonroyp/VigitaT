@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-04T01:26:48.253Z",
+ "actualizadoUtc": "2026-09-04T02:29:18.505Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-04T01:26:48.253Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-04T02:29:17.952Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -320,7 +321,7 @@
    "vereda": "Quinto Chipuelo",
    "lat": 4.0959,
    "lon": -74.9164,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-03T01:47:00Z",
    "ultimaDeteccionUtc": "2026-09-03T01:47:00Z",
    "deteccionesTotales": 1,
@@ -332,7 +333,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-03T01:47:00Z_4.096_-74.916"
