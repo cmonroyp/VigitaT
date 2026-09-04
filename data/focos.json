@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-09-04T18:23:49.299Z",
+  "actualizadoUtc": "2026-09-04T19:14:46.367Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-04T18:41:00Z_3.972_-74.905",
+      "lat": 3.9717,
+      "lon": -74.9048,
+      "fechaUtc": "2026-09-04T18:41:00Z",
+      "confianza": "media",
+      "frp": 4.93,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Purificación",
+      "distanciaKm": 12.9,
+      "vereda": "Cairo Brisas",
+      "codigoVereda": "73585001"
+    }
+  ]
 }

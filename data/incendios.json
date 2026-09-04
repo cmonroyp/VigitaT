@@ -1,80 +1,13 @@
 {
- "actualizadoUtc": "2026-09-04T18:23:49.299Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-04T19:14:47.068Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-04T18:23:49.299Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-04T19:14:46.399Z",
+  "pendientes": 2,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-68",
-   "nombre": "Incendio vereda Baloca",
-   "municipio": "Natagaima",
-   "vereda": "Baloca",
-   "lat": 3.6456,
-   "lon": -75.0542,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-01T19:02:00Z",
-   "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 35.83,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "911,-18764"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-01T19:02:00Z_3.646_-75.054"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 29,
-    "humedadPct": 65,
-    "vientoKmh": 3,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-69",
-   "nombre": "Incendio vereda La Libertad",
-   "municipio": "Chaparral",
-   "vereda": "La Libertad",
-   "lat": 3.6847,
-   "lon": -75.3648,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-01T19:02:00Z",
-   "ultimaDeteccionUtc": "2026-09-01T19:02:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 8.66,
-   "confianzaMax": "media",
-   "pixeles": [
-    "921,-18841"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-01T19:02:00Z_3.685_-75.365"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 29,
-    "humedadPct": 64,
-    "vientoKmh": 6,
-    "vientoHacia": "SO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-70",
    "nombre": "Incendio vereda El Paramo",
@@ -320,7 +253,7 @@
    "vereda": "Tajo Medio",
    "lat": 4.7974,
    "lon": -74.802,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-03T18:24:00Z",
    "ultimaDeteccionUtc": "2026-09-03T19:00:00Z",
    "deteccionesTotales": 2,
@@ -332,7 +265,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-03T18:24:00Z_4.797_-74.802",
@@ -347,7 +280,41 @@
     "vientoHacia": "SO",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-78",
+   "nombre": "Incendio vereda Cairo Brisas",
+   "municipio": "Purificación",
+   "vereda": "Cairo Brisas",
+   "lat": 3.9717,
+   "lon": -74.9048,
+   "estado": "activo",
+   "inicioUtc": "2026-09-04T18:41:00Z",
+   "ultimaDeteccionUtc": "2026-09-04T18:41:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 4.93,
+   "confianzaMax": "media",
+   "pixeles": [
+    "993,-18726"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-04T18:41:00Z_3.972_-74.905"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 31,
+    "vientoKmh": 8,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 77
+ "secuencia": 78
 }
