@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-04T19:14:47.068Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-04T20:20:25.489Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-04T19:14:46.399Z",
+  "intentoUtc": "2026-09-04T20:20:24.970Z",
   "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
@@ -308,13 +308,81 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 31,
-    "vientoKmh": 8,
+    "tempC": 34,
+    "humedadPct": 44,
+    "vientoKmh": 16,
     "vientoHacia": "O",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-79",
+   "nombre": "Incendio vereda Niple",
+   "municipio": "Coyaima",
+   "vereda": "Niple",
+   "lat": 3.6796,
+   "lon": -75.152,
+   "estado": "activo",
+   "inicioUtc": "2026-09-04T18:04:00Z",
+   "ultimaDeteccionUtc": "2026-09-04T18:04:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 13.82,
+   "confianzaMax": "media",
+   "pixeles": [
+    "920,-18788"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-04T18:04:00Z_3.680_-75.152"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 25,
+    "vientoKmh": 23,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-80",
+   "nombre": "Incendio vereda El Fique",
+   "municipio": "Prado",
+   "vereda": "El Fique",
+   "lat": 3.706,
+   "lon": -74.7625,
+   "estado": "activo",
+   "inicioUtc": "2026-09-04T18:04:00Z",
+   "ultimaDeteccionUtc": "2026-09-04T18:04:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 9.32,
+   "confianzaMax": "media",
+   "pixeles": [
+    "927,-18691"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-04T18:04:00Z_3.706_-74.762"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 25,
+    "humedadPct": 70,
+    "vientoKmh": 2,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 78
+ "secuencia": 80
 }
