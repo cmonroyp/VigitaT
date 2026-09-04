@@ -1,66 +1,14 @@
 {
-  "actualizadoUtc": "2026-09-04T20:20:24.413Z",
+  "actualizadoUtc": "2026-09-04T21:17:39.353Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 3,
-  "focosNuevos": 2,
+  "totalFocos": 0,
+  "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-09-04T18:41:00Z_3.972_-74.905",
-      "lat": 3.9717,
-      "lon": -74.9048,
-      "fechaUtc": "2026-09-04T18:41:00Z",
-      "confianza": "media",
-      "frp": 4.93,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Purificación",
-      "distanciaKm": 12.9,
-      "vereda": "Cairo Brisas",
-      "codigoVereda": "73585001"
-    },
-    {
-      "id": "2026-09-04T18:04:00Z_3.706_-74.762",
-      "lat": 3.706,
-      "lon": -74.7625,
-      "fechaUtc": "2026-09-04T18:04:00Z",
-      "confianza": "media",
-      "frp": 9.32,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Prado",
-      "distanciaKm": 19.1,
-      "vereda": "El Fique",
-      "codigoVereda": "73563015"
-    },
-    {
-      "id": "2026-09-04T18:04:00Z_3.680_-75.152",
-      "lat": 3.6796,
-      "lon": -75.152,
-      "fechaUtc": "2026-09-04T18:04:00Z",
-      "confianza": "media",
-      "frp": 13.82,
-      "detecciones": 4,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Coyaima",
-      "distanciaKm": 14,
-      "vereda": "Niple",
-      "codigoVereda": "73217039"
-    }
-  ]
+  "focos": []
 }
