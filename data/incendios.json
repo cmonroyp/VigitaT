@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-04T22:18:52.893Z",
+ "actualizadoUtc": "2026-09-04T23:17:25.864Z",
  "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-04T22:18:52.893Z",
+  "intentoUtc": "2026-09-04T23:17:25.864Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -307,11 +307,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 48,
-    "vientoKmh": 10,
+    "tempC": 31,
+    "humedadPct": 52,
+    "vientoKmh": 5,
     "vientoHacia": "O",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -341,9 +341,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 31,
-    "vientoKmh": 23,
+    "tempC": 33,
+    "humedadPct": 33,
+    "vientoKmh": 20,
     "vientoHacia": "NO",
     "riesgoPropagacion": "ALTO"
    }
@@ -375,9 +375,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 25,
-    "humedadPct": 69,
-    "vientoKmh": 4,
+    "tempC": 24,
+    "humedadPct": 76,
+    "vientoKmh": 5,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
