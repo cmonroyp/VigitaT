@@ -1,40 +1,13 @@
 {
- "actualizadoUtc": "2026-09-04T18:43:41Z",
- "escaneoUtc": "2026-09-04T18:30:00Z",
+ "actualizadoUtc": "2026-09-04T18:51:13Z",
+ "escaneoUtc": "2026-09-04T18:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 2,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 3.6922,
-   "lon": -75.1534,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 71.6,
-   "municipio": "Coyaima",
-   "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-04T17:50:00Z",
-   "primeroUtc": "2026-09-04T17:50:00Z",
-   "ultimoUtc": "2026-09-04T17:50:00Z",
-   "escaneos": 1
-  },
-  {
-   "lat": 3.6922,
-   "lon": -75.1354,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 66.4,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-04T17:50:00Z",
-   "primeroUtc": "2026-09-04T17:50:00Z",
-   "ultimoUtc": "2026-09-04T17:50:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "3.70,-75.16": "2026-09-04T18:04:00.826400+00:00",
   "3.70,-75.14": "2026-09-04T18:04:00.826400+00:00"
