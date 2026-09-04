@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-04T02:29:18.505Z",
+ "actualizadoUtc": "2026-09-04T03:24:23.740Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-04T02:29:17.952Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-04T03:24:23.740Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
