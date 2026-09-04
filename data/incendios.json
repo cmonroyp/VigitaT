@@ -1,46 +1,12 @@
 {
- "actualizadoUtc": "2026-09-04T17:17:56.806Z",
+ "actualizadoUtc": "2026-09-04T18:23:49.299Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-04T17:17:56.806Z",
+  "intentoUtc": "2026-09-04T18:23:49.299Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
  "incendios": [
-  {
-   "id": "INC-67",
-   "nombre": "Incendio vereda Buenos Aires",
-   "municipio": "Ibagué",
-   "vereda": "Buenos Aires",
-   "lat": 4.3274,
-   "lon": -75.123,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-01T17:58:00Z",
-   "ultimaDeteccionUtc": "2026-09-01T17:58:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 3.16,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1082,-18781"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-01T17:58:00Z_4.327_-75.123"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 29,
-    "humedadPct": 49,
-    "vientoKmh": 5,
-    "vientoHacia": "SE",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
   {
    "id": "INC-68",
    "nombre": "Incendio vereda Baloca",
