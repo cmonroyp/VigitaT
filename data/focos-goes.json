@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T22:02:44Z",
- "escaneoUtc": "2026-09-05T21:50:00Z",
+ "actualizadoUtc": "2026-09-05T22:17:58Z",
+ "escaneoUtc": "2026-09-05T22:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 2,
- "totalFocos": 6,
+ "focosUltimoEscaneo": 0,
+ "totalFocos": 5,
  "focosNuevos": 0,
  "focos": [
   {
@@ -61,19 +61,6 @@
    "escaneos": 16
   },
   {
-   "lat": 3.7649,
-   "lon": -75.2256,
-   "codigo": 33,
-   "confianza": "alta",
-   "frp": 74.3,
-   "municipio": "Coyaima",
-   "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T21:10:00Z",
-   "primeroUtc": "2026-09-05T20:10:00Z",
-   "ultimoUtc": "2026-09-05T21:10:00Z",
-   "escaneos": 4
-  },
-  {
    "lat": 3.8741,
    "lon": -75.1715,
    "codigo": 30,
@@ -88,7 +75,6 @@
   }
  ],
  "alertadas": {
-  "3.68,-75.18": "2026-09-05T16:03:12.049203+00:00",
   "4.10,-74.92": "2026-09-05T16:20:26.372044+00:00",
   "3.74,-75.22": "2026-09-05T18:03:37.203795+00:00",
   "3.72,-75.18": "2026-09-05T18:03:37.203795+00:00",
