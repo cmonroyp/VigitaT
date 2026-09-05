@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-05T19:15:03.614Z",
+  "actualizadoUtc": "2026-09-05T20:18:37.906Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 7,
-  "focosNuevos": 0,
+  "totalFocos": 11,
+  "focosNuevos": 4,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,74 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-09-05T18:21:00Z_3.697_-75.158",
+      "lat": 3.6965,
+      "lon": -75.1575,
+      "fechaUtc": "2026-09-05T18:21:00Z",
+      "confianza": "alta",
+      "frp": 43.39,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 12.1,
+      "vereda": "Totarco Piedras",
+      "codigoVereda": "73217048"
+    },
+    {
+      "id": "2026-09-05T17:45:00Z_3.960_-74.793",
+      "lat": 3.9599,
+      "lon": -74.7933,
+      "fechaUtc": "2026-09-05T17:45:00Z",
+      "confianza": "media",
+      "frp": 2.94,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Cunday",
+      "distanciaKm": 15.8,
+      "vereda": "California",
+      "codigoVereda": "73226009"
+    },
+    {
+      "id": "2026-09-05T17:45:00Z_3.748_-75.230",
+      "lat": 3.7485,
+      "lon": -75.2299,
+      "fechaUtc": "2026-09-05T17:45:00Z",
+      "confianza": "alta",
+      "frp": 139.29,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 6.9,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
+    {
+      "id": "2026-09-05T17:45:00Z_3.706_-75.213",
+      "lat": 3.7063,
+      "lon": -75.2132,
+      "fechaUtc": "2026-09-05T17:45:00Z",
+      "confianza": "media",
+      "frp": 8.01,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 10.5,
+      "vereda": "Totarco Tamarindo",
+      "codigoVereda": "73217049"
+    },
     {
       "id": "2026-09-05T13:44:00Z_4.343_-75.263",
       "lat": 4.3433,

@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-05T20:02:51Z",
- "activos": 6,
+ "actualizadoUtc": "2026-09-05T20:18:38.594Z",
+ "activos": 7,
  "alertas": {
-  "intentoUtc": "2026-09-05T19:15:03.614Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-05T20:18:37.936Z",
+  "pendientes": 4,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -39,40 +39,6 @@
     "humedadPct": 76,
     "vientoKmh": 3,
     "vientoHacia": "SE",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-75",
-   "nombre": "Incendio vereda Rubí",
-   "municipio": "Planadas",
-   "vereda": "Rubí",
-   "lat": 3.2539,
-   "lon": -75.6686,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-02T19:17:00Z",
-   "ultimaDeteccionUtc": "2026-09-02T19:17:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 11.5,
-   "confianzaMax": "alta",
-   "pixeles": [
-    "813,-18917"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-02T19:17:00Z_3.254_-75.669"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 22,
-    "humedadPct": 76,
-    "vientoKmh": 1,
-    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -181,36 +147,40 @@
   },
   {
    "id": "INC-79",
-   "nombre": "Incendio vereda Niple",
+   "nombre": "Incendio vereda Totarco Piedras",
    "municipio": "Coyaima",
-   "vereda": "Niple",
-   "lat": 3.6821,
-   "lon": -75.1556,
+   "vereda": "Totarco Piedras",
+   "lat": 3.6965,
+   "lon": -75.1575,
    "estado": "activo",
    "inicioUtc": "2026-09-04T18:04:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 20.19,
+   "ultimaDeteccionUtc": "2026-09-05T18:21:00Z",
+   "deteccionesTotales": 4,
+   "maxFrp": 43.39,
    "confianzaMax": "alta",
    "pixeles": [
     "920,-18788",
-    "921,-18789"
+    "921,-18789",
+    "924,-18789",
+    "928,-18786"
    ],
    "alertas": {
     "detectado": true,
-    "ultCrecimiento": 1,
+    "ultCrecimiento": 4,
     "extinguido": false
    },
    "focoIds": [
     "2026-09-04T18:04:00Z_3.680_-75.152",
-    "2026-09-05T13:44:00Z_3.682_-75.156"
+    "2026-09-05T13:44:00Z_3.682_-75.156",
+    "2026-09-05T18:21:00Z_3.697_-75.158",
+    "2026-09-05T13:44:00Z_3.710_-75.146"
    ],
-   "areaEstimadaHa": 28,
-   "duracionHoras": 20,
+   "areaEstimadaHa": 56,
+   "duracionHoras": 24,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 23,
-    "vientoKmh": 29,
+    "tempC": 37,
+    "humedadPct": 25,
+    "vientoKmh": 28,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -312,9 +282,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 6,
    "clima": {
-    "tempC": 38,
-    "humedadPct": 23,
-    "vientoKmh": 29,
+    "tempC": 36,
+    "humedadPct": 25,
+    "vientoKmh": 28,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -327,7 +297,7 @@
    "vereda": "Pensilvania",
    "lat": 3.2781,
    "lon": -75.5564,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -381,9 +351,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 30,
+    "tempC": 37,
+    "humedadPct": 24,
+    "vientoKmh": 29,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -396,7 +366,7 @@
    "vereda": "Jabalcón",
    "lat": 3.8386,
    "lon": -75.0225,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -452,12 +422,114 @@
    "clima": {
     "tempC": 28,
     "humedadPct": 32,
-    "vientoKmh": 12,
+    "vientoKmh": 14,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T15:10:00Z"
+  },
+  {
+   "id": "INC-87",
+   "nombre": "Incendio vereda Buenavista",
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "lat": 3.7485,
+   "lon": -75.2299,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T17:45:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 139.29,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "937,-18807"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T17:45:00Z_3.748_-75.230"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 25,
+    "vientoKmh": 22,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-88",
+   "nombre": "Incendio vereda Totarco Tamarindo",
+   "municipio": "Coyaima",
+   "vereda": "Totarco Tamarindo",
+   "lat": 3.7063,
+   "lon": -75.2132,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T17:45:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 8.01,
+   "confianzaMax": "media",
+   "pixeles": [
+    "927,-18803"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T17:45:00Z_3.706_-75.213"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 25,
+    "vientoKmh": 28,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-89",
+   "nombre": "Incendio vereda California",
+   "municipio": "Cunday",
+   "vereda": "California",
+   "lat": 3.9599,
+   "lon": -74.7933,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T17:45:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.94,
+   "confianzaMax": "media",
+   "pixeles": [
+    "990,-18698"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T17:45:00Z_3.960_-74.793"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 33,
+    "humedadPct": 37,
+    "vientoKmh": 6,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 86
+ "secuencia": 89
 }
