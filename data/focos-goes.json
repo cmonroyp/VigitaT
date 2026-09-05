@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T16:31:41Z",
- "escaneoUtc": "2026-09-05T16:20:00Z",
+ "actualizadoUtc": "2026-09-05T16:41:20Z",
+ "escaneoUtc": "2026-09-05T16:30:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 5,
+ "totalFocos": 4,
  "focosNuevos": 0,
  "focos": [
   {
@@ -45,19 +45,6 @@
    "escaneoUtc": "2026-09-05T16:10:00Z",
    "primeroUtc": "2026-09-05T16:10:00Z",
    "ultimoUtc": "2026-09-05T16:10:00Z",
-   "escaneos": 1
-  },
-  {
-   "lat": 3.7104,
-   "lon": -75.2076,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 45.8,
-   "municipio": "Coyaima",
-   "vereda": "Totarco Dinde",
-   "escaneoUtc": "2026-09-05T15:40:00Z",
-   "primeroUtc": "2026-09-05T15:40:00Z",
-   "ultimoUtc": "2026-09-05T15:40:00Z",
    "escaneos": 1
   },
   {
