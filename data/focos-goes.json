@@ -1,10 +1,10 @@
 {
- "actualizadoUtc": "2026-09-05T21:31:52Z",
- "escaneoUtc": "2026-09-05T21:20:00Z",
+ "actualizadoUtc": "2026-09-05T21:41:22Z",
+ "escaneoUtc": "2026-09-05T21:30:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 2,
+ "focosUltimoEscaneo": 1,
  "totalFocos": 6,
  "focosNuevos": 0,
  "focos": [
@@ -29,10 +29,10 @@
    "frp": 191.2,
    "municipio": "Coyaima",
    "vereda": "Niple",
-   "escaneoUtc": "2026-09-05T21:20:00Z",
+   "escaneoUtc": "2026-09-05T21:30:00Z",
    "primeroUtc": "2026-09-05T21:20:00Z",
-   "ultimoUtc": "2026-09-05T21:20:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T21:30:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.6922,
@@ -88,7 +88,6 @@
   }
  ],
  "alertadas": {
-  "3.96,-74.80": "2026-09-05T15:32:39.362432+00:00",
   "3.72,-75.20": "2026-09-05T15:51:12.042919+00:00",
   "3.68,-75.18": "2026-09-05T16:03:12.049203+00:00",
   "4.10,-74.92": "2026-09-05T16:20:26.372044+00:00",
