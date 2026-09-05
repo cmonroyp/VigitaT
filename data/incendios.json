@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-09-05T22:25:25Z",
+ "actualizadoUtc": "2026-09-05T22:32:04Z",
  "activos": 11,
  "alertas": {
   "intentoUtc": "2026-09-05T22:17:38.015Z",
@@ -501,7 +501,7 @@
     "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    },
-   "ultimaGoesUtc": "2026-09-05T22:10:00Z"
+   "ultimaGoesUtc": "2026-09-05T22:20:00Z"
   },
   {
    "id": "INC-90",
