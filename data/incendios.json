@@ -1,47 +1,13 @@
 {
- "actualizadoUtc": "2026-09-05T21:02:34Z",
- "activos": 7,
+ "actualizadoUtc": "2026-09-05T21:15:56.145Z",
+ "activos": 8,
  "alertas": {
-  "intentoUtc": "2026-09-05T20:18:37.936Z",
-  "pendientes": 4,
+  "intentoUtc": "2026-09-05T21:15:55.579Z",
+  "pendientes": 2,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-74",
-   "nombre": "Incendio vereda Vista Hermosa",
-   "municipio": "Rioblanco",
-   "vereda": "Vista Hermosa",
-   "lat": 3.5387,
-   "lon": -75.7259,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-02T20:23:00Z",
-   "ultimaDeteccionUtc": "2026-09-02T20:23:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 30.66,
-   "confianzaMax": "media",
-   "pixeles": [
-    "885,-18931"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-02T20:23:00Z_3.539_-75.726"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 23,
-    "humedadPct": 76,
-    "vientoKmh": 3,
-    "vientoHacia": "SE",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-76",
    "nombre": "Incendio vereda Quinto Chipuelo",
@@ -154,15 +120,16 @@
    "lon": -75.1575,
    "estado": "activo",
    "inicioUtc": "2026-09-04T18:04:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T18:21:00Z",
-   "deteccionesTotales": 4,
+   "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
+   "deteccionesTotales": 5,
    "maxFrp": 43.39,
    "confianzaMax": "alta",
    "pixeles": [
     "920,-18788",
     "921,-18789",
     "924,-18789",
-    "928,-18786"
+    "928,-18786",
+    "923,-18789"
    ],
    "alertas": {
     "detectado": true,
@@ -173,14 +140,15 @@
     "2026-09-04T18:04:00Z_3.680_-75.152",
     "2026-09-05T13:44:00Z_3.682_-75.156",
     "2026-09-05T18:21:00Z_3.697_-75.158",
-    "2026-09-05T13:44:00Z_3.710_-75.146"
+    "2026-09-05T13:44:00Z_3.710_-75.146",
+    "2026-09-05T18:43:00Z_3.693_-75.155"
    ],
-   "areaEstimadaHa": 56,
-   "duracionHoras": 24,
+   "areaEstimadaHa": 70,
+   "duracionHoras": 25,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 25,
-    "vientoKmh": 28,
+    "tempC": 36,
+    "humedadPct": 29,
+    "vientoKmh": 24,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -282,9 +250,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 6,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 25,
-    "vientoKmh": 28,
+    "tempC": 35,
+    "humedadPct": 28,
+    "vientoKmh": 24,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -351,9 +319,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 24,
-    "vientoKmh": 29,
+    "tempC": 36,
+    "humedadPct": 27,
+    "vientoKmh": 26,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -400,7 +368,7 @@
    "vereda": "La Osera",
    "lat": 4.3433,
    "lon": -75.2627,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -455,11 +423,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 25,
-    "vientoKmh": 22,
+    "tempC": 36,
+    "humedadPct": 27,
+    "vientoKmh": 19,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T20:40:00Z"
   },
@@ -490,9 +458,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 25,
-    "vientoKmh": 28,
+    "tempC": 35,
+    "humedadPct": 28,
+    "vientoKmh": 24,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
@@ -524,13 +492,81 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 37,
-    "vientoKmh": 6,
+    "tempC": 32,
+    "humedadPct": 41,
+    "vientoKmh": 4,
     "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-90",
+   "nombre": "Incendio vereda Castilla",
+   "municipio": "Coyaima",
+   "vereda": "Castilla",
+   "lat": 3.8325,
+   "lon": -75.0973,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T18:43:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 16.9,
+   "confianzaMax": "media",
+   "pixeles": [
+    "958,-18774"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T18:43:00Z_3.833_-75.097"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 31,
+    "vientoKmh": 31,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-91",
+   "nombre": "Incendio vereda Buenavista",
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "lat": 3.772,
+   "lon": -75.2045,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T18:43:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 5.35,
+   "confianzaMax": "media",
+   "pixeles": [
+    "943,-18801"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T18:43:00Z_3.772_-75.204"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 27,
+    "vientoKmh": 19,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   }
  ],
- "secuencia": 89
+ "secuencia": 91
 }

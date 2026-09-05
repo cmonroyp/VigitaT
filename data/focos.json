@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-05T20:18:37.906Z",
+  "actualizadoUtc": "2026-09-05T21:15:55.531Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 11,
-  "focosNuevos": 4,
+  "totalFocos": 12,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,19 +12,54 @@
   ],
   "focos": [
     {
-      "id": "2026-09-05T18:21:00Z_3.697_-75.158",
-      "lat": 3.6965,
-      "lon": -75.1575,
-      "fechaUtc": "2026-09-05T18:21:00Z",
-      "confianza": "alta",
-      "frp": 43.39,
+      "id": "2026-09-05T18:43:00Z_3.833_-75.097",
+      "lat": 3.8325,
+      "lon": -75.0973,
+      "fechaUtc": "2026-09-05T18:43:00Z",
+      "confianza": "media",
+      "frp": 16.9,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 11.4,
+      "vereda": "Castilla",
+      "codigoVereda": "73217009"
+    },
+    {
+      "id": "2026-09-05T18:43:00Z_3.772_-75.204",
+      "lat": 3.772,
+      "lon": -75.2045,
+      "fechaUtc": "2026-09-05T18:43:00Z",
+      "confianza": "media",
+      "frp": 5.35,
       "detecciones": 1,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "día",
       "municipio": "Coyaima",
-      "distanciaKm": 12.1,
+      "distanciaKm": 3.2,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
+    {
+      "id": "2026-09-05T18:43:00Z_3.693_-75.155",
+      "lat": 3.6932,
+      "lon": -75.1552,
+      "fechaUtc": "2026-09-05T18:43:00Z",
+      "confianza": "alta",
+      "frp": 43.39,
+      "detecciones": 3,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 12.5,
       "vereda": "Totarco Piedras",
       "codigoVereda": "73217048"
     },
@@ -129,23 +164,6 @@
       "distanciaKm": 11.2,
       "vereda": "Lomas De Hilarco",
       "codigoVereda": "73217033"
-    },
-    {
-      "id": "2026-09-05T13:44:00Z_3.682_-75.156",
-      "lat": 3.6821,
-      "lon": -75.1556,
-      "fechaUtc": "2026-09-05T13:44:00Z",
-      "confianza": "alta",
-      "frp": 20.19,
-      "detecciones": 1,
-      "satelites": [
-        "MODIS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Coyaima",
-      "distanciaKm": 13.6,
-      "vereda": "Niple",
-      "codigoVereda": "73217039"
     },
     {
       "id": "2026-09-05T13:44:00Z_3.278_-75.556",
