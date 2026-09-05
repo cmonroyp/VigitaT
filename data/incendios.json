@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-05T05:19:00.072Z",
+ "actualizadoUtc": "2026-09-05T07:19:42.504Z",
  "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-05T05:19:00.072Z",
+  "intentoUtc": "2026-09-05T07:19:42.504Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -410,9 +410,9 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 26,
-    "humedadPct": 76,
-    "vientoKmh": 1,
-    "vientoHacia": "E",
+    "humedadPct": 74,
+    "vientoKmh": 4,
+    "vientoHacia": "S",
     "riesgoPropagacion": "BAJO"
    }
   }
