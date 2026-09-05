@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-05T07:19:42.504Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-05T08:24:21.874Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-05T07:19:42.504Z",
+  "intentoUtc": "2026-09-05T08:24:21.874Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -389,7 +389,7 @@
    "vereda": "Cerritos",
    "lat": 3.9229,
    "lon": -74.9318,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T01:26:00Z",
    "ultimaDeteccionUtc": "2026-09-05T01:26:00Z",
    "deteccionesTotales": 1,
