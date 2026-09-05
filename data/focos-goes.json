@@ -1,25 +1,25 @@
 {
- "actualizadoUtc": "2026-09-05T14:18:27Z",
- "escaneoUtc": "2026-09-05T14:00:00Z",
+ "actualizadoUtc": "2026-09-05T14:26:25Z",
+ "escaneoUtc": "2026-09-05T14:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 1,
- "totalFocos": 2,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 3,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.674,
    "lon": -75.1353,
-   "codigo": 34,
+   "codigo": 30,
    "confianza": "alta",
-   "frp": 72.5,
+   "frp": 81.3,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T14:00:00Z",
+   "escaneoUtc": "2026-09-05T14:10:00Z",
    "primeroUtc": "2026-09-05T10:10:00Z",
-   "ultimoUtc": "2026-09-05T14:00:00Z",
-   "escaneos": 16
+   "ultimoUtc": "2026-09-05T14:10:00Z",
+   "escaneos": 17
   },
   {
    "lat": 3.2742,
@@ -33,10 +33,28 @@
    "primeroUtc": "2026-09-05T13:10:00Z",
    "ultimoUtc": "2026-09-05T13:40:00Z",
    "escaneos": 3
+  },
+  {
+   "lat": 3.674,
+   "lon": -75.1534,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 51.1,
+   "municipio": "Coyaima",
+   "vereda": "Niple",
+   "escaneoUtc": "2026-09-05T14:10:00Z",
+   "primeroUtc": "2026-09-05T14:10:00Z",
+   "ultimoUtc": "2026-09-05T14:10:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
   "3.68,-75.14": "2026-09-05T10:26:37.415752+00:00",
-  "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00"
+  "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00",
+  "3.68,-75.16": "2026-09-05T14:26:25.517295+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-05T14:26:25Z",
+  "focos": 1
  }
 }
