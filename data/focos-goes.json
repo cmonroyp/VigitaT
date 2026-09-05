@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T19:15:44Z",
- "escaneoUtc": "2026-09-05T19:00:00Z",
+ "actualizadoUtc": "2026-09-05T19:22:17Z",
+ "escaneoUtc": "2026-09-05T19:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 5,
- "totalFocos": 8,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 7,
+ "totalFocos": 10,
+ "focosNuevos": 2,
  "focos": [
   {
    "lat": 3.6922,
@@ -16,10 +16,10 @@
    "frp": 179.8,
    "municipio": "Coyaima",
    "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-05T19:00:00Z",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T19:00:00Z",
-   "escaneos": 3
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 4
   },
   {
    "lat": 3.7104,
@@ -42,23 +42,36 @@
    "frp": 149.2,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T18:50:00Z",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T18:50:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 3
   },
   {
    "lat": 3.674,
    "lon": -75.1353,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 114.3,
+   "frp": 128.3,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T19:00:00Z",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T19:00:00Z",
-   "escaneos": 4
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 5
+  },
+  {
+   "lat": 3.7831,
+   "lon": -75.2076,
+   "codigo": 10,
+   "confianza": "alta",
+   "frp": 124.8,
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
+   "primeroUtc": "2026-09-05T19:10:00Z",
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 1
   },
   {
    "lat": 3.674,
@@ -68,10 +81,10 @@
    "frp": 81.4,
    "municipio": "Coyaima",
    "vereda": "Niple",
-   "escaneoUtc": "2026-09-05T19:00:00Z",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T19:00:00Z",
-   "escaneos": 3
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 4
   },
   {
    "lat": 3.6922,
@@ -81,10 +94,10 @@
    "frp": 69.2,
    "municipio": "Coyaima",
    "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-05T19:00:00Z",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
    "primeroUtc": "2026-09-05T19:00:00Z",
-   "ultimoUtc": "2026-09-05T19:00:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T19:10:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.6558,
@@ -97,6 +110,19 @@
    "escaneoUtc": "2026-09-05T18:50:00Z",
    "primeroUtc": "2026-09-05T18:50:00Z",
    "ultimoUtc": "2026-09-05T18:50:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 3.7649,
+   "lon": -75.2076,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 54.2,
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "escaneoUtc": "2026-09-05T19:10:00Z",
+   "primeroUtc": "2026-09-05T19:10:00Z",
+   "ultimoUtc": "2026-09-05T19:10:00Z",
    "escaneos": 1
   },
   {
@@ -128,6 +154,12 @@
   "3.70,-75.16": "2026-09-05T18:22:41.104718+00:00",
   "3.70,-75.14": "2026-09-05T18:22:41.104718+00:00",
   "3.68,-75.14": "2026-09-05T18:22:41.104718+00:00",
-  "3.66,-75.14": "2026-09-05T19:02:24.266861+00:00"
+  "3.66,-75.14": "2026-09-05T19:02:24.266861+00:00",
+  "3.78,-75.20": "2026-09-05T19:22:17.781275+00:00",
+  "3.76,-75.20": "2026-09-05T19:22:17.781275+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-05T19:22:17Z",
+  "focos": 2
  }
 }
