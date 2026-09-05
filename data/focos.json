@@ -1,14 +1,32 @@
 {
-  "actualizadoUtc": "2026-09-05T03:23:30.146Z",
+  "actualizadoUtc": "2026-09-05T04:22:42.504Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 1,
+  "focosNuevos": 1,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-05T01:26:00Z_3.923_-74.932",
+      "lat": 3.9229,
+      "lon": -74.9318,
+      "fechaUtc": "2026-09-05T01:26:00Z",
+      "confianza": "media",
+      "frp": 16.76,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Saldaña",
+      "distanciaKm": 9.4,
+      "vereda": "Cerritos",
+      "codigoVereda": "73671001"
+    }
+  ]
 }

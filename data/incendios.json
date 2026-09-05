@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T03:23:30.146Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-05T04:22:43.232Z",
+ "activos": 1,
  "alertas": {
-  "intentoUtc": "2026-09-05T03:23:30.146Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-05T04:22:42.541Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -381,7 +382,41 @@
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-81",
+   "nombre": "Incendio vereda Cerritos",
+   "municipio": "Saldaña",
+   "vereda": "Cerritos",
+   "lat": 3.9229,
+   "lon": -74.9318,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T01:26:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T01:26:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 16.76,
+   "confianzaMax": "media",
+   "pixeles": [
+    "981,-18733"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T01:26:00Z_3.923_-74.932"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 75,
+    "vientoKmh": 4,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 80
+ "secuencia": 81
 }
