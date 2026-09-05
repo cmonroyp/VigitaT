@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T21:02:34Z",
- "escaneoUtc": "2026-09-05T20:50:00Z",
+ "actualizadoUtc": "2026-09-05T21:16:45Z",
+ "escaneoUtc": "2026-09-05T21:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 3,
- "totalFocos": 12,
+ "focosUltimoEscaneo": 4,
+ "totalFocos": 11,
  "focosNuevos": 0,
  "focos": [
   {
@@ -24,15 +24,15 @@
   {
    "lat": 3.7831,
    "lon": -75.2076,
-   "codigo": 30,
+   "codigo": 33,
    "confianza": "alta",
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:50:00Z",
+   "escaneoUtc": "2026-09-05T21:00:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T20:50:00Z",
-   "escaneos": 9
+   "ultimoUtc": "2026-09-05T21:00:00Z",
+   "escaneos": 10
   },
   {
    "lat": 3.6922,
@@ -42,10 +42,10 @@
    "frp": 152.0,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T20:50:00Z",
+   "escaneoUtc": "2026-09-05T21:00:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:50:00Z",
-   "escaneos": 9
+   "ultimoUtc": "2026-09-05T21:00:00Z",
+   "escaneos": 10
   },
   {
    "lat": 3.7104,
@@ -68,10 +68,10 @@
    "frp": 128.8,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "escaneoUtc": "2026-09-05T21:00:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 11
+   "ultimoUtc": "2026-09-05T21:00:00Z",
+   "escaneos": 12
   },
   {
    "lat": 3.8013,
@@ -87,19 +87,6 @@
    "escaneos": 2
   },
   {
-   "lat": 3.674,
-   "lon": -75.1534,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 85.0,
-   "municipio": "Coyaima",
-   "vereda": "Niple",
-   "escaneoUtc": "2026-09-05T20:10:00Z",
-   "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:10:00Z",
-   "escaneos": 8
-  },
-  {
    "lat": 3.7831,
    "lon": -75.1895,
    "codigo": 30,
@@ -107,10 +94,10 @@
    "frp": 69.7,
    "municipio": "Coyaima",
    "vereda": "Amayarco",
-   "escaneoUtc": "2026-09-05T20:50:00Z",
+   "escaneoUtc": "2026-09-05T21:00:00Z",
    "primeroUtc": "2026-09-05T20:20:00Z",
-   "ultimoUtc": "2026-09-05T20:50:00Z",
-   "escaneos": 3
+   "ultimoUtc": "2026-09-05T21:00:00Z",
+   "escaneos": 4
   },
   {
    "lat": 3.7649,
@@ -166,7 +153,6 @@
   }
  ],
  "alertadas": {
-  "4.34,-75.26": "2026-09-05T15:02:56.079780+00:00",
   "3.96,-74.80": "2026-09-05T15:32:39.362432+00:00",
   "3.72,-75.20": "2026-09-05T15:51:12.042919+00:00",
   "3.68,-75.18": "2026-09-05T16:03:12.049203+00:00",

@@ -1,5 +1,5 @@
 {
- "actualizadoUtc": "2026-09-05T21:15:56.145Z",
+ "actualizadoUtc": "2026-09-05T21:16:45Z",
  "activos": 8,
  "alertas": {
   "intentoUtc": "2026-09-05T21:15:55.579Z",
@@ -152,7 +152,7 @@
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
-   "ultimaGoesUtc": "2026-09-05T20:50:00Z"
+   "ultimaGoesUtc": "2026-09-05T21:00:00Z"
   },
   {
    "id": "INC-80",
@@ -256,7 +256,7 @@
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
-   "ultimaGoesUtc": "2026-09-05T20:50:00Z"
+   "ultimaGoesUtc": "2026-09-05T21:00:00Z"
   },
   {
    "id": "INC-83",
@@ -325,7 +325,7 @@
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
-   "ultimaGoesUtc": "2026-09-05T20:50:00Z"
+   "ultimaGoesUtc": "2026-09-05T21:00:00Z"
   },
   {
    "id": "INC-85",
@@ -565,7 +565,8 @@
     "vientoKmh": 19,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
-   }
+   },
+   "ultimaGoesUtc": "2026-09-05T21:00:00Z"
   }
  ],
  "secuencia": 91
