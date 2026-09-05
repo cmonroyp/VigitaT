@@ -1,26 +1,13 @@
 {
- "actualizadoUtc": "2026-09-05T18:42:49Z",
- "escaneoUtc": "2026-09-05T18:30:00Z",
+ "actualizadoUtc": "2026-09-05T18:51:23Z",
+ "escaneoUtc": "2026-09-05T18:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 8,
+ "focosUltimoEscaneo": 1,
+ "totalFocos": 6,
  "focosNuevos": 0,
  "focos": [
-  {
-   "lat": 3.7467,
-   "lon": -75.2256,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 154.3,
-   "municipio": "Coyaima",
-   "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T17:50:00Z",
-   "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T17:50:00Z",
-   "escaneos": 1
-  },
   {
    "lat": 3.7104,
    "lon": -75.1534,
@@ -68,10 +55,10 @@
    "frp": 86.3,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "escaneoUtc": "2026-09-05T18:40:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T18:10:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T18:40:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.6922,
@@ -97,19 +84,6 @@
    "escaneoUtc": "2026-09-05T18:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
    "ultimoUtc": "2026-09-05T18:10:00Z",
-   "escaneos": 1
-  },
-  {
-   "lat": 3.7104,
-   "lon": -75.1715,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 66.7,
-   "municipio": "Coyaima",
-   "vereda": "Totarco Tamarindo",
-   "escaneoUtc": "2026-09-05T17:50:00Z",
-   "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T17:50:00Z",
    "escaneos": 1
   }
  ],
