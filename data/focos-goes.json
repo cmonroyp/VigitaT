@@ -1,25 +1,25 @@
 {
- "actualizadoUtc": "2026-09-05T21:41:22Z",
- "escaneoUtc": "2026-09-05T21:30:00Z",
+ "actualizadoUtc": "2026-09-05T21:51:10Z",
+ "escaneoUtc": "2026-09-05T21:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 1,
- "totalFocos": 6,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 5,
+ "totalFocos": 7,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.7831,
    "lon": -75.2076,
-   "codigo": 33,
+   "codigo": 30,
    "confianza": "alta",
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T21:00:00Z",
+   "escaneoUtc": "2026-09-05T21:40:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T21:00:00Z",
-   "escaneos": 10
+   "ultimoUtc": "2026-09-05T21:40:00Z",
+   "escaneos": 11
   },
   {
    "lat": 3.674,
@@ -29,10 +29,23 @@
    "frp": 191.2,
    "municipio": "Coyaima",
    "vereda": "Niple",
-   "escaneoUtc": "2026-09-05T21:30:00Z",
+   "escaneoUtc": "2026-09-05T21:40:00Z",
    "primeroUtc": "2026-09-05T21:20:00Z",
-   "ultimoUtc": "2026-09-05T21:30:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-09-05T21:40:00Z",
+   "escaneos": 3
+  },
+  {
+   "lat": 3.7831,
+   "lon": -75.1895,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 169.2,
+   "municipio": "Coyaima",
+   "vereda": "Amayarco",
+   "escaneoUtc": "2026-09-05T21:40:00Z",
+   "primeroUtc": "2026-09-05T20:20:00Z",
+   "ultimoUtc": "2026-09-05T21:40:00Z",
+   "escaneos": 5
   },
   {
    "lat": 3.6922,
@@ -55,10 +68,10 @@
    "frp": 151.5,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T21:20:00Z",
+   "escaneoUtc": "2026-09-05T21:40:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T21:20:00Z",
-   "escaneos": 14
+   "ultimoUtc": "2026-09-05T21:40:00Z",
+   "escaneos": 15
   },
   {
    "lat": 3.7649,
@@ -74,17 +87,17 @@
    "escaneos": 4
   },
   {
-   "lat": 3.7831,
-   "lon": -75.1895,
+   "lat": 3.8741,
+   "lon": -75.1715,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 69.7,
-   "municipio": "Coyaima",
-   "vereda": "Amayarco",
-   "escaneoUtc": "2026-09-05T21:00:00Z",
-   "primeroUtc": "2026-09-05T20:20:00Z",
-   "ultimoUtc": "2026-09-05T21:00:00Z",
-   "escaneos": 4
+   "frp": 41.8,
+   "municipio": "Ortega",
+   "vereda": "Boca De Tetuan",
+   "escaneoUtc": "2026-09-05T21:40:00Z",
+   "primeroUtc": "2026-09-05T21:40:00Z",
+   "ultimoUtc": "2026-09-05T21:40:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
@@ -106,6 +119,11 @@
   "3.76,-75.22": "2026-09-05T20:27:37.607677+00:00",
   "3.68,-75.16": "2026-09-05T20:27:37.607677+00:00",
   "3.80,-75.18": "2026-09-05T20:35:40.955700+00:00",
-  "3.78,-75.18": "2026-09-05T20:35:40.955700+00:00"
+  "3.78,-75.18": "2026-09-05T20:35:40.955700+00:00",
+  "3.88,-75.18": "2026-09-05T21:51:10.462305+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-05T21:51:10Z",
+  "focos": 1
  }
 }
