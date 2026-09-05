@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T12:04:02Z",
- "activos": 1,
+ "actualizadoUtc": "2026-09-05T12:26:59.366Z",
+ "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-05T09:19:32.252Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-05T12:26:58.680Z",
+  "pendientes": 1,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -341,11 +342,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
-    "vientoKmh": 20,
+    "tempC": 26,
+    "humedadPct": 66,
+    "vientoKmh": 2,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T11:50:00Z"
   },
@@ -416,7 +417,41 @@
     "vientoHacia": "S",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-82",
+   "nombre": "Incendio vereda Palmalta",
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "lat": 3.679,
+   "lon": -75.1401,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T07:20:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T07:20:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.71,
+   "confianzaMax": "media",
+   "pixeles": [
+    "920,-18785"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T07:20:00Z_3.679_-75.140"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 66,
+    "vientoKmh": 2,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 81
+ "secuencia": 82
 }
