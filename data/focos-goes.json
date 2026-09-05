@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T21:51:10Z",
- "escaneoUtc": "2026-09-05T21:40:00Z",
+ "actualizadoUtc": "2026-09-05T22:02:44Z",
+ "escaneoUtc": "2026-09-05T21:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 5,
- "totalFocos": 7,
- "focosNuevos": 1,
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 6,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 3.7831,
@@ -16,10 +16,10 @@
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T21:40:00Z",
+   "escaneoUtc": "2026-09-05T21:50:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T21:40:00Z",
-   "escaneos": 11
+   "ultimoUtc": "2026-09-05T21:50:00Z",
+   "escaneos": 12
   },
   {
    "lat": 3.674,
@@ -48,19 +48,6 @@
    "escaneos": 5
   },
   {
-   "lat": 3.6922,
-   "lon": -75.1354,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 152.0,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T21:00:00Z",
-   "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T21:00:00Z",
-   "escaneos": 10
-  },
-  {
    "lat": 3.674,
    "lon": -75.1353,
    "codigo": 30,
@@ -68,10 +55,10 @@
    "frp": 151.5,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T21:40:00Z",
+   "escaneoUtc": "2026-09-05T21:50:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T21:40:00Z",
-   "escaneos": 15
+   "ultimoUtc": "2026-09-05T21:50:00Z",
+   "escaneos": 16
   },
   {
    "lat": 3.7649,
@@ -101,7 +88,6 @@
   }
  ],
  "alertadas": {
-  "3.72,-75.20": "2026-09-05T15:51:12.042919+00:00",
   "3.68,-75.18": "2026-09-05T16:03:12.049203+00:00",
   "4.10,-74.92": "2026-09-05T16:20:26.372044+00:00",
   "3.74,-75.22": "2026-09-05T18:03:37.203795+00:00",
@@ -121,9 +107,5 @@
   "3.80,-75.18": "2026-09-05T20:35:40.955700+00:00",
   "3.78,-75.18": "2026-09-05T20:35:40.955700+00:00",
   "3.88,-75.18": "2026-09-05T21:51:10.462305+00:00"
- },
- "ultimaAlerta": {
-  "utc": "2026-09-05T21:51:10Z",
-  "focos": 1
  }
 }
