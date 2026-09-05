@@ -1,115 +1,13 @@
 {
- "actualizadoUtc": "2026-09-05T19:02:24Z",
+ "actualizadoUtc": "2026-09-05T19:15:04.156Z",
  "activos": 6,
  "alertas": {
-  "intentoUtc": "2026-09-05T18:21:52.292Z",
+  "intentoUtc": "2026-09-05T19:15:03.614Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-71",
-   "nombre": "Incendio vereda Paradero 1",
-   "municipio": "Flandes",
-   "vereda": "Paradero 1",
-   "lat": 4.2404,
-   "lon": -74.8268,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-02T18:41:00Z",
-   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 9.83,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1060,-18707"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-02T18:41:00Z_4.240_-74.827"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 29,
-    "humedadPct": 57,
-    "vientoKmh": 5,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
-  {
-   "id": "INC-72",
-   "nombre": "Incendio vereda Peñon Alto",
-   "municipio": "Prado",
-   "vereda": "Peñon Alto",
-   "lat": 3.7121,
-   "lon": -74.9658,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-02T18:41:00Z",
-   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 4.29,
-   "confianzaMax": "media",
-   "pixeles": [
-    "928,-18741"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-02T18:41:00Z_3.712_-74.966"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 30,
-    "humedadPct": 58,
-    "vientoKmh": 12,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
-  {
-   "id": "INC-73",
-   "nombre": "Incendio vereda El Fique",
-   "municipio": "Prado",
-   "vereda": "El Fique",
-   "lat": 3.6968,
-   "lon": -74.7815,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-02T18:41:00Z",
-   "ultimaDeteccionUtc": "2026-09-02T18:41:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 3.58,
-   "confianzaMax": "media",
-   "pixeles": [
-    "924,-18695"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-02T18:41:00Z_3.697_-74.782"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 22,
-    "humedadPct": 86,
-    "vientoKmh": 6,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-74",
    "nombre": "Incendio vereda Vista Hermosa",
@@ -254,7 +152,7 @@
    "vereda": "Cairo Brisas",
    "lat": 3.9717,
    "lon": -74.9048,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-04T18:41:00Z",
    "ultimaDeteccionUtc": "2026-09-04T18:41:00Z",
    "deteccionesTotales": 1,
@@ -266,7 +164,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-04T18:41:00Z_3.972_-74.905"
@@ -312,7 +210,7 @@
    "clima": {
     "tempC": 38,
     "humedadPct": 23,
-    "vientoKmh": 26,
+    "vientoKmh": 29,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -416,7 +314,7 @@
    "clima": {
     "tempC": 38,
     "humedadPct": 23,
-    "vientoKmh": 26,
+    "vientoKmh": 29,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -451,7 +349,7 @@
    "clima": {
     "tempC": 27,
     "humedadPct": 37,
-    "vientoKmh": 9,
+    "vientoKmh": 8,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
@@ -485,7 +383,7 @@
    "clima": {
     "tempC": 39,
     "humedadPct": 22,
-    "vientoKmh": 27,
+    "vientoKmh": 30,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -518,9 +416,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 18,
+    "tempC": 38,
+    "humedadPct": 25,
+    "vientoKmh": 17,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -552,9 +450,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 29,
-    "humedadPct": 31,
-    "vientoKmh": 14,
+    "tempC": 28,
+    "humedadPct": 32,
+    "vientoKmh": 12,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
