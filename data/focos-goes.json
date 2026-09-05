@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T20:35:40Z",
- "escaneoUtc": "2026-09-05T20:20:00Z",
+ "actualizadoUtc": "2026-09-05T20:41:52Z",
+ "escaneoUtc": "2026-09-05T20:30:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 8,
+ "focosUltimoEscaneo": 6,
  "totalFocos": 14,
- "focosNuevos": 2,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 3.7104,
@@ -16,23 +16,23 @@
    "frp": 318.5,
    "municipio": "Coyaima",
    "vereda": "Lomas De Hilarco",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 13
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 14
   },
   {
    "lat": 3.7831,
    "lon": -75.2076,
-   "codigo": 33,
+   "codigo": 30,
    "confianza": "alta",
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 6
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 7
   },
   {
    "lat": 3.6922,
@@ -50,15 +50,15 @@
   {
    "lat": 3.6922,
    "lon": -75.1354,
-   "codigo": 30,
+   "codigo": 34,
    "confianza": "alta",
    "frp": 152.0,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T20:00:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:00:00Z",
-   "escaneos": 7
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 8
   },
   {
    "lat": 3.7104,
@@ -68,10 +68,10 @@
    "frp": 136.1,
    "municipio": "Coyaima",
    "vereda": "Totarco Tamarindo",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T19:00:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 8
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 9
   },
   {
    "lat": 3.674,
@@ -146,10 +146,10 @@
    "frp": 65.1,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:10:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T20:10:00Z",
-   "ultimoUtc": "2026-09-05T20:10:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.6922,
@@ -167,15 +167,15 @@
   {
    "lat": 3.7649,
    "lon": -75.2256,
-   "codigo": 33,
-   "confianza": "media",
+   "codigo": 30,
+   "confianza": "alta",
    "frp": 47.6,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:10:00Z",
+   "escaneoUtc": "2026-09-05T20:30:00Z",
    "primeroUtc": "2026-09-05T20:10:00Z",
-   "ultimoUtc": "2026-09-05T20:10:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T20:30:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.8013,
@@ -213,9 +213,5 @@
   "3.68,-75.16": "2026-09-05T20:27:37.607677+00:00",
   "3.80,-75.18": "2026-09-05T20:35:40.955700+00:00",
   "3.78,-75.18": "2026-09-05T20:35:40.955700+00:00"
- },
- "ultimaAlerta": {
-  "utc": "2026-09-05T20:35:40Z",
-  "focos": 2
  }
 }
