@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-09-05T15:18:11Z",
- "escaneoUtc": "2026-09-05T15:00:00Z",
+ "actualizadoUtc": "2026-09-05T15:26:01Z",
+ "escaneoUtc": "2026-09-05T15:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
@@ -29,10 +29,10 @@
    "frp": 29.0,
    "municipio": "Ibagué",
    "vereda": "La Cima",
-   "escaneoUtc": "2026-09-05T15:00:00Z",
+   "escaneoUtc": "2026-09-05T15:10:00Z",
    "primeroUtc": "2026-09-05T14:50:00Z",
-   "ultimoUtc": "2026-09-05T15:00:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-09-05T15:10:00Z",
+   "escaneos": 3
   }
  ],
  "alertadas": {
