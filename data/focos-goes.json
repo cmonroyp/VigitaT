@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T16:20:26Z",
- "escaneoUtc": "2026-09-05T16:10:00Z",
+ "actualizadoUtc": "2026-09-05T16:31:41Z",
+ "escaneoUtc": "2026-09-05T16:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 3,
- "totalFocos": 6,
- "focosNuevos": 1,
+ "focosUltimoEscaneo": 0,
+ "totalFocos": 5,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 3.674,
@@ -72,23 +72,9 @@
    "primeroUtc": "2026-09-05T15:50:00Z",
    "ultimoUtc": "2026-09-05T15:50:00Z",
    "escaneos": 1
-  },
-  {
-   "lat": 3.965,
-   "lon": -74.7924,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 24.4,
-   "municipio": "Cunday",
-   "vereda": "California",
-   "escaneoUtc": "2026-09-05T15:30:00Z",
-   "primeroUtc": "2026-09-05T15:20:00Z",
-   "ultimoUtc": "2026-09-05T15:30:00Z",
-   "escaneos": 2
   }
  ],
  "alertadas": {
-  "3.68,-75.14": "2026-09-05T10:26:37.415752+00:00",
   "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00",
   "3.68,-75.16": "2026-09-05T14:26:25.517295+00:00",
   "4.34,-75.26": "2026-09-05T15:02:56.079780+00:00",
@@ -96,9 +82,5 @@
   "3.72,-75.20": "2026-09-05T15:51:12.042919+00:00",
   "3.68,-75.18": "2026-09-05T16:03:12.049203+00:00",
   "4.10,-74.92": "2026-09-05T16:20:26.372044+00:00"
- },
- "ultimaAlerta": {
-  "utc": "2026-09-05T16:20:26Z",
-  "focos": 1
  }
 }
