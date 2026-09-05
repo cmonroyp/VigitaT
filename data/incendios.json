@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-05T13:51:23Z",
+ "actualizadoUtc": "2026-09-05T14:17:44.658Z",
  "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-05T12:26:58.680Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-05T14:17:44.658Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -342,11 +341,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 66,
-    "vientoKmh": 2,
+    "tempC": 32,
+    "humedadPct": 37,
+    "vientoKmh": 6,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T13:40:00Z"
   },
@@ -445,11 +444,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 66,
-    "vientoKmh": 2,
+    "tempC": 32,
+    "humedadPct": 37,
+    "vientoKmh": 6,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T13:40:00Z"
   }
