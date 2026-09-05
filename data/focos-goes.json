@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T20:51:22Z",
- "escaneoUtc": "2026-09-05T20:40:00Z",
+ "actualizadoUtc": "2026-09-05T21:02:34Z",
+ "escaneoUtc": "2026-09-05T20:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 3,
- "totalFocos": 14,
+ "totalFocos": 12,
  "focosNuevos": 0,
  "focos": [
   {
@@ -29,36 +29,23 @@
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:40:00Z",
+   "escaneoUtc": "2026-09-05T20:50:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T20:40:00Z",
-   "escaneos": 8
-  },
-  {
-   "lat": 3.6922,
-   "lon": -75.1534,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 179.8,
-   "municipio": "Coyaima",
-   "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-05T20:00:00Z",
-   "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:00:00Z",
-   "escaneos": 8
+   "ultimoUtc": "2026-09-05T20:50:00Z",
+   "escaneos": 9
   },
   {
    "lat": 3.6922,
    "lon": -75.1354,
-   "codigo": 34,
+   "codigo": 30,
    "confianza": "alta",
    "frp": 152.0,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T20:30:00Z",
+   "escaneoUtc": "2026-09-05T20:50:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:30:00Z",
-   "escaneos": 8
+   "ultimoUtc": "2026-09-05T20:50:00Z",
+   "escaneos": 9
   },
   {
    "lat": 3.7104,
@@ -113,19 +100,6 @@
    "escaneos": 8
   },
   {
-   "lat": 3.7104,
-   "lon": -75.1354,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 79.1,
-   "municipio": "Coyaima",
-   "vereda": "Lomas De Hilarco",
-   "escaneoUtc": "2026-09-05T20:00:00Z",
-   "primeroUtc": "2026-09-05T19:40:00Z",
-   "ultimoUtc": "2026-09-05T20:00:00Z",
-   "escaneos": 3
-  },
-  {
    "lat": 3.7831,
    "lon": -75.1895,
    "codigo": 30,
@@ -133,10 +107,10 @@
    "frp": 69.7,
    "municipio": "Coyaima",
    "vereda": "Amayarco",
-   "escaneoUtc": "2026-09-05T20:40:00Z",
+   "escaneoUtc": "2026-09-05T20:50:00Z",
    "primeroUtc": "2026-09-05T20:20:00Z",
-   "ultimoUtc": "2026-09-05T20:40:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-09-05T20:50:00Z",
+   "escaneos": 3
   },
   {
    "lat": 3.7649,
