@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T13:17:48Z",
- "escaneoUtc": "2026-09-05T13:00:00Z",
+ "actualizadoUtc": "2026-09-05T13:25:24Z",
+ "escaneoUtc": "2026-09-05T13:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 1,
- "totalFocos": 1,
- "focosNuevos": 0,
+ "totalFocos": 2,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.674,
@@ -20,9 +20,27 @@
    "primeroUtc": "2026-09-05T10:10:00Z",
    "ultimoUtc": "2026-09-05T13:00:00Z",
    "escaneos": 14
+  },
+  {
+   "lat": 3.2742,
+   "lon": -75.5682,
+   "codigo": 33,
+   "confianza": "media",
+   "frp": 30.3,
+   "municipio": "Ataco",
+   "vereda": "Casa De Zinc",
+   "escaneoUtc": "2026-09-05T13:10:00Z",
+   "primeroUtc": "2026-09-05T13:10:00Z",
+   "ultimoUtc": "2026-09-05T13:10:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
-  "3.68,-75.14": "2026-09-05T10:26:37.415752+00:00"
+  "3.68,-75.14": "2026-09-05T10:26:37.415752+00:00",
+  "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-05T13:25:24Z",
+  "focos": 1
  }
 }
