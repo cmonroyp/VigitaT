@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-09-05T11:02:49Z",
- "escaneoUtc": "2026-09-05T10:50:00Z",
+ "actualizadoUtc": "2026-09-05T11:17:11Z",
+ "escaneoUtc": "2026-09-05T11:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
@@ -16,10 +16,10 @@
    "frp": 72.5,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T10:50:00Z",
+   "escaneoUtc": "2026-09-05T11:00:00Z",
    "primeroUtc": "2026-09-05T10:10:00Z",
-   "ultimoUtc": "2026-09-05T10:50:00Z",
-   "escaneos": 4
+   "ultimoUtc": "2026-09-05T11:00:00Z",
+   "escaneos": 5
   }
  ],
  "alertadas": {
