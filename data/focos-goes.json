@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T21:16:45Z",
- "escaneoUtc": "2026-09-05T21:00:00Z",
+ "actualizadoUtc": "2026-09-05T21:23:51Z",
+ "escaneoUtc": "2026-09-05T21:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 4,
- "totalFocos": 11,
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 8,
  "focosNuevos": 0,
  "focos": [
   {
@@ -63,28 +63,28 @@
   {
    "lat": 3.674,
    "lon": -75.1353,
-   "codigo": 33,
+   "codigo": 34,
    "confianza": "alta",
    "frp": 128.8,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T21:00:00Z",
+   "escaneoUtc": "2026-09-05T21:10:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T21:00:00Z",
-   "escaneos": 12
+   "ultimoUtc": "2026-09-05T21:10:00Z",
+   "escaneos": 13
   },
   {
-   "lat": 3.8013,
-   "lon": -75.2076,
+   "lat": 3.7649,
+   "lon": -75.2256,
    "codigo": 33,
-   "confianza": "media",
-   "frp": 92.0,
-   "municipio": "Ortega",
-   "vereda": "Guaipa",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
-   "primeroUtc": "2026-09-05T19:40:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 2
+   "confianza": "alta",
+   "frp": 74.3,
+   "municipio": "Coyaima",
+   "vereda": "Buenavista",
+   "escaneoUtc": "2026-09-05T21:10:00Z",
+   "primeroUtc": "2026-09-05T20:10:00Z",
+   "ultimoUtc": "2026-09-05T21:10:00Z",
+   "escaneos": 4
   },
   {
    "lat": 3.7831,
@@ -111,45 +111,6 @@
    "primeroUtc": "2026-09-05T20:10:00Z",
    "ultimoUtc": "2026-09-05T20:30:00Z",
    "escaneos": 2
-  },
-  {
-   "lat": 3.7649,
-   "lon": -75.2256,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 53.9,
-   "municipio": "Coyaima",
-   "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:40:00Z",
-   "primeroUtc": "2026-09-05T20:10:00Z",
-   "ultimoUtc": "2026-09-05T20:40:00Z",
-   "escaneos": 3
-  },
-  {
-   "lat": 3.6922,
-   "lon": -75.1714,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 53.2,
-   "municipio": "Coyaima",
-   "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
-   "primeroUtc": "2026-09-05T20:20:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 1
-  },
-  {
-   "lat": 3.8013,
-   "lon": -75.1895,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 42.1,
-   "municipio": "Coyaima",
-   "vereda": "Amayarco",
-   "escaneoUtc": "2026-09-05T20:20:00Z",
-   "primeroUtc": "2026-09-05T20:20:00Z",
-   "ultimoUtc": "2026-09-05T20:20:00Z",
-   "escaneos": 1
   }
  ],
  "alertadas": {
