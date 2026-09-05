@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T20:27:37Z",
- "escaneoUtc": "2026-09-05T20:10:00Z",
+ "actualizadoUtc": "2026-09-05T20:35:40Z",
+ "escaneoUtc": "2026-09-05T20:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 5,
- "totalFocos": 11,
+ "focosUltimoEscaneo": 8,
+ "totalFocos": 14,
  "focosNuevos": 2,
  "focos": [
   {
@@ -16,23 +16,23 @@
    "frp": 318.5,
    "municipio": "Coyaima",
    "vereda": "Lomas De Hilarco",
-   "escaneoUtc": "2026-09-05T20:00:00Z",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
    "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T20:00:00Z",
-   "escaneos": 12
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 13
   },
   {
    "lat": 3.7831,
    "lon": -75.2076,
-   "codigo": 30,
+   "codigo": 33,
    "confianza": "alta",
    "frp": 248.8,
    "municipio": "Coyaima",
    "vereda": "Buenavista",
-   "escaneoUtc": "2026-09-05T20:10:00Z",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
    "primeroUtc": "2026-09-05T19:10:00Z",
-   "ultimoUtc": "2026-09-05T20:10:00Z",
-   "escaneos": 5
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 6
   },
   {
    "lat": 3.6922,
@@ -68,23 +68,23 @@
    "frp": 136.1,
    "municipio": "Coyaima",
    "vereda": "Totarco Tamarindo",
-   "escaneoUtc": "2026-09-05T20:00:00Z",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
    "primeroUtc": "2026-09-05T19:00:00Z",
-   "ultimoUtc": "2026-09-05T20:00:00Z",
-   "escaneos": 7
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 8
   },
   {
    "lat": 3.674,
    "lon": -75.1353,
-   "codigo": 30,
+   "codigo": 33,
    "confianza": "alta",
-   "frp": 128.3,
+   "frp": 128.8,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T20:10:00Z",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
    "primeroUtc": "2026-09-05T18:10:00Z",
-   "ultimoUtc": "2026-09-05T20:10:00Z",
-   "escaneos": 10
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 11
   },
   {
    "lat": 3.8013,
@@ -94,10 +94,10 @@
    "frp": 92.0,
    "municipio": "Ortega",
    "vereda": "Guaipa",
-   "escaneoUtc": "2026-09-05T19:40:00Z",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
    "primeroUtc": "2026-09-05T19:40:00Z",
-   "ultimoUtc": "2026-09-05T19:40:00Z",
-   "escaneos": 1
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 2
   },
   {
    "lat": 3.674,
@@ -126,6 +126,19 @@
    "escaneos": 3
   },
   {
+   "lat": 3.7831,
+   "lon": -75.1895,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 69.7,
+   "municipio": "Coyaima",
+   "vereda": "Amayarco",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "primeroUtc": "2026-09-05T20:20:00Z",
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 1
+  },
+  {
    "lat": 3.7649,
    "lon": -75.2076,
    "codigo": 30,
@@ -139,6 +152,19 @@
    "escaneos": 1
   },
   {
+   "lat": 3.6922,
+   "lon": -75.1714,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 53.2,
+   "municipio": "Coyaima",
+   "vereda": "Totarco Piedras",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "primeroUtc": "2026-09-05T20:20:00Z",
+   "ultimoUtc": "2026-09-05T20:20:00Z",
+   "escaneos": 1
+  },
+  {
    "lat": 3.7649,
    "lon": -75.2256,
    "codigo": 33,
@@ -149,6 +175,19 @@
    "escaneoUtc": "2026-09-05T20:10:00Z",
    "primeroUtc": "2026-09-05T20:10:00Z",
    "ultimoUtc": "2026-09-05T20:10:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 3.8013,
+   "lon": -75.1895,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 42.1,
+   "municipio": "Coyaima",
+   "vereda": "Amayarco",
+   "escaneoUtc": "2026-09-05T20:20:00Z",
+   "primeroUtc": "2026-09-05T20:20:00Z",
+   "ultimoUtc": "2026-09-05T20:20:00Z",
    "escaneos": 1
   }
  ],
@@ -171,10 +210,12 @@
   "3.80,-75.20": "2026-09-05T19:51:02.488308+00:00",
   "3.72,-75.14": "2026-09-05T19:51:02.488308+00:00",
   "3.76,-75.22": "2026-09-05T20:27:37.607677+00:00",
-  "3.68,-75.16": "2026-09-05T20:27:37.607677+00:00"
+  "3.68,-75.16": "2026-09-05T20:27:37.607677+00:00",
+  "3.80,-75.18": "2026-09-05T20:35:40.955700+00:00",
+  "3.78,-75.18": "2026-09-05T20:35:40.955700+00:00"
  },
  "ultimaAlerta": {
-  "utc": "2026-09-05T20:27:37Z",
+  "utc": "2026-09-05T20:35:40Z",
   "focos": 2
  }
 }
