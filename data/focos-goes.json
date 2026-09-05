@@ -1,53 +1,13 @@
 {
- "actualizadoUtc": "2026-09-05T17:02:47Z",
- "escaneoUtc": "2026-09-05T16:50:00Z",
+ "actualizadoUtc": "2026-09-05T17:16:23Z",
+ "escaneoUtc": "2026-09-05T17:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 3,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 3.674,
-   "lon": -75.1353,
-   "codigo": 33,
-   "confianza": "alta",
-   "frp": 173.2,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T16:10:00Z",
-   "primeroUtc": "2026-09-05T10:10:00Z",
-   "ultimoUtc": "2026-09-05T16:10:00Z",
-   "escaneos": 22
-  },
-  {
-   "lat": 3.674,
-   "lon": -75.1534,
-   "codigo": 33,
-   "confianza": "media",
-   "frp": 91.3,
-   "municipio": "Coyaima",
-   "vereda": "Niple",
-   "escaneoUtc": "2026-09-05T16:10:00Z",
-   "primeroUtc": "2026-09-05T15:50:00Z",
-   "ultimoUtc": "2026-09-05T16:10:00Z",
-   "escaneos": 2
-  },
-  {
-   "lat": 4.0924,
-   "lon": -74.9187,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 49.6,
-   "municipio": "Guamo",
-   "vereda": "Quinto Chipuelo",
-   "escaneoUtc": "2026-09-05T16:10:00Z",
-   "primeroUtc": "2026-09-05T16:10:00Z",
-   "ultimoUtc": "2026-09-05T16:10:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00",
   "3.68,-75.16": "2026-09-05T14:26:25.517295+00:00",
