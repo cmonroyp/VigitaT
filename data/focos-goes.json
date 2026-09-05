@@ -1,25 +1,25 @@
 {
- "actualizadoUtc": "2026-09-05T13:41:18Z",
- "escaneoUtc": "2026-09-05T13:30:00Z",
+ "actualizadoUtc": "2026-09-05T13:51:23Z",
+ "escaneoUtc": "2026-09-05T13:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 1,
+ "focosUltimoEscaneo": 2,
  "totalFocos": 2,
  "focosNuevos": 0,
  "focos": [
   {
    "lat": 3.674,
    "lon": -75.1353,
-   "codigo": 30,
+   "codigo": 33,
    "confianza": "alta",
    "frp": 72.5,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T13:00:00Z",
+   "escaneoUtc": "2026-09-05T13:40:00Z",
    "primeroUtc": "2026-09-05T10:10:00Z",
-   "ultimoUtc": "2026-09-05T13:00:00Z",
-   "escaneos": 14
+   "ultimoUtc": "2026-09-05T13:40:00Z",
+   "escaneos": 15
   },
   {
    "lat": 3.2742,
@@ -29,10 +29,10 @@
    "frp": 63.9,
    "municipio": "Ataco",
    "vereda": "Casa De Zinc",
-   "escaneoUtc": "2026-09-05T13:30:00Z",
+   "escaneoUtc": "2026-09-05T13:40:00Z",
    "primeroUtc": "2026-09-05T13:10:00Z",
-   "ultimoUtc": "2026-09-05T13:30:00Z",
-   "escaneos": 2
+   "ultimoUtc": "2026-09-05T13:40:00Z",
+   "escaneos": 3
   }
  ],
  "alertadas": {
