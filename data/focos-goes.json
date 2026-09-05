@@ -1,25 +1,25 @@
 {
- "actualizadoUtc": "2026-09-05T14:51:31Z",
- "escaneoUtc": "2026-09-05T14:40:00Z",
+ "actualizadoUtc": "2026-09-05T15:02:56Z",
+ "escaneoUtc": "2026-09-05T14:50:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 0,
- "totalFocos": 2,
- "focosNuevos": 0,
+ "focosUltimoEscaneo": 2,
+ "totalFocos": 3,
+ "focosNuevos": 1,
  "focos": [
   {
    "lat": 3.674,
    "lon": -75.1353,
-   "codigo": 34,
+   "codigo": 30,
    "confianza": "alta",
    "frp": 81.3,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-05T14:20:00Z",
+   "escaneoUtc": "2026-09-05T14:50:00Z",
    "primeroUtc": "2026-09-05T10:10:00Z",
-   "ultimoUtc": "2026-09-05T14:20:00Z",
-   "escaneos": 18
+   "ultimoUtc": "2026-09-05T14:50:00Z",
+   "escaneos": 19
   },
   {
    "lat": 3.674,
@@ -33,11 +33,29 @@
    "primeroUtc": "2026-09-05T14:10:00Z",
    "ultimoUtc": "2026-09-05T14:10:00Z",
    "escaneos": 1
+  },
+  {
+   "lat": 4.3472,
+   "lon": -75.2619,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 28.4,
+   "municipio": "Ibagué",
+   "vereda": "La Cima",
+   "escaneoUtc": "2026-09-05T14:50:00Z",
+   "primeroUtc": "2026-09-05T14:50:00Z",
+   "ultimoUtc": "2026-09-05T14:50:00Z",
+   "escaneos": 1
   }
  ],
  "alertadas": {
   "3.68,-75.14": "2026-09-05T10:26:37.415752+00:00",
   "3.28,-75.56": "2026-09-05T13:25:24.150925+00:00",
-  "3.68,-75.16": "2026-09-05T14:26:25.517295+00:00"
+  "3.68,-75.16": "2026-09-05T14:26:25.517295+00:00",
+  "4.34,-75.26": "2026-09-05T15:02:56.079780+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-05T15:02:56Z",
+  "focos": 1
  }
 }
