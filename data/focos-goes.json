@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-05T18:03:37Z",
- "escaneoUtc": "2026-09-05T17:50:00Z",
+ "actualizadoUtc": "2026-09-05T18:22:41Z",
+ "escaneoUtc": "2026-09-05T18:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 4,
- "totalFocos": 4,
- "focosNuevos": 4,
+ "focosUltimoEscaneo": 6,
+ "totalFocos": 8,
+ "focosNuevos": 3,
  "focos": [
   {
    "lat": 3.7467,
@@ -22,6 +22,32 @@
    "escaneos": 1
   },
   {
+   "lat": 3.7104,
+   "lon": -75.1534,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 133.1,
+   "municipio": "Coyaima",
+   "vereda": "Lomas De Hilarco",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "primeroUtc": "2026-09-05T17:50:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
+   "escaneos": 2
+  },
+  {
+   "lat": 3.6922,
+   "lon": -75.1534,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 126.2,
+   "municipio": "Coyaima",
+   "vereda": "Totarco Piedras",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "primeroUtc": "2026-09-05T18:10:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
+   "escaneos": 1
+  },
+  {
    "lat": 3.6922,
    "lon": -75.1714,
    "codigo": 30,
@@ -29,22 +55,48 @@
    "frp": 90.6,
    "municipio": "Coyaima",
    "vereda": "Totarco Piedras",
-   "escaneoUtc": "2026-09-05T17:50:00Z",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
    "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T17:50:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
+   "escaneos": 2
+  },
+  {
+   "lat": 3.674,
+   "lon": -75.1353,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 86.3,
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "primeroUtc": "2026-09-05T18:10:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
    "escaneos": 1
   },
   {
-   "lat": 3.7104,
-   "lon": -75.1534,
-   "codigo": 10,
+   "lat": 3.6922,
+   "lon": -75.1354,
+   "codigo": 30,
    "confianza": "alta",
-   "frp": 83.9,
+   "frp": 83.5,
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "primeroUtc": "2026-09-05T18:10:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
+   "escaneos": 1
+  },
+  {
+   "lat": 3.674,
+   "lon": -75.1534,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 75.9,
    "municipio": "Coyaima",
-   "vereda": "Lomas De Hilarco",
-   "escaneoUtc": "2026-09-05T17:50:00Z",
-   "primeroUtc": "2026-09-05T17:50:00Z",
-   "ultimoUtc": "2026-09-05T17:50:00Z",
+   "vereda": "Niple",
+   "escaneoUtc": "2026-09-05T18:10:00Z",
+   "primeroUtc": "2026-09-05T18:10:00Z",
+   "ultimoUtc": "2026-09-05T18:10:00Z",
    "escaneos": 1
   },
   {
@@ -72,10 +124,13 @@
   "3.74,-75.22": "2026-09-05T18:03:37.203795+00:00",
   "3.72,-75.18": "2026-09-05T18:03:37.203795+00:00",
   "3.72,-75.16": "2026-09-05T18:03:37.203795+00:00",
-  "3.70,-75.18": "2026-09-05T18:03:37.203795+00:00"
+  "3.70,-75.18": "2026-09-05T18:03:37.203795+00:00",
+  "3.70,-75.16": "2026-09-05T18:22:41.104718+00:00",
+  "3.70,-75.14": "2026-09-05T18:22:41.104718+00:00",
+  "3.68,-75.14": "2026-09-05T18:22:41.104718+00:00"
  },
  "ultimaAlerta": {
-  "utc": "2026-09-05T18:03:37Z",
-  "focos": 4
+  "utc": "2026-09-05T18:22:41Z",
+  "focos": 3
  }
 }
