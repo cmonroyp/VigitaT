@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-05T15:02:56Z",
- "activos": 2,
+ "actualizadoUtc": "2026-09-05T15:17:15.825Z",
+ "activos": 6,
  "alertas": {
-  "intentoUtc": "2026-09-05T14:17:44.658Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-05T15:17:15.223Z",
+  "pendientes": 4,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -319,16 +320,17 @@
    "nombre": "Incendio vereda Niple",
    "municipio": "Coyaima",
    "vereda": "Niple",
-   "lat": 3.6796,
-   "lon": -75.152,
+   "lat": 3.6821,
+   "lon": -75.1556,
    "estado": "activo",
    "inicioUtc": "2026-09-04T18:04:00Z",
-   "ultimaDeteccionUtc": "2026-09-04T18:04:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 13.82,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 20.19,
+   "confianzaMax": "alta",
    "pixeles": [
-    "920,-18788"
+    "920,-18788",
+    "921,-18789"
    ],
    "alertas": {
     "detectado": true,
@@ -336,15 +338,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-04T18:04:00Z_3.680_-75.152"
+    "2026-09-04T18:04:00Z_3.680_-75.152",
+    "2026-09-05T13:44:00Z_3.682_-75.156"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 20,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 37,
-    "vientoKmh": 6,
-    "vientoHacia": "NO",
+    "tempC": 35,
+    "humedadPct": 26,
+    "vientoKmh": 16,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T14:50:00Z"
@@ -426,10 +429,10 @@
    "lon": -75.1401,
    "estado": "activo",
    "inicioUtc": "2026-09-05T07:20:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T07:20:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.71,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 36.74,
+   "confianzaMax": "alta",
    "pixeles": [
     "920,-18785"
    ],
@@ -439,19 +442,156 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-05T07:20:00Z_3.679_-75.140"
+    "2026-09-05T07:20:00Z_3.679_-75.140",
+    "2026-09-05T13:44:00Z_3.679_-75.140"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 6,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 26,
+    "vientoKmh": 16,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   },
+   "ultimaGoesUtc": "2026-09-05T14:50:00Z"
+  },
+  {
+   "id": "INC-83",
+   "nombre": "Incendio vereda Pensilvania",
+   "municipio": "Ataco",
+   "vereda": "Pensilvania",
+   "lat": 3.2781,
+   "lon": -75.5564,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T13:44:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 46.55,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "820,-18889"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T13:44:00Z_3.278_-75.556"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 37,
-    "vientoKmh": 6,
+    "tempC": 26,
+    "humedadPct": 38,
+    "vientoKmh": 7,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-84",
+   "nombre": "Incendio vereda Lomas De Hilarco",
+   "municipio": "Coyaima",
+   "vereda": "Lomas De Hilarco",
+   "lat": 3.71,
+   "lon": -75.1458,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T13:44:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 10.7,
+   "confianzaMax": "media",
+   "pixeles": [
+    "928,-18786"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
    },
-   "ultimaGoesUtc": "2026-09-05T14:50:00Z"
+   "focoIds": [
+    "2026-09-05T13:44:00Z_3.710_-75.146"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
+    "humedadPct": 31,
+    "vientoKmh": 11,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-85",
+   "nombre": "Incendio vereda Jabalcón",
+   "municipio": "Saldaña",
+   "vereda": "Jabalcón",
+   "lat": 3.8386,
+   "lon": -75.0225,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T13:44:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.22,
+   "confianzaMax": "media",
+   "pixeles": [
+    "960,-18756"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T13:44:00Z_3.839_-75.022"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 32,
+    "vientoKmh": 6,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-86",
+   "nombre": "Incendio vereda La Osera",
+   "municipio": "Rovira",
+   "vereda": "La Osera",
+   "lat": 4.3433,
+   "lon": -75.2627,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T13:44:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 5.91,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1086,-18816"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T13:44:00Z_4.343_-75.263"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 42,
+    "vientoKmh": 11,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 82
+ "secuencia": 86
 }

@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-05T14:17:44.658Z",
+  "actualizadoUtc": "2026-09-05T15:17:15.190Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 2,
-  "focosNuevos": 0,
+  "totalFocos": 7,
+  "focosNuevos": 6,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,15 +12,101 @@
   ],
   "focos": [
     {
-      "id": "2026-09-05T07:20:00Z_3.679_-75.140",
+      "id": "2026-09-05T13:44:00Z_4.343_-75.263",
+      "lat": 4.3433,
+      "lon": -75.2627,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "media",
+      "frp": 5.91,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Rovira",
+      "distanciaKm": 11.8,
+      "vereda": "La Osera",
+      "codigoVereda": "73624044"
+    },
+    {
+      "id": "2026-09-05T13:44:00Z_3.839_-75.022",
+      "lat": 3.8386,
+      "lon": -75.0225,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "media",
+      "frp": 6.22,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Saldaña",
+      "distanciaKm": 10.2,
+      "vereda": "Jabalcón",
+      "codigoVereda": "73671006"
+    },
+    {
+      "id": "2026-09-05T13:44:00Z_3.710_-75.146",
+      "lat": 3.71,
+      "lon": -75.1458,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "media",
+      "frp": 10.7,
+      "detecciones": 2,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 11.2,
+      "vereda": "Lomas De Hilarco",
+      "codigoVereda": "73217033"
+    },
+    {
+      "id": "2026-09-05T13:44:00Z_3.682_-75.156",
+      "lat": 3.6821,
+      "lon": -75.1556,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "alta",
+      "frp": 20.19,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 13.6,
+      "vereda": "Niple",
+      "codigoVereda": "73217039"
+    },
+    {
+      "id": "2026-09-05T13:44:00Z_3.278_-75.556",
+      "lat": 3.2781,
+      "lon": -75.5564,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "alta",
+      "frp": 46.55,
+      "detecciones": 2,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ataco",
+      "distanciaKm": 39.8,
+      "vereda": "Pensilvania",
+      "codigoVereda": "73067071"
+    },
+    {
+      "id": "2026-09-05T13:44:00Z_3.679_-75.140",
       "lat": 3.679,
       "lon": -75.1401,
-      "fechaUtc": "2026-09-05T07:20:00Z",
-      "confianza": "media",
-      "frp": 1.71,
-      "detecciones": 3,
+      "fechaUtc": "2026-09-05T13:44:00Z",
+      "confianza": "alta",
+      "frp": 36.74,
+      "detecciones": 4,
       "satelites": [
-        "VIIRS"
+        "VIIRS",
+        "MODIS"
       ],
       "diaNoche": "noche",
       "municipio": "Natagaima",
