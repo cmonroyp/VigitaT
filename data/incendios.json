@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-05T22:02:44Z",
- "activos": 8,
+ "actualizadoUtc": "2026-09-05T22:17:38.531Z",
+ "activos": 11,
  "alertas": {
-  "intentoUtc": "2026-09-05T21:15:55.579Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-09-05T22:17:38.015Z",
+  "pendientes": 3,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -146,9 +146,9 @@
    "areaEstimadaHa": 70,
    "duracionHoras": 25,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 29,
-    "vientoKmh": 24,
+    "tempC": 35,
+    "humedadPct": 31,
+    "vientoKmh": 23,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -250,9 +250,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 6,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 28,
-    "vientoKmh": 24,
+    "tempC": 34,
+    "humedadPct": 30,
+    "vientoKmh": 23,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -319,9 +319,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 27,
-    "vientoKmh": 26,
+    "tempC": 35,
+    "humedadPct": 30,
+    "vientoKmh": 21,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -405,12 +405,13 @@
    "lon": -75.2299,
    "estado": "activo",
    "inicioUtc": "2026-09-05T17:45:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 139.29,
    "confianzaMax": "alta",
    "pixeles": [
-    "937,-18807"
+    "937,-18807",
+    "941,-18810"
    ],
    "alertas": {
     "detectado": true,
@@ -418,14 +419,16 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-05T17:45:00Z_3.748_-75.230"
+    "2026-09-05T17:45:00Z_3.748_-75.230",
+    "2026-09-05T20:40:00Z_3.748_-75.230",
+    "2026-09-05T20:40:00Z_3.765_-75.239"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 3,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 27,
-    "vientoKmh": 19,
+    "tempC": 35,
+    "humedadPct": 29,
+    "vientoKmh": 18,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -458,9 +461,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 28,
-    "vientoKmh": 24,
+    "tempC": 33,
+    "humedadPct": 30,
+    "vientoKmh": 23,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
@@ -492,11 +495,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 41,
-    "vientoKmh": 4,
+    "tempC": 31,
+    "humedadPct": 53,
+    "vientoKmh": 1,
     "vientoHacia": "NO",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    }
   },
   {
@@ -526,9 +529,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 31,
-    "vientoKmh": 31,
+    "tempC": 34,
+    "humedadPct": 33,
+    "vientoKmh": 24,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    }
@@ -542,10 +545,10 @@
    "lon": -75.2045,
    "estado": "activo",
    "inicioUtc": "2026-09-05T18:43:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 5.35,
-   "confianzaMax": "media",
+   "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 60.77,
+   "confianzaMax": "alta",
    "pixeles": [
     "943,-18801"
    ],
@@ -555,19 +558,122 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-05T18:43:00Z_3.772_-75.204"
+    "2026-09-05T18:43:00Z_3.772_-75.204",
+    "2026-09-05T20:40:00Z_3.772_-75.204"
    ],
    "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "duracionHoras": 2,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 27,
-    "vientoKmh": 19,
+    "tempC": 35,
+    "humedadPct": 29,
+    "vientoKmh": 18,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
+  },
+  {
+   "id": "INC-92",
+   "nombre": "Incendio vereda Guaipa",
+   "municipio": "Ortega",
+   "vereda": "Guaipa",
+   "lat": 3.7877,
+   "lon": -75.2062,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T20:40:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 47.6,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "947,-18802"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T20:40:00Z_3.788_-75.206"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 29,
+    "vientoKmh": 18,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-93",
+   "nombre": "Incendio vereda Lomas De Hilarco",
+   "municipio": "Coyaima",
+   "vereda": "Lomas De Hilarco",
+   "lat": 3.7278,
+   "lon": -75.1639,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T20:40:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 21.04,
+   "confianzaMax": "media",
+   "pixeles": [
+    "932,-18791"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T20:40:00Z_3.728_-75.164"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 35,
+    "humedadPct": 30,
+    "vientoKmh": 21,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "ALTO"
+   }
+  },
+  {
+   "id": "INC-94",
+   "nombre": "Incendio vereda La Jabonera",
+   "municipio": "Coyaima",
+   "vereda": "La Jabonera",
+   "lat": 3.6935,
+   "lon": -75.2759,
+   "estado": "activo",
+   "inicioUtc": "2026-09-05T20:40:00Z",
+   "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 9.11,
+   "confianzaMax": "media",
+   "pixeles": [
+    "923,-18819"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-05T20:40:00Z_3.693_-75.276"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 32,
+    "humedadPct": 33,
+    "vientoKmh": 18,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 91
+ "secuencia": 94
 }

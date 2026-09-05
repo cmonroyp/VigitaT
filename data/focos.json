@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-05T21:15:55.531Z",
+  "actualizadoUtc": "2026-09-05T22:17:37.983Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 12,
-  "focosNuevos": 3,
+  "totalFocos": 16,
+  "focosNuevos": 6,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -11,6 +11,110 @@
     "MODIS_NRT"
   ],
   "focos": [
+    {
+      "id": "2026-09-05T20:40:00Z_3.788_-75.206",
+      "lat": 3.7877,
+      "lon": -75.2062,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "alta",
+      "frp": 47.6,
+      "detecciones": 2,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Ortega",
+      "distanciaKm": 16.6,
+      "vereda": "Guaipa",
+      "codigoVereda": "73504032"
+    },
+    {
+      "id": "2026-09-05T20:40:00Z_3.765_-75.239",
+      "lat": 3.765,
+      "lon": -75.2389,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "media",
+      "frp": 11.76,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 6.2,
+      "vereda": "Meche San Cayetano",
+      "codigoVereda": "73217036"
+    },
+    {
+      "id": "2026-09-05T20:40:00Z_3.728_-75.164",
+      "lat": 3.7278,
+      "lon": -75.1639,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "media",
+      "frp": 21.04,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 8.5,
+      "vereda": "Lomas De Hilarco",
+      "codigoVereda": "73217033"
+    },
+    {
+      "id": "2026-09-05T20:40:00Z_3.693_-75.276",
+      "lat": 3.6935,
+      "lon": -75.2759,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "media",
+      "frp": 9.11,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 14.8,
+      "vereda": "La Jabonera",
+      "codigoVereda": "73217029"
+    },
+    {
+      "id": "2026-09-05T20:40:00Z_3.748_-75.230",
+      "lat": 3.7485,
+      "lon": -75.2299,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "alta",
+      "frp": 139.29,
+      "detecciones": 6,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 6.9,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
+    {
+      "id": "2026-09-05T20:40:00Z_3.772_-75.204",
+      "lat": 3.772,
+      "lon": -75.2045,
+      "fechaUtc": "2026-09-05T20:40:00Z",
+      "confianza": "alta",
+      "frp": 60.77,
+      "detecciones": 6,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "día",
+      "municipio": "Coyaima",
+      "distanciaKm": 3.2,
+      "vereda": "Buenavista",
+      "codigoVereda": "73217006"
+    },
     {
       "id": "2026-09-05T18:43:00Z_3.833_-75.097",
       "lat": 3.8325,
@@ -27,23 +131,6 @@
       "distanciaKm": 11.4,
       "vereda": "Castilla",
       "codigoVereda": "73217009"
-    },
-    {
-      "id": "2026-09-05T18:43:00Z_3.772_-75.204",
-      "lat": 3.772,
-      "lon": -75.2045,
-      "fechaUtc": "2026-09-05T18:43:00Z",
-      "confianza": "media",
-      "frp": 5.35,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Coyaima",
-      "distanciaKm": 3.2,
-      "vereda": "Buenavista",
-      "codigoVereda": "73217006"
     },
     {
       "id": "2026-09-05T18:43:00Z_3.693_-75.155",
@@ -79,23 +166,6 @@
       "distanciaKm": 15.8,
       "vereda": "California",
       "codigoVereda": "73226009"
-    },
-    {
-      "id": "2026-09-05T17:45:00Z_3.748_-75.230",
-      "lat": 3.7485,
-      "lon": -75.2299,
-      "fechaUtc": "2026-09-05T17:45:00Z",
-      "confianza": "alta",
-      "frp": 139.29,
-      "detecciones": 3,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Coyaima",
-      "distanciaKm": 6.9,
-      "vereda": "Buenavista",
-      "codigoVereda": "73217006"
     },
     {
       "id": "2026-09-05T17:45:00Z_3.706_-75.213",
