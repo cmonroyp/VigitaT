@@ -1,27 +1,13 @@
 {
- "actualizadoUtc": "2026-09-06T16:41:12Z",
- "escaneoUtc": "2026-09-06T16:30:00Z",
+ "actualizadoUtc": "2026-09-06T16:51:29Z",
+ "escaneoUtc": "2026-09-06T16:40:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 1,
+ "totalFocos": 0,
  "focosNuevos": 0,
- "focos": [
-  {
-   "lat": 3.6558,
-   "lon": -75.1353,
-   "codigo": 10,
-   "confianza": "alta",
-   "frp": 68.1,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-06T15:50:00Z",
-   "primeroUtc": "2026-09-06T15:50:00Z",
-   "ultimoUtc": "2026-09-06T15:50:00Z",
-   "escaneos": 1
-  }
- ],
+ "focos": [],
  "alertadas": {
   "3.66,-75.14": "2026-09-06T16:03:27.248620+00:00"
  }
