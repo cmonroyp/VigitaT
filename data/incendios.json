@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-06T19:14:48.157Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-06T20:19:10.564Z",
+ "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-06T19:14:47.712Z",
+  "intentoUtc": "2026-09-06T20:19:09.880Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
@@ -160,14 +160,15 @@
    "vereda": "Palmalta",
    "lat": 3.679,
    "lon": -75.1401,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-05T07:20:00Z",
-   "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-09-06T18:04:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 36.74,
    "confianzaMax": "alta",
    "pixeles": [
-    "920,-18785"
+    "920,-18785",
+    "915,-18784"
    ],
    "alertas": {
     "detectado": true,
@@ -176,16 +177,17 @@
    },
    "focoIds": [
     "2026-09-05T07:20:00Z_3.679_-75.140",
-    "2026-09-05T13:44:00Z_3.679_-75.140"
+    "2026-09-05T13:44:00Z_3.679_-75.140",
+    "2026-09-06T18:04:00Z_3.661_-75.135"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 6,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 35,
    "clima": {
-    "tempC": 28,
-    "humedadPct": 54,
-    "vientoKmh": 6,
+    "tempC": 35,
+    "humedadPct": 26,
+    "vientoKmh": 26,
     "vientoHacia": "N",
-    "riesgoPropagacion": "BAJO"
+    "riesgoPropagacion": "ALTO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
   },
@@ -605,7 +607,41 @@
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
+  },
+  {
+   "id": "INC-95",
+   "nombre": "Incendio zona rural de Honda",
+   "municipio": "Honda",
+   "vereda": null,
+   "lat": 5.1992,
+   "lon": -74.7418,
+   "estado": "activo",
+   "inicioUtc": "2026-09-06T18:04:00Z",
+   "ultimaDeteccionUtc": "2026-09-06T18:04:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 3.46,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1300,-18685"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-06T18:04:00Z_5.199_-74.742"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 37,
+    "humedadPct": 27,
+    "vientoKmh": 16,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 94
+ "secuencia": 95
 }
