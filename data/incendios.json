@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-06T03:24:37.280Z",
- "activos": 3,
+ "actualizadoUtc": "2026-09-06T04:23:25.833Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-06T03:24:37.280Z",
+  "intentoUtc": "2026-09-06T04:23:25.833Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -194,7 +194,7 @@
    "vereda": "Palmalta",
    "lat": 3.679,
    "lon": -75.1401,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T07:20:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 2,
@@ -440,7 +440,7 @@
    "vereda": "California",
    "lat": 3.9599,
    "lon": -74.7933,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T17:45:00Z",
    "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
    "deteccionesTotales": 1,
@@ -509,7 +509,7 @@
    "vereda": "Buenavista",
    "lat": 3.772,
    "lon": -75.2045,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T18:43:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 2,
