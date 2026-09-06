@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-06T02:28:51.378Z",
- "activos": 9,
+ "actualizadoUtc": "2026-09-06T03:24:37.280Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-06T02:28:51.377Z",
+  "intentoUtc": "2026-09-06T03:24:37.280Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -83,7 +83,7 @@
    "vereda": "Totarco Piedras",
    "lat": 3.6965,
    "lon": -75.1575,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-04T18:04:00Z",
    "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
    "deteccionesTotales": 5,
@@ -217,8 +217,8 @@
    "clima": {
     "tempC": 28,
     "humedadPct": 54,
-    "vientoKmh": 4,
-    "vientoHacia": "NE",
+    "vientoKmh": 6,
+    "vientoHacia": "N",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
@@ -264,7 +264,7 @@
    "vereda": "Lomas De Hilarco",
    "lat": 3.71,
    "lon": -75.1458,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -368,7 +368,7 @@
    "vereda": "Buenavista",
    "lat": 3.7485,
    "lon": -75.2299,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T17:45:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 3,
@@ -461,7 +461,7 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 25,
-    "humedadPct": 67,
+    "humedadPct": 68,
     "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
@@ -531,8 +531,8 @@
    "duracionHoras": 2,
    "clima": {
     "tempC": 30,
-    "humedadPct": 41,
-    "vientoKmh": 4,
+    "humedadPct": 40,
+    "vientoKmh": 8,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    },
@@ -545,7 +545,7 @@
    "vereda": "Guaipa",
    "lat": 3.7877,
    "lon": -75.2062,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
@@ -579,7 +579,7 @@
    "vereda": "Lomas De Hilarco",
    "lat": 3.7278,
    "lon": -75.1639,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
@@ -613,7 +613,7 @@
    "vereda": "La Jabonera",
    "lat": 3.6935,
    "lon": -75.2759,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
