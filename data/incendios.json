@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-06T21:16:12.975Z",
+ "actualizadoUtc": "2026-09-06T22:18:07.711Z",
  "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-06T21:16:12.463Z",
-  "pendientes": 7,
+  "intentoUtc": "2026-09-06T22:18:07.186Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -183,11 +183,11 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 35,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 26,
-    "vientoKmh": 23,
+    "tempC": 34,
+    "humedadPct": 28,
+    "vientoKmh": 20,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
   },
@@ -477,7 +477,7 @@
    "vereda": "Buenavista",
    "lat": 3.772,
    "lon": -75.2045,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T18:43:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 2,
@@ -489,7 +489,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T18:43:00Z_3.772_-75.204",
@@ -635,10 +635,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 33,
-    "vientoKmh": 7,
-    "vientoHacia": "SE",
+    "tempC": 32,
+    "humedadPct": 53,
+    "vientoKmh": 15,
+    "vientoHacia": "S",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -669,9 +669,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 36,
-    "humedadPct": 27,
-    "vientoKmh": 16,
+    "tempC": 35,
+    "humedadPct": 29,
+    "vientoKmh": 13,
     "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
