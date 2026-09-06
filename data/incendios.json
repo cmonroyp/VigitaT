@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-06T20:19:10.564Z",
- "activos": 2,
+ "actualizadoUtc": "2026-09-06T21:16:12.975Z",
+ "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-06T20:19:09.880Z",
-  "pendientes": 1,
+  "intentoUtc": "2026-09-06T21:16:12.463Z",
+  "pendientes": 7,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -49,7 +49,7 @@
    "vereda": "Totarco Piedras",
    "lat": 3.6965,
    "lon": -75.1575,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-04T18:04:00Z",
    "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
    "deteccionesTotales": 5,
@@ -65,7 +65,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 4,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-04T18:04:00Z_3.680_-75.152",
@@ -185,7 +185,7 @@
    "clima": {
     "tempC": 35,
     "humedadPct": 26,
-    "vientoKmh": 26,
+    "vientoKmh": 23,
     "vientoHacia": "N",
     "riesgoPropagacion": "ALTO"
    },
@@ -232,7 +232,7 @@
    "vereda": "Lomas De Hilarco",
    "lat": 3.71,
    "lon": -75.1458,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -244,7 +244,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T13:44:00Z_3.710_-75.146"
@@ -336,7 +336,7 @@
    "vereda": "Buenavista",
    "lat": 3.7485,
    "lon": -75.2299,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T17:45:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 3,
@@ -349,7 +349,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T17:45:00Z_3.748_-75.230",
@@ -513,7 +513,7 @@
    "vereda": "Guaipa",
    "lat": 3.7877,
    "lon": -75.2062,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
@@ -525,7 +525,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T20:40:00Z_3.788_-75.206"
@@ -547,7 +547,7 @@
    "vereda": "Lomas De Hilarco",
    "lat": 3.7278,
    "lon": -75.1639,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
@@ -559,7 +559,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T20:40:00Z_3.728_-75.164"
@@ -581,7 +581,7 @@
    "vereda": "La Jabonera",
    "lat": 3.6935,
    "lon": -75.2759,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T20:40:00Z",
    "ultimaDeteccionUtc": "2026-09-05T20:40:00Z",
    "deteccionesTotales": 1,
@@ -593,7 +593,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T20:40:00Z_3.693_-75.276"
@@ -635,13 +635,47 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 37,
+    "tempC": 36,
+    "humedadPct": 33,
+    "vientoKmh": 7,
+    "vientoHacia": "SE",
+    "riesgoPropagacion": "MODERADO"
+   }
+  },
+  {
+   "id": "INC-96",
+   "nombre": "Incendio vereda Palmalta",
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "lat": 3.6621,
+   "lon": -75.1169,
+   "estado": "activo",
+   "inicioUtc": "2026-09-06T18:21:00Z",
+   "ultimaDeteccionUtc": "2026-09-06T18:21:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.36,
+   "confianzaMax": "media",
+   "pixeles": [
+    "916,-18779"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-06T18:21:00Z_3.662_-75.117"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 36,
     "humedadPct": 27,
     "vientoKmh": 16,
-    "vientoHacia": "NE",
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
   }
  ],
- "secuencia": 95
+ "secuencia": 96
 }
