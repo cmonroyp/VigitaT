@@ -1,25 +1,25 @@
 {
- "actualizadoUtc": "2026-09-06T20:19:59Z",
- "escaneoUtc": "2026-09-06T20:00:00Z",
+ "actualizadoUtc": "2026-09-06T20:28:15Z",
+ "escaneoUtc": "2026-09-06T20:10:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 4,
+ "focosUltimoEscaneo": 3,
  "totalFocos": 4,
- "focosNuevos": 0,
+ "focosNuevos": 1,
  "focos": [
   {
-   "lat": 4.3108,
+   "lat": 4.329,
    "lon": -75.1355,
    "codigo": 33,
    "confianza": "alta",
    "frp": 184.5,
-   "municipio": "San Luis",
-   "vereda": "Payandé",
-   "escaneoUtc": "2026-09-06T20:00:00Z",
+   "municipio": "Ibagué",
+   "vereda": "Aparco",
+   "escaneoUtc": "2026-09-06T20:10:00Z",
    "primeroUtc": "2026-09-06T19:40:00Z",
-   "ultimoUtc": "2026-09-06T20:00:00Z",
-   "escaneos": 3
+   "ultimoUtc": "2026-09-06T20:10:00Z",
+   "escaneos": 4
   },
   {
    "lat": 4.3108,
@@ -35,29 +35,29 @@
    "escaneos": 3
   },
   {
-   "lat": 3.674,
-   "lon": -75.1173,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 76.4,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-06T19:20:00Z",
-   "primeroUtc": "2026-09-06T19:20:00Z",
-   "ultimoUtc": "2026-09-06T19:20:00Z",
-   "escaneos": 1
-  },
-  {
    "lat": 3.6558,
    "lon": -75.1353,
    "codigo": 30,
    "confianza": "alta",
-   "frp": 76.4,
+   "frp": 82.0,
    "municipio": "Natagaima",
    "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-06T19:50:00Z",
+   "escaneoUtc": "2026-09-06T20:10:00Z",
    "primeroUtc": "2026-09-06T19:50:00Z",
-   "ultimoUtc": "2026-09-06T19:50:00Z",
+   "ultimoUtc": "2026-09-06T20:10:00Z",
+   "escaneos": 2
+  },
+  {
+   "lat": 3.6558,
+   "lon": -75.1173,
+   "codigo": 30,
+   "confianza": "alta",
+   "frp": 63.0,
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "escaneoUtc": "2026-09-06T20:10:00Z",
+   "primeroUtc": "2026-09-06T20:10:00Z",
+   "ultimoUtc": "2026-09-06T20:10:00Z",
    "escaneos": 1
   }
  ],
@@ -65,6 +65,11 @@
   "3.66,-75.14": "2026-09-06T16:03:27.248620+00:00",
   "3.68,-75.12": "2026-09-06T19:31:37.745375+00:00",
   "4.32,-75.14": "2026-09-06T19:51:37.332708+00:00",
-  "4.32,-75.12": "2026-09-06T19:51:37.332708+00:00"
+  "4.32,-75.12": "2026-09-06T19:51:37.332708+00:00",
+  "3.66,-75.12": "2026-09-06T20:28:15.846398+00:00"
+ },
+ "ultimaAlerta": {
+  "utc": "2026-09-06T20:28:15Z",
+  "focos": 1
  }
 }
