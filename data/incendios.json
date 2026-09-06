@@ -1,47 +1,12 @@
 {
- "actualizadoUtc": "2026-09-06T01:32:04.350Z",
+ "actualizadoUtc": "2026-09-06T02:28:51.378Z",
  "activos": 9,
  "alertas": {
-  "intentoUtc": "2026-09-06T01:32:03.397Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-06T02:28:51.377Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
-  {
-   "id": "INC-76",
-   "nombre": "Incendio vereda Quinto Chipuelo",
-   "municipio": "Guamo",
-   "vereda": "Quinto Chipuelo",
-   "lat": 4.0959,
-   "lon": -74.9164,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-03T01:47:00Z",
-   "ultimaDeteccionUtc": "2026-09-03T01:47:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 7.77,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1024,-18729"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-03T01:47:00Z_4.096_-74.916"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
-   "clima": {
-    "tempC": 26,
-    "humedadPct": 73,
-    "vientoKmh": 3,
-    "vientoHacia": "NO",
-    "riesgoPropagacion": "BAJO"
-   }
-  },
   {
    "id": "INC-77",
    "nombre": "Incendio vereda Tajo Medio",
@@ -146,10 +111,10 @@
    "areaEstimadaHa": 70,
    "duracionHoras": 25,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 55,
-    "vientoKmh": 3,
-    "vientoHacia": "N",
+    "tempC": 29,
+    "humedadPct": 54,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T21:00:00Z"
@@ -250,10 +215,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 6,
    "clima": {
-    "tempC": 29,
+    "tempC": 28,
     "humedadPct": 54,
-    "vientoKmh": 3,
-    "vientoHacia": "N",
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
@@ -319,8 +284,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 45,
+    "tempC": 29,
+    "humedadPct": 48,
     "vientoKmh": 5,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
@@ -427,8 +392,8 @@
    "duracionHoras": 3,
    "clima": {
     "tempC": 30,
-    "humedadPct": 43,
-    "vientoKmh": 2,
+    "humedadPct": 41,
+    "vientoKmh": 4,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    },
@@ -496,8 +461,8 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 25,
-    "humedadPct": 66,
-    "vientoKmh": 4,
+    "humedadPct": 67,
+    "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    },
@@ -566,8 +531,8 @@
    "duracionHoras": 2,
    "clima": {
     "tempC": 30,
-    "humedadPct": 43,
-    "vientoKmh": 2,
+    "humedadPct": 41,
+    "vientoKmh": 4,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    },
@@ -601,8 +566,8 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 30,
-    "humedadPct": 43,
-    "vientoKmh": 2,
+    "humedadPct": 41,
+    "vientoKmh": 4,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
@@ -634,8 +599,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 30,
-    "humedadPct": 45,
+    "tempC": 29,
+    "humedadPct": 48,
     "vientoKmh": 5,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
@@ -670,7 +635,7 @@
    "clima": {
     "tempC": 28,
     "humedadPct": 48,
-    "vientoKmh": 1,
+    "vientoKmh": 2,
     "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
