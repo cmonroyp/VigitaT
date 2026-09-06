@@ -1,48 +1,13 @@
 {
- "actualizadoUtc": "2026-09-06T18:22:01.052Z",
+ "actualizadoUtc": "2026-09-06T19:14:48.157Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-06T18:22:00.397Z",
+  "intentoUtc": "2026-09-06T19:14:47.712Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
  "incendios": [
-  {
-   "id": "INC-77",
-   "nombre": "Incendio vereda Tajo Medio",
-   "municipio": "Ambalema",
-   "vereda": "Tajo Medio",
-   "lat": 4.7974,
-   "lon": -74.802,
-   "estado": "extinguido",
-   "inicioUtc": "2026-09-03T18:24:00Z",
-   "ultimaDeteccionUtc": "2026-09-03T19:00:00Z",
-   "deteccionesTotales": 2,
-   "maxFrp": 7.62,
-   "confianzaMax": "media",
-   "pixeles": [
-    "1199,-18700"
-   ],
-   "alertas": {
-    "detectado": true,
-    "ultCrecimiento": 1,
-    "extinguido": true
-   },
-   "focoIds": [
-    "2026-09-03T18:24:00Z_4.797_-74.802",
-    "2026-09-03T19:00:00Z_4.797_-74.802"
-   ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 1,
-   "clima": {
-    "tempC": 32,
-    "humedadPct": 49,
-    "vientoKmh": 7,
-    "vientoHacia": "SO",
-    "riesgoPropagacion": "MODERADO"
-   }
-  },
   {
    "id": "INC-78",
    "nombre": "Incendio vereda Cairo Brisas",
@@ -476,7 +441,7 @@
    "vereda": "Castilla",
    "lat": 3.8325,
    "lon": -75.0973,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T18:43:00Z",
    "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
    "deteccionesTotales": 1,
@@ -488,7 +453,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T18:43:00Z_3.833_-75.097"
