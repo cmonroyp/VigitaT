@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-06T14:17:42.288Z",
+ "actualizadoUtc": "2026-09-06T15:17:43.723Z",
  "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-06T14:17:41.798Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-09-06T15:17:43.155Z",
+  "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -334,7 +334,7 @@
    "vereda": "La Osera",
    "lat": 4.3433,
    "lon": -75.2627,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T13:44:00Z",
    "ultimaDeteccionUtc": "2026-09-05T13:44:00Z",
    "deteccionesTotales": 1,
@@ -346,7 +346,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T13:44:00Z_4.343_-75.263"
