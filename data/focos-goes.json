@@ -1,11 +1,11 @@
 {
- "actualizadoUtc": "2026-09-06T21:02:53Z",
- "escaneoUtc": "2026-09-06T20:50:00Z",
+ "actualizadoUtc": "2026-09-06T21:17:16Z",
+ "escaneoUtc": "2026-09-06T21:00:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
  "focosUltimoEscaneo": 0,
- "totalFocos": 3,
+ "totalFocos": 1,
  "focosNuevos": 0,
  "focos": [
   {
@@ -20,32 +20,6 @@
    "primeroUtc": "2026-09-06T19:40:00Z",
    "ultimoUtc": "2026-09-06T20:20:00Z",
    "escaneos": 5
-  },
-  {
-   "lat": 3.6558,
-   "lon": -75.1353,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 82.0,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-06T20:10:00Z",
-   "primeroUtc": "2026-09-06T19:50:00Z",
-   "ultimoUtc": "2026-09-06T20:10:00Z",
-   "escaneos": 2
-  },
-  {
-   "lat": 3.6558,
-   "lon": -75.1173,
-   "codigo": 30,
-   "confianza": "alta",
-   "frp": 63.0,
-   "municipio": "Natagaima",
-   "vereda": "Palmalta",
-   "escaneoUtc": "2026-09-06T20:10:00Z",
-   "primeroUtc": "2026-09-06T20:10:00Z",
-   "ultimoUtc": "2026-09-06T20:10:00Z",
-   "escaneos": 1
   }
  ],
  "alertadas": {
