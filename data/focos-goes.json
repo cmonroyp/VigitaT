@@ -1,12 +1,12 @@
 {
- "actualizadoUtc": "2026-09-06T20:28:15Z",
- "escaneoUtc": "2026-09-06T20:10:00Z",
+ "actualizadoUtc": "2026-09-06T20:36:54Z",
+ "escaneoUtc": "2026-09-06T20:20:00Z",
  "ventanaMin": 60,
  "satelite": "GOES-19 (geoestacionario, escaneo cada 10 min)",
  "resolucionKm": 2,
- "focosUltimoEscaneo": 3,
+ "focosUltimoEscaneo": 1,
  "totalFocos": 4,
- "focosNuevos": 1,
+ "focosNuevos": 0,
  "focos": [
   {
    "lat": 4.329,
@@ -16,10 +16,10 @@
    "frp": 184.5,
    "municipio": "Ibagué",
    "vereda": "Aparco",
-   "escaneoUtc": "2026-09-06T20:10:00Z",
+   "escaneoUtc": "2026-09-06T20:20:00Z",
    "primeroUtc": "2026-09-06T19:40:00Z",
-   "ultimoUtc": "2026-09-06T20:10:00Z",
-   "escaneos": 4
+   "ultimoUtc": "2026-09-06T20:20:00Z",
+   "escaneos": 5
   },
   {
    "lat": 4.3108,
@@ -67,9 +67,5 @@
   "4.32,-75.14": "2026-09-06T19:51:37.332708+00:00",
   "4.32,-75.12": "2026-09-06T19:51:37.332708+00:00",
   "3.66,-75.12": "2026-09-06T20:28:15.846398+00:00"
- },
- "ultimaAlerta": {
-  "utc": "2026-09-06T20:28:15Z",
-  "focos": 1
  }
 }
