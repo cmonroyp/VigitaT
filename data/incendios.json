@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-05T23:16:22.785Z",
- "activos": 11,
+ "actualizadoUtc": "2026-09-06T01:00:58.933Z",
+ "activos": 9,
  "alertas": {
-  "intentoUtc": "2026-09-05T23:16:22.785Z",
+  "intentoUtc": "2026-09-06T01:00:58.933Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -145,11 +145,11 @@
    "areaEstimadaHa": 70,
    "duracionHoras": 25,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
-    "vientoKmh": 20,
+    "tempC": 30,
+    "humedadPct": 54,
+    "vientoKmh": 3,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T21:00:00Z"
   },
@@ -249,11 +249,11 @@
    "areaEstimadaHa": null,
    "duracionHoras": 6,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 33,
-    "vientoKmh": 20,
+    "tempC": 29,
+    "humedadPct": 54,
+    "vientoKmh": 3,
     "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T21:50:00Z"
   },
@@ -318,10 +318,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
-    "vientoKmh": 19,
-    "vientoHacia": "N",
+    "tempC": 30,
+    "humedadPct": 43,
+    "vientoKmh": 5,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    },
    "ultimaGoesUtc": "2026-09-05T21:00:00Z"
@@ -425,9 +425,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 3,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 31,
-    "vientoKmh": 13,
+    "tempC": 31,
+    "humedadPct": 43,
+    "vientoKmh": 1,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -440,7 +440,7 @@
    "vereda": "Totarco Tamarindo",
    "lat": 3.7063,
    "lon": -75.2132,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T17:45:00Z",
    "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
    "deteccionesTotales": 1,
@@ -494,10 +494,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 29,
-    "humedadPct": 53,
-    "vientoKmh": 1,
-    "vientoHacia": "NO",
+    "tempC": 26,
+    "humedadPct": 65,
+    "vientoKmh": 4,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-05T22:20:00Z"
@@ -509,7 +509,7 @@
    "vereda": "Castilla",
    "lat": 3.8325,
    "lon": -75.0973,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T18:43:00Z",
    "ultimaDeteccionUtc": "2026-09-05T18:43:00Z",
    "deteccionesTotales": 1,
@@ -564,9 +564,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 2,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 31,
-    "vientoKmh": 13,
+    "tempC": 31,
+    "humedadPct": 43,
+    "vientoKmh": 1,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -599,9 +599,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 31,
-    "vientoKmh": 13,
+    "tempC": 31,
+    "humedadPct": 43,
+    "vientoKmh": 1,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
@@ -633,10 +633,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 33,
-    "vientoKmh": 19,
-    "vientoHacia": "N",
+    "tempC": 30,
+    "humedadPct": 43,
+    "vientoKmh": 5,
+    "vientoHacia": "NO",
     "riesgoPropagacion": "MODERADO"
    }
   },
@@ -667,10 +667,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 31,
-    "humedadPct": 35,
-    "vientoKmh": 13,
-    "vientoHacia": "N",
+    "tempC": 29,
+    "humedadPct": 47,
+    "vientoKmh": 1,
+    "vientoHacia": "NE",
     "riesgoPropagacion": "MODERADO"
    }
   }
