@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-06T22:18:07.711Z",
+ "actualizadoUtc": "2026-09-06T23:17:01.407Z",
  "activos": 3,
  "alertas": {
-  "intentoUtc": "2026-09-06T22:18:07.186Z",
+  "intentoUtc": "2026-09-06T23:17:00.794Z",
   "pendientes": 1,
   "resultado": "enviado",
   "detalle": "HTTP 200"
@@ -183,9 +183,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 35,
    "clima": {
-    "tempC": 34,
-    "humedadPct": 28,
-    "vientoKmh": 20,
+    "tempC": 32,
+    "humedadPct": 30,
+    "vientoKmh": 17,
     "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    },
@@ -408,7 +408,7 @@
    "vereda": "California",
    "lat": 3.9599,
    "lon": -74.7933,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T17:45:00Z",
    "ultimaDeteccionUtc": "2026-09-05T17:45:00Z",
    "deteccionesTotales": 1,
@@ -420,7 +420,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T17:45:00Z_3.960_-74.793"
@@ -635,9 +635,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 32,
-    "humedadPct": 53,
-    "vientoKmh": 15,
+    "tempC": 31,
+    "humedadPct": 61,
+    "vientoKmh": 14,
     "vientoHacia": "S",
     "riesgoPropagacion": "MODERADO"
    }
@@ -669,10 +669,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 35,
-    "humedadPct": 29,
-    "vientoKmh": 13,
-    "vientoHacia": "NO",
+    "tempC": 33,
+    "humedadPct": 32,
+    "vientoKmh": 11,
+    "vientoHacia": "N",
     "riesgoPropagacion": "MODERADO"
    }
   }
