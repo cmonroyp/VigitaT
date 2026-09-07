@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-07T07:30:04.359Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-07T11:19:57.041Z",
+ "activos": 9,
  "alertas": {
-  "intentoUtc": "2026-09-07T07:30:04.359Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-07T11:19:56.277Z",
+  "pendientes": 8,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -648,14 +649,15 @@
    "vereda": "Palmalta",
    "lat": 3.6621,
    "lon": -75.1169,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-06T18:21:00Z",
-   "ultimaDeteccionUtc": "2026-09-06T18:21:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 6.36,
    "confianzaMax": "media",
    "pixeles": [
-    "916,-18779"
+    "916,-18779",
+    "915,-18779"
    ],
    "alertas": {
     "detectado": true,
@@ -663,18 +665,291 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-06T18:21:00Z_3.662_-75.117"
+    "2026-09-06T18:21:00Z_3.662_-75.117",
+    "2026-09-07T06:42:00Z_3.661_-75.116"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 12,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 70,
+    "vientoKmh": 1,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-97",
+   "nombre": "Incendio vereda Palmalta",
+   "municipio": "Natagaima",
+   "vereda": "Palmalta",
+   "lat": 3.6552,
+   "lon": -75.1419,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.7,
+   "confianzaMax": "media",
+   "pixeles": [
+    "914,-18785"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_3.655_-75.142"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 33,
-    "humedadPct": 32,
-    "vientoKmh": 11,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "tempC": 25,
+    "humedadPct": 70,
+    "vientoKmh": 4,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-98",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3274,
+   "lon": -75.1322,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.66,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1082,-18783"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_4.327_-75.132"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 21,
+    "humedadPct": 64,
+    "vientoKmh": 4,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-99",
+   "nombre": "Incendio vereda Los Ángeles",
+   "municipio": "Chaparral",
+   "vereda": "Los Ángeles",
+   "lat": 3.6666,
+   "lon": -75.4913,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 2.15,
+   "confianzaMax": "media",
+   "pixeles": [
+    "917,-18873"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_3.667_-75.491"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 57,
+    "vientoKmh": 3,
+    "vientoHacia": "SE",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-100",
+   "nombre": "Incendio vereda Payandé",
+   "municipio": "San Luis",
+   "vereda": "Payandé",
+   "lat": 4.3147,
+   "lon": -75.1164,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.94,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1079,-18779"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_4.315_-75.116"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 21,
+    "humedadPct": 64,
+    "vientoKmh": 4,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-101",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3086,
+   "lon": -75.0996,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.31,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1077,-18775"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_4.309_-75.100"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 21,
+    "humedadPct": 64,
+    "vientoKmh": 4,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-102",
+   "nombre": "Incendio vereda Canastos",
+   "municipio": "Espinal",
+   "vereda": "Canastos",
+   "lat": 4.1006,
+   "lon": -74.8825,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.11,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1025,-18721"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_4.101_-74.882"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 25,
+    "humedadPct": 75,
+    "vientoKmh": 5,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-103",
+   "nombre": "Incendio vereda El Paramo",
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "lat": 4.01,
+   "lon": -74.7571,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 0.92,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1002,-18689"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_4.010_-74.757"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 23,
+    "humedadPct": 71,
+    "vientoKmh": 2,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-104",
+   "nombre": "Incendio vereda San Pablo Ambeima",
+   "municipio": "Chaparral",
+   "vereda": "San Pablo Ambeima",
+   "lat": 3.7404,
+   "lon": -75.6141,
+   "estado": "activo",
+   "inicioUtc": "2026-09-07T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 0.86,
+   "confianzaMax": "media",
+   "pixeles": [
+    "935,-18904"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-07T06:42:00Z_3.740_-75.614"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 18,
+    "humedadPct": 72,
+    "vientoKmh": 5,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
    }
   }
  ],
- "secuencia": 96
+ "secuencia": 104
 }
