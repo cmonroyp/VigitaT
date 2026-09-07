@@ -1,8 +1,8 @@
 {
- "actualizadoUtc": "2026-09-07T19:16:43.753Z",
- "activos": 2,
+ "actualizadoUtc": "2026-09-07T21:18:15.233Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-07T19:16:43.753Z",
+  "intentoUtc": "2026-09-07T21:18:15.233Z",
   "pendientes": 0,
   "resultado": "sin novedades"
  },
@@ -582,7 +582,7 @@
    "vereda": "Palmalta",
    "lat": 3.6621,
    "lon": -75.1169,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-06T18:21:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 4,
@@ -622,7 +622,7 @@
    "vereda": "Palmalta",
    "lat": 3.6552,
    "lon": -75.1419,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
