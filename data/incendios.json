@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-06T23:17:01.407Z",
- "activos": 3,
+ "actualizadoUtc": "2026-09-07T01:34:55.666Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-06T23:17:00.794Z",
-  "pendientes": 1,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-07T01:34:55.666Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -160,7 +159,7 @@
    "vereda": "Palmalta",
    "lat": 3.679,
    "lon": -75.1401,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-05T07:20:00Z",
    "ultimaDeteccionUtc": "2026-09-06T18:04:00Z",
    "deteccionesTotales": 3,
@@ -615,7 +614,7 @@
    "vereda": null,
    "lat": 5.1992,
    "lon": -74.7418,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-06T18:04:00Z",
    "ultimaDeteccionUtc": "2026-09-06T18:04:00Z",
    "deteccionesTotales": 1,
@@ -649,7 +648,7 @@
    "vereda": "Palmalta",
    "lat": 3.6621,
    "lon": -75.1169,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-06T18:21:00Z",
    "ultimaDeteccionUtc": "2026-09-06T18:21:00Z",
    "deteccionesTotales": 1,

@@ -1,8 +1,8 @@
 {
-  "actualizadoUtc": "2026-09-06T23:17:00.793Z",
+  "actualizadoUtc": "2026-09-07T01:34:55.666Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 3,
+  "totalFocos": 0,
   "focosNuevos": 0,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
@@ -10,56 +10,5 @@
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": [
-    {
-      "id": "2026-09-06T18:21:00Z_3.662_-75.117",
-      "lat": 3.6621,
-      "lon": -75.1169,
-      "fechaUtc": "2026-09-06T18:21:00Z",
-      "confianza": "media",
-      "frp": 6.36,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Natagaima",
-      "distanciaKm": 5,
-      "vereda": "Palmalta",
-      "codigoVereda": "73483017"
-    },
-    {
-      "id": "2026-09-06T18:04:00Z_5.199_-74.742",
-      "lat": 5.1992,
-      "lon": -74.7418,
-      "fechaUtc": "2026-09-06T18:04:00Z",
-      "confianza": "media",
-      "frp": 3.46,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Honda",
-      "distanciaKm": 1.2,
-      "vereda": null
-    },
-    {
-      "id": "2026-09-06T18:04:00Z_3.661_-75.135",
-      "lat": 3.6612,
-      "lon": -75.1353,
-      "fechaUtc": "2026-09-06T18:04:00Z",
-      "confianza": "media",
-      "frp": 4.61,
-      "detecciones": 1,
-      "satelites": [
-        "VIIRS"
-      ],
-      "diaNoche": "día",
-      "municipio": "Natagaima",
-      "distanciaKm": 6.2,
-      "vereda": "Palmalta",
-      "codigoVereda": "73483017"
-    }
-  ]
+  "focos": []
 }
