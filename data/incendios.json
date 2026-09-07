@@ -1,6 +1,6 @@
 {
- "actualizadoUtc": "2026-09-07T14:22:29.231Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-07T14:51:23Z",
+ "activos": 2,
  "alertas": {
   "intentoUtc": "2026-09-07T14:22:29.231Z",
   "pendientes": 0,
@@ -648,7 +648,7 @@
    "vereda": "Palmalta",
    "lat": 3.6621,
    "lon": -75.1169,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-06T18:21:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 2,
@@ -675,7 +675,8 @@
     "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-09-07T14:40:00Z"
   },
   {
    "id": "INC-97",
@@ -684,7 +685,7 @@
    "vereda": "Palmalta",
    "lat": 3.6552,
    "lon": -75.1419,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -709,7 +710,8 @@
     "vientoKmh": 4,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
-   }
+   },
+   "ultimaGoesUtc": "2026-09-07T14:40:00Z"
   },
   {
    "id": "INC-98",
