@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-07T15:20:26.933Z",
+  "actualizadoUtc": "2026-09-07T17:18:11.898Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 9,
-  "focosNuevos": 0,
+  "totalFocos": 10,
+  "focosNuevos": 3,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -131,36 +131,53 @@
       "codigoVereda": "73168090"
     },
     {
-      "id": "2026-09-07T06:42:00Z_3.661_-75.116",
-      "lat": 3.6613,
-      "lon": -75.116,
+      "id": "2026-09-07T06:42:00Z_3.663_-75.148",
+      "lat": 3.6629,
+      "lon": -75.1478,
       "fechaUtc": "2026-09-07T06:42:00Z",
       "confianza": "media",
-      "frp": 1.14,
+      "frp": 2.36,
       "detecciones": 1,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "noche",
       "municipio": "Natagaima",
-      "distanciaKm": 4.8,
+      "distanciaKm": 7.4,
       "vereda": "Palmalta",
       "codigoVereda": "73483017"
     },
     {
-      "id": "2026-09-07T06:42:00Z_3.655_-75.142",
-      "lat": 3.6552,
-      "lon": -75.1419,
+      "id": "2026-09-07T06:42:00Z_3.661_-75.117",
+      "lat": 3.661,
+      "lon": -75.1168,
       "fechaUtc": "2026-09-07T06:42:00Z",
       "confianza": "media",
-      "frp": 2.7,
-      "detecciones": 7,
+      "frp": 1.38,
+      "detecciones": 3,
       "satelites": [
         "VIIRS"
       ],
       "diaNoche": "noche",
       "municipio": "Natagaima",
-      "distanciaKm": 6.4,
+      "distanciaKm": 4.9,
+      "vereda": "Palmalta",
+      "codigoVereda": "73483017"
+    },
+    {
+      "id": "2026-09-07T06:42:00Z_3.655_-75.136",
+      "lat": 3.6554,
+      "lon": -75.1362,
+      "fechaUtc": "2026-09-07T06:42:00Z",
+      "confianza": "media",
+      "frp": 5.08,
+      "detecciones": 9,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Natagaima",
+      "distanciaKm": 5.9,
       "vereda": "Palmalta",
       "codigoVereda": "73483017"
     }
