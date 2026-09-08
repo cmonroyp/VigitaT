@@ -1,9 +1,9 @@
 {
-  "actualizadoUtc": "2026-09-08T08:28:53.817Z",
+  "actualizadoUtc": "2026-09-08T09:23:50.527Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 2,
-  "focosNuevos": 0,
+  "totalFocos": 7,
+  "focosNuevos": 6,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
@@ -12,30 +12,117 @@
   ],
   "focos": [
     {
-      "id": "2026-09-08T01:47:00Z_5.032_-74.958",
-      "lat": 5.0318,
-      "lon": -74.9583,
-      "fechaUtc": "2026-09-08T01:47:00Z",
+      "id": "2026-09-08T06:25:00Z_4.016_-74.758",
+      "lat": 4.0164,
+      "lon": -74.758,
+      "fechaUtc": "2026-09-08T06:25:00Z",
       "confianza": "media",
-      "frp": 6.01,
+      "frp": 1.15,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 8.7,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    },
+    {
+      "id": "2026-09-08T06:25:00Z_4.002_-74.761",
+      "lat": 4.0015,
+      "lon": -74.7614,
+      "fechaUtc": "2026-09-08T06:25:00Z",
+      "confianza": "alta",
+      "frp": 11.91,
+      "detecciones": 4,
+      "satelites": [
+        "VIIRS",
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 10,
+      "vereda": "Las Camelias",
+      "codigoVereda": "73226035"
+    },
+    {
+      "id": "2026-09-08T06:25:00Z_3.674_-75.494",
+      "lat": 3.6739,
+      "lon": -75.4945,
+      "fechaUtc": "2026-09-08T06:25:00Z",
+      "confianza": "media",
+      "frp": 1.07,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Chaparral",
+      "distanciaKm": 5.6,
+      "vereda": "Los Ángeles",
+      "codigoVereda": "73168090"
+    },
+    {
+      "id": "2026-09-08T06:25:00Z_3.662_-75.111",
+      "lat": 3.6624,
+      "lon": -75.1114,
+      "fechaUtc": "2026-09-08T06:25:00Z",
+      "confianza": "media",
+      "frp": 2.08,
       "detecciones": 1,
       "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Natagaima",
+      "distanciaKm": 4.7,
+      "vereda": "Palmalta",
+      "codigoVereda": "73483017"
+    },
+    {
+      "id": "2026-09-08T06:22:00Z_5.027_-74.962",
+      "lat": 5.027,
+      "lon": -74.9616,
+      "fechaUtc": "2026-09-08T06:22:00Z",
+      "confianza": "media",
+      "frp": 6.01,
+      "detecciones": 2,
+      "satelites": [
+        "VIIRS",
         "MODIS"
       ],
       "diaNoche": "noche",
       "municipio": "Falan",
-      "distanciaKm": 10.2,
+      "distanciaKm": 10.7,
       "vereda": "Tavera",
       "codigoVereda": "73270030"
+    },
+    {
+      "id": "2026-09-08T06:22:00Z_4.311_-75.116",
+      "lat": 4.3109,
+      "lon": -75.1158,
+      "fechaUtc": "2026-09-08T06:22:00Z",
+      "confianza": "media",
+      "frp": 0.9,
+      "detecciones": 1,
+      "satelites": [
+        "VIIRS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "San Luis",
+      "distanciaKm": 19.8,
+      "vereda": "Payandé",
+      "codigoVereda": "73678029"
     },
     {
       "id": "2026-09-08T01:47:00Z_3.995_-74.780",
       "lat": 3.9948,
       "lon": -74.7802,
       "fechaUtc": "2026-09-08T01:47:00Z",
-      "confianza": "alta",
-      "frp": 11.91,
-      "detecciones": 2,
+      "confianza": "media",
+      "frp": 6.39,
+      "detecciones": 1,
       "satelites": [
         "MODIS"
       ],

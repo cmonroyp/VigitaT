@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-08T08:28:53.818Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-08T09:23:51.453Z",
+ "activos": 6,
  "alertas": {
-  "intentoUtc": "2026-09-08T08:28:53.818Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-08T09:23:50.791Z",
+  "pendientes": 3,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -548,16 +549,17 @@
    "vereda": "Palmalta",
    "lat": 3.6621,
    "lon": -75.1169,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-06T18:21:00Z",
-   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
-   "deteccionesTotales": 4,
+   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
+   "deteccionesTotales": 5,
    "maxFrp": 6.36,
    "confianzaMax": "media",
    "pixeles": [
     "916,-18779",
     "915,-18779",
-    "914,-18784"
+    "914,-18784",
+    "916,-18778"
    ],
    "alertas": {
     "detectado": true,
@@ -568,16 +570,17 @@
     "2026-09-06T18:21:00Z_3.662_-75.117",
     "2026-09-07T06:42:00Z_3.661_-75.116",
     "2026-09-07T06:42:00Z_3.655_-75.136",
-    "2026-09-07T06:42:00Z_3.661_-75.117"
+    "2026-09-07T06:42:00Z_3.661_-75.117",
+    "2026-09-08T06:25:00Z_3.662_-75.111"
    ],
-   "areaEstimadaHa": 42,
-   "duracionHoras": 12,
+   "areaEstimadaHa": 56,
+   "duracionHoras": 36,
    "clima": {
-    "tempC": 39,
-    "humedadPct": 22,
-    "vientoKmh": 20,
+    "tempC": 26,
+    "humedadPct": 65,
+    "vientoKmh": 1,
     "vientoHacia": "N",
-    "riesgoPropagacion": "MODERADO"
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-07T14:40:00Z"
   },
@@ -861,14 +864,15 @@
    "vereda": "El Paramo",
    "lat": 3.9948,
    "lon": -74.7802,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-08T01:47:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 11.91,
    "confianzaMax": "alta",
    "pixeles": [
-    "999,-18695"
+    "999,-18695",
+    "1000,-18690"
    ],
    "alertas": {
     "detectado": true,
@@ -876,14 +880,15 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-08T01:47:00Z_3.995_-74.780"
+    "2026-09-08T01:47:00Z_3.995_-74.780",
+    "2026-09-08T06:25:00Z_4.002_-74.761"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 5,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 55,
-    "vientoKmh": 2,
+    "tempC": 21,
+    "humedadPct": 54,
+    "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
@@ -895,14 +900,15 @@
    "vereda": "Tavera",
    "lat": 5.0318,
    "lon": -74.9583,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-08T01:47:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-08T06:22:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 6.01,
    "confianzaMax": "media",
    "pixeles": [
-    "1258,-18740"
+    "1258,-18740",
+    "1257,-18740"
    ],
    "alertas": {
     "detectado": true,
@@ -910,18 +916,121 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-08T01:47:00Z_5.032_-74.958"
+    "2026-09-08T01:47:00Z_5.032_-74.958",
+    "2026-09-08T06:22:00Z_5.027_-74.962"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 5,
+   "clima": {
+    "tempC": 20,
+    "humedadPct": 75,
+    "vientoKmh": 8,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-107",
+   "nombre": "Incendio vereda El Paramo",
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "lat": 4.0164,
+   "lon": -74.758,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T06:25:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.15,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1004,-18689"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T06:25:00Z_4.016_-74.758"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 21,
-    "humedadPct": 75,
-    "vientoKmh": 6,
+    "tempC": 22,
+    "humedadPct": 55,
+    "vientoKmh": 3,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-108",
+   "nombre": "Incendio vereda Los Ángeles",
+   "municipio": "Chaparral",
+   "vereda": "Los Ángeles",
+   "lat": 3.6739,
+   "lon": -75.4945,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T06:25:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 1.07,
+   "confianzaMax": "media",
+   "pixeles": [
+    "918,-18874"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T06:25:00Z_3.674_-75.494"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 22,
+    "humedadPct": 57,
+    "vientoKmh": 2,
     "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-109",
+   "nombre": "Incendio vereda Payandé",
+   "municipio": "San Luis",
+   "vereda": "Payandé",
+   "lat": 4.3109,
+   "lon": -75.1158,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T06:22:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T06:22:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 0.9,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1078,-18779"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T06:22:00Z_4.311_-75.116"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 22,
+    "humedadPct": 67,
+    "vientoKmh": 5,
+    "vientoHacia": "SE",
     "riesgoPropagacion": "BAJO"
    }
   }
  ],
- "secuencia": 106
+ "secuencia": 109
 }
