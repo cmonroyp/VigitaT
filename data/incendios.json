@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-08T09:23:51.453Z",
+ "actualizadoUtc": "2026-09-08T10:22:17.833Z",
  "activos": 6,
  "alertas": {
-  "intentoUtc": "2026-09-08T09:23:50.791Z",
-  "pendientes": 3,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-08T10:22:17.833Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -577,8 +576,8 @@
    "duracionHoras": 36,
    "clima": {
     "tempC": 26,
-    "humedadPct": 65,
-    "vientoKmh": 1,
+    "humedadPct": 67,
+    "vientoKmh": 3,
     "vientoHacia": "N",
     "riesgoPropagacion": "BAJO"
    },
@@ -887,7 +886,7 @@
    "duracionHoras": 5,
    "clima": {
     "tempC": 21,
-    "humedadPct": 54,
+    "humedadPct": 55,
     "vientoKmh": 3,
     "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
@@ -922,9 +921,9 @@
    "areaEstimadaHa": 28,
    "duracionHoras": 5,
    "clima": {
-    "tempC": 20,
-    "humedadPct": 75,
-    "vientoKmh": 8,
+    "tempC": 19,
+    "humedadPct": 76,
+    "vientoKmh": 5,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
@@ -956,7 +955,7 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
+    "tempC": 21,
     "humedadPct": 55,
     "vientoKmh": 3,
     "vientoHacia": "O",
@@ -990,8 +989,8 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 57,
+    "tempC": 21,
+    "humedadPct": 58,
     "vientoKmh": 2,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
@@ -1024,9 +1023,9 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 67,
-    "vientoKmh": 5,
+    "tempC": 21,
+    "humedadPct": 72,
+    "vientoKmh": 6,
     "vientoHacia": "SE",
     "riesgoPropagacion": "BAJO"
    }
