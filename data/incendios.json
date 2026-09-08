@@ -1,9 +1,9 @@
 {
- "actualizadoUtc": "2026-09-08T05:21:17.487Z",
+ "actualizadoUtc": "2026-09-08T07:23:44.169Z",
  "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-08T05:21:16.919Z",
-  "pendientes": 2,
+  "intentoUtc": "2026-09-08T07:23:43.528Z",
+  "pendientes": 8,
   "resultado": "enviado",
   "detalle": "HTTP 200"
  },
@@ -58,7 +58,7 @@
    "vereda": "Palmalta",
    "lat": 3.679,
    "lon": -75.1401,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-05T07:20:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 4,
@@ -72,7 +72,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-05T07:20:00Z_3.679_-75.140",
@@ -624,7 +624,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3274,
    "lon": -75.1322,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -636,7 +636,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_4.327_-75.132"
@@ -658,7 +658,7 @@
    "vereda": "Los Ángeles",
    "lat": 3.6666,
    "lon": -75.4913,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -670,7 +670,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_3.667_-75.491"
@@ -692,7 +692,7 @@
    "vereda": "Payandé",
    "lat": 4.3147,
    "lon": -75.1164,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -704,7 +704,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_4.315_-75.116"
@@ -726,7 +726,7 @@
    "vereda": "Buenos Aires",
    "lat": 4.3086,
    "lon": -75.0996,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -738,7 +738,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_4.309_-75.100"
@@ -760,7 +760,7 @@
    "vereda": "Canastos",
    "lat": 4.1006,
    "lon": -74.8825,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -772,7 +772,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_4.101_-74.882"
@@ -794,7 +794,7 @@
    "vereda": "El Paramo",
    "lat": 4.01,
    "lon": -74.7571,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -806,7 +806,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_4.010_-74.757"
@@ -828,7 +828,7 @@
    "vereda": "San Pablo Ambeima",
    "lat": 3.7404,
    "lon": -75.6141,
-   "estado": "sin_senal",
+   "estado": "extinguido",
    "inicioUtc": "2026-09-07T06:42:00Z",
    "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
    "deteccionesTotales": 1,
@@ -840,7 +840,7 @@
    "alertas": {
     "detectado": true,
     "ultCrecimiento": 1,
-    "extinguido": false
+    "extinguido": true
    },
    "focoIds": [
     "2026-09-07T06:42:00Z_3.740_-75.614"
@@ -882,10 +882,10 @@
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 23,
-    "humedadPct": 62,
-    "vientoKmh": 3,
-    "vientoHacia": "SO",
+    "tempC": 22,
+    "humedadPct": 55,
+    "vientoKmh": 2,
+    "vientoHacia": "O",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -917,9 +917,9 @@
    "duracionHoras": 0,
    "clima": {
     "tempC": 21,
-    "humedadPct": 76,
-    "vientoKmh": 7,
-    "vientoHacia": "SE",
+    "humedadPct": 75,
+    "vientoKmh": 6,
+    "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
   }
