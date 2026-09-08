@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-08T03:24:48.497Z",
- "activos": 0,
+ "actualizadoUtc": "2026-09-08T05:21:17.487Z",
+ "activos": 2,
  "alertas": {
-  "intentoUtc": "2026-09-08T03:24:48.497Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-08T05:21:16.919Z",
+  "pendientes": 2,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -853,7 +854,75 @@
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-105",
+   "nombre": "Incendio vereda El Paramo",
+   "municipio": "Cunday",
+   "vereda": "El Paramo",
+   "lat": 3.9948,
+   "lon": -74.7802,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T01:47:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 11.91,
+   "confianzaMax": "alta",
+   "pixeles": [
+    "999,-18695"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T01:47:00Z_3.995_-74.780"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 23,
+    "humedadPct": 62,
+    "vientoKmh": 3,
+    "vientoHacia": "SO",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-106",
+   "nombre": "Incendio vereda Tavera",
+   "municipio": "Falan",
+   "vereda": "Tavera",
+   "lat": 5.0318,
+   "lon": -74.9583,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T01:47:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 6.01,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1258,-18740"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T01:47:00Z_5.032_-74.958"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 21,
+    "humedadPct": 76,
+    "vientoKmh": 7,
+    "vientoHacia": "SE",
+    "riesgoPropagacion": "BAJO"
+   }
   }
  ],
- "secuencia": 104
+ "secuencia": 106
 }

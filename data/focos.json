@@ -1,14 +1,49 @@
 {
-  "actualizadoUtc": "2026-09-08T03:24:48.496Z",
+  "actualizadoUtc": "2026-09-08T05:21:16.881Z",
   "region": "Tolima, Colombia",
   "ventanaHoras": 24,
-  "totalFocos": 0,
-  "focosNuevos": 0,
+  "totalFocos": 2,
+  "focosNuevos": 2,
   "fuentes": [
     "VIIRS_NOAA20_NRT",
     "VIIRS_NOAA21_NRT",
     "VIIRS_SNPP_NRT",
     "MODIS_NRT"
   ],
-  "focos": []
+  "focos": [
+    {
+      "id": "2026-09-08T01:47:00Z_5.032_-74.958",
+      "lat": 5.0318,
+      "lon": -74.9583,
+      "fechaUtc": "2026-09-08T01:47:00Z",
+      "confianza": "media",
+      "frp": 6.01,
+      "detecciones": 1,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Falan",
+      "distanciaKm": 10.2,
+      "vereda": "Tavera",
+      "codigoVereda": "73270030"
+    },
+    {
+      "id": "2026-09-08T01:47:00Z_3.995_-74.780",
+      "lat": 3.9948,
+      "lon": -74.7802,
+      "fechaUtc": "2026-09-08T01:47:00Z",
+      "confianza": "alta",
+      "frp": 11.91,
+      "detecciones": 2,
+      "satelites": [
+        "MODIS"
+      ],
+      "diaNoche": "noche",
+      "municipio": "Cunday",
+      "distanciaKm": 12.1,
+      "vereda": "El Paramo",
+      "codigoVereda": "73226017"
+    }
+  ]
 }
