@@ -1,10 +1,11 @@
 {
- "actualizadoUtc": "2026-09-08T11:19:04.984Z",
- "activos": 6,
+ "actualizadoUtc": "2026-09-08T12:31:46.175Z",
+ "activos": 9,
  "alertas": {
-  "intentoUtc": "2026-09-08T11:19:04.984Z",
-  "pendientes": 0,
-  "resultado": "sin novedades"
+  "intentoUtc": "2026-09-08T12:31:45.516Z",
+  "pendientes": 2,
+  "resultado": "enviado",
+  "detalle": "HTTP 200"
  },
  "incendios": [
   {
@@ -550,8 +551,8 @@
    "lon": -75.1169,
    "estado": "activo",
    "inicioUtc": "2026-09-06T18:21:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
-   "deteccionesTotales": 5,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 6,
    "maxFrp": 6.36,
    "confianzaMax": "media",
    "pixeles": [
@@ -570,15 +571,16 @@
     "2026-09-07T06:42:00Z_3.661_-75.116",
     "2026-09-07T06:42:00Z_3.655_-75.136",
     "2026-09-07T06:42:00Z_3.661_-75.117",
-    "2026-09-08T06:25:00Z_3.662_-75.111"
+    "2026-09-08T06:25:00Z_3.662_-75.111",
+    "2026-09-08T06:42:00Z_3.663_-75.111"
    ],
    "areaEstimadaHa": 56,
    "duracionHoras": 36,
    "clima": {
-    "tempC": 26,
-    "humedadPct": 68,
+    "tempC": 28,
+    "humedadPct": 59,
     "vientoKmh": 3,
-    "vientoHacia": "N",
+    "vientoHacia": "NO",
     "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-07T14:40:00Z"
@@ -590,14 +592,15 @@
    "vereda": "Palmalta",
    "lat": 3.6552,
    "lon": -75.1419,
-   "estado": "sin_senal",
+   "estado": "activo",
    "inicioUtc": "2026-09-07T06:42:00Z",
-   "ultimaDeteccionUtc": "2026-09-07T06:42:00Z",
-   "deteccionesTotales": 1,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 2,
    "maxFrp": 2.7,
    "confianzaMax": "media",
    "pixeles": [
-    "914,-18785"
+    "914,-18785",
+    "913,-18785"
    ],
    "alertas": {
     "detectado": true,
@@ -605,16 +608,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-07T06:42:00Z_3.655_-75.142"
+    "2026-09-07T06:42:00Z_3.655_-75.142",
+    "2026-09-08T06:42:00Z_3.653_-75.140"
    ],
-   "areaEstimadaHa": null,
-   "duracionHoras": 0,
+   "areaEstimadaHa": 28,
+   "duracionHoras": 24,
    "clima": {
-    "tempC": 37,
-    "humedadPct": 24,
-    "vientoKmh": 22,
-    "vientoHacia": "N",
-    "riesgoPropagacion": "ALTO"
+    "tempC": 27,
+    "humedadPct": 61,
+    "vientoKmh": 5,
+    "vientoHacia": "O",
+    "riesgoPropagacion": "BAJO"
    },
    "ultimaGoesUtc": "2026-09-07T14:40:00Z"
   },
@@ -865,13 +869,14 @@
    "lon": -74.7802,
    "estado": "activo",
    "inicioUtc": "2026-09-08T01:47:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 11.91,
    "confianzaMax": "alta",
    "pixeles": [
     "999,-18695",
-    "1000,-18690"
+    "1000,-18690",
+    "999,-18692"
    ],
    "alertas": {
     "detectado": true,
@@ -880,16 +885,17 @@
    },
    "focoIds": [
     "2026-09-08T01:47:00Z_3.995_-74.780",
-    "2026-09-08T06:25:00Z_4.002_-74.761"
+    "2026-09-08T06:25:00Z_4.002_-74.761",
+    "2026-09-08T06:42:00Z_3.996_-74.767"
    ],
-   "areaEstimadaHa": 28,
+   "areaEstimadaHa": 42,
    "duracionHoras": 5,
    "clima": {
-    "tempC": 21,
-    "humedadPct": 56,
-    "vientoKmh": 3,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 25,
+    "humedadPct": 46,
+    "vientoKmh": 2,
+    "vientoHacia": "NO",
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -901,13 +907,14 @@
    "lon": -74.9583,
    "estado": "activo",
    "inicioUtc": "2026-09-08T01:47:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:22:00Z",
-   "deteccionesTotales": 2,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 3,
    "maxFrp": 6.01,
    "confianzaMax": "media",
    "pixeles": [
     "1258,-18740",
-    "1257,-18740"
+    "1257,-18740",
+    "1256,-18740"
    ],
    "alertas": {
     "detectado": true,
@@ -916,15 +923,16 @@
    },
    "focoIds": [
     "2026-09-08T01:47:00Z_5.032_-74.958",
-    "2026-09-08T06:22:00Z_5.027_-74.962"
+    "2026-09-08T06:22:00Z_5.027_-74.962",
+    "2026-09-08T06:42:00Z_5.024_-74.961"
    ],
-   "areaEstimadaHa": 28,
+   "areaEstimadaHa": 42,
    "duracionHoras": 5,
    "clima": {
-    "tempC": 20,
-    "humedadPct": 73,
+    "tempC": 24,
+    "humedadPct": 63,
     "vientoKmh": 3,
-    "vientoHacia": "E",
+    "vientoHacia": "NE",
     "riesgoPropagacion": "BAJO"
    }
   },
@@ -933,13 +941,13 @@
    "nombre": "Incendio vereda El Paramo",
    "municipio": "Cunday",
    "vereda": "El Paramo",
-   "lat": 4.0164,
-   "lon": -74.758,
+   "lat": 4.0156,
+   "lon": -74.7561,
    "estado": "activo",
    "inicioUtc": "2026-09-08T06:25:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.15,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 2.35,
    "confianzaMax": "media",
    "pixeles": [
     "1004,-18689"
@@ -950,16 +958,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-08T06:25:00Z_4.016_-74.758"
+    "2026-09-08T06:25:00Z_4.016_-74.758",
+    "2026-09-08T06:42:00Z_4.016_-74.756"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 56,
+    "tempC": 26,
+    "humedadPct": 47,
     "vientoKmh": 3,
-    "vientoHacia": "O",
-    "riesgoPropagacion": "BAJO"
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -967,13 +976,13 @@
    "nombre": "Incendio vereda Los Ángeles",
    "municipio": "Chaparral",
    "vereda": "Los Ángeles",
-   "lat": 3.6739,
-   "lon": -75.4945,
+   "lat": 3.6717,
+   "lon": -75.4941,
    "estado": "activo",
    "inicioUtc": "2026-09-08T06:25:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:25:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 1.07,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 2.24,
    "confianzaMax": "media",
    "pixeles": [
     "918,-18874"
@@ -984,16 +993,17 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-08T06:25:00Z_3.674_-75.494"
+    "2026-09-08T06:25:00Z_3.674_-75.494",
+    "2026-09-08T06:42:00Z_3.672_-75.494"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 22,
-    "humedadPct": 57,
-    "vientoKmh": 3,
-    "vientoHacia": "E",
-    "riesgoPropagacion": "BAJO"
+    "tempC": 26,
+    "humedadPct": 45,
+    "vientoKmh": 2,
+    "vientoHacia": "N",
+    "riesgoPropagacion": "MODERADO"
    }
   },
   {
@@ -1001,16 +1011,17 @@
    "nombre": "Incendio vereda Payandé",
    "municipio": "San Luis",
    "vereda": "Payandé",
-   "lat": 4.3109,
-   "lon": -75.1158,
+   "lat": 4.3157,
+   "lon": -75.1132,
    "estado": "activo",
    "inicioUtc": "2026-09-08T06:22:00Z",
-   "ultimaDeteccionUtc": "2026-09-08T06:22:00Z",
-   "deteccionesTotales": 1,
-   "maxFrp": 0.9,
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 2,
+   "maxFrp": 10.15,
    "confianzaMax": "media",
    "pixeles": [
-    "1078,-18779"
+    "1078,-18779",
+    "1079,-18778"
    ],
    "alertas": {
     "detectado": true,
@@ -1018,18 +1029,87 @@
     "extinguido": false
    },
    "focoIds": [
-    "2026-09-08T06:22:00Z_4.311_-75.116"
+    "2026-09-08T06:22:00Z_4.311_-75.116",
+    "2026-09-08T06:42:00Z_4.316_-75.113"
+   ],
+   "areaEstimadaHa": 28,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 26,
+    "humedadPct": 53,
+    "vientoKmh": 4,
+    "vientoHacia": "E",
+    "riesgoPropagacion": "BAJO"
+   }
+  },
+  {
+   "id": "INC-110",
+   "nombre": "Incendio vereda Buenos Aires",
+   "municipio": "Ibagué",
+   "vereda": "Buenos Aires",
+   "lat": 4.3098,
+   "lon": -75.0985,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 9.24,
+   "confianzaMax": "media",
+   "pixeles": [
+    "1077,-18775"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T06:42:00Z_4.310_-75.099"
    ],
    "areaEstimadaHa": null,
    "duracionHoras": 0,
    "clima": {
-    "tempC": 21,
-    "humedadPct": 69,
-    "vientoKmh": 3,
+    "tempC": 26,
+    "humedadPct": 53,
+    "vientoKmh": 4,
     "vientoHacia": "E",
     "riesgoPropagacion": "BAJO"
    }
+  },
+  {
+   "id": "INC-111",
+   "nombre": "Incendio vereda El Convenio",
+   "municipio": "Ataco",
+   "vereda": "El Convenio",
+   "lat": 3.4562,
+   "lon": -75.463,
+   "estado": "activo",
+   "inicioUtc": "2026-09-08T06:42:00Z",
+   "ultimaDeteccionUtc": "2026-09-08T06:42:00Z",
+   "deteccionesTotales": 1,
+   "maxFrp": 0.35,
+   "confianzaMax": "media",
+   "pixeles": [
+    "864,-18866"
+   ],
+   "alertas": {
+    "detectado": true,
+    "ultCrecimiento": 1,
+    "extinguido": false
+   },
+   "focoIds": [
+    "2026-09-08T06:42:00Z_3.456_-75.463"
+   ],
+   "areaEstimadaHa": null,
+   "duracionHoras": 0,
+   "clima": {
+    "tempC": 24,
+    "humedadPct": 44,
+    "vientoKmh": 4,
+    "vientoHacia": "NE",
+    "riesgoPropagacion": "MODERADO"
+   }
   }
  ],
- "secuencia": 109
+ "secuencia": 111
 }
