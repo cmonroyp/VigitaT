@@ -1,11 +1,10 @@
 {
- "actualizadoUtc": "2026-09-08T07:23:44.169Z",
- "activos": 2,
+ "actualizadoUtc": "2026-09-08T08:28:53.818Z",
+ "activos": 0,
  "alertas": {
-  "intentoUtc": "2026-09-08T07:23:43.528Z",
-  "pendientes": 8,
-  "resultado": "enviado",
-  "detalle": "HTTP 200"
+  "intentoUtc": "2026-09-08T08:28:53.818Z",
+  "pendientes": 0,
+  "resultado": "sin novedades"
  },
  "incendios": [
   {
@@ -862,7 +861,7 @@
    "vereda": "El Paramo",
    "lat": 3.9948,
    "lon": -74.7802,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-08T01:47:00Z",
    "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
    "deteccionesTotales": 1,
@@ -896,7 +895,7 @@
    "vereda": "Tavera",
    "lat": 5.0318,
    "lon": -74.9583,
-   "estado": "activo",
+   "estado": "sin_senal",
    "inicioUtc": "2026-09-08T01:47:00Z",
    "ultimaDeteccionUtc": "2026-09-08T01:47:00Z",
    "deteccionesTotales": 1,
